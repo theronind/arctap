@@ -79,7 +79,7 @@ ul, ol{
 nav{
 	background-color: #223236;
 	border-top: 2px solid #fc4132;
-	border-bottom: 1px solid #2bc0c0;
+	border-bottom: 1px solid #000;
 	padding: 10px 0;
 }
 nav img{
@@ -98,7 +98,7 @@ nav li{
 }
 .prime-nav{
 	float: left;
-	margin: 12px 0 0;
+	margin: 14px 0 0;
 	width: 200px;
 }
 #logo{
@@ -109,7 +109,7 @@ nav li{
 }
 .second-nav{
 	float: right;
-	margin: 12px 0 0;
+	margin: 14px 0 0;
 	width: 200px;
 }
 #intro{
