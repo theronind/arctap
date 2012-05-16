@@ -80,16 +80,37 @@ nav{
 	background-color: #223236;
 	border-top: 2px solid #fc4132;
 	border-bottom: 1px solid #2bc0c0;
-	height: 50px;
+	padding: 10px 0;
 }
 nav img{
-
+	display: inline;
+	margin: 0 auto;
+	
 }
 nav ul{
 
 }
 nav li{
-
+	display: inline;
+	font-size: 14px;
+	margin: 0 10px;
+	text-transform: uppercase;
+}
+.prime-nav{
+	float: left;
+	margin: 12px 0 0;
+	width: 200px;
+}
+#logo{
+	display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    width: 560px;
+}
+.second-nav{
+	float: right;
+	margin: 12px 0 0;
+	width: 200px;
 }
 #intro{
 	background-color: #223236;
