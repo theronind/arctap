@@ -53,6 +53,11 @@ h3{
 	padding: 0;
 	text-align: center;
 }
+h3 small{
+	font-size: 15px;
+    opacity: 0.4;
+    vertical-align: text-bottom;
+}
 p{
 	color: #e3e3e3;
 	font-family: 'QuicksandLight';
@@ -62,20 +67,24 @@ p{
 	margin: 0;
 	padding: 0;
 }
+ul, ol{
+	color: #e3e3e3;
+	font-family: 'QuicksandLight'
+}
 /* ========================================================= Home ===*/
 .container{
 	max-width: 960px;
 	margin: 0 auto;
 }
-
 #intro{
 	background-color: #223236;
-	border-top: 2px solid #fc4132;
 	border-bottom: 1px solid #2bc0c0;
+	border-top: 2px solid #fc4132;
 }
 #intro h1{
 	font-size: 100px;
-	margin: 80px 0 20px ;
+	padding: 80px 0 0;
+	margin: 0 0 20px ;
 	text-align: center;
 }
 #intro p{
@@ -87,14 +96,14 @@ p{
 	width: 700px;
 }
 #intro img{
-	margin: 0 0 100px;
+	margin: 0 auto 100px;
+	display: block;
 }
 #apps{
-
 }
 #apps ul{
 	list-style: none;
-	margin: 0 0 60px;
+	margin: 0 0 90px;
 	padding: 0;
 }
 #apps li{
@@ -106,6 +115,7 @@ p{
 	border-radius: 4px;
 	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset, 0 0 20px rgba(0, 0, 0, 0.3) inset;
 	margin: 0 0 20px;
+	background: url(../img/glare.png) top left no-repeat;
 }
 #apps ul img{
 	border-radius: 4px;
@@ -125,4 +135,39 @@ p{
 }
 #apps ul p{
 	text-align: justify;
+}
+footer{
+	background-color: #f4f4f4;
+	border-top: 1px solid #fff;
+	
+	padding: 20px 0;
+}
+footer #copy{
+	display:inline-block;
+	font-size:12px;
+	text-align:right;
+}
+footer p, footer ul{
+	color: #333;
+	margin:0;
+}
+footer p a{
+	color: #333;
+}
+footer ul{
+	display:inline-block;
+	font-size:10px;
+	float:right;
+	list-style:none;
+	margin:5px 0 0;
+	padding:0;
+}
+footer li{
+    display: inline-block;
+	font-size:12px;
+    margin: 0;
+    padding: 0 3px;
+}
+footer a{
+	color:#aaa;
 }

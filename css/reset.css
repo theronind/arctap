@@ -12,9 +12,16 @@ body { margin: 0; font-size: 1em; line-height: 1.4; }
 ::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
 ::selection { background: #fe57a1; color: #fff; text-shadow: none; }
 
-a { color: #00e; }
-a:visited { color: #551a8b; }
-a:hover { color: #06e; }
+a {
+	color: #fc4132;
+	text-decoration: none;
+	-webkit-transition: color .25s ease-in, background .25s ease-in, opacity .25s ease-in;
+	-moz-transition: color .25s ease-in, background .25s ease-in, opacity .25s ease-in;
+	-ms-transition: color .25s ease-in, background .25s ease-in, opacity .25s ease-in;
+	-o-transition: color .25s ease-in, background .25s ease-in, opacity .25s ease-in;
+	transition: color .25s ease-in, background .25s ease-in, opacity .25s ease-in;
+}
+a:hover { color: #fc4132; }
 a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }
 abbr[title] { border-bottom: 1px dotted; }
