@@ -1,11 +1,11 @@
-<?php  $title = 'Grade Spotter |'; include '../header.php'; ?>
-
+<?php  $title = 'Grade Spotter |'; $css = '/gradespotter/app.css'; include '../header.php'; ?>
+<link rel="stylesheet" href="/css/style.css">
 <nav>
 <div class="container">
 
 	<ul class="prime-nav">
+		<li><a href="">Work</a></li>
 		<li><a href="">About</a></li>
-		<li><a href="">Projects</a></li>
 	</ul>
 	
 	<a href="/" id="logo"><img src="/img/logo.png"/></a>
@@ -18,14 +18,8 @@
 </div><!--/container-->
 </nav>
 
-
-<footer>
 <div class="container">
-	<p id="copy">&copy; 2012 ArcTap | <a href="http://nytm.org/made/">Made in NYC</a></p>
-        <ul>
-			<li>Follow us on Twitter: <a href="http://twitter.com/ArcTap">@ArcTap</a></li>
-		</ul>
+	<p>Hello</p>
 </div><!--/container-->
-</footer>
 
 <?php include("../footer.php"); ?>

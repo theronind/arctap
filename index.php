@@ -9,7 +9,7 @@
 </div><!--/intro-->
 
 <div id="apps">
-	<h2><span>Our Apps</span></h2>
+	<h2><span>Our Work</span></h2>
 	<div class="container">
 			<ul class="clearfix">
 				<li>
