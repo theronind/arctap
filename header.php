@@ -23,9 +23,9 @@
 	<h1><a href="/"><img src="/img/logo.png"> ArcTap</a></h1>	
 	<nav>
 		<ul>
-			<li><a href="">About</a></li>
-			<li><a href="">Work</a></li>
-			<li><a href="">Contact</a></li>
+			<li><a href="/about">About</a></li>
+			<li><a href="/work">Work</a></li>
+			<li><a href="/contact">Contact</a></li>
 		</ul>
 	</nav>
 </div><!--/container-->
