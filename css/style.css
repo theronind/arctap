@@ -254,6 +254,10 @@ footer a{
 	.g10{max-width: 620px}
 	.g11{max-width: 684px}
 	.g12{max-width: 748px}
+	
+	#intro h1{
+		margin: 10px 0 0;
+	}
 }
 /* ---------
  -- 480px --
@@ -272,6 +276,13 @@ footer a{
 	.g10{max-width: 460px}
 	.g11{max-width: 460px}
 	.g12{max-width: 460px}
+	
+	#intro img{
+		display: none;
+	}
+	#intro h1{
+		margin: 0;
+	}
 }
 /* ---------
  -- 320px --
@@ -290,5 +301,15 @@ footer a{
 	.g10{max-width: 300px}
 	.g11{max-width: 300px}
 	.g12{max-width: 300px}
-
+	
+	#intro img{
+		display: none;
+	}
+	#intro h1{
+		font-size: 35px;
+		margin: 0;
+	}
+	#intro p{
+		font-size: 16px;
+	}
 }
