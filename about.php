@@ -13,7 +13,7 @@
 	<ul id="team">
 		<li class="g4">
 			<img src="/img/about/kennedy.png"/>
-			<h3>Christopher Kennedy<br/><span>Founder &amp; UX Strategist</span></h3>
+			<h3>Christopher Kennedy <br/><span>Founder &amp; UX Strategist</span></h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 		</li>
 		<li class="g4">

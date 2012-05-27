@@ -135,7 +135,7 @@ nav li:last-child a{
 	padding: 70px 0;
 }
 #intro-gradespotter .g8{
-	margin: 160px 0 0;
+	margin: 130px 0 0;
 }
 #intro-gradespotter img{
 	float: left;
@@ -149,7 +149,6 @@ nav li:last-child a{
 }
 #intro-gradespotter p{
 	font-size: 18px;
-	margin: 0;
 }
 /* ------------
  -- Cochlear --
@@ -196,39 +195,26 @@ nav li:last-child a{
 }
 /* ========================================================= Footer ===*/
 footer{
-	background-color: #f4f4f4;
-	border-top: 1px solid #fff;
-	
+	background-color: #1A1F25;
+    border-top: 3px solid #000000;
+	margin: 20px 0 0;
 	padding: 20px 0;
 }
 footer #copy{
 	display:inline-block;
-	font-size:12px;
-	text-align:right;
+	
 }
-footer p, footer ul{
-	color: #333;
+footer #copy img{
+	margin: 0 10px 0 0;
+}
+footer p, footer a{
+	color: #2b343d;
+	font-size:14px;
 	margin:0;
 }
-footer p a{
-	color: #333;
-}
-footer ul{
-	display:inline-block;
-	font-size:10px;
-	float:right;
-	list-style:none;
-	margin:5px 0 0;
-	padding:0;
-}
-footer li{
-    display: inline-block;
-	font-size:12px;
-    margin: 0;
-    padding: 0 3px;
-}
-footer a{
-	color:#aaa;
+footer #follow{
+	float: right;
+	margin: 6px 0 0;
 }
 /* ========================================================= Structure ===*/
 .container {
