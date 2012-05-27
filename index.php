@@ -19,6 +19,8 @@
 		<h2>Grade Spotter is a full-featured restaurant inspection guide.</h2>
 		<div class="clear"></div>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
+		<p><a href="">Learn More &raquo;</a></p>
 	</div><!--/g8-->
 	<div class="g4">
 		<img src="/img/gradespotter-iphone.png"/>

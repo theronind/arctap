@@ -31,7 +31,7 @@ p{
 	color: #555555;
 	font-size: 16px;
 	line-height: 1.2;
-	margin: 0;
+	margin: 0 0 20px;
 	padding: 0;
 }
 ul, ol{
@@ -130,7 +130,7 @@ nav li:last-child a{
 	padding: 70px 0;
 }
 #intro-gradespotter .g8{
-	margin: 180px 0 0;
+	margin: 160px 0 0;
 }
 #intro-gradespotter img{
 	float: left;
@@ -169,7 +169,6 @@ nav li:last-child a{
 #intro-cochlear p{
 	font-size: 18px;
 }
-
 /* ========================================================= Footer ===*/
 footer{
 	background-color: #f4f4f4;
