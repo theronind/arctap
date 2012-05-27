@@ -2,6 +2,7 @@ html, body{
 	background-color: #f7f7f7;
 	font-family: 'Droid Sans', sans-serif;
 	font-weight: 400;
+	height: 100%;
 	position: relative;
     z-index: 0;
 }
@@ -131,47 +132,23 @@ nav li:last-child a{
 /* -----------------
  -- Grade Spotter --
 ----------------- */
-#intro-gradespotter{
+#intro-app{
 	padding: 70px 0;
 }
-#intro-gradespotter .g8{
+#intro-app .g8{
 	margin: 130px 0 0;
 }
-#intro-gradespotter img{
+#intro-app img{
 	float: left;
 	margin: 0 20px 20px 0;
 }
-#intro-gradespotter h2{
+#intro-app h2{
 	float: left;
 	font-size: 32px;
 	margin: 27px 0 0;
 	width: 460px;
 }
-#intro-gradespotter p{
-	font-size: 18px;
-}
-/* ------------
- -- Cochlear --
------------- */
-#intro-cochlear{
-	background-color: #f4f4f4;
-	border-top: 1px solid #e7e7e7;
-	padding: 70px 0;
-}
-#intro-cochlear .g8{
-	margin: 180px 0 0;
-}
-#intro-cochlear img{
-	float: left;
-	margin: 0 20px 20px 0;
-}
-#intro-cochlear h2{
-	float: left;
-	font-size: 32px;
-	margin: 27px 0 0;
-	width: 460px;
-}
-#intro-cochlear p{
+#intro-app p{
 	font-size: 18px;
 }
 /* ========================================================= About ===*/
@@ -193,6 +170,41 @@ nav li:last-child a{
 #team h3 span{
 	color: #999;
 }
+/* ========================================================= Contact ===*/
+form ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+form li{
+	position:relative;;
+}
+label{
+    color:#b6bcbf;
+    position:absolute;
+    top:8px;
+    left:12px;
+    font-size:18px;
+}
+input, textarea{
+	-moz-box-sizing: border-box;
+    -moz-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    border: 1px solid #BDBDBD;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset, 0 1px 0 #FFFFFF;
+    color: #808080;
+    display: inline-block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    padding: 6px 4px 4px 10px;
+    vertical-align: baseline;
+    width: 100%;
+}
+textarea{
+	min-height: 150px;
+}
 /* ========================================================= Footer ===*/
 footer{
 	background-color: #1A1F25;
@@ -202,15 +214,17 @@ footer{
 }
 footer #copy{
 	display:inline-block;
-	
 }
 footer #copy img{
 	margin: 0 10px 0 0;
 }
-footer p, footer a{
+footer p{
 	color: #2b343d;
 	font-size:14px;
-	margin:0;
+	margin: 0;
+}
+footer a{
+	color: #2b343d;	
 }
 footer #follow{
 	float: right;
@@ -334,3 +348,29 @@ footer #follow{
 		font-size: 16px;
 	}
 }
+/* ========================================================= Utility ===*/
+.btn{
+    background: #f9482a;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    line-height: normal;
+    margin: 0 5px;
+	padding: 8px 15px 6px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition:none;
+	-moz-transition:none;
+	transition:none;
+	text-transform: uppercase;
+}
+.btn:hover {
+    background: #ff5739;
+	text-decoration: none;
+}
+.btn:active {
+}
+/* ========================================================= Animation ===*/
