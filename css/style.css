@@ -118,6 +118,7 @@ nav li:last-child a{
 }
 #intro h1{
 	color: #f7f7f7;
+	line-height: 1;
 	font-size: 45px;
 	margin: 48px 0 0;
 	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.6);
@@ -148,6 +149,7 @@ nav li:last-child a{
 }
 #intro-gradespotter p{
 	font-size: 18px;
+	margin: 0;
 }
 /* ------------
  -- Cochlear --
@@ -184,6 +186,7 @@ nav li:last-child a{
 }
 #team img{
 	border-radius: 4px;
+	box-shadow: 0 1px 0 #fff;
 	height: auto;
 	margin: 0 0 20px;
 	max-width: 100%;
@@ -298,7 +301,7 @@ footer a{
 	.g11{max-width: 460px}
 	.g12{max-width: 460px}
 	
-	#intro img{
+	#intro .g3{
 		display: none;
 	}
 	#intro h1{
@@ -323,7 +326,18 @@ footer a{
 	.g11{max-width: 300px}
 	.g12{max-width: 300px}
 	
-	#intro img{
+	header h1 {
+	    display: block;
+	    margin: 0 0 10px;
+	    text-align: center;
+    }
+	nav{
+		float: none;
+	}
+	nav li a, nav li a:hover {
+		padding: 9px 34px 8px;
+	}
+	#intro .g3{
 		display: none;
 	}
 	#intro h1{
