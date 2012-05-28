@@ -14,7 +14,7 @@
 		<li class="g4">
 			<img src="/img/about/christopher-kennedy.png"/>
 			<h3>Christopher Kennedy <br/><span>Founder &amp; UX Strategist</span></h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+			<p>Recently named one of the most poachable players in tech. Nicknamed "The Machine" for his hard work and dedication.</p>
 		</li>
 		<li class="g4">
 			<img src="http://placehold.it/460x300"/>
@@ -54,6 +54,11 @@
 		<li class="g4">
 			<img src="http://placehold.it/460x300"/>
 			<h3>Justin LaMonica<br/><span>Account Supervisor</span></h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+		</li>
+		<li class="g4">
+			<img src="http://placehold.it/460x300"/>
+			<h3>Jenna Santana<br/><span>Copywriter</span></h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 		</li>
 	</ul>
