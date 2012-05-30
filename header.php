@@ -15,7 +15,6 @@
 <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="/css/reset.css">
 <link rel="stylesheet" href="/css/style.css">
-<link rel="stylesheet" href="<?php echo $css ?>">
 <script src="/js/libs/modernizr-2.5.3.min.js"></script>
 </head>
 <body>

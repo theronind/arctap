@@ -42,6 +42,11 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 		</li>
 		<li class="g4">
+			<img src="http://placehold.it/460x300"/>
+			<h3>Stephen Cannizzaro<br/><span>Front-end Developer</span></h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+		</li>
+		<li class="g4">
 			<img src="/img/about/sara-kennedy.png"/>
 			<h3>Sara Kennedy<br/><span>Brand Manager</span></h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
