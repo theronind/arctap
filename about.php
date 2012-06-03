@@ -32,9 +32,9 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 		</li>
 		<li class="g4">
-			<img src="http://placehold.it/460x300"/>
+			<img src="/img/about/jon-gottfried.png"/>
 			<h3>Jon Gottfried<br/><span>Developer</span></h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+			<p>Jon has competed in more hackathons than he has fingers and has won a good portion of them.</p>
 		</li>
 		<li class="g4">
 			<img src="http://placehold.it/460x300"/>
