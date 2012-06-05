@@ -19,7 +19,8 @@
 		<h2>Grade Spotter is a full-featured restaurant inspection guide.</h2>
 		<div class="clear"></div>
 		<p>There are no more excuses for the unknown reasons behind your favorite NYC restaurant's grade. You can use any app to know where you're going to eat, but with Grade Spotter you know what you're going to eat. </p>
-		<p><a href="/work/gradespotter/">Learn More &raquo;</a></p>
+		<!-- <p><a href="/work/gradespotter/">Learn More &raquo;</a></p> -->
+		<p><a href="http://gradespotter.com">Learn More &raquo;</a></p>
 	</div><!--/g8-->
 	<div class="g4">
 		<img src="/img/gradespotter-iphone.png"/>
