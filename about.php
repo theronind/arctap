@@ -11,60 +11,51 @@
 	<div class="clear"></div>
 	<hr/>
 	<ul id="team">
-		<li class="g4">
-			<img src="/img/about/christopher-kennedy.png"/>
+		<li class="g3">
+			<img src="/img/about/christopher-kennedy.jpg"/>
 			<h3>Christopher Kennedy <br/><span>Founder &amp; UX Strategist</span></h3>
-			<p>Recently named one of the most poachable players in tech. Nicknamed "The Machine" for his hard work and dedication.</p>
+			<!--<p>Recently named one of the most poachable players in tech. Nicknamed "The Machine" for his hard work and dedication.</p>-->
 		</li>
-		<li class="g4">
-			<img src="http://placehold.it/460x300"/>
+		<li class="g3">
+			<img src="/img/about/aaron-hall.jpg"/>
 			<h3>Aaron Hall<br/><span>Designer</span></h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 		</li>
-		<li class="g4">
-			<img src="http://placehold.it/460x300"/>
+		<li class="g3">
+			<img src="http://placehold.it/460x460"/>
 			<h3>Richard Owens<br/><span>iOS Developer</span></h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 		</li>
-		<li class="g4">
-			<img src="http://placehold.it/460x300"/>
+		<li class="g3">
+			<img src="http://placehold.it/460x460"/>
 			<h3>John Britton<br/><span>Developer</span></h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 		</li>
-		<li class="g4">
-			<img src="/img/about/jon-gottfried.png"/>
+		<li class="g3">
+			<img src="/img/about/jon-gottfried.jpg"/>
 			<h3>Jon Gottfried<br/><span>Developer</span></h3>
-			<p>Jon has competed in more hackathons than he has fingers and has won a good portion of them.</p>
+			<!--<p>Jon has competed in more hackathons than he has fingers and has won a good portion of them.</p>-->
 		</li>
-		<li class="g4">
-			<img src="http://placehold.it/460x300"/>
+		<li class="g3">
+			<img src="http://placehold.it/460x460"/>
 			<h3>Jarod Reyes<br/><span>Front-end Developer</span></h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 		</li>
-		<li class="g4">
-			<img src="http://placehold.it/460x300"/>
+		<li class="g3">
+			<img src="http://placehold.it/460x460"/>
 			<h3>Stephen Cannizzaro<br/><span>Front-end Developer</span></h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 		</li>
-		<li class="g4">
-			<img src="/img/about/sara-kennedy.png"/>
+		<li class="g3">
+			<img src="http://placehold.it/460x460"/>
 			<h3>Sara Kennedy<br/><span>Brand Manager</span></h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 		</li>
-		<li class="g4">
-			<img src="http://placehold.it/460x300"/>
+		<li class="g3">
+			<img src="http://placehold.it/460x460"/>
 			<h3>Kristina St. Peter<br/><span>Public Relations Coordinator</span></h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 		</li>
-		<li class="g4">
-			<img src="http://placehold.it/460x300"/>
+		<li class="g3">
+			<img src="http://placehold.it/460x460"/>
 			<h3>Justin LaMonica<br/><span>Account Supervisor</span></h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 		</li>
-		<li class="g4">
-			<img src="http://placehold.it/460x300"/>
+		<li class="g3">
+			<img src="http://placehold.it/460x460"/>
 			<h3>Jenna Santana<br/><span>Copywriter</span></h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 		</li>
 	</ul>
 
