@@ -21,12 +21,20 @@
 			<h3>Aaron Hall<br/><span>Designer</span></h3>
 		</li>
 		<li class="g3">
+			<img src="/img/about/jarod-reyes.jpg"/>
+			<h3>Jarod Reyes<br/><span>Front-end Developer</span></h3>
+		</li>
+		<li class="g3">
+			<img src="/img/about/john-britton.jpg"/>
+			<h3>John Britton<br/><span>Mobile Hacker</span></h3>
+		</li>
+		<li class="g3">
 			<img src="http://placehold.it/460x460"/>
 			<h3>Richard Owens<br/><span>iOS Developer</span></h3>
 		</li>
 		<li class="g3">
-			<img src="http://placehold.it/460x460"/>
-			<h3>John Britton<br/><span>Developer</span></h3>
+			<img src="/img/about/frank-denbow.jpg"/>
+			<h3>Frank Denbow<br/><span>iOS Developer</span></h3>
 		</li>
 		<li class="g3">
 			<img src="/img/about/jon-gottfried.jpg"/>
@@ -35,26 +43,22 @@
 		</li>
 		<li class="g3">
 			<img src="http://placehold.it/460x460"/>
-			<h3>Jarod Reyes<br/><span>Front-end Developer</span></h3>
-		</li>
-		<li class="g3">
-			<img src="http://placehold.it/460x460"/>
 			<h3>Stephen Cannizzaro<br/><span>Front-end Developer</span></h3>
 		</li>
 		<li class="g3">
-			<img src="http://placehold.it/460x460"/>
+			<img src="/img/about/sara-kennedy.jpg"/>
 			<h3>Sara Kennedy<br/><span>Brand Manager</span></h3>
 		</li>
 		<li class="g3">
-			<img src="http://placehold.it/460x460"/>
+			<img src="/img/about/kristina-stpeter.jpg"/>
 			<h3>Kristina St. Peter<br/><span>Public Relations Coordinator</span></h3>
 		</li>
 		<li class="g3">
-			<img src="http://placehold.it/460x460"/>
+			<img src="/img/about/justin-lamonica.jpg"/>
 			<h3>Justin LaMonica<br/><span>Account Supervisor</span></h3>
 		</li>
 		<li class="g3">
-			<img src="http://placehold.it/460x460"/>
+			<img src="/img/about/jenna-santana.jpg"/>
 			<h3>Jenna Santana<br/><span>Copywriter</span></h3>
 		</li>
 	</ul>
