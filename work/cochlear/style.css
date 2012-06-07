@@ -1,3 +1,14 @@
 @import url('/css/reset.css');
 @import url('/css/core.css');
-@import url('/work/cochlear/demo.css');
+
+#intro_cochlear {
+	background: url(../../img/work/cochlear/intro-cochlear-bg.jpg) bottom left repeat-x;
+}
+
+#the_concept {}
+
+#strategy_approach {}
+
+#final_designs {}
+
+#whats_next {}
