@@ -4,11 +4,11 @@
 
 	<div class="g4">
 		<h2><a href="/work/touching-news/"><img src="/img/work/idea.png"/></a> Touching News</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		<p>a simple thought and maybe a soultion for advertising on the web, iPad, and iPhone. We have developed a unique way to display these ads depending on window size and device.</p>
 		<p><a href="/work/touching-news/">Learn More &raquo;</a></p>
 	</div><!--/g4-->
 	<div class="g8">
-		<a href="/work/touching-news/"><img src="http://placehold.it/620x280"/></a>
+		<a href="/work/touching-news/"><img src="/img/work/touching-news.png"/></a>
 	</div><!--/g8-->
 	
 	<div class="clearfix"></div><hr/>
