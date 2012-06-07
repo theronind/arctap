@@ -1,4 +1,4 @@
-<?php  $title = 'Cochlear'; $css = '/gradespotter/app.css'; include '../../header.php'; ?>
+<?php  $title = 'Cochlear'; $css = '/work/cochlear/style.css'; include '../../header.php'; ?>
 <link rel="stylesheet" href="/css/style.css">
 
 <div class="container">
