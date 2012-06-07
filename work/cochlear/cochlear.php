@@ -2,7 +2,9 @@
 <link rel="stylesheet" href="/css/style.css">
 
 <div class="container">
-	<p>Hello</p>
+
+	this is a test
+
 </div><!--/container-->
 
 <?php include("../../footer.php"); ?>
