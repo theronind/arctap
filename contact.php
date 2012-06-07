@@ -1,4 +1,4 @@
-<?php  $title = 'Contact'; include 'header.php'; ?>
+<?php  $title = 'Contact'; $css = '/css/style.css'; include 'header.php'; ?>
 
 	<div class="container" id="contact">
 		<div class="g6">

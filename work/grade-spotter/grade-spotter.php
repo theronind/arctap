@@ -1,5 +1,4 @@
-<?php  $title = 'Grade Spotter'; include '../../header.php'; ?>
-<link rel="stylesheet" href="/work/gradespotter/app.css">
+<?php  $title = 'Grade Spotter'; $css = '/work/grade-spotter/style.css'; include '../../header.php'; ?>
 
 <section id="intro">
 <div class="container">

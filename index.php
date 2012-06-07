@@ -1,4 +1,4 @@
-<?php  $title = ''; include 'header.php'; ?>
+<?php  $title = ''; $css = '/css/style.css'; include 'header.php'; ?>
 
 <section id="intro">
 <div class="container">
