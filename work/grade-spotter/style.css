@@ -1,3 +1,18 @@
 @import url('/css/reset.css');
 @import url('/css/core.css');
-@import url('/work/grade-spotter/demo.css');
+
+/*
+#intro {
+    background: url("/work/gradespotter/img/intro.png") no-repeat scroll center center #293f4a;
+    border-bottom: 2px solid #0C3036;
+    margin: -30px 0 0;
+    padding: 0;
+    min-height: 380px;
+}
+*/
+#intro {
+    background: #293f4a;
+    border-bottom: 2px solid #0C3036;
+    margin: -30px 0 40px;
+    padding: 0;
+}
