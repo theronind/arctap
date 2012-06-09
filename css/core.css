@@ -347,7 +347,7 @@ footer #follow{
 	    text-align: center;
     }
 	nav{
-		float: none;
+		/* float: none; */
 	}
 	nav li a, nav li a:hover {
 		padding: 9px 34px 8px;
