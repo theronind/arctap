@@ -1,17 +1,114 @@
 @import url('/css/reset.css');
 @import url('/css/core.css');
 
-#intro_cochlear {
-	background: url(../../img/work/cochlear/intro-cochlear-bg.jpg) bottom left repeat-x;
+::-moz-selection { background: #000 !important; color: #ffc20e !important; text-shadow: none; }
+::selection { background: #000 !important; color: #ffc20e !important; text-shadow: none; }
+
+figure {
+	display: block;
+	position: relative;
 }
 
-#intro_cochlear h1 {}
+figcaption {
+	position: absolute;	
+}
 
-#intro_cochlear h2 {}
+.lefty {
+	float: left;
+}
 
-#the_concept {}
+.righty {
+	float: right;
+}
 
-#strategy_approach {}
+h1, h2, h3, h4, h5, p {
+	color: #171818 !important;
+}
+
+p {
+	font: normal 20px/25px "TitilliumText22LRegular", sans-serif !important;
+}
+
+header {
+	margin: 0 !important;
+	border-top: 1px solid #9b9b9b !important;
+	background: #2f2f2f; /* Old browsers */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3f3f3f), color-stop(50%,#2f2f2f), color-stop(51%,#141414), color-stop(100%,#030303)) !important; /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #3f3f3f 0%,#2f2f2f 50%,#141414 51%,#030303 100%) !important; /* Chrome10+,Safari5.1+ */
+	background: -moz-linear-gradient(top,  #3f3f3f 0%, #2f2f2f 50%, #141414 51%, #030303 100%) !important; /* FF3.6+ */
+	background: -ms-linear-gradient(top,  #3f3f3f 0%,#2f2f2f 50%,#141414 51%,#030303 100%) !important; /* IE10+ */
+	background: -o-linear-gradient(top,  #3f3f3f 0%,#2f2f2f 50%,#141414 51%,#030303 100%) !important; /* Opera 11.10+ */
+	background: linear-gradient(top,  #3f3f3f 0%,#2f2f2f 50%,#141414 51%,#030303 100%) !important; /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f2f2f', endColorstr='#030303',GradientType=0 ) !important; /* IE6-9 */
+}
+
+/* padding for each sections */
+#the_concept, #strategy_approach, #final_designs, #whats_next {
+	padding: 120px 0 85px 0;
+}
+/* end padding for each sections */
+
+/* intro-header */
+.intro-header {
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,.5);
+	margin: 0 0 85px 0;
+}
+
+.intro-header h2 {
+	margin: 0 0 20px 0;
+	font: normal 45px/45px "TitilliumText22LBold", sans-serif;
+	position: relative;
+}
+
+.intro-header p {
+	color: #565656 !important;
+}
+/* end intro-header */
+
+/* introduction */
+#introduction {
+	text-shadow: 0 1px 0 rgba(255,255,255,1);
+	background: url(../../img/work/cochlear/introduction-bg.jpg) bottom left repeat-x red;
+}
+
+#introduction h1 {
+	text-align: center;
+	margin: 30px 0 0 0;
+	font: normal 55px/55px "TitilliumText22LBold", sans-serif;
+	
+}
+
+#introduction h2 {
+	text-align: center;
+	font: normal 35px/38px "TitilliumText22LRegular", sans-serif;
+	margin-bottom: 30px;
+}
+
+#header-img {
+	display: block;
+	margin-bottom: -10px;
+	padding: 0;
+}
+/* end introduction */
+
+
+/* the_concept */
+#the_concept {
+	background: #fff;
+}
+/* end the_concept */
+
+/* strategy_approach */
+#strategy_approach {
+	background: url(../../img/work/cochlear/strategy_approach-bg.jpg) bottom left repeat-x red;
+}
+#sketch {
+	text-align: center;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+/* end strategy_approach */
 
 #final_designs {}
 
