@@ -4,15 +4,6 @@
 ::-moz-selection { background: #000 !important; color: #ffc20e !important; text-shadow: none; }
 ::selection { background: #000 !important; color: #ffc20e !important; text-shadow: none; }
 
-figure {
-	display: block;
-	position: relative;
-}
-
-figcaption {
-	position: absolute;	
-}
-
 .lefty {
 	float: left;
 }
@@ -20,6 +11,46 @@ figcaption {
 .righty {
 	float: right;
 }
+
+/* figure / figcaption */
+figure.row-hero {
+	display: block;
+	position: relative;
+	text-align: center;
+	margin: 0 0 45px 0;
+}
+
+figcaption.caption {
+	width: 285px;
+	margin: 15px auto 0;
+}
+
+figcaption.blurb-right,
+figcaption.blurb-left {
+	position: absolute;
+}
+
+figcaption.blurb-right {
+	top: 250px;
+	right: 225px;
+}
+
+figcaption.blurb-left {
+	top: 200px;
+	left: 100px;
+}
+
+.zoom-position {
+	margin: 0 100px 0 0;
+}
+
+figcaption.caption h3 {
+	font: normal 25px/25px "TitilliumText22LBold", sans-serif;
+}
+figcaption.caption p {
+	font: normal 20px/22px "TitilliumText22LRegular", sans-serif;
+}
+/* end figure / figcaption */
 
 h1, h2, h3, h4, h5, p {
 	color: #171818 !important;
@@ -40,6 +71,18 @@ header {
 	background: -o-linear-gradient(top,  #3f3f3f 0%,#2f2f2f 50%,#141414 51%,#030303 100%) !important; /* Opera 11.10+ */
 	background: linear-gradient(top,  #3f3f3f 0%,#2f2f2f 50%,#141414 51%,#030303 100%) !important; /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f2f2f', endColorstr='#030303',GradientType=0 ) !important; /* IE6-9 */
+}
+
+footer {
+	background-color: #000 !important;
+	border-top: none !important;
+	margin: 0 !important;
+	padding: 20px 0;
+}
+
+footer p, footer p a {
+	font-size: 12px !important;
+	color: #2b343e !important;
 }
 
 /* padding for each sections */
@@ -63,6 +106,10 @@ header {
 
 .intro-header p {
 	color: #565656 !important;
+}
+.inverted h2, .inverted p {
+	color: #fff !important;
+	text-shadow: 0 1px 0 rgba(0,0,0,.75);
 }
 /* end intro-header */
 
@@ -101,7 +148,7 @@ header {
 
 /* strategy_approach */
 #strategy_approach {
-	background: url(../../img/work/cochlear/strategy_approach-bg.jpg) bottom left repeat-x red;
+	background: url(../../img/work/cochlear/strategy_approach-bg.jpg) top left repeat-x red;
 }
 #sketch {
 	text-align: center;
@@ -110,6 +157,22 @@ header {
 }
 /* end strategy_approach */
 
-#final_designs {}
-
-#whats_next {}
+/* final_designs */
+#final_designs {
+	background: url(../../img/work/cochlear/final-design-down-arrow.png) center top no-repeat, url(../../img/work/cochlear/final-design-top-bg.gif) top left repeat-x #fccc24;
+}
+/* end final_designs */
+#whats_next {
+	background: url(../../img/work/cochlear/zigzag.png) top left repeat-x, url(../../img/work/cochlear/whats-next-bg.gif) repeat;
+}
+#disclaimer {
+	color: #8a8a8a !important;
+	font-size: 12px !important;
+	line-height: 15px !important;
+	text-align: center;
+	padding: 0 30px; 
+}
+#disclaimer span {
+	display: block;
+	font-weight: bold;
+}
