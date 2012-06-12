@@ -7,7 +7,7 @@
 	</div><!--/g3-->
 	<div class="g9">
 		<h1>We Craft Mobile Experiences</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</p>
+		<p>Our main foucs is to launch that big idea and to produce amazing experince for those user. We are a small mobile consulting shop based out of New York City. Let us help you take your idea to reality.</p>
 	</div><!--/g9-->
 </div><!--/container-->
 </section><!--/intro-->
