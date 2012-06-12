@@ -18,7 +18,7 @@
 		</li>
 		<li class="g3">
 			<img src="/img/about/aaron-hall.jpg"/>
-			<h3>Aaron Hall<br/><span>Designer</span></h3>
+			<h3>Aaron Hall<br/><span>Lead Designer</span></h3>
 		</li>
 		<li class="g3">
 			<img src="/img/about/jarod-reyes.jpg"/>
@@ -28,10 +28,10 @@
 			<img src="/img/about/john-britton.jpg"/>
 			<h3>John Britton<br/><span>Mobile Hacker</span></h3>
 		</li>
-		<li class="g3">
+		<!--<li class="g3">
 			<img src="http://placehold.it/460x460"/>
 			<h3>Richard Owens<br/><span>iOS Developer</span></h3>
-		</li>
+		</li>-->
 		<li class="g3">
 			<img src="/img/about/frank-denbow.jpg"/>
 			<h3>Frank Denbow<br/><span>iOS Developer</span></h3>
@@ -41,10 +41,10 @@
 			<h3>Jon Gottfried<br/><span>Developer</span></h3>
 			<!--<p>Jon has competed in more hackathons than he has fingers and has won a good portion of them.</p>-->
 		</li>
-		<li class="g3">
+		<!--<li class="g3">
 			<img src="http://placehold.it/460x460"/>
 			<h3>Stephen Cannizzaro<br/><span>Front-end Developer</span></h3>
-		</li>
+		</li>-->
 		<li class="g3">
 			<img src="/img/about/sara-kennedy.jpg"/>
 			<h3>Sara Kennedy<br/><span>Brand Manager</span></h3>
