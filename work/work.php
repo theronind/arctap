@@ -14,12 +14,12 @@
 	<div class="clearfix"></div><hr/>
 	
 	<div class="g4">
-		<h2><a href="/work/cochlear/"><img src="http://placehold.it/50x50"/></a> Cochlear Remote</h2>
+		<h2><a href="/work/cochlear/"><img src="/img/work/cochlear-app.png"/></a> Cochlear Remote</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 		<p><a href="/work/cochlear/">Learn More &raquo;</a></p>
 	</div><!--/g4-->
 	<div class="g8">
-		<a href="/work/cochlear/"><img src="http://placehold.it/620x280"/></a>
+		<a href="/work/cochlear/"><img src="/img/work/cochlear-app-promo.png"/></a>
 	</div><!--/g8-->
 	
 	<div class="clearfix"></div><hr/>
