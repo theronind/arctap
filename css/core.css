@@ -200,6 +200,7 @@ label{
     top:8px;
     left:12px;
     font-size:18px;
+    cursor: text;
 }
 input, textarea{
 	-moz-box-sizing: border-box;
@@ -219,6 +220,17 @@ input, textarea{
 }
 textarea{
 	min-height: 100px;
+}
+.error_message{
+	background-color: #FBE3E4;
+    border: 1px solid #FBC2C4;
+    border-radius: 4px 4px 4px 4px;
+    color: #8A1F11;
+    display: block;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
 }
 /* ========================================================= Footer ===*/
 footer{
