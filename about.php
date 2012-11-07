@@ -21,6 +21,10 @@
 			<h3>Aaron Hall<br/><span>Lead Designer</span></h3>
 		</li>
 		<li class="g3">
+			<img src="/img/about/tim-smith.png"/>
+			<h3>Tim Smith<br/><span>Senior Designer</span></h3>
+		</li>
+		<li class="g3">
 			<img src="/img/about/jarod-reyes.jpg"/>
 			<h3>Jarod Reyes<br/><span>Front-end Developer</span></h3>
 		</li>
