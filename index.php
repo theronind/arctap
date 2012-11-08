@@ -6,8 +6,8 @@
 		<img src="/img/logo-large.png"/>
 	</div><!--/g3-->
 	<div class="g9">
-		<h1>We Craft Mobile Experiences</h1>
-		<p>Our main foucs is to launch that big idea and to produce amazing experince for those user. We are a small mobile consulting shop based out of New York City. Let us help you take your idea to reality.</p>
+		<h1>We Craft Experiences</h1>
+		<p>Our main foucs is to launch that big idea and to produce amazing experience for those user. We are an amazing little team of freelancers based out of New York City. Let us help you take your idea to reality.</p>
 	</div><!--/g9-->
 </div><!--/container-->
 </section><!--/intro-->

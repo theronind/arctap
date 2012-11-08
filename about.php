@@ -3,7 +3,7 @@
 <div class="container" id="about">
 	<div class="g7">
 		<h1>About</h1>
-		<p>ArcTap started as a need to feel a void in the mobile consulting space. The team was already doing consulting around mobile and often working together on a lot of projects. The idea of putting together a great team was easy, the hard part now is to find time for all the awesome ideas out there. Because of this we are very selective on what projects we take on. What makes us unique is not only the solid team, but what the team is made up of. We understand that apps sometimes need more then just a designer and a developer.</p>
+		<p>ArcTap is a team of amazing freelancers that regularly work together on a lot of mobile, tablet, and web based projects. The idea of putting together a great team was easy, the hard part now is to find time for all the awesome ideas out there. Because of this we are very selective on what projects we take on. What makes us unique is not only the solid team, but what the team is made up of. We understand that apps sometimes need more then just a designer and a developer.</p>
 	</div><!--/g7-->
 	<div class="g5">
 		<img src="/img/about/nyc.png"/>
@@ -67,7 +67,7 @@
 		</li>
 	</ul>
 
-	
+
 </div><!--/container-->
 
 <?php include("footer.php"); ?>

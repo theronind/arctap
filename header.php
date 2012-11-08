@@ -19,9 +19,11 @@
 <body>
 <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 
-<header>
+<div id="wrapper">
+
+<div id="header-wrap"><header>
 	<div class="container">
-		<h1><a href="/"><img src="/img/logo.png"> ArcTap</a></h1>	
+		<h1><a href="/"><img src="/img/logo.png"> ArcTap</a></h1>
 		<nav>
 			<ul>
 				<li><a href="/about">About</a></li>
@@ -30,4 +32,4 @@
 			</ul>
 		</nav>
 	</div><!--/container-->
-</header>
+</header></div><!--/header-wrap-->

@@ -1,10 +1,10 @@
 html, body{
 	background-color: #f7f7f7;
-	font-family: 'Droid Sans', sans-serif;
+	font-family: 'proxima_nova_rgregular', sans-serif;
 	font-weight: 400;
 	height: 100%;
 	position: relative;
-    z-index: 0;
+  z-index: 0;
 }
 h1{
 	color: #333333;
@@ -41,9 +41,15 @@ img{
 	height: auto;
 	max-width: 100%;
 }
+#wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -73px;
+}
 /* ========================================================= Header ===*/
-header{
-	background: #262f37;
+#header-wrap{
+		background: #262f37;
 	background: -moz-linear-gradient(top,  #262f37 0%, #20272e 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#262f37), color-stop(100%,#20272e));
 	background: -webkit-linear-gradient(top,  #262f37 0%,#20272e 100%);
@@ -53,11 +59,14 @@ header{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#262f37', endColorstr='#20272e',GradientType=0 );
 	border-top: 1px solid #fc4132;
 	border-bottom: 1px solid #000;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
 	margin: 0 0 30px;
+
+}
+header{
 	padding: 10px 0;
 	position: relative;
-    z-index: 10;
+  z-index: 10;
 }
 header h1{
 	display: inline;
@@ -116,16 +125,26 @@ nav li:last-child a{
 #intro img{
 	height: auto;
 	max-width: 100%;
+	-webkit-animation: 2s ease;
+	-moz-animation: 2s ease;
+	-ms-animation: 2s ease;
+	-o-animation: 2s ease;
+	animation: 2s ease;
+	-webkit-animation-name: fadeIn;
+	-moz-animation-name: fadeIn;
+	-ms-animation-name: fadeIn;
+	-o-animation-name: fadeIn;
+	animation-name: fadeIn;
 }
 #intro h1{
-	color: #f7f7f7;
+	color: #fff;
 	line-height: 1;
-	font-size: 45px;
+	font-size: 47px;
 	margin: 48px 0 0;
-	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.6);
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
 }
 #intro p{
-	color: #e1e1e1;
+	color: #f7f7f7;
 	font-size: 18px;
 	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.6);
 }
@@ -156,6 +175,7 @@ nav li:last-child a{
 	border-radius: 4px;
 	box-shadow: 0 1px 0 #fff;
 	height: auto;
+	margin-bottom: 30px;
 	max-width: 100%;
 }
 #team{
@@ -164,7 +184,7 @@ nav li:last-child a{
 	padding: 0;
 }
 #team li{
-	
+
 }
 #team img{
 	margin: 0 0 20px;
@@ -173,6 +193,9 @@ nav li:last-child a{
 	color: #999;
 }
 /* ========================================================= Work ===*/
+#work{
+	margin-bottom: 30px;
+}
 #work .g4 img{
 	margin: 0 10px 0 0;
 }
@@ -233,10 +256,12 @@ textarea{
     text-align: center;
 }
 /* ========================================================= Footer ===*/
-footer{
+#footer-wrap{
 	background-color: #1A1F25;
-    border-top: 3px solid #000000;
-	margin: 20px 0 0;
+
+}
+footer{
+border-top: 3px solid #000000;
 	padding: 20px 0;
 }
 footer #copy{
@@ -244,18 +269,26 @@ footer #copy{
 }
 footer #copy img{
 	margin: 0 10px 0 0;
+	vertical-align: bottom;
 }
 footer p{
 	color: #2b343d;
 	font-size:14px;
 	margin: 0;
 }
+footer p span{
+	display: inline-block;
+  margin: 0 0 3px;
+}
 footer a{
-	color: #2b343d;	
+	color: #2b343d;
 }
 footer #follow{
 	float: right;
 	margin: 6px 0 0;
+}
+#footer-wrap, #push {
+	height: 73px;
 }
 /* ========================================================= Structure ===*/
 .container {
@@ -305,11 +338,11 @@ footer #follow{
 	.g10{max-width: 620px}
 	.g11{max-width: 684px}
 	.g12{max-width: 748px}
-	
+
 	#intro h1{
 		margin: 10px 0 0;
 	}
-	
+
 }
 /* ---------
  -- 480px --
@@ -328,7 +361,7 @@ footer #follow{
 	.g10{max-width: 460px}
 	.g11{max-width: 460px}
 	.g12{max-width: 460px}
-	
+
 	#intro .g3{
 		display: none;
 	}
@@ -353,7 +386,7 @@ footer #follow{
 	.g10{max-width: 300px}
 	.g11{max-width: 300px}
 	.g12{max-width: 300px}
-	
+
 	header h1 {
 	    display: block;
 	    margin: 0 0 10px;
@@ -402,3 +435,27 @@ footer #follow{
 .btn:active {
 }
 /* ========================================================= Animation ===*/
+@-webkit-keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-moz-keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-ms-keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-o-keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
