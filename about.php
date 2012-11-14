@@ -22,7 +22,7 @@
 		</li>
 		<li class="g3">
 			<img src="/img/about/tim-smith.png"/>
-			<h3>Tim Smith<br/><span>Senior Designer</span></h3>
+			<h3>Tim Smith<br/><span>Designer</span></h3>
 		</li>
 		<li class="g3">
 			<img src="/img/about/jarod-reyes.jpg"/>
