@@ -77,11 +77,12 @@ input:-moz-placeholder, textarea:-moz-placeholder{
   padding: 10px;
   text-align: center;
 }
-.success_message{
+.success{
   background-color: #e3fbee;
   border: 1px solid #d1e8dc;
   border-radius: 3px;
   color: #6db38e;
+  clear: both;
   display: block;
   font-family: 'ProximaNovaBold', sans-serif;
   margin: 10px 0;
