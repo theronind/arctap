@@ -81,10 +81,13 @@ html[xmlns] .slides {display: block;}
   background: none;
   box-shadow: none;
   border: none;
+  border-bottom: 1px solid #d9dbde;
+  border-radius: 3px 3px 0 0;
   margin: 0;
+  padding: 0 0 6px;
 }
 .flex-control-nav{
-  bottom: -3px;
+  bottom: 0;
   right: 7px;
   text-align: right;
 }
@@ -92,7 +95,8 @@ html[xmlns] .slides {display: block;}
   color: rgba(255, 255, 255, 0);
 }
 .flex-caption{
-  color: #33373B;
-  font-size: 18px;
+  color: #bebfc2;
+  font-family: 'ProximaNovaLight',sans-serif;
+  font-size: 14px;
   margin: 10px 0 0 10px;
 }

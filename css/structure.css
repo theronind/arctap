@@ -2,8 +2,6 @@
 .container {
   margin: 0 auto;
 }
-
-
 .container:before, .container:after, .content:before, .content:after { content: ""; display: table; }
 .container:after, .content:after { clear: both; }
 .container, .content { zoom: 1; }
@@ -12,7 +10,6 @@
   margin: 2%;
   width: 100%;
 }
-
 /* -----------
  -- Default --
 ----------- */

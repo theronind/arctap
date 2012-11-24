@@ -1,4 +1,4 @@
-<?php  $title = 'Hire'; $css = '/css/style.css'; include 'header.php'; ?>
+<?php  $title = 'Hire'; include 'header.php'; ?>
 
 <div id="hire">
 
@@ -40,7 +40,7 @@
           <li class="g4">
             <input type="submit" class="btn btn-action" value="Submit" name="submit"/>
           </li>
-          <li class="success" style="display:none">Your message has been sent successfully.</li>
+          <li class="success g4" style="display:none">Your message has been sent successfully.</li>
         </ul>
       </form>
       <hr/>

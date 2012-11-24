@@ -1,4 +1,4 @@
-<?php  $title = ''; $css = '/css/style.css'; include 'header.php'; ?>
+<?php  $title = ''; include 'header.php'; ?>
 
 <div id="home">
 
@@ -15,23 +15,30 @@
 			<div class="flexslider">
 				<ul class="slides">
 				  <li>
-				  	<span><img src="/img/gradespotter2.png"/></span>
+				  	<a href="/work/grade-spotter/"><span><img src="/img/work/gradespotter/gradespotter.png"/></span></a>
 				  	<p class="flex-caption">Grade Spotter</p>
 				  </li>
 				  <li>
-				  	<span><img src="/img/statuschart.png"/></span>
+				  	<span><img src="/img/work/statuschart/statuschart.png"/></span>
 				  	<p class="flex-caption">Status Chart</p>
 				  </li>
 				  <li>
-				  	<span><img src="/img/kristinastpeter.png"/></span>
+				  	<span><img src="/img/work/kristinastpeter/kristinastpeter.png"/></span>
 				  	<p class="flex-caption">Kristina St. Peter</p>
 				  </li>
 				</ul>
 			</div><!--/flexslider-->
 
 			<div class="content">
+				<div class="g4">
 
-				<hr/>
+				<h3>Services</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+				<h3>Process</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+				</div><!--/g4-->
 			</div><!--/content-->
 		</div><!--/page-->
 	</div><!--/container-->

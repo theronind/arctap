@@ -29,7 +29,6 @@ header h1 span{
 }
 header h1 a, header h1 a:hover{
   color: #fff;
-  text-shadow: 0 -1px 0 #000;
 }
 nav{
   float: right;
@@ -60,7 +59,7 @@ nav li:last-child a{
 #intro{
   background-color: #fc6a63;
   /*box-shadow: 0 1px 0 #c7544e, 0 2px 0 #ecedef;*/
-  padding: 30px 10px 40px;
+  padding: 30px 10px 55px;
 }
 #intro h1{
   color: #FFFFFF;
@@ -70,6 +69,7 @@ nav li:last-child a{
 }
 #intro h2{
   color: #FFFFFF;
+  margin: 0;
 }
 #intro p{
   color: #F7F7F7;
@@ -163,24 +163,32 @@ nav li:last-child a{
 }
 #work h2{
   display: inline-block;
+  margin: 0;
 }
-#work .h2 img{
-  margin: 0 10px 0 0;
-  vertical-align: bottom;
+#work h2 a{
+  color: #455860;
+}
+#work h2 img{
+  margin: -5px 10px 0 0;
+  vertical-align: middle;
+}
+#work h2 span{
+  display: inline-block;
 }
 #work .buttons{
   float: right;
+  margin-top: 2px 0 0;
 }
 #work .buttons i{
   font-size: 14px;
   margin: 0 0 0 5px;
   vertical-align: middle;
 }
-#work span {
+#work .flexslider span {
     display: block;
     position: relative;
 }
-#work span:before {
+#work .flexslider span:before {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.7) inset, 0 0 3px rgba(255, 255, 255, 0.7) inset, 0 2px 0 rgba(255, 255, 255, 0.5) inset;
     content: "";
     height: 100%;
@@ -188,11 +196,10 @@ nav li:last-child a{
     position: absolute;
     width: 100%;
 }
-#work #first span:before {
-  border-radius: 3px 3px 0 0;
-}
-#work #first img{
-  border-radius: 3px 3px 0 0;
+#work .title{
+  border-bottom: 3px solid #c3c5c7;
+  margin: 0 0 20px;
+  padding: 0 0 20px;
 }
 /* ========================================================= Hire ===*/
 #hire{

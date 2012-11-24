@@ -16,8 +16,6 @@ label{
     cursor: text;
 }
 input[type="text"], input[type="email"], textarea{
-  -moz-box-sizing: border-box;
-    -moz-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
     border: 1px solid #BDBDBD;
     border-radius: 4px 4px 4px 4px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset, 0 1px 0 #FFFFFF;
@@ -30,6 +28,9 @@ input[type="text"], input[type="email"], textarea{
     padding: 6px 4px 4px 10px;
     vertical-align: baseline;
     width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 textarea{
   min-height: 100px;
