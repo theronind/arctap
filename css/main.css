@@ -77,6 +77,33 @@ nav li:last-child a{
   max-width: 600px;
   text-align: center;
 }
+#intro #nav{
+  float: right;
+}
+#intro #nav ul{
+  list-style: none;
+  margin: 14px 0 0;
+  padding: 0;
+}
+#intro #nav li{
+  display: inline-block;
+  margin: 0 0 0 12px;
+  padding: 0;
+}
+#intro #nav a{
+  color: #EFF1F5;
+  outline: none;
+}
+#intro #nav i{
+  color: #EFF1F5;
+  font-size: 18px;
+}
+#intro #nav span{
+  display: none;
+}
+#intro #nav .current i{
+  color: #fff;
+}
 /* ========================================================= Page ===*/
 #page{
   background-color: #eff1f5;
@@ -201,6 +228,14 @@ nav li:last-child a{
   margin: 0 0 20px;
   padding: 0 0 20px;
 }
+#portfolio{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#portfolio li{
+  padding: 0;
+}
 /* ========================================================= Hire ===*/
 #hire{
 
@@ -289,6 +324,9 @@ img{
 }
 .last{
   margin: 0;
+}
+.hidden{
+  display: none;
 }
 /* ========================================================= Animation ===*/
 @-webkit-keyframes fadeIn {
