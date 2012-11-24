@@ -1,4 +1,4 @@
-<?php  $title = 'Hire'; $css = 'css/style.css'; include 'header.php'; ?>
+<?php  $title = 'Hire'; $css = '/css/style.css'; include 'header.php'; ?>
 
 <div id="hire">
 
