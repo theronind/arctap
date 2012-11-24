@@ -1,7 +1,7 @@
 <?php if ($title !== "Hire"): ?>
 <div class="container">
   <div id="hire-bar" class="clearfix">
-    <p><em>Ready to get started?</em> Let's Craft something beautiful together.</p>
+    <p><em>Ready to get started?</em> Let's craft something beautiful together.</p>
     <a href="/hire" class="btn">Hire Us</a>
   </div><!--/hire-bar-->
 </div><!--/container-->
