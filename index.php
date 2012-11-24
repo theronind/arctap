@@ -15,12 +15,16 @@
 			<div class="flexslider">
 				<ul class="slides">
 				  <li>
-				  	<span><img src="/img/slide1.png"/></span>
+				  	<span><img src="/img/gradespotter2.png"/></span>
 				  	<p class="flex-caption">Grade Spotter</p>
 				  </li>
 				  <li>
-				  	<span><img src="/img/slide2.png"/></span>
-				  	<p class="flex-caption">Colear</p>
+				  	<span><img src="/img/statuschart.png"/></span>
+				  	<p class="flex-caption">Status Chart</p>
+				  </li>
+				  <li>
+				  	<span><img src="/img/kristinastpeter.png"/></span>
+				  	<p class="flex-caption">Kristina St. Peter</p>
 				  </li>
 				</ul>
 			</div><!--/flexslider-->
