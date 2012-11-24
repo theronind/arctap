@@ -11,16 +11,11 @@
 
   if(isset($_POST['contactus'])) {
 
-    $name      = $_POST['name'];
-    $email     = $_POST['email'];
-    $B25x50    = $_POST['B25x50'];
-    $B50x75    = $_POST['B50x75'];
-    $B75x100   = $_POST['B75x100'];
-    $B100x250  = $_POST['B100x250'];
-    $B250xplus = $_POST['B250xplus'];
-    $company   = $_POST['company'];
-    $comments  = $_POST['comments'];
-    $verify    = $_POST['verify'];
+    $name     = $_POST['name'];
+    $email    = $_POST['email'];
+    $company  = $_POST['company'];
+    $comments = $_POST['comments'];
+    $verify   = $_POST['verify'];
 
 
     // Error Messages
@@ -47,7 +42,7 @@
 
       // Email
       $address = "kennedy@arctap.com";
-      $e_subject = 'Inquiry: ' . $name . '.';
+      $e_subject = 'You\'ve been contacted by ' . $name . '.';
       $e_body = "You have been contacted by $name, their additional message is as follows.\r\n\n";
       $e_content = "\"$comments\"\r\n\n";
       $e_reply = "You can contact $name via email, $email";
@@ -74,35 +69,35 @@
 <div id="hire">
 
 <section id="intro">
-	<div class="container">
-			<h2>Hire Us</h2>
-	</div><!--/container-->
+  <div class="container">
+      <h2>Hire Us</h2>
+  </div><!--/container-->
 </section><!--/intro-->
 
 <div class="container">
 <div id="page">
-	<div class="content">
+  <div class="content">
     <div class="g4">
       <p>You are about to make a great first step. We don't want to waste anyone's time, so we will keep this questionnaire brief. After we review this little intro of your needs we well get in touch. Thanks for your time and we look forward to speaking with you.</p>
     </div><!--/g4-->
-  		<form id="subForm"  method="post" action="">
+      <form id="subForm"  method="post" action="">
         <ul class="clearfix">
           <li class="g2"><input type="text" value="<?=$name;?>" id="name" name="name" placeholder="Your Name"/></li>
           <li class="g2"><input type="email" value="<?=$email;?>" id="email" name="email" placeholder="Your Email Address"/></li>
           <li class="g2"><input type="text" value="<?=$company;?>" id="company" name="company" placeholder="Company Name"/></li>
           <li class="g2">
             <select id="budget" name="budget">
-              <option value="<?=$B25x50;?>" selected="selected">$25,000 - 50,000</option>
-              <option value="<?=$B50x75;?>">$50,000 - 75,000</option>
-              <option value="<?=$B75x100;?>">$75,000 - 100,000</option>
-              <option value="<?=$B100x250;?>">$100,000 - 250,000</option>
-              <option value="<?=$B250xplus;?>">$250,000 Plus</option>
+              <option value="$25,000-50,000" selected="selected">$25,000 - 50,000</option>
+              <option value="$50,000-75,000">$50,000 - 75,000</option>
+              <option value="$75,000-100,000">$75,000 - 100,000</option>
+              <option value="$100,000-250,000">$100,000 - 250,000</option>
+              <option value="$250,000+">$250,000 Plus</option>
             </select>
           </li>
           <li class="g4"><textarea id="comments" name="comments" placeholder="Give us a brief description and tell us why it will be awesome to work with you on this project."><?=$comments;?></textarea></li>
           <li class="g4"><input name="verify" type="text" id="verify" value="<?=$verify;?>" placeholder="What is 3+1 ?"/></li>
           <li class="g4"><input type="submit" class="btn btn-action" id="contactus" value="Submit" name="contactus"/></li>
-          <li class="g4"><? echo $error; ?> <? echo $success; ?></li>
+          <li class="g4"><? echo $error; ?> <div class="success_message">Thanks, we should be in contact with you soon.</div></li>
         </ul>
 
       </form>
@@ -119,7 +114,7 @@
         <h3>Just say Hi.</h3>
         <p class="last">Feel free to reach out to us at anytime. Our group email is <a href="mailto:team@arctap.com">team@arctap.com</a> or for a quicker response say hello to us on twitter at <a href="http://twitter.com/arctap">@ArcTap</a>.</p>
       </div><!--/g1_5-->
-	</div><!--/content-->
+  </div><!--/content-->
 </div><!--/page-->
 </div><!--/container-->
 
