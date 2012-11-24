@@ -92,6 +92,7 @@
 	<div class="content">
     <div class="g4">
       <p>You are about to make a great first step. We don't want to waste anyone's time, so we will keep this questionnaire brief. After we review this little intro of your needs we well get in touch. Thanks for your time and we look forward to speaking with you.</p>
+    </div><!--/g4-->
   		<form id="subForm"  method="post" action="">
         <ul class="clearfix">
           <li class="g2"><input type="text" value="<?=$name;?>" id="name" name="name" placeholder="Your Name"/></li>
@@ -109,10 +110,23 @@
           <li class="g4"><textarea id="comments" name="comments" placeholder="Give us a brief description and tell us why it will be awesome to work with you on this project."><?=$comments;?></textarea></li>
           <li class="g4"><input name="verify" type="text" id="verify" value="<?=$verify;?>" placeholder="What is 3+1 ?"/></li>
           <li class="g4"><input type="submit" class="btn btn-action" id="contactus" value="Submit" name="contactus"/></li>
+          <li class="g4"><? echo $error; ?></li>
         </ul>
-        <div class="g4"><? echo $error; ?></div>
+
       </form>
-    </div><!--/g4-->
+      <hr/>
+      <div class="g1_5">
+        <h3>Cash/Equity?</h3>
+        <p class="last">We normally try to stay away from things like this. If you must know we charge a minimum of $250/hr and we can chat about percentages later.</p>
+      </div><!--/g1_5-->
+      <div class="g1_5">
+        <h3>Need a MVP?</h3>
+        <p class="last">Just need to get that Minimum Viable Product to get your idea out there? We have a special team over at <a href="http://48hourapps.com/">48hourapps</a> designated just for that.</p>
+      </div><!--/g1_5-->
+      <div class="g1_5">
+        <h3>Just say Hi.</h3>
+        <p class="last">Feel free to reach out to us at anytime. Our group email is <a href="mailto:team@arctap.com">team@arctap.com</a> or for a quicker response say hello to us on twitter at <a href="http://twitter.com/arctap">@ArcTap</a>.</p>
+      </div><!--/g1_5-->
 	</div><!--/content-->
 </div><!--/page-->
 </div><!--/container-->

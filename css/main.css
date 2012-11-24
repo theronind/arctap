@@ -207,6 +207,7 @@ nav li:last-child a{
 }
 #hire .btn{
   float: right;
+  margin-bottom: 10px;
 }
 /* ========================================================= Hire Bar ===*/
 #hire-bar{
