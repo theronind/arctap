@@ -1,0 +1,38 @@
+/* ========================================================= Structure ===*/
+.container {
+  margin: 0 auto;
+}
+.container:before, .container:after, .content:before, .content:after { content: ""; display: table; }
+.container:after, .content:after { clear: both; }
+.container, .content { zoom: 1; }
+.g1,.g2,.g3,.g4{
+  float: left;
+  margin: 2%;
+  width: 100%;
+}
+/* ----------
+ -- 960px --
+---------- */
+  .container {max-width: 960px}
+  .g1{max-width: 21%}
+  .g2{max-width: 46%}
+  .g3{max-width: 71%}
+  .g4{max-width: 96%}
+/* ---------
+ -- 768px --
+--------- */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+}
+/* ---------
+ -- 480px --
+--------- */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+/* ---------
+ -- 320px --
+--------- */
+@media screen and (min-width: 320px) and (max-width: 479px) {
+
+}

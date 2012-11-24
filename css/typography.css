@@ -1,0 +1,65 @@
+/* ========================================================= Typography ===*/
+h1{
+    font-family: 'TitilliumText22LMedium', Arial, sans-serif;
+    font-size: 3em;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 0 0 0.4em;
+}
+h2{
+    color: #455860;
+    font-family: 'TitilliumText22LMedium', Arial, sans-serif;
+    font-size: 2.25em;
+    font-weight: normal;
+    line-height: 1.333333333333333em;
+    margin: 0 0 0.4em;
+}
+h3{
+    color: #455860;
+    font-family: 'TitilliumText22LMedium', Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 0 0 0.4em;
+}
+h4{
+    color: #455860;
+    font-family: 'TitilliumText22LMedium', Arial, sans-serif;
+    font-size: 1.3125em;
+    font-weight: normal;
+    line-height: 1.142857142857143em;
+    margin: 0 0 0.4em;
+}
+h5{
+    color: #455860;
+    font-family: 'TitilliumText22LMedium', Arial, sans-serif;
+    font-size: 1.125em;
+    font-weight: normal;
+    line-height: 1.333333333333333em;
+    margin: 0 0 0.4em;
+}
+h6{
+    color: #455860;
+    font-family: 'TitilliumText22LMedium', Arial, sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.5em;
+    margin: 0 0 0.4em;
+}
+p{
+    color: #5C6E76;
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 0 0 1.5em;
+}
+ul{
+    color: #5C6E76;
+    margin: 0 0 1.6em;
+}
+ol{
+    color: #5C6E76;
+    margin: 0 0 1.6em;
+}
+li{
+
+}

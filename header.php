@@ -23,12 +23,12 @@
 
 <div id="header-wrap"><header>
 	<div class="container">
-		<h1><a href="/"><img src="/img/logo.png"> ArcTap</a></h1>
+		<h1><a href="/"><img src="/img/logo.png"> <span>ArcTap</span></a></h1>
 		<nav>
 			<ul>
 				<li><a href="/about">About</a></li>
 				<li><a href="/work">Work</a></li>
-				<li><a href="/contact">Contact</a></li>
+				<li><a href="/hire">Hire Us</a></li>
 			</ul>
 		</nav>
 	</div><!--/container-->

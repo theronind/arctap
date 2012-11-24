@@ -1,0 +1,110 @@
+/* ========================================================= Form ===*/
+form ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+form li{
+  position:relative;;
+}
+label{
+    color:#b6bcbf;
+    position:absolute;
+    top:8px;
+    left:12px;
+    font-size:18px;
+    cursor: text;
+}
+input[type="text"], textarea{
+  -moz-box-sizing: border-box;
+    -moz-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    border: 1px solid #BDBDBD;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset, 0 1px 0 #FFFFFF;
+    color: #808080;
+    display: inline-block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    padding: 6px 4px 4px 10px;
+    vertical-align: baseline;
+    width: 100%;
+}
+textarea{
+  min-height: 100px;
+}
+.error_message{
+  background-color: #FBE3E4;
+    border: 1px solid #FBC2C4;
+    border-radius: 4px 4px 4px 4px;
+    color: #8A1F11;
+    display: block;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+}
+/* ========================================================= Buttons ===*/
+.btn{
+  background-color: #fff;
+  border: none;
+  border-radius: 3px;
+  color: #26495c;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0;
+  padding: 8px 15px 6px;
+  text-align: center;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #26495c;
+  text-decoration: none;
+}
+.btn:active {
+  background-color: #fff;
+}
+/* -----------
+ -- Primary --
+----------- */
+.btn-primary{
+  background-color: #69cbff;
+  color: #fff;
+}
+.btn-primary:hover {
+  background-color: #81d3ff;
+  color: #fff;
+}
+.btn-primary:active {
+  background-color: #5db4e3;
+}
+/* ----------
+ -- Action --
+---------- */
+.btn-action{
+  background-color: #fc6a63;
+  color: #fff;
+}
+.btn-action:hover {
+  background-color: #ff7e78;
+  color: #fff;
+}
+.btn-action:active {
+  background-color: #e35f59;
+}
+/* ----------------
+ -- Download App --
+---------------- */
+.btn-dlapp{
+  background-color: #172d38;
+  color: #fff;
+}
+.btn-dlapp:hover {
+  background-color: #1b3542;
+  color: #fff;
+}
+.btn-dlapp:active {
+  background-color: #12222b;
+}
