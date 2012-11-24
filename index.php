@@ -11,11 +11,22 @@
 
 	<div class="container">
 		<div id="page">
-			<div id="slide">
-					<span><img src="/img/slide1.png"/></span>
-			</div><!--/slide-->
+
+			<div class="flexslider">
+				<ul class="slides">
+				  <li>
+				  	<span><img src="/img/slide1.png"/></span>
+				  	<p class="flex-caption">Grade Spotter</p>
+				  </li>
+				  <li>
+				  	<span><img src="/img/slide2.png"/></span>
+				  	<p class="flex-caption">Colear</p>
+				  </li>
+				</ul>
+			</div><!--/flexslider-->
+
 			<div class="content">
-				Grade Spotter
+
 				<hr/>
 			</div><!--/content-->
 		</div><!--/page-->

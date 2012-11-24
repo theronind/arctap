@@ -15,7 +15,7 @@ label{
     font-size:18px;
     cursor: text;
 }
-input[type="text"], textarea{
+input[type="text"], input[type="email"], textarea{
   -moz-box-sizing: border-box;
     -moz-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
     border: 1px solid #BDBDBD;
@@ -34,6 +34,38 @@ input[type="text"], textarea{
 textarea{
   min-height: 100px;
 }
+select{
+    background: #f8f8f8;
+    background: -moz-linear-gradient(top,  #f8f8f8 0%, #efefef 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#efefef));
+    background: -webkit-linear-gradient(top,  #f8f8f8 0%,#efefef 100%);
+    background: -o-linear-gradient(top,  #f8f8f8 0%,#efefef 100%);
+    background: -ms-linear-gradient(top,  #f8f8f8 0%,#efefef 100%);
+    background: linear-gradient(to bottom,  #f8f8f8 0%,#efefef 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#efefef',GradientType=0 );
+    border: 1px solid #C0C2C4;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 -2px 0 rgba(50, 50, 50, 0.1) inset, 0 1px 0 #FFFFFF inset;
+    color: #6A777D;
+    height: 40px;
+    outline: medium none;
+    overflow: hidden;
+    padding: 9px 8px 8px 7px;
+    vertical-align: top;
+    width: 100%;
+}
+select option, select optgroup{
+    background-color: #fff;
+    padding:2px;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
+     color: #bfbfbf;
+}
+input:-moz-placeholder, textarea:-moz-placeholder{
+  color: #bfbfbf;
+}
+
 .error_message{
   background-color: #FBE3E4;
     border: 1px solid #FBC2C4;

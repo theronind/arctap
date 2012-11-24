@@ -93,11 +93,11 @@ nav li:last-child a{
 #home #intro{
   padding: 70px 0 100px;
 }
-#slide span {
+.slides span {
     display: block;
     position: relative;
 }
-#slide span:before {
+.slides span:before {
     border-radius: 3px 3px 0 0;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.7) inset, 0 0 3px rgba(255, 255, 255, 0.7) inset, 0 2px 0 rgba(255, 255, 255, 0.5) inset;
     content: "";
@@ -106,7 +106,7 @@ nav li:last-child a{
     position: absolute;
     width: 100%;
 }
-#slide img{
+.slides img{
   border-radius: 3px 3px 0 0;
 }
 /* -----------------
@@ -134,6 +134,9 @@ nav li:last-child a{
 /* ========================================================= About ===*/
 #about img{
   border-radius: 3px;
+}
+#about p{
+  text-align: justify;
 }
 #team{
   list-style: none;
@@ -193,6 +196,13 @@ nav li:last-child a{
 }
 /* ========================================================= Hire ===*/
 #hire{
+
+}
+#hire #subForm .g2, #hire #subForm .g4{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#hire .g4{
 
 }
 #hire .btn{
@@ -268,6 +278,9 @@ footer #social i{
 img{
   height: auto;
   max-width: 100%;
+}
+.last{
+  margin: 0;
 }
 /* ========================================================= Animation ===*/
 @-webkit-keyframes fadeIn {

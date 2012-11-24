@@ -25,6 +25,7 @@
 <script src="/js/plugins.js"></script>
 <script src="/js/ss-social.js"></script>
 <script src="/js/ss-standard.js"></script>
+<script src="/js/flexslider-min.js"></script>
 <script src="/js/script.js"></script>
 </body>
 </html>
