@@ -12,7 +12,7 @@
 
 <div id="footer-wrap"><footer>
 	<div class="container">
-		<p id="copy"><img src="/img/logo-small.png"/> <span>2012 ArcTap</span></p>
+		<p id="copy"><img src="/img/logo-small.png"/> <span>2011 - 2012 ArcTap</span></p>
     <ul id="social">
       <li><a href="https://twitter.com/arctap"><span>Follow us</span> <i class="ss-icon ss-social">&#xF611;</i></a></li>
     </ul>
