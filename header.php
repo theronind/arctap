@@ -36,9 +36,10 @@
 		<h1><a href="/"><img src="/img/logo.png"> <span>ArcTap</span></a></h1>
 		<nav>
 			<ul>
-				<li><a href="/about">About</a></li>
-				<li><a href="/work">Our Work</a></li>
-				<li><a href="/hire">Hire Us</a></li>
+				<li><a href="/about/">About</a></li>
+        <li><a href="/team/">Team</a></li>
+				<li><a href="/work/">Our Work</a></li>
+				<li><a href="/hire/">Hire Us</a></li>
 			</ul>
 		</nav>
 	</div><!--/container-->
