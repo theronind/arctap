@@ -61,7 +61,7 @@ $(document).ready(function(){
     } else {
       $.ajax({
       type: "POST",
-      url: "hireMail.php",
+      url: "/hireMail.php",
       data: dataString,
       success: function(){
         $('.success').fadeIn(1000);
