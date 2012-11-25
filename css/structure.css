@@ -44,7 +44,7 @@
 /* ----------
  -- 960px --
 ---------- */
-@media screen and (min-width: 1023px) and (max-width: 2000px){
+@media screen and (min-width: 1023px) and (max-width: 6000px){
   .g1{max-width: 21%}
   .g1_5{max-width: 29.333%}
   .g2{max-width: 46%}
