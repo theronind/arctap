@@ -37,7 +37,7 @@
 		<nav>
 			<ul>
 				<li><a href="/about">About</a></li>
-				<li><a href="/work">Work</a></li>
+				<li><a href="/work">Our Work</a></li>
 				<li><a href="/hire">Hire Us</a></li>
 			</ul>
 		</nav>
