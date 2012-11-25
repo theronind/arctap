@@ -20,14 +20,14 @@
 			<div class="content">
 
 				<ul id="portfolio">
+					<li class="g2 web">
+						<a href="/work/statuschart/"><img src="/work/statuschart/statuschart.png"/></a>
+					</li>
 					<li class="g2 mobile">
-						<a href="/work/grade-spotter/"><img src="/img/work/gradespotter/gradespotter.png"/></a>
+						<a href="/work/gradespotter/"><img src="/work/gradespotter/gradespotter.png"/></a>
 					</li>
 					<li class="g2 web">
-						<a href=""><img src="/img/work/statuschart/statuschart.png"/></a>
-					</li>
-					<li class="g2 web">
-						<a href=""><img src="/img/work/kristinastpeter/kristinastpeter.png"/></a>
+						<a href="/work/kristinastpeter/"><img src="/work/kristinastpeter/kristinastpeter.png"/></a>
 					</li>
 				</ul>
 

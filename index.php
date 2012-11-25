@@ -14,16 +14,16 @@
 
 			<div class="flexslider">
 				<ul class="slides">
-				  <li>
-				  	<a href="/work/grade-spotter/"><span><img src="/img/work/gradespotter/gradespotter.png"/></span></a>
-				  	<p class="flex-caption">Grade Spotter</p>
-				  </li>
-				  <li>
-				  	<span><img src="/img/work/statuschart/statuschart.png"/></span>
+					<li>
+				  	<a href="/work/statuschart/"><span><img src="/work/statuschart/statuschart.png"/></span></a>
 				  	<p class="flex-caption">Status Chart</p>
 				  </li>
 				  <li>
-				  	<span><img src="/img/work/kristinastpeter/kristinastpeter.png"/></span>
+				  	<a href="/work/gradespotter/"><span><img src="/work/gradespotter/gradespotter.png"/></span></a>
+				  	<p class="flex-caption">Grade Spotter</p>
+				  </li>
+				  <li>
+				  	<a href="/work/kristinastpeter/"><span><img src="/work/kristinastpeter/kristinastpeter.png"/></span></a>
 				  	<p class="flex-caption">Kristina St. Peter</p>
 				  </li>
 				</ul>
@@ -31,23 +31,18 @@
 
 			<div class="content">
 				<div class="g4">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<h5>ArcTap is an outstanding team of trusted freelancers that work together to craft the perfect solution for you and your customers. Each team member is hand selected to join based on their proven excellence in their field.</h5>
 				</div><!--/g4-->
 
-				<div class="g1_5">
+				<div class="g2">
 					<h3>Services</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-				</div><!--/g4-->
+					<p>Our main focus is crafting amazing experiences on mobile, tablet, &amp; desktop devices. We have a fully developed team ready to take on any project. This includes everything from branding to mobile development.</p>
+				</div><!--/g2-->
 
-				<div class="g1_5">
+				<div class="g2">
 					<h3>Process</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-				</div><!--/g4-->
-
-				<div class="g1_5">
-					<h3>Something</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-				</div><!--/g4-->
+					<p>Collectively we get a lot of work request. We work together to see what needs to be done and who is available to be apart of that project. Once we have the team assembled we will be able to start the project. </p>
+				</div><!--/g2-->
 
 			</div><!--/content-->
 		</div><!--/page-->

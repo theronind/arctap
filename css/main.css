@@ -202,6 +202,9 @@ nav li:last-child a{
 #work h2 span{
   display: inline-block;
 }
+#work .icon{
+  border-radius: 3px;
+}
 #work .buttons{
   float: right;
   margin-top: 2px 0 0;

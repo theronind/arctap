@@ -1,9 +1,0 @@
-## Removing Extensions
-## http://blog.sicanstudios.com/post/17713225206/how-to-remove-php-html-htm-extensions-with-htaccess
-
-DirectoryIndex grade-spotter.php
-
-RewriteEngine on 
-RewriteCond %{REQUEST_FILENAME} !-d 
-RewriteCond %{REQUEST_FILENAME}\.php -f 
-RewriteRule ^(.*)$ $1.php

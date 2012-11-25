@@ -24,12 +24,12 @@
 
 				<div class="g1_5">
 					<h3>Fine Craftsmanship</h3>
-					<p>We are all lucky to have such an amazing network of experienced talent. We have been around the block a few times and understand that it is cheaper in the long run to build it right the first time.</p>
+					<p>We are all lucky to have such an amazing network of trusted and experienced talent. We have been around the block a few times and understand that it is cheaper in the long run to build it right the first time.</p>
 				</div><!--/g2-->
 
 				<div class="g1_5">
 					<h3>Elegant Design</h3>
-					<p>Classic is what we build. We have found that chasing the trends puts a quick expiration date on your product. With minimal maintenance, to keep up with best practices, you will have a lasting site.</p>
+					<p>Classic is what we build. We have found that chasing the trends puts a quick expiration date on your product. With minimal maintenance, to keep up with best practices, you will have a lasting image.</p>
 				</div><!--/g2-->
 
 				<div class="g1_5">
