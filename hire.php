@@ -50,7 +50,7 @@
       </div><!--/g1_5-->
       <div class="g1_5">
         <h3>Need a MVP?</h3>
-        <p class="last">Just need to get that Minimum Viable Product to get your idea out there? We have a special team over at <a href="http://48hourapps.com/">48hourapps</a> designated just for that.</p>
+        <p class="last">Just need that Minimum Viable Product to get your idea out there? We have a special team over at <a href="http://48hourapps.com/">48hourapps</a> designated just for that.</p>
       </div><!--/g1_5-->
       <div class="g1_5">
         <h3>Just say Hi.</h3>

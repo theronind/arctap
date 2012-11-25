@@ -49,6 +49,7 @@ select{
     box-shadow: 0 -2px 0 rgba(50, 50, 50, 0.1) inset, 0 1px 0 #FFFFFF inset;
     color: #6A777D;
     height: 40px;
+    margin-bottom: 20px;
     outline: medium none;
     overflow: hidden;
     padding: 9px 8px 8px 7px;

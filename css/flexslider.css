@@ -92,7 +92,12 @@ html[xmlns] .slides {display: block;}
   text-align: right;
 }
 .flex-control-paging li a{
+  background: #c3c5c7;
+  box-shadow: none;
   color: rgba(255, 255, 255, 0);
+}
+.flex-control-paging li a.flex-active{
+  background: #78797a;
 }
 .flex-caption{
   color: #bebfc2;
