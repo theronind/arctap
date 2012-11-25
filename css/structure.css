@@ -30,6 +30,7 @@
 --------- */
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .g1{max-width: 46%}
+  .g1_5{max-width: 46%}
 }
 /* ---------
  -- 768px --

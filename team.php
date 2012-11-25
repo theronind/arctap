@@ -13,59 +13,92 @@
 			<div class="content">
 
 				<ul id="team">
-					<li class="g1">
-						<img src="/img/about/christopher-kennedy.jpg"/>
-						<h3>Kennedy <br/><span>UX Strategist</span></h3>
-						<!--<p>Recently named one of the most poachable players in tech. Nicknamed "The Machine" for his hard work and dedication.</p>-->
+					<li class="g1_5">
+						<div class="pic"><img src="/img/about/christopher-kennedy.jpg"/></div>
+						<div class="bio">
+							<h3>Christopher Kennedy</h3>
+							<h4>UX Strategist</h4>
+							<!--<p>Recently named one of the most poachable players in tech. Nicknamed "The Machine" for his hard work and dedication.</p>-->
+						</div><!--/bio-->
 					</li>
-					<li class="g1">
-						<img src="/img/about/aaron-hall.jpg"/>
-						<h3>Aaron Hall<br/><span>Designer</span></h3>
+					<li class="g1_5">
+						<div class="pic"><img src="/img/about/aaron-hall.jpg"/></div>
+						<div class="bio">
+							<h3>Aaron Hall</h3>
+							<h4>Designer</h4>
+						</div><!--/bio-->
 					</li>
-					<li class="g1">
-						<img src="/img/about/tim-smith.png"/>
-						<h3>Tim Smith<br/><span>Designer</span></h3>
+					<li class="g1_5">
+						<div class="pic"><img src="/img/about/tim-smith.png"/></div>
+						<div class="bio">
+							<h3>Tim Smith</h3>
+							<h4>Designer</h4>
+						</div><!--/bio-->
 					</li>
-					<li class="g1">
-						<img src="/img/about/jarod-reyes.jpg"/>
-						<h3>Jarod Reyes<br/><span>Front-end Developer</span></h3>
+					<li class="g1_5">
+						<div class="pic"><img src="/img/about/jarod-reyes.jpg"/></div>
+						<div class="bio">
+							<h3>Jarod Reyes</h3>
+							<h4>Front-end Developer</h4>
+						</div><!--/bio-->
 					</li>
-					<li class="g1">
-						<img src="/img/about/john-britton.jpg"/>
-						<h3>John Britton<br/><span>Mobile Hacker</span></h3>
+					<li class="g1_5">
+						<div class="pic"><img src="/img/about/john-britton.jpg"/></div>
+						<div class="bio">
+							<h3>John Britton</h3>
+							<h4>Mobile Hacker</h4>
+						</div><!--/bio-->
 					</li>
 					<!--<li class="g3">
 						<img src="http://placehold.it/460x460"/>
-						<h3>Richard Owens<br/><span>iOS Developer</span></h3>
+						<h3>Richard Owens</h3><h4>iOS Developer</h4>
 					</li>-->
-					<li class="g1">
-						<img src="/img/about/frank-denbow.jpg"/>
-						<h3>Frank Denbow<br/><span>iOS Developer</span></h3>
+					<li class="g1_5">
+						<div class="pic"><img src="/img/about/frank-denbow.jpg"/></div>
+						<div class="bio">
+							<h3>Frank Denbow</h3>
+							<h4>iOS Developer</h4>
+						</div><!--/bio-->
 					</li>
-					<li class="g1">
-						<img src="/img/about/jon-gottfried.jpg"/>
-						<h3>Jon Gottfried<br/><span>Developer</span></h3>
-						<!--<p>Jon has competed in more hackathons than he has fingers and has won a good portion of them.</p>-->
+					<li class="g1_5">
+						<div class="pic"><img src="/img/about/jon-gottfried.jpg"/></div>
+						<div class="bio">
+							<h3>Jon Gottfried</h3>
+							<h4>Developer</h4>
+							<!--<p>Jon has competed in more hackathons than he has fingers and has won a good portion of them.</p>-->
+						</div><!--/bio-->
 					</li>
 					<!--<li class="g3">
 						<img src="http://placehold.it/460x460"/>
-						<h3>Stephen Cannizzaro<br/><span>Front-end Developer</span></h3>
+						<h3>Stephen Cannizzaro</h3><h4>Front-end Developer</h4>
 					</li>-->
-					<li class="g1">
-						<img src="/img/about/sara-kennedy.jpg"/>
-						<h3>Sara Kennedy<br/><span>Brand Manager</span></h3>
+					<li class="g1_5">
+						<div class="pic"><img src="/img/about/sara-kennedy.jpg"/></div>
+						<div class="bio">
+							<h3>Sara Kennedy</h3>
+							<h4>Brand Manager</h4>
+						</div><!--/bio-->
 					</li>
-					<li class="g1">
-						<img src="/img/about/kristina-stpeter.jpg"/>
-						<h3>Kristina St. Peter<br/><span>Public Relations Coordinator</span></h3>
+					<li class="g1_5">
+						<div class="pic"><img src="/img/about/kristina-stpeter.jpg"/></div>
+						<div class="bio">
+							<h3>Kristina St. Peter</h3>
+							<h4>Public Relations Coordinator</h4>
+						</div><!--/bio-->
 					</li>
-					<li class="g1">
-						<img src="/img/about/justin-lamonica.jpg"/>
-						<h3>Justin LaMonica<br/><span>Account Supervisor</span></h3>
+					<li class="g1_5">
+						<div class="pic"><img src="/img/about/justin-lamonica.jpg"/></div>
+						<div class="bio">
+							<h3>Justin LaMonica</h3>
+							<h4>Account Supervisor</h4>
+						</div><!--/bio-->
 					</li>
-					<li class="g1">
-						<img src="/img/about/jenna-santana.jpg"/>
-						<h3>Jenna Santana<br/><span>Copywriter</span></h3>
+					<li class="g1_5">
+						<div class="pic"><img src="/img/about/jenna-santana.jpg"/></div>
+						<div class="bio">
+							<h3>Jenna Santana</h3>
+							<h4>Copywriter</h4>
+						</div><!--/bio-->
 					</li>
 				</ul>
 

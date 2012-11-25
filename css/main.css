@@ -174,16 +174,37 @@ nav li:last-child a{
 #team li{
 
 }
-#team img{
-  margin: 0 0 20px;
-}
 #team h3{
-  font-size: 19px;
+  font-size: 23px;
   margin: 0;
 }
-#team h3 span{
-  font-size: 14px;
+#team h4{
+  font-size: 1em;
   color: #7695a3;
+}
+#team .pic {
+  display: block;
+  margin-bottom: 4%;
+  overflow:hidden;
+  position: relative;
+}
+#team .pic:before {
+  background-image: url("/img/glare.png");
+  background-repeat: no-repeat;
+  border-radius: 3px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.7) inset, 0 0 3px rgba(255, 255, 255, 0.7) inset, 0 2px 0 rgba(255, 255, 255, 0.5) inset;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+#team .pic img{
+  border-radius: 3px;
+  margin: -35px 0px -60px 0px;
+}
+#team .bio{
+
 }
 /* ========================================================= Work ===*/
 #work{
