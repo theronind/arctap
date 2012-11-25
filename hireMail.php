@@ -12,7 +12,7 @@ if($_POST){
     $message = stripslashes($message);
   }
 
-  $address  = "kennedysgarage@gmail.com";
+  $address  = "team@arctap.com";
   $subject  = "Inquiry: " . $name;
   $body     = "<html><body>";
   $body    .= "<strong>Name</strong>: " . $name . "<br/>";
