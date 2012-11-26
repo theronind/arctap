@@ -233,6 +233,9 @@ nav li:last-child a{
 #work{
 
 }
+#work img{
+  border-radius: 3px;
+}
 #work h2{
   display: inline-block;
   margin: 0;
