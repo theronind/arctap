@@ -175,29 +175,21 @@ nav li:last-child a{
 
 }
 #team h3{
+  display: inline;
   font-size: 23px;
   margin: 0;
 }
 #team h4{
   font-size: 1em;
   color: #7695a3;
+  margin: 0;
 }
 #team .pic {
+  border-radius: 3px;
   display: block;
   margin-bottom: 4%;
   overflow:hidden;
   position: relative;
-}
-#team .pic:before {
-  background-image: url("/img/glare.png");
-  background-repeat: no-repeat;
-  border-radius: 3px;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.7) inset, 0 0 3px rgba(255, 255, 255, 0.7) inset, 0 2px 0 rgba(255, 255, 255, 0.5) inset;
-  content: "";
-  height: 100%;
-  left: 0;
-  position: absolute;
-  width: 100%;
 }
 #team .pic img{
   border-radius: 3px;
@@ -205,6 +197,37 @@ nav li:last-child a{
 }
 #team .bio{
 
+}
+#team .links{
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+#team .links li{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+#team .links a{
+
+}
+#team .links i{
+  font-size: 19px;
+  font-weight: bold;
+  vertical-align: top;
+}
+#team .links img{
+  vertical-align: sub;
+}
+#team .links .twitter{
+  color: #10abf2;
+}
+#team .links .statuschart{
+  color: #df5753;
+}
+#team .links .website{
+  color: #35cbe6;
 }
 /* ========================================================= Work ===*/
 #work{

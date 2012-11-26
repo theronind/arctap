@@ -16,15 +16,23 @@
 					<li class="g1_5">
 						<div class="pic"><img src="/img/about/christopher-kennedy.jpg"/></div>
 						<div class="bio">
-							<h3>Christopher Kennedy</h3>
-							<h4>UX Strategist</h4>
-							<!--<p>Recently named one of the most poachable players in tech. Nicknamed "The Machine" for his hard work and dedication.</p>-->
+							<h3>Kennedy</h3>
+							<ul class="links">
+								<li><a href="http://kennedysgarage.com/" class="website"><i class="ss-icon">&#x1F30E;</i></a></li>
+								<li><a href="https://twitter.com/kennedysgarage" class="twitter"><i class="ss-icon ss-social">&#xF611;</i></a></li>
+								<li><a href="https://www.statuschart.com/kennedysgarage" class="statuschart"><img src="/img/statuschart-20x20.png"></a></li>
+							</ul>
+							<h4>Founder &amp; UX Strategist</h4>
 						</div><!--/bio-->
 					</li>
 					<li class="g1_5">
 						<div class="pic"><img src="/img/about/aaron-hall.jpg"/></div>
 						<div class="bio">
 							<h3>Aaron Hall</h3>
+							<ul class="links">
+								<li><a href="http://aaron.im/" class="website"><i class="ss-icon">&#x1F30E;</i></a></li>
+								<li><a href="https://twitter.com/llahnoraa" class="twitter"><i class="ss-icon ss-social">&#xF611;</i></a></li>
+							</ul>
 							<h4>Designer</h4>
 						</div><!--/bio-->
 					</li>
@@ -32,6 +40,11 @@
 						<div class="pic"><img src="/img/about/tim-smith.png"/></div>
 						<div class="bio">
 							<h3>Tim Smith</h3>
+							<ul class="links">
+								<li><a href="http://timothybsmith.com/" class="website"><i class="ss-icon">&#x1F30E;</i></a></li>
+								<li><a href="https://twitter.com/timothybsmith" class="twitter"><i class="ss-icon ss-social">&#xF611;</i></a></li>
+								<li><a href="https://www.statuschart.com/timothybsmith" class="statuschart"><img src="/img/statuschart-20x20.png"></a></li>
+							</ul>
 							<h4>Designer</h4>
 						</div><!--/bio-->
 					</li>
@@ -39,6 +52,10 @@
 						<div class="pic"><img src="/img/about/jarod-reyes.jpg"/></div>
 						<div class="bio">
 							<h3>Jarod Reyes</h3>
+							<ul class="links">
+								<li><a href="http://jarodreyes.com/" class="website"><i class="ss-icon">&#x1F30E;</i></a></li>
+								<li><a href="https://twitter.com/jreyesdesign" class="twitter"><i class="ss-icon ss-social">&#xF611;</i></a></li>
+							</ul>
 							<h4>Front-end Developer</h4>
 						</div><!--/bio-->
 					</li>
@@ -46,6 +63,10 @@
 						<div class="pic"><img src="/img/about/john-britton.jpg"/></div>
 						<div class="bio">
 							<h3>John Britton</h3>
+							<ul class="links">
+								<li><a href="http://johndbritton.com/" class="website"><i class="ss-icon">&#x1F30E;</i></a></li>
+								<li><a href="https://twitter.com/johndbritton" class="twitter"><i class="ss-icon ss-social">&#xF611;</i></a></li>
+							</ul>
 							<h4>Mobile Hacker</h4>
 						</div><!--/bio-->
 					</li>
@@ -57,6 +78,10 @@
 						<div class="pic"><img src="/img/about/frank-denbow.jpg"/></div>
 						<div class="bio">
 							<h3>Frank Denbow</h3>
+							<ul class="links">
+								<li><a href="https://twitter.com/FrankDenbow" class="twitter"><i class="ss-icon ss-social">&#xF611;</i></a></li>
+								<li><a href="https://www.statuschart.com/frank" class="statuschart"><img src="/img/statuschart-20x20.png"></a></li>
+							</ul>
 							<h4>iOS Developer</h4>
 						</div><!--/bio-->
 					</li>
@@ -64,8 +89,12 @@
 						<div class="pic"><img src="/img/about/jon-gottfried.jpg"/></div>
 						<div class="bio">
 							<h3>Jon Gottfried</h3>
+							<ul class="links">
+								<li><a href="http://www.jonmarkgo.com/" class="website"><i class="ss-icon">&#x1F30E;</i></a></li>
+								<li><a href="https://twitter.com/jonmarkgo" class="twitter"><i class="ss-icon ss-social">&#xF611;</i></a></li>
+								<li><a href="https://www.statuschart.com/jonmarkgo" class="statuschart"><img src="/img/statuschart-20x20.png"></a></li>
+							</ul>
 							<h4>Developer</h4>
-							<!--<p>Jon has competed in more hackathons than he has fingers and has won a good portion of them.</p>-->
 						</div><!--/bio-->
 					</li>
 					<!--<li class="g3">
@@ -76,6 +105,9 @@
 						<div class="pic"><img src="/img/about/sara-kennedy.jpg"/></div>
 						<div class="bio">
 							<h3>Sara Kennedy</h3>
+							<ul class="links">
+								<li><a href="https://twitter.com/gatorsaranyc" class="twitter"><i class="ss-icon ss-social">&#xF611;</i></a></li>
+							</ul>
 							<h4>Brand Manager</h4>
 						</div><!--/bio-->
 					</li>
@@ -83,6 +115,10 @@
 						<div class="pic"><img src="/img/about/kristina-stpeter.jpg"/></div>
 						<div class="bio">
 							<h3>Kristina St. Peter</h3>
+							<ul class="links">
+								<li><a href="http://kristinastpeter.com" class="website"><i class="ss-icon">&#x1F30E;</i></a></li>
+								<li><a href="https://twitter.com/kristinastpeter" class="twitter"><i class="ss-icon ss-social">&#xF611;</i></a></li>
+							</ul>
 							<h4>Public Relations Coordinator</h4>
 						</div><!--/bio-->
 					</li>
@@ -90,6 +126,9 @@
 						<div class="pic"><img src="/img/about/justin-lamonica.jpg"/></div>
 						<div class="bio">
 							<h3>Justin LaMonica</h3>
+							<ul class="links">
+								<li><a href="https://twitter.com/ThisMustBSatire" class="twitter"><i class="ss-icon ss-social">&#xF611;</i></a></li>
+							</ul>
 							<h4>Account Supervisor</h4>
 						</div><!--/bio-->
 					</li>
@@ -97,6 +136,11 @@
 						<div class="pic"><img src="/img/about/jenna-santana.jpg"/></div>
 						<div class="bio">
 							<h3>Jenna Santana</h3>
+							<ul class="links">
+								<li><a href="http://www.jennasantana.com/" class="website"><i class="ss-icon">&#x1F30E;</i></a></li>
+								<li><a href="https://twitter.com/vh1jenna" class="twitter"><i class="ss-icon ss-social">&#xF611;</i></a></li>
+								<li><a href="https://www.statuschart.com/jennasantana" class="statuschart"><img src="/img/statuschart-20x20.png"></a></li>
+							</ul>
 							<h4>Copywriter</h4>
 						</div><!--/bio-->
 					</li>
