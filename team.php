@@ -22,7 +22,7 @@
 								<li><a href="https://twitter.com/kennedysgarage" class="twitter"><i class="ss-icon ss-social">&#xF611;</i></a></li>
 								<li><a href="https://www.statuschart.com/kennedysgarage" class="statuschart"><img src="/img/statuschart-20x20.png"></a></li>
 							</ul>
-							<h4>Founder &amp; UX Strategist</h4>
+							<h4>UX Strategist</h4>
 						</div><!--/bio-->
 					</li>
 					<li class="g1_5">
