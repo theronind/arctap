@@ -1,0 +1,362 @@
+/* ========================================================= Import ===*/
+@import url('../../css/reset.css');
+@import url('../../css/typography.css');
+html, body{
+	background-color: #eeeeee;
+	font-family: "Times New Roman",Georgia,Serif;
+}
+/* ========================================================= Font Face ===*/
+@font-face {
+	font-family:"dock11";
+		src:url("/work/touchingnews/font/dock11/heavy_dock11.eot?") format("eot"),
+		url("/work/touchingnews/font/dock11/heavy_dock11.woff") format("woff"),
+		url("/work/touchingnews/font/dock11/heavy_dock11.ttf") format("truetype"),
+		url("/work/touchingnews/font/dock11/heavy_dock11.svg#DOCK11-Heavy") format("svg");
+	font-weight:normal;
+	font-style:normal;
+}
+/* ========================================================= Typography ===*/
+h1{
+	color: #35444a;
+	font-family: "Times New Roman",Georgia,Serif;
+	font-size: 3.3em;
+	font-weight: 900;
+	margin: 0 0 5px;
+	text-align: center;
+	text-transform: uppercase;
+}
+h2{
+	font-family: "Times New Roman",Georgia,Serif;
+	font-size: 2.3em;
+	line-height: 1.1em;
+	font-weight: 100;
+	margin: 5px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+h3{
+	font-family: "Times New Roman",Georgia,Serif;
+	margin: 0;
+	padding: 5px 0;
+	text-align: center;
+}
+p{
+	margin: 0;
+	font-family: "Times New Roman",Georgia,Serif;
+	font-size: 1.2em;
+	text-align: justify;
+	text-indent: 1em;
+}
+/* ========================================================= Structure ===*/
+.container{
+	margin: 0 auto;
+	padding: 0;
+	width: 300px;
+}
+.content{
+	margin: 0 20px;
+}
+.container:before, .container:after, .content:before, .content:after, #sidebar:before, #sidebar:after { content: ""; display: table; }
+.container:after, .content:after, #sidebar:after { clear: both; }
+.container, .content, #sidebar { zoom: 1; }
+.container, article, #sidebar {
+	-webkit-transition:all .2s ease-out;
+	-moz-transition:all .2s ease-out;
+	transition:all .2s ease-out;
+}
+/* ========================================================= Header ===*/
+header{
+	background-color: #fff;
+	border-bottom: 1px solid #dbdbdc;
+	padding: 20px 0;
+	margin: 0 0 40px;
+}
+header h1{
+	color: #30353b;
+	font-family: 'dock11';
+	margin: 14px 0 0;
+	font-size: 36px;
+	text-align: center;
+	text-transform: uppercase;
+}
+#header img {
+	vertical-align: text-top;
+}
+/* -------
+ -- Nav --
+------- */
+nav {
+    text-align: center;
+}
+nav ul li {
+    font-size: 16px;
+    list-style: none outside none;
+}
+nav ul li a{
+	background-color: #35444A;
+	border-radius: 3px;
+	color: #fff;
+	display: block;
+	font-family: helvetica;
+	text-decoration: none;
+	margin: 0 0 2px;
+	padding: 5px 15px;
+}
+/* ========================================================= Content ===*/
+article {
+	float: left;
+	max-width: 260px;
+	width: 100%;
+}
+article img{
+	border-radius: 3px;
+	max-width: 100%;
+	height: auto;
+	margin: 0 0 20px;
+}
+.byline{
+	font-size: 1em;
+	line-height: 1;
+	margin: 5px 0 0;
+	text-align: center;
+}
+/* ========================================================= Sidebar ===*/
+#sidebar {
+	background-color: #dbdbdc;
+	display: none;
+	float: left;
+	margin: 0 0 10px;
+	padding: 20px 20px 0;
+	max-width: 220px;
+	width: 100%;
+}
+#paper{
+	display: none;
+}
+.ad300x250{
+	float: left;
+}
+/* ========================================================= Footer ===*/
+footer{
+	border-top: 1px dashed #b7b8ba;
+	margin: 20px 0 0;
+	padding: 20px 0;
+}
+#copy{
+	color: #808080;
+	font-family: helvetica;
+	font-size: 14px;
+	display: inline-block;
+}
+/* ---------------
+ -- Device Icon --
+--------------- */
+#view {
+    float: right;
+    margin: -5px 20px 0 0;
+}
+#device {
+    background-image: url("/work/touchingnews/img/desktop.png");
+    color: #808080;
+    display: inline-block;
+    height: 22px;
+    vertical-align: middle;
+    width: 28px;
+}
+#device:before {
+    content: "Desktop";
+    display: block;
+    font-family: helvetica;
+    font-size: 10px;
+    margin: 20px 0 0 -4px;
+}
+@media (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait){
+	#device{background-image: url(/work/touchingnews/img/mobile-p.png);width: 14px; height:24px;}
+	#device:before {content: "Mobile";display: block;margin: 22px 0 0 -14px;}
+}
+@media (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape){
+	#device{background-image: url(/work/touchingnews/img/mobile-l.png);width: 24px; height: 14px;}
+	#device:before {content: "Mobile";display: block;margin: 14px 0 0 -8px;}
+}
+@media (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait){
+	#device{background-image: url(/work/touchingnews/img/tablet-p.png);width: 20px; height: 27px;}
+	#device:before {content: "Tablet";display: block;margin: 25px 0 0 -9px;}
+}
+@media (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
+	#device{background-image: url(/work/touchingnews/img/tablet-l.png);width: 27px; height: 20px;}
+	#device:before {content: "Tablet";display: block;margin: 20px 0 0 -4px;}
+}
+/* ========================================================= Utility ===*/
+hr{
+	margin: 0 auto;
+  width: 70%;
+}
+/* ========================================================= Media Queries ===*/
+/* ---------
+ -- 320px --
+--------- */
+@media screen and (min-width: 0px) and (max-width: 479px) {
+	header h1{font-size: 28px;}
+	h1{font-size: 2.8em;}
+	h2{font-size: 1.9em;}
+	h3{font-size: 1.4em;}
+}
+/* ---------
+ -- 480px --
+--------- */
+@media screen and (min-width: 480px) {
+	.container {width: 460px;}
+	article {max-width: 420px;}
+	h1{font-size: 2.4em;}
+	h2{font-size: 1.7em;}
+	h3{font-size: 1.3em;}
+	#sidebar {max-width: 380px; display: none;}
+}
+/* ---------
+ -- 768px --
+--------- */
+@media screen and (min-width: 768px) {
+	.container {width: 748px;}
+	article {max-width: 748px;}
+	#sidebar {max-width: 668px; display: block;}
+	.ad300x250{
+		margin: 0 17px 20px;
+	}
+	header h1{
+		display: inline-block;
+	}
+	nav {
+	    text-align: center;
+	    float: right;
+	}
+	nav ul {
+	    margin: 11px 0 0;
+	}
+	nav ul li {
+	    display: inline-block;
+	}
+	nav ul li a{
+		color: #FC6A63;
+		background: none;
+	}
+	h1{font-size: 3.6em;}
+	h2{font-size: 2.5em;}
+	h3{font-size: 1.3em;}
+}
+/* ----------
+ -- 1024px --
+---------- */
+@media screen and (min-width: 1024px) {
+	.container {width: 1004px;}
+	article {max-width: 594px;}
+	#sidebar {max-width: 300px;margin: 0 0 0 30px;}
+	.ad300x250{
+		float: none;
+		margin: 0 0 20px;
+		width: 300px; height: 250px;
+	}
+	#paper{
+		display: block;
+		margin: 0 0 20px;
+	}
+}
+/* ========================================================= Ads ===*/
+.tablet300x250{
+	display: none;
+}
+#tablet728{
+	display: none;
+}
+@media (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait){
+	header h1{
+		float: left;
+	}
+	#tablet728{
+		background-color: #bbb;
+		background-image: url("/work/touchingnews/img/noise-bbb.png");
+		border-top: 1px solid #999;
+		-webkit-box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.4);
+		-moz-box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.4);
+		box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.4);
+		bottom: 0; left: 0;
+		display: block;
+		position: fixed;
+		text-align: center;
+		width: 100%;
+		z-index: 10;
+	}
+	#tablet728 img{
+		border-radius: 3px;
+		box-shadow:  0 1px 3px rgba(0, 0, 0, 0.4);
+		margin: 10px 0;
+	}
+	#sidebar{
+		display: none;
+	}
+	footer{
+		margin: 0 0 110px;
+	}
+}
+@media (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
+	header .container{
+		width: 340px;
+	}
+	header{
+		border-left: 1px solid #dbdbdc;
+		margin: 0;
+		width: 340px;
+		padding: 0;
+		position: fixed;
+		top: 0;
+		left: 0;
+		bottom: 0;
+	}
+	header h1{
+		display: block;
+		margin: 10px 0 0px;
+		font-size: 32px;
+		text-align: left;
+		text-transform: uppercase;
+	}
+	nav {
+	    text-align: left;
+		display:block;
+		float: none;
+		margin: 0 0 10px;
+	}
+	nav ul li {
+		display: block;
+	    font-size: 16px;
+	}
+	nav ul li a{
+		background-color: #35444A;
+		border-radius: 3px;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    margin: 0 0 2px;
+    padding: 5px 15px;
+	}
+	nav ul li a:hover{
+		color: #00A0C6;
+	}
+	article{
+		margin: 15px 0 0;
+		float: right;
+	}
+	#sidebar{
+		display: none;
+	}
+	.tablet300x250{
+		display: block;
+		margin: 0 0 20px;
+	}
+	#tablet728{
+		display: none;
+	}
+	article, footer{
+		width: 100%;
+		max-width:623px;
+		float: right;
+	}
+}

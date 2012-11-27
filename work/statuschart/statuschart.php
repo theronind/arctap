@@ -14,15 +14,15 @@
 	<div class="flexslider">
 				<ul class="slides">
 				  <li>
-				  	<span><img src="/work/statuschart/statuschart.png"/></span>
+				  	<span><img src="/work/statuschart/img/slide1.png"/></span>
 				  	<p class="flex-caption">Status Chart</p>
 				  </li>
 				  <li>
-				  	<span><img src="/work/statuschart/statuschart2.png"/></span>
+				  	<span><img src="/work/statuschart/img/slide2.png"/></span>
 				  	<p class="flex-caption">Status Chart</p>
 				  </li>
 				  <li>
-				  	<span><img src="/work/statuschart/statuschart3.png"/></span>
+				  	<span><img src="/work/statuschart/img/slide3.png"/></span>
 				  	<p class="flex-caption">Status Chart</p>
 				  </li>
 				</ul>
@@ -31,7 +31,7 @@
 	<div class="content">
 		<div class="g4">
 			<div class="title clearfix">
-				<h2><a href="https://www.statuschart.com"><img src="/work/statuschart/statuschart-icon.png"/> <span>Status Chart</span></a></h2>
+				<h2><a href="https://www.statuschart.com"><img src="/work/statuschart/img/icon.png"/> <span>Status Chart</span></a></h2>
 				<div class="buttons"><a href="https://www.statuschart.com" class="btn btn-primary">Visit Site <i class="ss-icon">&#x1F4BB;</i></a></div>
 			</div><!--/title-->
 			<p>Status Chart is your professional dashboard. The simplest way track and share your professional milestones and all of the important things that make you who you are.</p>

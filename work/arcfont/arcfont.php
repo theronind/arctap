@@ -14,15 +14,15 @@
 	<div class="flexslider">
 				<ul class="slides">
 				  <li>
-				  	<span><img src="/work/arcfont/arcfont.png"/></span>
+				  	<span><img src="/work/arcfont/img/slide1.png"/></span>
 				  	<p class="flex-caption">ArcFont</p>
 				  </li>
 				  <li>
-				  	<span><img src="/work/arcfont/arcfont2.png"/></span>
+				  	<span><img src="/work/arcfont/img/slide2.png"/></span>
 				  	<p class="flex-caption">ArcFont</p>
 				  </li>
 				  <li>
-				  	<span><img src="/work/arcfont/arcfont3.png"/></span>
+				  	<span><img src="/work/arcfont/img/slide3.png"/></span>
 				  	<p class="flex-caption">ArcFont</p>
 				  </li>
 				</ul>
@@ -31,7 +31,7 @@
 	<div class="content">
 		<div class="g4">
 			<div class="title clearfix">
-				<h2><a href=""><img src="/work/arcfont/arcfont-icon.png"/> <span>ArcFont</span></a></h2>
+				<h2><a href=""><img src="/work/arcfont/img/icon.png"/> <span>ArcFont</span></a></h2>
 				<div class="buttons"><a href="" class="btn btn-primary">Visit Site <i class="ss-icon">&#x1F4BB;</i></a></div>
 			</div><!--/title-->
 			<p>ArcFont is ...</p>

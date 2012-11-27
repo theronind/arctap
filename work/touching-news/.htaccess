@@ -1,8 +1,0 @@
-## Removing Extensions
-## http://blog.sicanstudios.com/post/17713225206/how-to-remove-php-html-htm-extensions-with-htaccess
-
-DirectoryIndex touching-news.php
-
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.php [NC,L]

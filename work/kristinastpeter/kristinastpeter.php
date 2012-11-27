@@ -14,15 +14,15 @@
 	<div class="flexslider">
 				<ul class="slides">
 				  <li>
-				  	<span><img src="/work/kristinastpeter/kristinastpeter.png"/></span>
+				  	<span><img src="/work/kristinastpeter/img/slide1.png"/></span>
 				  	<p class="flex-caption">Kristina St. Peter</p>
 				  </li>
 				  <li>
-				  	<span><img src="/work/kristinastpeter/kristinastpeter2.png"/></span>
+				  	<span><img src="/work/kristinastpeter/img/slide2.png"/></span>
 				  	<p class="flex-caption">Kristina St. Peter</p>
 				  </li>
 				  <li>
-				  	<span><img src="/work/kristinastpeter/kristinastpeter3.png"/></span>
+				  	<span><img src="/work/kristinastpeter/img/slide3.png"/></span>
 				  	<p class="flex-caption">Kristina St. Peter</p>
 				  </li>
 				</ul>
@@ -31,7 +31,7 @@
 	<div class="content">
 		<div class="g4">
 			<div class="title clearfix">
-				<h2><a href="http://kristinastpeter.com"><img src="/work/kristinastpeter/kristinastpeter-icon.png" class="icon"/> <span>Kristina St. Peter</span></a></h2>
+				<h2><a href="http://kristinastpeter.com"><img src="/work/kristinastpeter/img/icon.png" class="icon"/> <span>Kristina St. Peter</span></a></h2>
 				<div class="buttons"><a href="http://kristinastpeter.com" class="btn btn-primary">Visit Site <i class="ss-icon">&#x1F4BB;</i></a></div>
 			</div><!--/title-->
 			<p>Kristina St. Peter is a amazing Public Relations Coordinator that is apart of our team. This website was a gift for her as a little token of our appreciation when she helped us out on Grade Spotter. The site is a single page r&eacute;sum&eacute; that looks great on everything from your iPhone to your desktop.</p>

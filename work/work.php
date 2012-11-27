@@ -21,13 +21,13 @@
 
 				<ul id="portfolio">
 					<li class="g2 web">
-						<a href="/work/statuschart/"><img src="/work/statuschart/statuschart.png"/></a>
+						<a href="/work/statuschart/"><img src="/work/statuschart/img/slide3.png"/></a>
 					</li>
 					<li class="g2 mobile">
-						<a href="/work/gradespotter/"><img src="/work/gradespotter/gradespotter.png"/></a>
+						<a href="/work/gradespotter/"><img src="/work/gradespotter/img/slide3.png"/></a>
 					</li>
 					<li class="g2 web">
-						<a href="/work/kristinastpeter/"><img src="/work/kristinastpeter/kristinastpeter.png"/></a>
+						<a href="/work/kristinastpeter/"><img src="/work/kristinastpeter/img/slide3.png"/></a>
 					</li>
 				</ul>
 

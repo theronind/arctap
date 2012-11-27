@@ -6,14 +6,14 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>Touching News &#9889; ArcTap</title>
+<title>Touching News Demo &#9889; ArcTap</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <link rel="shortcut icon" href="/favicon.png">
 <link rel="stylesheet" href="/css/reset.css">
-<link rel="stylesheet" href="/work/touching-news/demo.css">
+<link rel="stylesheet" href="/work/touchingnews/demo.css">
 </head>
 <body>
 <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
@@ -24,8 +24,7 @@
 			<h1>Touching News</h1>
 			<nav>
 				<ul>
-					<li><a href="/work/touching-news/">Back to Blog Post</a></li>
-					<li><a href="/">ArcTap</a></li>
+					<li><a href="/work/touchingnews/">Back to ArcTap</a></li>
 				</ul>
 			</nav>
 			<div class="tablet300x250"><a href="http://adsperience.com/"><img src="img/300x250a.png"/></a></div>
@@ -33,16 +32,18 @@
 		</div><!--/content-->
 		</div><!--/container-->
 	</header>
-	
+
 	<div class="container">
 	<div class="content">
 		<article>
 			<img src="img/moon.jpg"/>
 			<h1>Men Walk On Moon</h1>
-			<p><strong>Astronauts Land On Plain; Collect Rocks, Plant Flag</strong></p>
-			<p>A Powdery Surface Is Closely Explored</p>
-			<p class="byline">By John Noble Wilford</p>
-			<p><small>Special to The New York Times</small></p><br/>
+			<hr/>
+			<h2>Astronauts Land On Plain;<br/>Collect Rocks, Plant Flag</h2>
+			<hr/>
+			<h3>A Powdery Surface Is Closely Explored</h3>
+			<hr/>
+			<p class="byline">By John Noble Wilford<br/><small>Special to The New York Times</small></p><br/>
 			<p>Houston, Monday, July 21--Men have landed and walked on the moon.</p>
 			<p>Two Americans, astronauts of Apollo 11, steered their fragile four-legged lunar module safely and smoothly to the historic landing yesterday at 4:17:40 P.M., Eastern daylight time.</p>
 			<p>Neil A. Armstrong, the 38-year-old civilian commander, radioed to earth and the mission control room here:</p>
@@ -66,26 +67,26 @@
 			<p><em>Orginal and complete source can be found at <a href="http://www.nytimes.com/learning/general/onthisday/big/0720.html">The New York Times</a>.</em></p>
 			<br/>
 		</article>
-		
+
 		<div id="sidebar">
 			<div class="ad300x250"><a href="http://adsperience.com/"><img src="img/300x250a.png"/></a></div>
-			<img src="img/paper-thumb.jpg" id="paper"/>
+			<a href="img/paper.jpg"><img src="img/paper-thumb.jpg" id="paper"/></a>
 			<div class="ad300x250"><a href="http://adsperience.com/"><img src="img/300x250b.png"/></a></div>
 		</div><!--/sidebar-->
-		
+
 		<div class="clear"></div>
-		
+
 		<footer>
 			<p id="copy">&copy; 2012 ArcTap</p>
 			<div id="view">
 				<span id="device"></span>
 			</div>
 		</footer>
-		
+
 	</div><!--/content-->
-	
+
 	</div><!--/container-->
-	
+
 	<div id="tablet728">
 		<a href="http://adsperience.com/"><img src="img/728x90.png"/></a>
 	</div><!--/tablet728-->

@@ -14,15 +14,15 @@
 	<div class="flexslider">
 				<ul class="slides">
 				  <li>
-				  	<span><img src="/work/gradespotter/gradespotter.png"/></span>
+				  	<span><img src="/work/gradespotter/img/slide1.png"/></span>
 				  	<p class="flex-caption">Grade Spotter</p>
 				  </li>
 				  <li>
-				  	<span><img src="/work/gradespotter/gradespotter2.png"/></span>
+				  	<span><img src="/work/gradespotter/img/slide2.png"/></span>
 				  	<p class="flex-caption">Grade Spotter</p>
 				  </li>
 				  <li>
-				  	<span><img src="/work/gradespotter/gradespotter3.png"/></span>
+				  	<span><img src="/work/gradespotter/img/slide3.png"/></span>
 				  	<p class="flex-caption">Grade Spotter</p>
 				  </li>
 				</ul>
@@ -31,7 +31,7 @@
 	<div class="content">
 		<div class="g4">
 			<div class="title clearfix">
-				<h2><a href="http://gradespotter.com"><img src="/work/gradespotter/gradespotter-icon.png"/> <span>Grade Spotter</span></a></h2>
+				<h2><a href="http://gradespotter.com"><img src="/work/gradespotter/img/icon.png"/> <span>Grade Spotter</span></a></h2>
 				<div class="buttons"><a href="http://itunes.apple.com/us/app/grade-spotter/id515154594?ls=1&mt=8" class="btn btn-dlapp">Download App <i class="ss-icon">&#x1F4F1;</i></a> <a href="http://gradespotter.com" class="btn btn-primary">Visit Site <i class="ss-icon">&#x1F4BB;</i></a></div>
 			</div><!--/title-->
 			<p>Grade Spotter is a full-featured restaurant inspection guide for your iPhone. There are no more excuses for the unknown reasons behind your favorite NYC restaurant's grade.</p>
