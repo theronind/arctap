@@ -3,7 +3,7 @@ A amazing team of freelancers
 
 ## Team Members & Emails
 * Christoper Kennedy - kennedysgarage@gmail.com
-* Aaron Hall -
+* Aaron Hall - llahnoraa@gmail.com
 * Tim Smith -
 * Jarod Reyes -
 * John Britton -
