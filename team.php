@@ -97,6 +97,16 @@
 							<h4>Developer</h4>
 						</div><!--/bio-->
 					</li>
+					<li class="g1_5">
+						<div class="pic"><img src="/img/team/kevin-quinn.jpg"/></div>
+						<div class="bio">
+							<h3>Kevin Quinn</h3>
+							<ul class="links">
+								<li><a href="https://twitter.com/djkevinquinn" class="twitter"><i class="ss-icon ss-social">&#xF611;</i></a></li>
+							</ul>
+							<h4>Voice Actor</h4>
+						</div><!--/bio-->
+					</li>
 					<!--<li class="g3">
 						<img src="http://placehold.it/460x460"/>
 						<h3>Stephen Cannizzaro</h3><h4>Front-end Developer</h4>
