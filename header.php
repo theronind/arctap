@@ -15,7 +15,6 @@
 <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="/css/style.css">
 <script src="/js/libs/modernizr-2.5.3.min.js"></script>
-<script type="text/javascript">
 <script>
   var _gaq=[['_setAccount','UA-30650045-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
