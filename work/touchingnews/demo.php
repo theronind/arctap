@@ -27,8 +27,8 @@
 					<li><a href="/work/touchingnews/">Back to ArcTap</a></li>
 				</ul>
 			</nav>
-			<div class="tablet300x250"><a href="http://adsperience.com/"><img src="img/300x250a.png"/></a></div>
-			<div class="tablet300x250"><a href="http://adsperience.com/"><img src="img/300x250b.png"/></a></div>
+			<div class="tablet300x250"><a href="https://www.statuschart.com/"><img src="img/300x250a.png"/></a></div>
+			<div class="tablet300x250"><a href="https://www.statuschart.com/"><img src="img/300x250b.png"/></a></div>
 		</div><!--/content-->
 		</div><!--/container-->
 	</header>
@@ -69,9 +69,9 @@
 		</article>
 
 		<div id="sidebar">
-			<div class="ad300x250"><a href="http://adsperience.com/"><img src="img/300x250a.png"/></a></div>
+			<div class="ad300x250"><a href="https://www.statuschart.com/"><img src="img/300x250a.png"/></a></div>
 			<a href="img/paper.jpg"><img src="img/paper-thumb.jpg" id="paper"/></a>
-			<div class="ad300x250"><a href="http://adsperience.com/"><img src="img/300x250b.png"/></a></div>
+			<div class="ad300x250"><a href="https://www.statuschart.com/"><img src="img/300x250b.png"/></a></div>
 		</div><!--/sidebar-->
 
 		<div class="clear"></div>
@@ -88,7 +88,7 @@
 	</div><!--/container-->
 
 	<div id="tablet728">
-		<a href="http://adsperience.com/"><img src="img/728x90.png"/></a>
+		<a href="https://www.statuschart.com/"><img src="img/728x90.png"/></a>
 	</div><!--/tablet728-->
 
 </body>

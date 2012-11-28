@@ -74,6 +74,7 @@ header{
 header h1{
 	color: #30353b;
 	font-family: 'dock11';
+	font-weight: 400;
 	margin: 14px 0 0;
 	font-size: 36px;
 	text-align: center;
@@ -296,6 +297,9 @@ hr{
 	footer{
 		margin: 0 0 110px;
 	}
+	#device:before{
+		margin-left: -4px;
+	}
 }
 @media (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
 	header .container{
@@ -313,16 +317,16 @@ hr{
 	}
 	header h1{
 		display: block;
-		margin: 10px 0 0px;
+		margin: 25px 0 10px;
 		font-size: 32px;
-		text-align: left;
+		text-align: center;
 		text-transform: uppercase;
 	}
 	nav {
 	    text-align: left;
 		display:block;
 		float: none;
-		margin: 0 0 10px;
+		margin: 0 0 30px;
 	}
 	nav ul li {
 		display: block;
@@ -358,5 +362,8 @@ hr{
 		width: 100%;
 		max-width:623px;
 		float: right;
+	}
+	#device:before{
+		margin-left: -0px;
 	}
 }
