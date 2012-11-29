@@ -162,9 +162,6 @@ nav li:last-child a{
 #about img{
   border-radius: 3px;
 }
-#about p{
-  text-align: justify;
-}
 /* ========================================================= Team ===*/
 #team{
   list-style: none;
