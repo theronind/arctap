@@ -154,6 +154,18 @@
 							<h4>Copywriter</h4>
 						</div><!--/bio-->
 					</li>
+					<li class="g1_5">
+						<div class="pic"><img src="/img/team/chris-jeane.jpg"/></div>
+						<div class="bio">
+							<h3>Chris Jeane</h3>
+							<ul class="links">
+								<li><a href="http://www.chrisjeane.com/" class="website"><i class="ss-icon">&#x1F30E;</i></a></li>
+								<li><a href="https://twitter.com/chrisjeane" class="twitter"><i class="ss-icon ss-social">&#xF611;</i></a></li>
+								<li><a href="https://www.statuschart.com/chrisjeane" class="statuschart"><img src="/img/team/statuschart-20x20.png"></a></li>
+							</ul>
+							<h4>Developer</h4>
+						</div><!--/bio-->
+					</li>
 				</ul>
 
 			</div><!--/content-->
