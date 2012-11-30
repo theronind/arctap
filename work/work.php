@@ -29,6 +29,9 @@
 					<li class="g2 web">
 						<a href="/work/kristinastpeter/"><img src="/work/kristinastpeter/kristinastpeter.png"/></a>
 					</li>
+					<li class="g2 mobile">
+						<a href="/work/cochlear/"><img src="/work/cochlear/slide1.png"/></a>
+					</li>
 				</ul>
 
 			</div><!--/content-->
