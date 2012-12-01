@@ -29,6 +29,9 @@
 					<li class="g2 web">
 						<a href="/work/kristinastpeter/"><img src="/work/kristinastpeter/img/slide3.png"/></a>
 					</li>
+					<li class="g2 web">
+						<a href="/work/theeastwing/"><img src="/work/theeastwing/img/thumb.png"/></a>
+					</li>
 				</ul>
 
 			</div><!--/content-->
