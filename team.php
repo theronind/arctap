@@ -60,6 +60,18 @@
 						</div><!--/bio-->
 					</li>
 					<li class="g1_5">
+						<div class="pic"><img src="/img/team/chris-jeane.jpg"/></div>
+						<div class="bio">
+							<h3>Chris Jeane</h3>
+							<ul class="links">
+								<li><a href="http://www.chrisjeane.com/" class="website"><i class="ss-icon">&#x1F30E;</i></a></li>
+								<li><a href="https://twitter.com/chrisjeane" class="twitter"><i class="ss-icon ss-social">&#xF611;</i></a></li>
+								<li><a href="https://www.statuschart.com/chrisjeane" class="statuschart"><img src="/img/team/statuschart-20x20.png"></a></li>
+							</ul>
+							<h4>Developer</h4>
+						</div><!--/bio-->
+					</li>
+					<li class="g1_5">
 						<div class="pic"><img src="/img/team/john-britton.jpg"/></div>
 						<div class="bio">
 							<h3>John Britton</h3>
@@ -122,6 +134,18 @@
 						</div><!--/bio-->
 					</li>
 					<li class="g1_5">
+						<div class="pic"><img src="/img/team/jenna-santana.jpg"/></div>
+						<div class="bio">
+							<h3>Jenna Santana</h3>
+							<ul class="links">
+								<li><a href="http://www.jennasantana.com/" class="website"><i class="ss-icon">&#x1F30E;</i></a></li>
+								<li><a href="https://twitter.com/vh1jenna" class="twitter"><i class="ss-icon ss-social">&#xF611;</i></a></li>
+								<li><a href="https://www.statuschart.com/jennasantana" class="statuschart"><img src="/img/team/statuschart-20x20.png"></a></li>
+							</ul>
+							<h4>Copywriter</h4>
+						</div><!--/bio-->
+					</li>
+					<li class="g1_5">
 						<div class="pic"><img src="/img/team/kristina-stpeter.jpg"/></div>
 						<div class="bio">
 							<h3>Kristina St. Peter</h3>
@@ -140,30 +164,6 @@
 								<li><a href="https://twitter.com/ThisMustBSatire" class="twitter"><i class="ss-icon ss-social">&#xF611;</i></a></li>
 							</ul>
 							<h4>Account Supervisor</h4>
-						</div><!--/bio-->
-					</li>
-					<li class="g1_5">
-						<div class="pic"><img src="/img/team/jenna-santana.jpg"/></div>
-						<div class="bio">
-							<h3>Jenna Santana</h3>
-							<ul class="links">
-								<li><a href="http://www.jennasantana.com/" class="website"><i class="ss-icon">&#x1F30E;</i></a></li>
-								<li><a href="https://twitter.com/vh1jenna" class="twitter"><i class="ss-icon ss-social">&#xF611;</i></a></li>
-								<li><a href="https://www.statuschart.com/jennasantana" class="statuschart"><img src="/img/team/statuschart-20x20.png"></a></li>
-							</ul>
-							<h4>Copywriter</h4>
-						</div><!--/bio-->
-					</li>
-					<li class="g1_5">
-						<div class="pic"><img src="/img/team/chris-jeane.jpg"/></div>
-						<div class="bio">
-							<h3>Chris Jeane</h3>
-							<ul class="links">
-								<li><a href="http://www.chrisjeane.com/" class="website"><i class="ss-icon">&#x1F30E;</i></a></li>
-								<li><a href="https://twitter.com/chrisjeane" class="twitter"><i class="ss-icon ss-social">&#xF611;</i></a></li>
-								<li><a href="https://www.statuschart.com/chrisjeane" class="statuschart"><img src="/img/team/statuschart-20x20.png"></a></li>
-							</ul>
-							<h4>Developer</h4>
 						</div><!--/bio-->
 					</li>
 				</ul>

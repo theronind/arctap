@@ -27,11 +27,12 @@
           </li>
           <li class="g2">
             <select name="budget" id="budget">
-              <option selected="selected" value="$25,000 - 50,000">$25,000 - 50,000</option>
-              <option value="$50,000 - 75,000">$50,000 - 75,000</option>
-              <option value="$75,000 - 100,000">$75,000 - 100,000</option>
-              <option value="$100,000 - 250,000">$100,000 - 250,000</option>
-              <option value="$250,000 Plus">$250,000 Plus</option>
+              <option selected="selected" value="$20,000 - 40,000">$20,000 - 40,000</option>
+              <option value="$40,000 - 60,000">$40,000 - 60,000</option>
+              <option value="$60,000 - 80,000">$60,000 - 80,000</option>
+              <option value="$80,000 - 140,000">$80,000 - 140,000</option>
+              <option value="$140,000 - 200,000">$140,000 - 200,000</option>
+              <option value="$200,000 Plus">$200,000 Plus</option>
             </select>
           </li>
           <li class="g4">
@@ -45,8 +46,8 @@
       </form>
       <hr/>
       <div class="g1_5">
-        <h3>Cash/Equity?</h3>
-        <p class="last">We normally try to stay away from things like this. If you must know we charge a minimum of $250/hr and we can chat about percentages later.</p>
+        <h3>Rate?</h3>
+        <p class="last">We have found that most of our project revolve around weeks, not days or hours. This works better for our clients and us. Our weekly rate is $10,000.</p>
       </div><!--/g1_5-->
       <div class="g1_5">
         <h3>Need a MVP?</h3>
