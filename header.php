@@ -14,6 +14,7 @@
     <meta name="MobileOptimized" content="320">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="shortcut icon" href="/favicon.png">
     <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
     <link href="/css/style.css" rel="stylesheet">
     <script src="/js/libs/modernizr-2.5.3.min.js"></script>
