@@ -53,6 +53,12 @@ $(document).ready(function(){
       $("#company").click(function() {
         $(this).css({'background-color':'#ffffff'});
       });
+    }
+			else if(budget==='DEFAULT'){
+      $('#budget').css({'background-color':'#FAFFBD'});
+      $("#budget").click(function() {
+        $(this).css({'background-color':'#ffffff'});
+      });
     }  else if(message===''){
       $('#message').css({'background-color':'#FAFFBD'});
       $("#message").click(function() {
