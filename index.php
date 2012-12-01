@@ -26,6 +26,10 @@
                             <a href="/work/kristinastpeter/" rel="external"><span><img src="/work/kristinastpeter/img/slide1.png" alt=""></span></a>
                             <p class="flex-caption">Kristina St. Peter</p>
                         </li>
+                        <li>
+                            <a href="/work/theeastwing/" rel="external"><span><img src="/work/theeastwing/img/slide1.png" alt=""></span></a>
+                            <p class="flex-caption">The East Wing</p>
+                        </li>
                     </ul>
                 </div><!--/flexslider-->
 
