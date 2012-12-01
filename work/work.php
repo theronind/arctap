@@ -32,6 +32,9 @@
 					<li class="g2 web">
 						<a href="/work/theeastwing/"><img src="/work/theeastwing/img/thumb.png"/></a>
 					</li>
+					<li class="g2 mobile">
+						<a href="/work/cochlear/"><img src="/work/cochlear/slide1.png"/></a>
+					</li>
 				</ul>
 
 			</div><!--/content-->
