@@ -14,6 +14,7 @@ A Freelancer Guild of Talented Craftsmen.
 * Tim Smith - smith@timothybsmith.com
 * Chris Jeane
 * Jarod Reyes -
+* Dennis Gaebel - &#103;&#114;&#097;&#121;&#103;&#104;&#111;&#115;&#116;&#064;&#103;&#114;&#097;&#121;&#103;&#104;&#111;&#115;&#116;&#118;&#105;&#115;&#117;&#097;&#108;&#115;&#046;&#099;&#111;&#109;
 * John Britton -
 * Frank Denbow -
 * Jon Gottfried -
