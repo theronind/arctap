@@ -1,12 +1,12 @@
 # ArcTap
-A Freelancer Guild of talented craftsmen.
+A Freelancer Guild of Talented Craftsmen.
 
 ## Membership
-* Now: For the first 6 months we are going to take it easy and see where it goes. There has been talks of annual dues and equity, all talk at his point.
-* Future: We want to grow slowly, but yet have enough talent on hand where everyone can works the hours they want. After the first client I think we will have a clearer picture. We should really focus on now, to make it all happen.
-* Dues: To keep the company moving forward, we are thinking of taking a small percent of each project. Right now we are thinking 10% to help pay for lawyer, accountant, hosting, etc.
-* Income: We plan on charing weekly rates of $10,000. Simple math $10,000 / 40 Hours = $250 an hour.
-* Benefits: Right now it is not much. Access to an incredible group, collecting money from the client, higher income, working remote. In the future we plan on incorporating to provide proper legal coverage and contacts.
+* __Now:__ For the first 6 months we are going to take it easy and see where it goes. There has been talks of annual dues and equity, all talk at his point.
+* __Future:__ We want to grow slowly, but yet have enough talent on hand where everyone can works the hours they want. After the first client I think we will have a clearer picture. We should really focus on now, to make it all happen.
+* __Dues:__ To keep the company moving forward, we are thinking of taking a small percent of each project. Right now we are thinking 10% to help pay for lawyer, accountant, hosting, etc.
+* __Income:__ We plan on charing weekly rates of $10,000. Simple math $10,000 / 40 Hours = $250 an hour.
+* __Benefits:__ Right now it is not much. Access to an incredible group, collecting money from the client, higher income, working remote. In the future we plan on incorporating to provide proper legal coverage and contacts.
 
 ## Team Members & Emails
 * Christoper Kennedy - kennedysgarage@gmail.com
