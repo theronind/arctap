@@ -1,14 +1,12 @@
 @charset "UTF-8";
 
-/*
-* Symbolset
-* www.symbolset.com
-* Copyright © 2012 Oak Studios LLC
-*
-* Upload this file to your web server
-* and place this within your <head> tags.
-* <link href="webfonts/ss-social.css" rel="stylesheet" />
-*/
+// Symbolset
+// www.symbolset.com
+// Copyright © 2012 Oak Studios LLC
+//
+// Upload this file to your web server
+// and place this within your <head> tags.
+// <link href="webfonts/ss-social.css" rel="stylesheet" />
 
 @font-face {
   font-family: "SSSocial";
@@ -32,7 +30,7 @@
   font-style: normal;
 }
 
-/* This triggers a redraw in IE to Fix IE8's :before content rendering. */
+// This triggers a redraw in IE to Fix IE8's :before content rendering.
 html:hover [class^="ss-"]{-ms-zoom: 1;}
 
 .ss-icon, .ss-icon.ss-social, .ss-icon.ss-social-circle,
@@ -46,7 +44,7 @@ html:hover [class^="ss-"]{-ms-zoom: 1;}
   text-decoration: none;
   text-rendering: optimizeLegibility;
   white-space: nowrap;
-  /*-webkit-font-feature-settings: "liga"; Currently broken in Chrome >= v22. Falls back to text-rendering. Safari is unaffected. */
+  //-webkit-font-feature-settings: "liga"; Currently broken in Chrome >= v22. Falls back to text-rendering. Safari is unaffected.
   -moz-font-feature-settings: "liga=1";
   -moz-font-feature-settings: "liga";
   -ms-font-feature-settings: "liga" 1;
