@@ -178,7 +178,7 @@ textarea:invalid {
     }
     // ----------- min1023px / max6000 ----------- //
     @media screen and (min-width: 63.9375em) and (max-width: 375em) {
-        max-width: 21%
+        max-width: 21%;
     }
 }
 
@@ -195,7 +195,7 @@ textarea:invalid {
     }
     // ----------- min1023px / max6000 ----------- //
     @media screen and (min-width: 63.9375em) and (max-width: 375em) {
-        max-width: 29.333%
+        max-width: 29.333%;
     }
 }
 
@@ -208,7 +208,7 @@ textarea:invalid {
     }
     // ----------- min1023px / max6000 ----------- //
     @media screen and (min-width: 63.9375em) and (max-width: 375em) {
-        max-width: 46%
+        max-width: 46%;
     }
 }
 
@@ -221,7 +221,7 @@ textarea:invalid {
     }
     // ----------- min1023px / max6000 ----------- //
     @media screen and (min-width: 63.9375em) and (max-width: 375em) {
-        max-width: 71%
+        max-width: 71%;
     }
 }
 
@@ -234,7 +234,7 @@ textarea:invalid {
     }
     // ----------- min1023px / max6000 ----------- //
     @media screen and (min-width: 63.9375em) and (max-width: 375em) {
-        max-width: 96%
+        max-width: 96%;
     }
 }
 
@@ -269,7 +269,7 @@ header {
 header h1 {
     display: inline;
 
-    // ----------- min0px / max479px ----------- //
+    // ----------- max479px ----------- //
     @media screen and (max-width: 29.9375em) {
         display: block;
     }
@@ -299,7 +299,7 @@ nav {
     float: right;
     margin: 3px 0 0;
 
-    // ----------- min0px / max479px ----------- //
+    // ----------- max479px ----------- //
     @media screen and (max-width: 29.9375em) {
         float: none;
     }
@@ -357,9 +357,9 @@ nav ol {
 }
 
 #intro p {
-    color: #F7F7F7;
     margin: 0 auto;
     max-width: 600px;
+    color: #F7F7F7;
 }
 
 #intro #nav {
@@ -379,8 +379,8 @@ nav ol {
 }
 
 #intro #nav a {
-    color: #EFF1F5;
     outline: none;
+    color: #EFF1F5;
 }
 
 #intro #nav i {
@@ -420,7 +420,8 @@ nav ol {
 
 #home #intro {
     padding: 70px 0 100px;
-    // ----------- min0px / max768px ----------- //
+
+    // ----------- max768px ----------- //
     @media screen and (max-width: 48em) {
         padding-left: 2%;
         padding-right: 2%;
@@ -492,7 +493,6 @@ nav ol {
     padding: 0;
 }
 
-//#team li{}
 #team h3 {
     display: inline;
     margin: 0;
@@ -516,7 +516,6 @@ nav ol {
     margin: -35px 0px -60px 0px;
 }
 
-//#team .bio{}
 #team .links {
     list-style: none;
     float: right;
@@ -554,7 +553,6 @@ nav ol {
 // ✪ $Work
 // ==========================================================================
 
-//#work {}
 #work img {
     border-radius: 3px;
 }
@@ -584,7 +582,8 @@ nav ol {
 #work .buttons {
     float: right;
     margin-top: 2px 0 0;
-    // ----------- min0px / max479px ----------- //
+
+    // ----------- max479px ----------- //
     @media screen and (max-width: 29.9375em) {
         float: none;
     }
@@ -601,7 +600,9 @@ nav ol {
 }
 
 #work .flexslider span:before {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.7) inset, 0 0 3px rgba(255, 255, 255, 0.7) inset, 0 2px 0 rgba(255, 255, 255, 0.5) inset;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.70),
+                inset 0 0   3px rgba(255, 255, 255, 0.70),
+                inset 0 2px 0   rgba(255, 255, 255, 0.50);
     content: "";
     height: 100%;
     left: 0;
@@ -641,7 +642,8 @@ nav ol {
 #hire .btn {
     float: right;
     margin-bottom: 10px;
-    // ----------- min0px / max479px ----------- //
+
+    // ----------- max479px ----------- //
     @media screen and (max-width: 29.9375em) {
         float: none;
     }
@@ -697,26 +699,28 @@ label {
     cursor: text;
 }
 
+input[type="name"],
 input[type="text"],
-input[type="email"], textarea {
+input[type="email"],
+textarea {
+    @include transition($transition-1: all .3s ease-in-out);
     border: 1px solid #BDBDBD;
     border-radius: 4px 4px 4px 4px;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
-    color: #808080;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.20);
     display: inline-block;
     height: 40px;
-    line-height: 1.2;
     margin-bottom: 20px;
     padding: 6px 4px 4px 10px;
-    vertical-align: baseline;
     width: 100%;
-    @include transition($transition-1: all .3s ease-in-out);
+    vertical-align: baseline;
+    color: #808080;
 }
 
 textarea {
-  min-height: 100px;
+    min-height: 100px;
 }
 
+input[type="name"]:focus,
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
@@ -752,15 +756,6 @@ select optgroup {
     padding:2px;
 }
 
-input::-webkit-input-placeholder,
-textarea::-webkit-input-placeholder {
-    color: #bfbfbf;
-}
-input:-moz-placeholder,
-textarea:-moz-placeholder {
-    color: #bfbfbf;
-}
-
 .error_message {
     background-color: #FBE3E4;
     border: 1px solid #FBC2C4;
@@ -782,6 +777,22 @@ textarea:-moz-placeholder {
     padding: 10px;
 }
 
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #bfbfbf;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+    color: #bfbfbf;
+}
+
+input:required,
+textarea:required,
+select:required {
+    background: #ffffff;
+}
+
 
 // ==========================================================================
 // ✪ $Button Module
@@ -798,8 +809,8 @@ textarea:-moz-placeholder {
     margin: 0;
     padding: 8px 15px 6px;
 
-    // ----------- min0px / max479px ----------- //
-    @media screen and (min-width: 0px) and (max-width: 479px) {
+    // ----------- max479px ----------- //
+    @media screen and (max-width: 29.9375em) {
         margin-top: 10px;
     }
 }
@@ -895,9 +906,6 @@ footer #copy {
 
 footer #copy img {
     margin: 0 10px 0 0;
-
-    // vertical-align is causing weird layout issue with Opera on Mac
-    //vertical-align: bottom;
 }
 
 footer p {
@@ -995,7 +1003,7 @@ footer #social span {
     background-color: transparent;
     border: 0;
     overflow: hidden;
-    /* IE 6/7 fallback */
+    // IE 6/7 fallback
     *text-indent: -9999px;
 }
 
@@ -1038,8 +1046,8 @@ footer #social span {
 
 .clearfix:before,
 .clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+    content: " "; // 1
+    display: table; // 2
 }
 
 .clearfix:after {
