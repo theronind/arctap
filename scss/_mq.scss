@@ -1,65 +1,83 @@
-/* ========================================================= Media Query ===*/
-/* ---------
- -- 320px --
---------- */
+// ==========================================================================
+// ✪ $Compass
+// ==========================================================================
+
+// ----------- min0px / max479px ----------- //
 @media screen and (min-width: 0px) and (max-width: 479px) {
-  header h1{
-    display: block;
-    text-align: center;
-  }
-  nav{
-    float: none;
-    text-align: center;
-  }
-  #intro h1{
-    font-size: 44px;
-  }
-  #work .buttons {
-    float: none;
-  }
-  #hire-bar .btn {
-    float: none;
-  }
+    header h1{
+        display: block;
+        text-align: center;
+    }
+    nav{
+        float: none;
+        text-align: center;
+    }
+    #intro h1{
+        font-size: 44px;
+    }
+    #work .buttons {
+        float: none;
+    }
+    #hire-bar .btn {
+        float: none;
+    }
 }
-/* ---------
- -- 480px --
---------- */
+
+
+// ----------- min480px / max767px ----------- //
 @media screen and (min-width: 480px) and (max-width: 767px) {
-  .g1{max-width: 46%}
-  .g1_5{max-width: 46%}
+    .g1 {
+        max-width: 46%
+    }
+    .g1_5 {
+        max-width: 46%
+    }
 }
-/* ---------
- -- 768px --
---------- */
+
+
+// ----------- min768px / max1023px ----------- //
 @media screen and (min-width: 768px) and (max-width: 1023px){
-  .g1{max-width: 21%}
-  .g1_5{max-width: 29.333%}
-  .g2{max-width: 46%}
-  .g3{max-width: 71%}
-  .g4{max-width: 96%}
+    .g1 {
+        max-width: 21%
+    }
+    .g1_5 {
+        max-width: 29.333%
+    }
+    .g2 {
+        max-width: 46%
+    }
+    .g3 {
+        max-width: 71%
+    }
+    .g4 {
+        max-width: 96%
+    }
 }
-/* ----------
- -- 960px --
----------- */
+
+
+// ----------- max959px ----------- //
+@media screen and (max-width: 959px) {
+    #hire-bar {
+        border-radius: 0;
+    }
+}
+
+
+// ----------- min1023px / max6000 ----------- //
 @media screen and (min-width: 1023px) and (max-width: 6000px){
-  .g1{max-width: 21%}
-  .g1_5{max-width: 29.333%}
-  .g2{max-width: 46%}
-  .g3{max-width: 71%}
-  .g4{max-width: 96%}
-}
-/* ========================================================= Print ===*/
-@media print {
-  * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; }
-  a, a:visited { text-decoration: underline; }
-  a[href]:after { content: " (" attr(href) ")"; }
-  abbr[title]:after { content: " (" attr(title) ")"; }
-  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
-  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
-  thead { display: table-header-group; }
-  tr, img { page-break-inside: avoid; }
-  img { max-width: 100% !important; }
-  @page { margin: 0.5cm; }
-  p, h2, h3 { orphans: 3; widows: 3; }
-  h2, h3 { page-break-after: avoid; }
+    .g1 {
+        max-width: 21%
+    }
+    .g1_5 {
+        max-width: 29.333%
+    }
+    .g2 {
+        max-width: 46%
+    }
+    .g3 {
+        max-width: 71%
+    }
+    .g4 {
+        max-width: 96%
+    }
 }

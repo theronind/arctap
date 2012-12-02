@@ -1,64 +1,75 @@
+// ==========================================================================
+// ✪ $Wrapper
+// ==========================================================================
+
 #wrapper {
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  margin: 0 auto -70px;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -70px;
 }
-/* ========================================================= Header ===*/
+
+
+// ==========================================================================
+// ✪ $Header
+// ==========================================================================
+
 #header-wrap{
-  background-color: #26495c;
-  padding: 0 10px;
+    background-color: #26495c;
+    padding: 0 10px;
 }
 header{
-  padding: 15px 0;
-  position: relative;
-  z-index: 10;
+    padding: 15px 0;
+    position: relative;
+    z-index: 10;
 }
 header h1{
-  display: inline;
-  font-family: 'TitilliumText22LLight';
-  font-size: 22px;
+    display: inline;
+    font-family: 'TitilliumText22LLight';
+    font-size: 22px;
 }
 header img{
-  margin: 0 5px 0 0;
+    margin: 0 5px 0 0;
 }
 header h1 span{
-  display: inline-block;
-  margin: 12px 0 0;
-  vertical-align: top;
+    display: inline-block;
+    margin: 12px 0 0;
+    vertical-align: top;
 }
 header h1 a, header h1 a:hover{
-  color: #fff;
+    color: #fff;
 }
 nav{
-  float: right;
-  margin: 3px 0 0;
-}
-nav ul{
-
+    float: right;
+    margin: 3px 0 0;
 }
 nav li{
-  display: inline;
+    display: inline;
 }
 nav li a, nav li a:hover{
-  color: #fff;
-  display: inline-block;
-  font-size: 15px;
-  padding: 6px 14px;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    padding: 6px 14px;
 }
 nav li:last-child a{
-  background-color: #69cbff;
-  border-radius:3px;
-  color: #26495c;
+    background-color: #69cbff;
+    border-radius:3px;
+    color: #26495c;
 }
 nav li:last-child a{
-  border: none;
-  box-shadow: none;
+    border: none;
+    box-shadow: none;
 }
-/* ========================================================= Intro ===*/
+
+
+// ==========================================================================
+// ✪ $Intro
+// ==========================================================================
+
 #intro{
   background-color: #fc6a63;
-  /*box-shadow: 0 1px 0 #c7544e, 0 2px 0 #ecedef;*/
+  //box-shadow: 0 1px 0 #c7544e, 0 2px 0 #ecedef;
   padding: 30px 10px 55px;
 }
 #intro h1{
@@ -104,11 +115,16 @@ nav li:last-child a{
 #intro #nav .current i{
   color: #fff;
 }
-/* ========================================================= Page ===*/
+
+
+// ==========================================================================
+// ✪ $Page
+// ==========================================================================
+
 #page{
   background-color: #eff1f5;
   border-radius: 3px;
-  /*box-shadow: 0 0 0 1px #a2a3a6 inset, 0 2px 0 #fff inset, 0 1px 4px rgba(0, 0, 0, 0.2);*/
+  //box-shadow: 0 0 0 1px #a2a3a6 inset, 0 2px 0 #fff inset, 0 1px 4px rgba(0, 0, 0, 0.2);
   margin: -40px 0 30px;
   position: relative;
   z-index: 5;
@@ -116,7 +132,12 @@ nav li:last-child a{
 .content{
   padding: 1%;
 }
-/* ========================================================= Home ===*/
+
+
+// ==========================================================================
+// ✪ $Home
+// ==========================================================================
+
 #home #intro{
   padding: 70px 0 100px;
 }
@@ -136,9 +157,12 @@ nav li:last-child a{
 .slides img{
   border-radius: 3px 3px 0 0;
 }
-/* -----------------
- -- Grade Spotter --
------------------ */
+
+
+// ==========================================================================
+// ✪ $Grade Spotter
+// ==========================================================================
+
 #intro-app{
   padding: 70px 0;
 }
@@ -158,11 +182,21 @@ nav li:last-child a{
 #intro-app p{
   font-size: 18px;
 }
-/* ========================================================= About ===*/
+
+
+// ==========================================================================
+// ✪ $About
+// ==========================================================================
+
 #about img{
   border-radius: 3px;
 }
-/* ========================================================= Team ===*/
+
+
+// ==========================================================================
+// ✪ $Team
+// ==========================================================================
+
 #team{
   list-style: none;
   margin: 0;
@@ -226,10 +260,13 @@ nav li:last-child a{
 #team .links .website{
   color: #35cbe6;
 }
-/* ========================================================= Work ===*/
-#work{
 
-}
+
+// ==========================================================================
+// ✪ $Work
+// ==========================================================================
+
+//#work {}
 #work img{
   border-radius: 3px;
 }
@@ -284,22 +321,28 @@ nav li:last-child a{
 #portfolio li{
   padding: 0;
 }
-/* ========================================================= Hire ===*/
-#hire{
 
-}
+
+// ==========================================================================
+// ✪ $Hire
+// ==========================================================================
+
+//#hire{}
 #hire #hireForm .g2, #hire #hireForm .g4{
   margin-top: 0;
   margin-bottom: 0;
 }
-#hire .g4{
-
-}
+//#hire .g4{}
 #hire .btn{
   float: right;
   margin-bottom: 10px;
 }
-/* ========================================================= Hire Bar ===*/
+
+
+// ==========================================================================
+// ✪ $Hire Bar
+// ==========================================================================
+
 #hire-bar{
   background-color: #fc6a63;
   border-radius: 3px;
@@ -315,7 +358,12 @@ nav li:last-child a{
 #hire-bar .btn{
   float: right;
 }
-/* ========================================================= Footer ===*/
+
+
+// ==========================================================================
+// ✪ $Footer
+// ==========================================================================
+
 #footer-wrap{
   background-color: #c3c5c7;
 }
@@ -344,9 +392,12 @@ footer p span{
 footer a{
   color: #2b343d;
 }
-/* ----------
- -- Social --
----------- */
+
+
+// ==========================================================================
+// ✪ $Social
+// ==========================================================================
+
 footer #social{
   float: right;
   list-style: none;
@@ -365,7 +416,12 @@ footer #social i{
   font-size: 26px;
   font-weight: bold;
 }
-/* ========================================================= Utility ===*/
+
+
+// ==========================================================================
+// ✪ $Utility
+// ==========================================================================
+
 img{
   height: auto;
   max-width: 100%;
@@ -376,28 +432,53 @@ img{
 .hidden{
   display: none;
 }
-/* ========================================================= Animation ===*/
+
+
+// ==========================================================================
+// ✪ $Animation
+// ==========================================================================
+
 @-webkit-keyframes fadeIn {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @-moz-keyframes fadeIn {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @-ms-keyframes fadeIn {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @-o-keyframes fadeIn {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @keyframes fadeIn {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }

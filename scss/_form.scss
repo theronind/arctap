@@ -1,18 +1,21 @@
-/* ========================================================= Form ===*/
+// ==========================================================================
+// ✪ $Form
+// ==========================================================================
+
 form ul{
-  list-style: none;
-  margin: 0;
-  padding: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 form li{
-  position:relative;;
+    position: relative;
 }
 label{
-    color:#b6bcbf;
-    position:absolute;
-    top:8px;
-    left:12px;
-    font-size:18px;
+    color: #b6bcbf;
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    font-size: 18px;
     cursor: text;
 }
 input[type="text"], input[type="email"], textarea{
@@ -101,7 +104,12 @@ input:-moz-placeholder, textarea:-moz-placeholder{
   padding: 10px;
   text-align: center;
 }
-/* ========================================================= Buttons ===*/
+
+
+// ==========================================================================
+// ✪ $Buttons
+// ==========================================================================
+
 .btn{
   background-color: #fff;
   border: none;
@@ -122,9 +130,9 @@ input:-moz-placeholder, textarea:-moz-placeholder{
 .btn:active {
   background-color: #fff;
 }
-/* -----------
- -- Primary --
------------ */
+// ==========================================================================
+// ✪ $Primary Button
+// ==========================================================================
 .btn-primary{
   background-color: #69cbff;
   color: #fff;
@@ -136,9 +144,9 @@ input:-moz-placeholder, textarea:-moz-placeholder{
 .btn-primary:active {
   background-color: #5db4e3;
 }
-/* ----------
- -- Action --
----------- */
+// ==========================================================================
+// ✪ $Action Button
+// ==========================================================================
 .btn-action{
   background-color: #fc6a63;
   color: #fff;
@@ -150,9 +158,9 @@ input:-moz-placeholder, textarea:-moz-placeholder{
 .btn-action:active {
   background-color: #e35f59;
 }
-/* ----------------
- -- Download App --
----------------- */
+// ==========================================================================
+// ✪ $Download App
+// ==========================================================================
 .btn-dlapp{
   background-color: #172d38;
   color: #fff;
