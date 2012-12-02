@@ -47,6 +47,51 @@
 // ✪ $Globals
 // ==========================================================================
 
+h1 {
+    color: #455860;
+    margin: 0 0 0.4em;
+}
+
+h2 {
+    color: #455860;
+    margin: 0 0 0.4em;
+}
+
+h3 {
+    color: #455860;
+    margin: 0 0 0.4em;
+}
+
+h4 {
+    color: #455860;
+    margin: 0 0 0.4em;
+}
+
+h5 {
+    color: #455860;
+    margin: 0 0 0.4em;
+}
+
+h6 {
+    color: #455860;
+    margin: 0 0 0.4em;
+}
+
+p {
+    color: #5C6E76;
+    margin: 0 0 1.5em;
+}
+
+ul {
+    color: #5C6E76;
+    margin: 0 0 1.6em;
+}
+
+ol {
+    color: #5C6E76;
+    margin: 0 0 1.6em;
+}
+
 img {
     height: auto;
     max-width: 100%;
@@ -124,15 +169,15 @@ textarea:invalid {
     max-width: 96%;
 
     // ----------- min768px / max1023px ----------- //
-    @media screen and (min-width: 768px) and (max-width: 1023px) {
+    @media screen and (min-width: 48em) and (max-width: 63.9375em) {
         max-width: 21%;
     }
     // ----------- min480px / max767px ----------- //
-    @media screen and (min-width: 480px) and (max-width: 767px) {
+    @media screen and (min-width: 30em) and (max-width: 47.9375em) {
         max-width: 46%;
     }
     // ----------- min1023px / max6000 ----------- //
-    @media screen and (min-width: 1023px) and (max-width: 6000px) {
+    @media screen and (min-width: 63.9375em) and (max-width: 375em) {
         max-width: 21%
     }
 }
@@ -141,15 +186,15 @@ textarea:invalid {
     max-width: 96%;
 
     // ----------- min480px / max767px ----------- //
-    @media screen and (min-width: 480px) and (max-width: 767px) {
+    @media screen and (min-width: 30em) and (max-width: 47.9375em) {
         max-width: 46%;
     }
     // ----------- min768px / max1023px ----------- //
-    @media screen and (min-width: 768px) and (max-width: 1023px) {
+    @media screen and (min-width: 48em) and (max-width: 63.9375em) {
         max-width: 29.333%;
     }
     // ----------- min1023px / max6000 ----------- //
-    @media screen and (min-width: 1023px) and (max-width: 6000px) {
+    @media screen and (min-width: 63.9375em) and (max-width: 375em) {
         max-width: 29.333%
     }
 }
@@ -158,11 +203,11 @@ textarea:invalid {
     max-width: 96%;
 
     // ----------- min768px / max1023px ----------- //
-    @media screen and (min-width: 768px) and (max-width: 1023px) {
+    @media screen and (min-width: 48em) and (max-width: 63.9375em) {
         max-width: 46%;
     }
     // ----------- min1023px / max6000 ----------- //
-    @media screen and (min-width: 1023px) and (max-width: 6000px) {
+    @media screen and (min-width: 63.9375em) and (max-width: 375em) {
         max-width: 46%
     }
 }
@@ -171,11 +216,11 @@ textarea:invalid {
     max-width: 96%;
 
     // ----------- min768px / max1023px ----------- //
-    @media screen and (min-width: 768px) and (max-width: 1023px) {
+    @media screen and (min-width: 48em) and (max-width: 63.9375em) {
         max-width: 71%;
     }
     // ----------- min1023px / max6000 ----------- //
-    @media screen and (min-width: 1023px) and (max-width: 6000px) {
+    @media screen and (min-width: 63.9375em) and (max-width: 375em) {
         max-width: 71%
     }
 }
@@ -184,11 +229,11 @@ textarea:invalid {
     max-width: 96%;
 
     // ----------- min768px / max1023px ----------- //
-    @media screen and (min-width: 768px) and (max-width: 1023px) {
+    @media screen and (min-width: 48em) and (max-width: 63.9375em) {
         max-width: 96%;
     }
     // ----------- min1023px / max6000 ----------- //
-    @media screen and (min-width: 1023px) and (max-width: 6000px) {
+    @media screen and (min-width: 63.9375em) and (max-width: 375em) {
         max-width: 96%
     }
 }
@@ -199,10 +244,10 @@ textarea:invalid {
 // ==========================================================================
 
 #wrapper {
-    min-height: 100%;
     height: auto !important;
     height: 100%;
     margin: 0 auto -70px;
+    min-height: 100%;
 }
 
 
@@ -211,8 +256,8 @@ textarea:invalid {
 // ==========================================================================
 
 #header-wrap {
-    background-color: #26495c;
     padding: 0 10px;
+    background-color: #26495c;
 }
 
 header {
@@ -223,13 +268,10 @@ header {
 
 header h1 {
     display: inline;
-    font-family: 'TitilliumText22LLight';
-    font-size: 22px;
 
     // ----------- min0px / max479px ----------- //
-    @media screen and (min-width: 0px) and (max-width: 479px) {
+    @media screen and (max-width: 29.9375em) {
         display: block;
-        text-align: center;
     }
 }
 
@@ -258,9 +300,8 @@ nav {
     margin: 3px 0 0;
 
     // ----------- min0px / max479px ----------- //
-    @media screen and (min-width: 0px) and (max-width: 479px) {
+    @media screen and (max-width: 29.9375em) {
         float: none;
-        text-align: center;
     }
 }
 
@@ -270,15 +311,14 @@ nav li {
 
 nav li a,
 nav li a:hover {
-    color: #fff;
     display: inline-block;
-    font-size: 15px;
     padding: 6px 14px;
+    color: #fff;
 }
 
 nav li:last-child a {
-    background-color: #69cbff;
     border-radius:3px;
+    background-color: #69cbff;
     color: #26495c;
 }
 
@@ -301,33 +341,25 @@ nav ol {
 // ==========================================================================
 
 #intro {
-    background-color: #fc6a63;
     //box-shadow: 0 1px 0 #c7544e, 0 2px 0 #ecedef;
     padding: 30px 10px 55px;
+    background-color: #fc6a63;
 }
 
 #intro h1 {
-    color: #FFFFFF;
-    font-size: 58px;
     margin: 0 0 10px;
-    text-align: center;
-
-    // ----------- min0px / max479px ----------- //
-    @media screen and (min-width: 0px) and (max-width: 479px) {
-        font-size: 44px;
-    }
+    color: #FFFFFF;
 }
 
 #intro h2 {
-    color: #FFFFFF;
     margin: 0;
+    color: #FFFFFF;
 }
 
 #intro p {
     color: #F7F7F7;
     margin: 0 auto;
     max-width: 600px;
-    text-align: center;
 }
 
 #intro #nav {
@@ -353,7 +385,6 @@ nav ol {
 
 #intro #nav i {
     color: #EFF1F5;
-    font-size: 18px;
 }
 
 #intro #nav span {
@@ -378,7 +409,7 @@ nav ol {
     z-index: 5;
 }
 
-.content{
+.content {
     padding: 1%;
 }
 
@@ -389,6 +420,11 @@ nav ol {
 
 #home #intro {
     padding: 70px 0 100px;
+    // ----------- min0px / max768px ----------- //
+    @media screen and (max-width: 48em) {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
 }
 
 .slides span {
@@ -398,7 +434,9 @@ nav ol {
 
 .slides span:before {
     border-radius: 3px 3px 0 0;
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.7) inset, 0 0 3px rgba(255, 255, 255, 0.7) inset, 0 2px 0 rgba(255, 255, 255, 0.5) inset;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.70),
+                inset 0 0   3px rgba(255, 255, 255, 0.70),
+                inset 0 2px 0   rgba(255, 255, 255, 0.50);
     content: "";
     height: 100%;
     left: 0;
@@ -430,13 +468,8 @@ nav ol {
 
 #intro-app h2 {
     float: left;
-    font-size: 32px;
     margin: 27px 0 0;
     width: 460px;
-}
-
-#intro-app p {
-    font-size: 18px;
 }
 
 
@@ -462,12 +495,10 @@ nav ol {
 //#team li{}
 #team h3 {
     display: inline;
-    font-size: 23px;
     margin: 0;
 }
 
 #team h4 {
-    font-size: 1em;
     color: #7695a3;
     margin: 0;
 }
@@ -499,17 +530,6 @@ nav ol {
     padding: 0;
 }
 
-//#team .links a {}
-#team .links i{
-    font-size: 19px;
-    font-weight: bold;
-    vertical-align: top;
-}
-
-#team .links img {
-    vertical-align: middle;
-}
-
 #team .links .twitter {
     color: #10abf2;
 }
@@ -520,6 +540,13 @@ nav ol {
 
 #team .links .website {
     color: #35cbe6;
+}
+
+.status-chart-icon {
+    display: inline-block;
+    height: 20px;
+    width: 22px;
+    background: url(../img/team/statuschart-20x20.png) center center no-repeat;
 }
 
 
@@ -558,13 +585,12 @@ nav ol {
     float: right;
     margin-top: 2px 0 0;
     // ----------- min0px / max479px ----------- //
-    @media screen and (min-width: 0px) and (max-width: 479px) {
+    @media screen and (max-width: 29.9375em) {
         float: none;
     }
 }
 
 #work .buttons i {
-    font-size: 14px;
     margin: 0 0 0 5px;
     vertical-align: middle;
 }
@@ -616,7 +642,7 @@ nav ol {
     float: right;
     margin-bottom: 10px;
     // ----------- min0px / max479px ----------- //
-    @media screen and (min-width: 0px) and (max-width: 479px) {
+    @media screen and (max-width: 29.9375em) {
         float: none;
     }
 }
@@ -633,7 +659,7 @@ nav ol {
     padding: 10px;
 
     // ----------- max959px ----------- //
-    @media screen and (max-width: 959px) {
+    @media screen and (max-width: 59.9375em) {
         border-radius: 0;
     }
 }
@@ -641,7 +667,6 @@ nav ol {
 #hire-bar p {
     color: #fff;
     display: inline-block;
-    font-size: 19px;
     margin: 6px 0 0 5px;
 }
 
@@ -669,7 +694,6 @@ label {
     position: absolute;
     top: 8px;
     left: 12px;
-    font-size: 18px;
     cursor: text;
 }
 
@@ -680,7 +704,6 @@ input[type="email"], textarea {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
     color: #808080;
     display: inline-block;
-    font-size: 16px;
     height: 40px;
     line-height: 1.2;
     margin-bottom: 20px;
@@ -744,10 +767,8 @@ textarea:-moz-placeholder {
     border-radius: 3px;
     color: #8A1F11;
     display: block;
-    font-family: 'ProximaNovaBold', sans-serif;
     margin: 10px 0;
     padding: 10px;
-    text-align: center;
 }
 
 .success {
@@ -757,10 +778,8 @@ textarea:-moz-placeholder {
     color: #6db38e;
     clear: both;
     display: block;
-    font-family: 'ProximaNovaBold', sans-serif;
     margin: 10px 0;
     padding: 10px;
-    text-align: center;
 }
 
 
@@ -778,8 +797,6 @@ textarea:-moz-placeholder {
     display: inline-block;
     margin: 0;
     padding: 8px 15px 6px;
-    text-align: center;
-    text-decoration: none;
 
     // ----------- min0px / max479px ----------- //
     @media screen and (min-width: 0px) and (max-width: 479px) {
@@ -790,7 +807,6 @@ textarea:-moz-placeholder {
 .btn:hover {
     background-color: #fff;
     color: #26495c;
-    text-decoration: none;
 }
 
 .btn:active {

@@ -1,95 +1,214 @@
 // ==========================================================================
+// ✪ $Sass Placeholders
+// ==========================================================================
+
+%titillum_medium {
+    font-family: 'TitilliumText22LMedium', Arial, sans-serif;
+    font-weight: normal;
+}
+
+%titillum_light {
+    font-family: 'TitilliumText22LLight';
+}
+
+%proxima_nova {
+    font-family: 'ProximaNova', sans-serif;
+}
+
+%proxima_nova_bold {
+    font-family: 'ProximaNovaBold', sans-serif;
+}
+
+
+// ==========================================================================
 // ✪ $Global Typography
 // ==========================================================================
 
 html {
-    font-family: 'ProximaNova', sans-serif;
+    @extend %proxima_nova;
     -webkit-font-smoothing: antialiased;
 }
 
+body {
+    font: normal 100%/1.5 Helvetica, HelveticaNeue, sans-serif;
+}
+
+
 // ==========================================================================
-// ✪ $Headers Typography
+// ✪ $H's Typography
 // ==========================================================================
 
 h1 {
-    color: #455860;
-    font-family: 'TitilliumText22LMedium', Arial, sans-serif;
-    font-size: 3em;
-    font-weight: normal;
-    line-height: 1em;
-    margin: 0 0 0.4em;
+    @extend %titillum_medium;
+    font-size: 3em; // 48px / 16px = 3em
+    line-height: 1;
 }
 
 h2 {
-    color: #455860;
-    font-family: 'TitilliumText22LMedium', Arial, sans-serif;
-    font-size: 2.25em;
-    font-weight: normal;
-    line-height: 1.333333333333333em;
-    margin: 0 0 0.4em;
+    @extend %titillum_medium;
+    font-size: 2.25em; // 36px / 16px = 2.25em
+    line-height: 1.333333333333333;
 }
 
 h3 {
-    color: #455860;
-    font-family: 'TitilliumText22LMedium', Arial, sans-serif;
-    font-size: 1.5em;
-    font-weight: normal;
-    line-height: 1em;
-    margin: 0 0 0.4em;
+    @extend %titillum_medium;
+    font-size: 1.5em; // 24px / 16px = 1.5em
+    line-height: 1;
 }
 
 h4 {
-    color: #455860;
-    font-family: 'TitilliumText22LMedium', Arial, sans-serif;
-    font-size: 1.3125em;
-    font-weight: normal;
-    line-height: 1.142857142857143em;
-    margin: 0 0 0.4em;
+    @extend %titillum_medium;
+    font-size: 1.3125em; // 21px / 16px = 1.3125em
+    line-height: 1.142857142857143;
 }
 
 h5 {
-    color: #455860;
-    font-family: 'TitilliumText22LMedium', Arial, sans-serif;
-    font-size: 1.125em;
-    font-weight: normal;
-    line-height: 1.333333333333333em;
-    margin: 0 0 0.4em;
+    @extend %titillum_medium;
+    font-size: 1.125em; // 18px / 16px = 1.125em
+    line-height: 1.333333333333333;
 }
 
 h6 {
-    color: #455860;
-    font-family: 'TitilliumText22LMedium', Arial, sans-serif;
-    font-size: 1em;
-    font-weight: normal;
-    line-height: 1.5em;
-    margin: 0 0 0.4em;
-}
-
-
-// ==========================================================================
-// ✪ $Paragraphs Typography
-// ==========================================================================
-
-p {
-    color: #5C6E76;
-    font-size: 1em;
+    @extend %titillum_medium;
+    font-size: 1em; // 16px /16px = 1em
     line-height: 1.5;
-    margin: 0 0 1.5em;
 }
 
 
 // ==========================================================================
-// ✪ $Lists Typography
+// ✪ $Header
 // ==========================================================================
 
-ul {
-    color: #5C6E76;
-    margin: 0 0 1.6em;
+header h1 {
+    @extend %titillum_light;
+    font-size: 1.375em; // 22px / 16px
+
+    // ----------- min0px / max479px ----------- //
+    @media screen and (min-width: 0px) and (max-width: 479px) {
+        text-align: center;
+    }
 }
 
-ol {
-    color: #5C6E76;
-    margin: 0 0 1.6em;
+
+// ==========================================================================
+// ✪ $Navigation
+// ==========================================================================
+
+nav {
+    font-size: 0.9375em; // 15px / 16px = 0.9375em
+    // ----------- min0px / max479px ----------- //
+    @media screen and (min-width: 0px) and (max-width: 479px) {
+        text-align: center;
+    }
+}
+
+
+// ==========================================================================
+// ✪ $Intro
+// ==========================================================================
+
+#intro h1 {
+    font-size: 3.625em; // 58px / 16px = 3.625em
+    text-align: center;
+
+    // ----------- min0px / max479px ----------- //
+    @media screen and (min-width: 0px) and (max-width: 479px) {
+        font-size: 2.75em; // 44px / 16px = 2.75em
+    }
+}
+
+#intro p {
+    text-align: center;
+}
+
+#intro #nav i {
+    font-size: 1.125em; // 18 / 16 = 1.125em
+}
+
+
+// ==========================================================================
+// ✪ $Grade Spotter
+// ==========================================================================
+
+#intro-app h2 {
+    font-size: 2em; // 32px / 16px = 2em
+}
+
+#intro-app p {
+    font-size: 1.125em; // 18 / 16 = 1.125em
+}
+
+#team .links i {
+    font-size: 1.1875em; // 19 / 16 = 1.1875em
+    font-weight: bold;
+}
+
+
+// ==========================================================================
+// ✪ $Team
+// ==========================================================================
+
+#team h3 {
+    font-size: 1.4375em; // 23px / 16px = 1.4375em
+}
+
+#team h4 {
+    font-size: 1em; // 16px / 16px = 1em
+}
+
+.status-chart-icon {
+    line-height: 1.1875;
+}
+
+
+// ==========================================================================
+// ✪ $Work
+// ==========================================================================
+
+#work .buttons i {
+    font-size: 0.875em; // 14px / 16px = 0.875em
+}
+
+
+// ==========================================================================
+// ✪ $Hire Bar
+// ==========================================================================
+
+#hire-bar p {
+    font-size: 1.1875em; // 19 / 16 = 1.1875em
+}
+
+
+// ==========================================================================
+// ✪ $Form
+// ==========================================================================
+
+label {
+    font-size: 1.125em; // 18 / 16 = 1.125em
+}
+
+.error_message {
+    @extend %proxima_nova_bold;
+    text-align: center;
+}
+
+.success {
+    @extend %proxima_nova_bold;
+    text-align: center;
+}
+
+
+// ==========================================================================
+// ✪ $Button Module
+// ==========================================================================
+
+.btn {
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn:hover {
+    text-decoration: none;
 }
 
 
@@ -98,7 +217,7 @@ ol {
 // ==========================================================================
 
 footer p {
-    font-size:14px;
+    font-size: 0.875em; // 14px / 16px = 0.875em
 }
 
 
@@ -107,6 +226,6 @@ footer p {
 // ==========================================================================
 
 footer #social i {
-    font-size: 26px;
+    font-size: 1.625em; // 26px / 16px = 1.625em
     font-weight: bold;
 }
