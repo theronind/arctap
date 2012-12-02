@@ -2,15 +2,15 @@
 // ✪ $Form
 // ==========================================================================
 
-form ul{
+form ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-form li{
+form li {
     position: relative;
 }
-label{
+label {
     color: #b6bcbf;
     position: absolute;
     top: 8px;
@@ -18,7 +18,9 @@ label{
     font-size: 18px;
     cursor: text;
 }
-input[type="text"], input[type="email"], textarea{
+
+input[type="text"],
+input[type="email"], textarea {
     border: 1px solid #BDBDBD;
     border-radius: 4px 4px 4px 4px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
@@ -31,24 +33,20 @@ input[type="text"], input[type="email"], textarea{
     padding: 6px 4px 4px 10px;
     vertical-align: baseline;
     width: 100%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+    @include transition($transition-1: all .3s ease-in-out);
 }
-textarea{
+
+textarea {
   min-height: 100px;
 }
 
 input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
-  box-shadow: 0 0 4px rgba(105,203,255, 0.6);
-  border: 1px solid #69CBFF;
-  color: #5C6E76;
+    box-shadow: 0 0 4px rgba(105,203,255, 0.6);
+    border: 1px solid #69CBFF;
+    color: #5C6E76;
 }
 
-select{
+select {
     background: #f8f8f8;
     background: -moz-linear-gradient(top,  #f8f8f8 0%, #efefef 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#efefef));
@@ -69,40 +67,45 @@ select{
     vertical-align: top;
     width: 100%;
 }
-select option, select optgroup{
+
+select option,
+select optgroup {
     background-color: #fff;
     padding:2px;
 }
 
-input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
-     color: #bfbfbf;
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #bfbfbf;
 }
-input:-moz-placeholder, textarea:-moz-placeholder{
-  color: #bfbfbf;
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+    color: #bfbfbf;
 }
 
-.error_message{
-  background-color: #FBE3E4;
-  border: 1px solid #FBC2C4;
-  border-radius: 3px;
-  color: #8A1F11;
-  display: block;
-  font-family: 'ProximaNovaBold', sans-serif;
-  margin: 10px 0;
-  padding: 10px;
-  text-align: center;
+.error_message {
+    background-color: #FBE3E4;
+    border: 1px solid #FBC2C4;
+    border-radius: 3px;
+    color: #8A1F11;
+    display: block;
+    font-family: 'ProximaNovaBold', sans-serif;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
 }
-.success{
-  background-color: #e3fbee;
-  border: 1px solid #d1e8dc;
-  border-radius: 3px;
-  color: #6db38e;
-  clear: both;
-  display: block;
-  font-family: 'ProximaNovaBold', sans-serif;
-  margin: 10px 0;
-  padding: 10px;
-  text-align: center;
+
+.success {
+    background-color: #e3fbee;
+    border: 1px solid #d1e8dc;
+    border-radius: 3px;
+    color: #6db38e;
+    clear: both;
+    display: block;
+    font-family: 'ProximaNovaBold', sans-serif;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
 }
 
 
@@ -110,65 +113,71 @@ input:-moz-placeholder, textarea:-moz-placeholder{
 // ✪ $Buttons
 // ==========================================================================
 
-.btn{
-  background-color: #fff;
-  border: none;
-  border-radius: 3px;
-  color: #26495c;
-  cursor: pointer;
-  display: inline-block;
-  margin: 0;
-  padding: 8px 15px 6px;
-  text-align: center;
-  text-decoration: none;
+.btn {
+    background-color: #fff;
+    border: none;
+    border-radius: 3px;
+    color: #26495c;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    padding: 8px 15px 6px;
+    text-align: center;
+    text-decoration: none;
 }
 .btn:hover {
-  background-color: #fff;
-  color: #26495c;
-  text-decoration: none;
+    background-color: #fff;
+    color: #26495c;
+    text-decoration: none;
 }
 .btn:active {
-  background-color: #fff;
+    background-color: #fff;
 }
+
+
 // ==========================================================================
 // ✪ $Primary Button
 // ==========================================================================
-.btn-primary{
-  background-color: #69cbff;
-  color: #fff;
+.btn-primary {
+    background-color: #69cbff;
+    color: #fff;
 }
 .btn-primary:hover {
-  background-color: #81d3ff;
-  color: #fff;
+    background-color: #81d3ff;
+    color: #fff;
 }
 .btn-primary:active {
-  background-color: #5db4e3;
+    background-color: #5db4e3;
 }
+
+
 // ==========================================================================
 // ✪ $Action Button
 // ==========================================================================
-.btn-action{
-  background-color: #fc6a63;
-  color: #fff;
+.btn-action {
+    background-color: #fc6a63;
+    color: #fff;
 }
 .btn-action:hover {
-  background-color: #ff7e78;
-  color: #fff;
+    background-color: #ff7e78;
+    color: #fff;
 }
 .btn-action:active {
-  background-color: #e35f59;
+    background-color: #e35f59;
 }
+
+
 // ==========================================================================
 // ✪ $Download App
 // ==========================================================================
-.btn-dlapp{
-  background-color: #172d38;
-  color: #fff;
+.btn-dlapp {
+    background-color: #172d38;
+    color: #fff;
 }
 .btn-dlapp:hover {
-  background-color: #1b3542;
-  color: #fff;
+    background-color: #1b3542;
+    color: #fff;
 }
 .btn-dlapp:active {
-  background-color: #12222b;
+    background-color: #12222b;
 }

@@ -2,17 +2,1058 @@
 // ✪ $Compass
 // ==========================================================================
 
-@import "fontface";
+@import "compass";
+
+
+// ==========================================================================
+// ✪ $Normalize
+// ==========================================================================
+
+@import "normalize";
+
+
+// ==========================================================================
+// ✪ $H5BP Resets
+// ==========================================================================
+
+//@import "reset";
+@import "h5bp-resets";
+
+
+// ==========================================================================
+// ✪ $Symbolset
+// ==========================================================================
+
 @import "ss-social";
 @import "ss-standard";
-@import "reset";
-@import "structure";
+
+
+// ==========================================================================
+// ✪ $Typography
+// ==========================================================================
+
+@import "fontface";
 @import "typography";
-@import "form";
+
+
+// ==========================================================================
+// ✪ $Plugins
+// ==========================================================================
+
 @import "flexslider";
 
-@import "main";
-@import "mq";
+
+// ==========================================================================
+// ✪ $Globals
+// ==========================================================================
+
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+hr {
+    clear:both;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 0;
+}
+
+label {
+    cursor: pointer;
+}
+
+input,
+textarea {
+    outline: none;
+}
+
+//input:valid,
+//textarea:valid {}
+
+input:invalid,
+textarea:invalid {
+    background-color: #f0dddd;
+}
+
+
+// ==========================================================================
+// ✪ $Structure
+// ==========================================================================
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+}
+.container:before,
+.container:after,
+.content:before,
+.content:after {
+    content: "";
+    display: table;
+}
+.container:after,
+.content:after {
+    clear: both;
+}
+.container,
+.content {
+    zoom: 1;
+}
+
+
+// ==========================================================================
+// ✪ $Grid
+// ==========================================================================
+
+.g1,
+.g1_5,
+.g2,
+.g3,
+.g4 {
+    float: left;
+    margin: 2%;
+    width: 100%;
+}
+
+.g1 {
+    max-width: 96%;
+
+    // ----------- min768px / max1023px ----------- //
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+        max-width: 21%;
+    }
+    // ----------- min480px / max767px ----------- //
+    @media screen and (min-width: 480px) and (max-width: 767px) {
+        max-width: 46%;
+    }
+    // ----------- min1023px / max6000 ----------- //
+    @media screen and (min-width: 1023px) and (max-width: 6000px) {
+        max-width: 21%
+    }
+}
+
+.g1_5 {
+    max-width: 96%;
+
+    // ----------- min480px / max767px ----------- //
+    @media screen and (min-width: 480px) and (max-width: 767px) {
+        max-width: 46%;
+    }
+    // ----------- min768px / max1023px ----------- //
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+        max-width: 29.333%;
+    }
+    // ----------- min1023px / max6000 ----------- //
+    @media screen and (min-width: 1023px) and (max-width: 6000px) {
+        max-width: 29.333%
+    }
+}
+
+.g2 {
+    max-width: 96%;
+
+    // ----------- min768px / max1023px ----------- //
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+        max-width: 46%;
+    }
+    // ----------- min1023px / max6000 ----------- //
+    @media screen and (min-width: 1023px) and (max-width: 6000px) {
+        max-width: 46%
+    }
+}
+
+.g3 {
+    max-width: 96%;
+
+    // ----------- min768px / max1023px ----------- //
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+        max-width: 71%;
+    }
+    // ----------- min1023px / max6000 ----------- //
+    @media screen and (min-width: 1023px) and (max-width: 6000px) {
+        max-width: 71%
+    }
+}
+
+.g4 {
+    max-width: 96%;
+
+    // ----------- min768px / max1023px ----------- //
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+        max-width: 96%;
+    }
+    // ----------- min1023px / max6000 ----------- //
+    @media screen and (min-width: 1023px) and (max-width: 6000px) {
+        max-width: 96%
+    }
+}
+
+
+// ==========================================================================
+// ✪ $Wrapper
+// ==========================================================================
+
+#wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -70px;
+}
+
+
+// ==========================================================================
+// ✪ $Header
+// ==========================================================================
+
+#header-wrap {
+    background-color: #26495c;
+    padding: 0 10px;
+}
+
+header {
+    padding: 15px 0;
+    position: relative;
+    z-index: 10;
+}
+
+header h1 {
+    display: inline;
+    font-family: 'TitilliumText22LLight';
+    font-size: 22px;
+
+    // ----------- min0px / max479px ----------- //
+    @media screen and (min-width: 0px) and (max-width: 479px) {
+        display: block;
+        text-align: center;
+    }
+}
+
+header img {
+    margin: 0 5px 0 0;
+}
+
+header h1 span {
+    display: inline-block;
+    margin: 12px 0 0;
+    vertical-align: top;
+}
+
+header h1 a,
+header h1 a:hover {
+    color: #fff;
+}
+
+
+// ==========================================================================
+// ✪ $Navigation
+// ==========================================================================
+
+nav {
+    float: right;
+    margin: 3px 0 0;
+
+    // ----------- min0px / max479px ----------- //
+    @media screen and (min-width: 0px) and (max-width: 479px) {
+        float: none;
+        text-align: center;
+    }
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a,
+nav li a:hover {
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    padding: 6px 14px;
+}
+
+nav li:last-child a {
+    background-color: #69cbff;
+    border-radius:3px;
+    color: #26495c;
+}
+
+nav li:last-child a {
+    border: none;
+    box-shadow: none;
+}
+
+nav ul,
+nav ol {
+    list-style: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+// ==========================================================================
+// ✪ $Intro
+// ==========================================================================
+
+#intro {
+    background-color: #fc6a63;
+    //box-shadow: 0 1px 0 #c7544e, 0 2px 0 #ecedef;
+    padding: 30px 10px 55px;
+}
+
+#intro h1 {
+    color: #FFFFFF;
+    font-size: 58px;
+    margin: 0 0 10px;
+    text-align: center;
+
+    // ----------- min0px / max479px ----------- //
+    @media screen and (min-width: 0px) and (max-width: 479px) {
+        font-size: 44px;
+    }
+}
+
+#intro h2 {
+    color: #FFFFFF;
+    margin: 0;
+}
+
+#intro p {
+    color: #F7F7F7;
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+#intro #nav {
+    float: right;
+}
+
+#intro #nav ul {
+    list-style: none;
+    margin: 14px 0 0;
+    padding: 0;
+}
+
+#intro #nav li {
+    display: inline-block;
+    margin: 0 0 0 12px;
+    padding: 0;
+}
+
+#intro #nav a {
+    color: #EFF1F5;
+    outline: none;
+}
+
+#intro #nav i {
+    color: #EFF1F5;
+    font-size: 18px;
+}
+
+#intro #nav span {
+    display: none;
+}
+
+#intro #nav .current i {
+    color: #fff;
+}
+
+
+// ==========================================================================
+// ✪ $Page
+// ==========================================================================
+
+#page {
+    background-color: #eff1f5;
+    border-radius: 3px;
+    //box-shadow: 0 0 0 1px #a2a3a6 inset, 0 2px 0 #fff inset, 0 1px 4px rgba(0, 0, 0, 0.2);
+    margin: -40px 0 30px;
+    position: relative;
+    z-index: 5;
+}
+
+.content{
+    padding: 1%;
+}
+
+
+// ==========================================================================
+// ✪ $Home
+// ==========================================================================
+
+#home #intro {
+    padding: 70px 0 100px;
+}
+
+.slides span {
+    display: block;
+    position: relative;
+}
+
+.slides span:before {
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.7) inset, 0 0 3px rgba(255, 255, 255, 0.7) inset, 0 2px 0 rgba(255, 255, 255, 0.5) inset;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.slides img {
+  border-radius: 3px 3px 0 0;
+}
+
+
+// ==========================================================================
+// ✪ $Grade Spotter
+// ==========================================================================
+
+#intro-app {
+    padding: 70px 0;
+}
+
+#intro-app .g8 {
+    margin: 130px 0 0;
+}
+
+#intro-app img {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+#intro-app h2 {
+    float: left;
+    font-size: 32px;
+    margin: 27px 0 0;
+    width: 460px;
+}
+
+#intro-app p {
+    font-size: 18px;
+}
+
+
+// ==========================================================================
+// ✪ $About
+// ==========================================================================
+
+#about img {
+    border-radius: 3px;
+}
+
+
+// ==========================================================================
+// ✪ $Team
+// ==========================================================================
+
+#team {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+//#team li{}
+#team h3 {
+    display: inline;
+    font-size: 23px;
+    margin: 0;
+}
+
+#team h4 {
+    font-size: 1em;
+    color: #7695a3;
+    margin: 0;
+}
+
+#team .pic {
+    border-radius: 3px;
+    display: block;
+    margin-bottom: 4%;
+    overflow:hidden;
+    position: relative;
+}
+
+#team .pic img {
+    border-radius: 3px;
+    margin: -35px 0px -60px 0px;
+}
+
+//#team .bio{}
+#team .links {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+#team .links li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+//#team .links a {}
+#team .links i{
+    font-size: 19px;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+#team .links img {
+    vertical-align: middle;
+}
+
+#team .links .twitter {
+    color: #10abf2;
+}
+
+#team .links .statuschart {
+    color: #df5753;
+}
+
+#team .links .website {
+    color: #35cbe6;
+}
+
+
+// ==========================================================================
+// ✪ $Work
+// ==========================================================================
+
+//#work {}
+#work img {
+    border-radius: 3px;
+}
+
+#work h2 {
+    display: inline-block;
+    margin: 0;
+}
+
+#work h2 a {
+    color: #455860;
+}
+
+#work h2 img {
+    margin: -5px 10px 0 0;
+    vertical-align: middle;
+}
+
+#work h2 span {
+    display: inline-block;
+}
+
+#work .icon {
+    border-radius: 3px;
+}
+
+#work .buttons {
+    float: right;
+    margin-top: 2px 0 0;
+    // ----------- min0px / max479px ----------- //
+    @media screen and (min-width: 0px) and (max-width: 479px) {
+        float: none;
+    }
+}
+
+#work .buttons i {
+    font-size: 14px;
+    margin: 0 0 0 5px;
+    vertical-align: middle;
+}
+
+#work .flexslider span {
+    display: block;
+    position: relative;
+}
+
+#work .flexslider span:before {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.7) inset, 0 0 3px rgba(255, 255, 255, 0.7) inset, 0 2px 0 rgba(255, 255, 255, 0.5) inset;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+#work .title {
+    border-bottom: 3px solid #c3c5c7;
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+}
+
+#portfolio {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#portfolio li {
+    padding: 0;
+}
+
+
+// ==========================================================================
+// ✪ $Hire
+// ==========================================================================
+
+//#hire{}
+#hire #hireForm .g2,
+#hire #hireForm .g4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+//#hire .g4{}
+#hire .btn {
+    float: right;
+    margin-bottom: 10px;
+    // ----------- min0px / max479px ----------- //
+    @media screen and (min-width: 0px) and (max-width: 479px) {
+        float: none;
+    }
+}
+
+
+// ==========================================================================
+// ✪ $Hire Bar
+// ==========================================================================
+
+#hire-bar {
+    background-color: #fc6a63;
+    border-radius: 3px;
+    margin: 0 0 30px;
+    padding: 10px;
+
+    // ----------- max959px ----------- //
+    @media screen and (max-width: 959px) {
+        border-radius: 0;
+    }
+}
+
+#hire-bar p {
+    color: #fff;
+    display: inline-block;
+    font-size: 19px;
+    margin: 6px 0 0 5px;
+}
+
+#hire-bar .btn {
+    float: right;
+}
+
+
+// ==========================================================================
+// ✪ $Form
+// ==========================================================================
+
+form ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+form li {
+    position: relative;
+}
+
+label {
+    color: #b6bcbf;
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    font-size: 18px;
+    cursor: text;
+}
+
+input[type="text"],
+input[type="email"], textarea {
+    border: 1px solid #BDBDBD;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
+    color: #808080;
+    display: inline-block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    padding: 6px 4px 4px 10px;
+    vertical-align: baseline;
+    width: 100%;
+    @include transition($transition-1: all .3s ease-in-out);
+}
+
+textarea {
+  min-height: 100px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    box-shadow: 0 0 4px rgba(105,203,255, 0.6);
+    border: 1px solid #69CBFF;
+    color: #5C6E76;
+}
+
+select {
+    background: #f8f8f8;
+    background: -moz-linear-gradient(top,  #f8f8f8 0%, #efefef 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#efefef));
+    background: -webkit-linear-gradient(top,  #f8f8f8 0%,#efefef 100%);
+    background: -o-linear-gradient(top,  #f8f8f8 0%,#efefef 100%);
+    background: -ms-linear-gradient(top,  #f8f8f8 0%,#efefef 100%);
+    background: linear-gradient(to bottom,  #f8f8f8 0%,#efefef 100%);
+    border: 1px solid #C0C2C4;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 -2px 0 rgba(50, 50, 50, 0.1) inset, 0 1px 0 #FFFFFF inset;
+    color: #6A777D;
+    height: 40px;
+    margin-bottom: 20px;
+    outline: medium none;
+    overflow: hidden;
+    padding: 9px 8px 8px 7px;
+    vertical-align: top;
+    width: 100%;
+}
+
+select option,
+select optgroup {
+    background-color: #fff;
+    padding:2px;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #bfbfbf;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+    color: #bfbfbf;
+}
+
+.error_message {
+    background-color: #FBE3E4;
+    border: 1px solid #FBC2C4;
+    border-radius: 3px;
+    color: #8A1F11;
+    display: block;
+    font-family: 'ProximaNovaBold', sans-serif;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.success {
+    background-color: #e3fbee;
+    border: 1px solid #d1e8dc;
+    border-radius: 3px;
+    color: #6db38e;
+    clear: both;
+    display: block;
+    font-family: 'ProximaNovaBold', sans-serif;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+}
+
+
+// ==========================================================================
+// ✪ $Button Module
+// ==========================================================================
+
+.btn {
+    @include transition($transition-1: .3s all ease-in-out);
+    background-color: #fff;
+    border: none;
+    border-radius: 3px;
+    color: #26495c;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    padding: 8px 15px 6px;
+    text-align: center;
+    text-decoration: none;
+
+    // ----------- min0px / max479px ----------- //
+    @media screen and (min-width: 0px) and (max-width: 479px) {
+        margin-top: 10px;
+    }
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #26495c;
+    text-decoration: none;
+}
+
+.btn:active {
+    background-color: #fff;
+}
+
+
+// ==========================================================================
+// ✪ $Primary Button Module
+// ==========================================================================
+
+.btn-primary {
+    background-color: #69cbff;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #81d3ff;
+    color: #fff;
+}
+
+.btn-primary:active {
+    background-color: #5db4e3;
+}
+
+
+// ==========================================================================
+// ✪ $Action Button Module
+// ==========================================================================
+
+.btn-action {
+    background-color: #fc6a63;
+    color: #fff;
+}
+
+.btn-action:hover {
+    background-color: #ff7e78;
+    color: #fff;
+}
+
+.btn-action:active {
+    background-color: #e35f59;
+}
+
+
+// ==========================================================================
+// ✪ $Download App Button Module
+// ==========================================================================
+
+.btn-dlapp {
+    margin-right: 10px;
+    background-color: #172d38;
+    color: #fff;
+}
+
+.btn-dlapp:hover {
+    background-color: #1b3542;
+    color: #fff;
+}
+
+.btn-dlapp:active {
+    background-color: #12222b;
+}
+
+
+// ==========================================================================
+// ✪ $Footer
+// ==========================================================================
+
+#footer-wrap {
+    background-color: #c3c5c7;
+}
+
+#footer-wrap,
+#push {
+    height: 70px;
+}
+
+footer {
+    padding: 22px 10px 0px;
+}
+
+footer #copy {
+    display:inline-block;
+}
+
+footer #copy img {
+    margin: 0 10px 0 0;
+
+    // vertical-align is causing weird layout issue with Opera on Mac
+    //vertical-align: bottom;
+}
+
+footer p {
+    color: #2b343d;
+    margin: 0;
+}
+
+footer p span {
+    display: inline-block;
+    margin: 0 0 3px;
+}
+
+footer a {
+    color: #2b343d;
+}
+
+
+// ==========================================================================
+// ✪ $Social
+// ==========================================================================
+
+footer #social {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer #social li {
+    margin: 0;
+    padding: 0;
+}
+
+footer #social span {
+    margin: 0 5px 0 0;
+    vertical-align: super;
+}
+
+
+// ==========================================================================
+// ✪ $Animation
+// ==========================================================================
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+// ==========================================================================
+// ✪ $Helper classes
+// ==========================================================================
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+// ==========================================================================
+// ✪ $Custom Helper Classes
+// ==========================================================================
+
+.last{
+    margin: 0;
+}
+
+
+// ==========================================================================
+// ✪ $Viewport
+// ==========================================================================
+
+// http://dev.w3.org/csswg/css-device-adapt/
+// http://timkadlec.com/2012/10/ie10-snap-mode-and-responsive-design/
+// for IE10 Snap Mode on Metro
+@-ms-viewport {
+    width: device-width;
+}
 
 
 // ==========================================================================

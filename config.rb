@@ -6,11 +6,11 @@ http_path = "/"
 
 # Set the images directory relative to your http_path or change
 # the location of the images themselves using http_images_path:
-# http_images_dir = "assets/images"
+#http_images_dir = "assets/images"
 
 # http://compass-style.org/reference/compass/helpers/urls/#stylesheet-url
 # http://chriseppstein.github.com/blog/2010/05/17/where-are-your-images
-#http_images_path = "img"
+http_images_path = "http://arctap.com/img/"
 
 # Compass will automatically add cache busters to your images based on image timestamps.
 # This will keep browser caches from displaying the wrong image if you change the image but not the url.
@@ -35,7 +35,7 @@ output_style = :compressed
 environment = :production
 
 # To enable relative paths to assets via compass helper functions. Uncomment:
-relative_assets = true
+relative_assets = false
 
 line_comments = false
 color_output = false
@@ -43,7 +43,7 @@ color_output = false
 # Sass Source Mapping
 # Make sure you’re running at least Chrome 24
 # http://bricss.net/post/33788072565/using-sass-source-maps-in-webkit-inspector
-# sass_options = { :debug_info => true }
+sass_options = { :debug_info => true }
 
 # Sass Sleuth
 # http://www.mobify.com/dev/sass-sleuth-debugging-sass-in-webkit-browsers
