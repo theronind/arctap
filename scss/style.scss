@@ -326,7 +326,7 @@ nav li {
 nav li a,
 nav li a:hover {
     display: inline-block;
-    padding: 6px 14px;
+    padding: 8px 14px 4px;
     color: #fff;
 }
 
@@ -334,11 +334,6 @@ nav li:last-child a {
     border-radius:3px;
     background-color: #69cbff;
     color: #26495c;
-}
-
-nav li:last-child a {
-    border: none;
-    box-shadow: none;
 }
 
 nav ul,
@@ -355,7 +350,6 @@ nav ol {
 // ==========================================================================
 
 #intro {
-    //box-shadow: 0 1px 0 #c7544e, 0 2px 0 #ecedef;
     padding: 30px 10px 55px;
     background-color: #fc6a63;
 }
@@ -417,7 +411,6 @@ nav ol {
 #page {
     background-color: #eff1f5;
     border-radius: 3px;
-    //box-shadow: 0 0 0 1px #a2a3a6 inset, 0 2px 0 #fff inset, 0 1px 4px rgba(0, 0, 0, 0.2);
     margin: -40px 0 30px;
     position: relative;
     z-index: 5;
