@@ -27,6 +27,9 @@
                             <a href="/work/gradespotter/" rel="bookmark"><img src="/work/gradespotter/img/slide3.png" alt=""></a>
                         </li>
                         <li class="g2 web">
+                            <a href="/work/cochlear/" rel="bookmark"><img src="/work/cochlear/img/slide1.png" alt=""></a>
+                        </li>
+                        <li class="g2 web">
                             <a href="/work/kristinastpeter/" rel="bookmark"><img src="/work/kristinastpeter/img/slide3.png" alt=""></a>
                         </li>
                         <li class="g2 web">

@@ -34,7 +34,7 @@
                             <h2><a href="http://cochlearapp.com" rel="external"><img src="/work/cochlear/img/icon.png" alt=""><span>Cochlear</span></a></h2>
                             <div class="buttons"><a href="http://cochlearapp.com" class="btn btn-primary" rel="external">Visit Site<i class="ss-icon">&#x1F4BB;</i></a></div>
                         </div><!--/title-->
-                        <p>Cochlear is ...</p>
+                        <p>Cochlear app is a full-featured interactive remote for your iPhone with the real-time status, advanced settings and many more!</p>
                     </div><!--/g4-->
                 </div><!--/content-->
 
