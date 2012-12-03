@@ -10,7 +10,7 @@
         <?php
             switch ( $title ) {
                 // Home Page
-                case null:
+                case 'Home':
                     echo 'ArcTap &#9889; We Craft Experiences for Mobile &amp; the Web. We are an amazing little team of freelancers based out of New York City';
                     break;
                 // About Page
