@@ -11,13 +11,13 @@
 </div><!--/wrapper-->
 
 <div id="footer-wrap">
-    <footer role="contentinfo">
+    <footer class="primary-footer" role="contentinfo">
         <div class="container">
             <p id="copy">
-                <!--[if lte IE 8]><img src="/img/logo-small.png" alt="We Craft Experiences"><![endif]--><!--[if gt IE 8]><!--><img src="/img/logo-small.svgz" alt="We Craft Experiences"><!--<![endif]--><span>2012 ArcTap</span>
+                <a href="/" rel="bookmark author"><span>ArcTap &copy; 2012</span></a>
             </p>
             <ul id="social">
-                <li><a href="https://twitter.com/arctap" rel="author me"><span>Follow us</span><i class="ss-icon ss-social">&#xF611;</i></a></li>
+                <li><a href="https://twitter.com/arctap" rel="author me"><span class="follow-copy">Follow us</span><span class="ss-icon ss-social">&#xF611;</span></a></li>
             </ul>
         </div><!--/container-->
     </footer>

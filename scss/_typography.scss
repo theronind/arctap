@@ -79,13 +79,15 @@ h6 {
 // ✪ $Header
 // ==========================================================================
 
-header h1 {
-    @extend %titillum_light;
-    font-size: 1.375em; // 22px / 16px
+.banner {
+    .logo {
+        @extend %titillum_light;
+        font-size: 1.375em; // 22px / 16px
 
-    // ----------- max479px ----------- //
-    @media screen and (max-width: 29.9375em) {
-        text-align: center;
+        // ----------- max479px ----------- //
+        @media screen and (max-width: 29.9375em) {
+            text-align: center;
+        }
     }
 }
 
@@ -229,7 +231,8 @@ footer p {
 // ✪ $Social Typography
 // ==========================================================================
 
-footer #social i {
-    font-size: 1.625em; // 26px / 16px = 1.625em
+#social .ss-icon {
+    font-size: 1.875em; // 26px / 16px = 1.625em
     font-weight: bold;
+    line-height: 1.25em;
 }

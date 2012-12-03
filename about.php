@@ -17,7 +17,7 @@
                         <p class="last">The idea of putting together a great team was easy, the hard part now is to find time for all the awesome ideas out there. Because of this we are very selective on what projects we take on. What makes us unique is not only the solid team, but what the team is made up of. We understand that apps sometimes need more then just a designer and a developer.</p>
                     </div><!--/g2-->
                     <div class="g2">
-                        <img src="/img/about/nyc.png"/>
+                        <img src="/img/about/nyc.png" class="nyc-photo" alt="A view from above of New York City">
                     </div><!--/g2-->
 
                     <hr/>
