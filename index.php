@@ -1,4 +1,4 @@
-<?php  $title = 'Home'; include 'header.php'; ?>
+<?php  $title = ''; include 'header.php'; ?>
 
     <div id="home">
 
