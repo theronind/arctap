@@ -15,19 +15,20 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link rel="shortcut icon" href="/favicon.png">
-    <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
     <script src="/js/libs/modernizr-2.5.3.min.js"></script>
 </head>
 <body>
 <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
-
 <div id="wrapper">
 
     <div id="header-wrap">
         <header role="banner">
             <div class="container">
-                <h1><a href="/" rel="bookmark author"><img src="/img/logo.png" alt=""><span>ArcTap</span></a></h1>
+                <h1>
+                    <a href="/" rel="bookmark author"><!--[if lte IE 8]><img src="/img/logo.png" alt="We Craft Experiences"><![endif]--><!--[if gt IE 8]><!--><img src="/img/logo.svgz" alt="We Craft Experiences"><!--<![endif]--><span>ArcTap</span></a>
+                </h1>
                 <nav role="navigation">
                     <ul>
                         <li><a href="/about/" rel="bookmark">About</a></li>

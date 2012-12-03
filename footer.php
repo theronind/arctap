@@ -13,7 +13,9 @@
 <div id="footer-wrap">
     <footer role="contentinfo">
         <div class="container">
-            <p id="copy"><img src="/img/logo-small.png" alt=""><span>2012 ArcTap</span></p>
+            <p id="copy">
+                <!--[if lte IE 8]><img src="/img/logo-small.png" alt="We Craft Experiences"><![endif]--><!--[if gt IE 8]><!--><img src="/img/logo-small.svgz" alt="We Craft Experiences"><!--<![endif]--><span>2012 ArcTap</span>
+            </p>
             <ul id="social">
                 <li><a href="https://twitter.com/arctap" rel="author me"><span>Follow us</span><i class="ss-icon ss-social">&#xF611;</i></a></li>
             </ul>
