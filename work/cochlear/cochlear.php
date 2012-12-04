@@ -28,7 +28,7 @@
                     </ul>
                 </div><!--/flexslider-->
 
-                <div class="content" role="main">
+                <section class="content" role="main">
                     <div class="g4">
                         <div class="title clearfix">
                             <h2><a href="http://cochlearapp.com" rel="external"><img src="/work/cochlear/img/icon.png" alt=""><span>Cochlear</span></a></h2>
@@ -36,7 +36,7 @@
                         </div><!--/title-->
                         <p>Cochlear is ...</p>
                     </div><!--/g4-->
-                </div><!--/content-->
+                </section><!--/content-->
 
             </div><!--/page-->
         </div><!--/container-->

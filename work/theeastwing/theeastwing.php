@@ -24,7 +24,7 @@
                     </ul>
                 </div><!--/flexslider-->
 
-                <div class="content" role="main">
+                <section class="content" role="main">
                     <div class="g4">
                         <div class="title clearfix">
                             <h2><a href="http://theeastwing.net/" rel="external"><img src="/work/theeastwing/img/icon.png" alt=""><span>The East Wing</span></a></h2>
@@ -34,7 +34,7 @@
                         </div><!--/title-->
                         <p>The East Wing is a weekly show that talks about design, user experience, problem solving and the keys to creating products with value.</p>
                     </div><!--/g4-->
-                </div><!--/content-->
+                </section><!--/content-->
 
             </div><!--/page-->
         </div><!--/container-->

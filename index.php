@@ -29,9 +29,9 @@
                     </ul>
                 </div><!--/flexslider-->
 
-                <div class="content" role="main">
+                <section class="content" role="main">
                     <div class="g4">
-                        <h5>ArcTap is an outstanding team of trusted freelancers that work together to craft the perfect solution for you and your customers. Each team member is hand selected to join based on their proven excellence in their field.</h5>
+                        <h5 class="intro-copy">ArcTap is an outstanding team of trusted freelancers that work together to craft the perfect solution for you and your customers. Each team member is hand selected to join based on their proven excellence in their field.</h5>
                     </div><!--/g4-->
 
                     <div class="g2">
@@ -44,7 +44,7 @@
                         <p>Collectively we get a lot of work request. We work together to see what needs to be done and who is available to be apart of that project. Once we have the team assembled we will be able to start the project. </p>
                     </div><!--/g2-->
 
-                </div><!--/content-->
+                </section><!--/content-->
             </div><!--/page-->
         </div><!--/container-->
 

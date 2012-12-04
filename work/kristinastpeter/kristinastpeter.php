@@ -28,7 +28,7 @@
                     </ul>
                 </div><!--/flexslider-->
 
-                <div class="content" role="main">
+                <section class="content" role="main">
                     <div class="g4">
                         <div class="title clearfix">
                             <h2><a href="http://kristinastpeter.com" rel="external"><img src="/work/kristinastpeter/img/icon.png" class="icon" alt=""><span>Kristina St. Peter</span></a></h2>
@@ -38,7 +38,7 @@
                         </div><!--/title-->
                         <p>Kristina St. Peter is an amazing Public Relations Coordinator that is also an essential part of our team. This website was a gift for her as a little token of our appreciation when she helped us out on Grade Spotter. The site is a single page r&eacute;sum&eacute; that looks great on everything from your iPhone to your desktop.</p>
                     </div><!--/g4-->
-                </div><!--/content-->
+                </section><!--/content-->
 
             </div><!--/page-->
         </div><!--/container-->

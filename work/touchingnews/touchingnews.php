@@ -28,7 +28,7 @@
                     </ul>
                 </div><!--/flexslider-->
 
-                <div class="content" role="main">
+                <section class="content" role="main">
                     <div class="g4">
                         <div class="title clearfix">
                             <h2><a href="/work/touchingnews/demo" rel="external"><img src="/work/touchingnews/img/icon.png" alt=""><span>Touching News</span></a></h2>
@@ -38,7 +38,7 @@
                         </div><!--/title-->
                         <p>Touching News is an example of a different approach to advertising on the iPad and other tablet devices.</p>
                     </div><!--/g4-->
-                </div><!--/content-->
+                </section><!--/content-->
 
             </div><!--/page-->
         </div><!--/container-->
