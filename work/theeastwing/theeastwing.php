@@ -32,7 +32,7 @@
                                 <a href="http://theeastwing.net/" class="btn btn-primary" rel="external">Visit Site<i class="ss-icon">&#x1F4BB;</i></a>
                             </div>
                         </div><!--/title-->
-                        <p>The East Wing is a weekly show that talks about design, user experience, problem solving and the keys to creating producst with value.</p>
+                        <p>The East Wing is a weekly show that talks about design, user experience, problem solving and the keys to creating products with value.</p>
                     </div><!--/g4-->
                 </div><!--/content-->
 
