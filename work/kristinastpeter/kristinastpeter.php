@@ -36,7 +36,7 @@
                                 <a href="http://kristinastpeter.com" class="btn btn-primary" rel="external">Visit Site <i class="ss-icon">&#x1F4BB;</i></a>
                             </div>
                         </div><!--/title-->
-                        <p>Kristina St. Peter is a amazing Public Relations Coordinator that is apart of our team. This website was a gift for her as a little token of our appreciation when she helped us out on Grade Spotter. The site is a single page r&eacute;sum&eacute; that looks great on everything from your iPhone to your desktop.</p>
+                        <p>Kristina St. Peter is an amazing Public Relations Coordinator that is also an essential part of our team. This website was a gift for her as a little token of our appreciation when she helped us out on Grade Spotter. The site is a single page r&eacute;sum&eacute; that looks great on everything from your iPhone to your desktop.</p>
                     </div><!--/g4-->
                 </div><!--/content-->
 
