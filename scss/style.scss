@@ -310,9 +310,9 @@ textarea:invalid {
 // ==========================================================================
 
 nav {
+    display: inline;
     float: right;
     margin: 3px 0 0;
-
     // ----------- max479px ----------- //
     @media screen and (max-width: 29.9375em) {
         float: none;
