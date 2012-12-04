@@ -11,39 +11,39 @@
             switch ( $title ) {
                 // Home Page
                 case '':
-                    echo 'ArcTap &#9889; We Craft Experiences for Mobile &amp; the Web. We are an amazing little team of freelancers based out of New York City';
+                    echo "ArcTap &raquo; We Craft Experiences for Mobile &amp; the Web. We are an amazing little team of freelancers based out of New York City";
                     break;
                 // About Page
                 case 'About':
-                    echo "ArcTap &#9889; $title" . ' ' . '&#9889; Classic is what we build. What makes us unique is not only the solid team, but what the team is made up of.';
+                    echo "ArcTap &raquo; $title &raquo; Classic is what we build. What makes us unique is not only the solid team, but what the team is made up of.";
                     break;
                 // Team Page
                 case 'Team':
-                    echo "ArcTap &#9889; $title" . ' ' . '&#9889; We are an amazing little team of freelancers based out of New York City.';
+                    echo "ArcTap &raquo; $title &raquo; We are an amazing little team of freelancers based out of New York City.";
                     break;
                 // Work Page
                 case 'Work':
-                    echo "ArcTap &#9889; $title" . ' ' . '&#9889; A Collection of our Work for Mobile and the Web.';
+                    echo "ArcTap &raquo; $title &raquo; A Collection of our Work for Mobile and the Web.";
                     break;
                 // Work : Status Chart
                 case 'Status Chart':
-                    echo "ArcTap &#9889; $title" . ' ' . '&#9889; The simplest way track and share your professional milestones and all of the important things that make you who you are.';
+                    echo "ArcTap &raquo; Work &raquo; $title &raquo; The simplest way track and share your professional milestones and all of the important things that make you who you are.";
                     break;
                 // Work : Grade Spotter
                 case 'Grade Spotter':
-                    echo "ArcTap &#9889; $title" . ' ' . '&#9889; Grade Spotter is a full&ndash;featured restaurant inspection guide for your iPhone. There are no more excuses for the unknown reasons behind your favorite NYC restaurant\'s grade.';
+                    echo "ArcTap &raquo; Work &raquo; $title &raquo; Grade Spotter is a full&ndash;featured restaurant inspection guide for your iPhone. There are no more excuses for the unknown reasons behind your favorite NYC restaurant\'s grade.";
                     break;
                 // Work : The East Wing
                 case 'The East Wing':
-                    echo "ArcTap &#9889; $title" . ' ' . '&#9889; The East Wing is a weekly show that talks about design, user experience, problem solving and the keys to creating producst with value.';
+                    echo "ArcTap &raquo; Work &raquo; $title &raquo; The East Wing is a weekly show that talks about design, user experience, problem solving and the keys to creating producst with value.";
                     break;
                 // Work : Kristina St. Peter
                 case 'Kristina St. Peter':
-                    echo "ArcTap &#9889; $title" . ' ' . '&#9889; The site is a single page résumé that looks great on everything from your iPhone to your desktop.';
+                    echo "ArcTap &raquo; Work &raquo; $title &raquo; The site is a single page résumé that looks great on everything from your iPhone to your desktop.";
                     break;
                 // Hire Page
                 case 'Hire':
-                    echo "ArcTap &#9889; $title" . ' ' . '&#9889; You\'re about to make a great first step towards an amazing project.';
+                    echo "ArcTap &raquo; $title &raquo; You\'re about to make a great first step towards an amazing project.";
                     break;
             }
         ?>
