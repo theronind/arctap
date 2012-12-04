@@ -43,7 +43,7 @@
                     break;
                 // Hire Page
                 case 'Hire':
-                    echo "ArcTap &raquo; $title &raquo; You\'re about to make a great first step towards an amazing project.";
+                    echo "ArcTap &raquo; $title &raquo; You're about to make a great first step towards an amazing project.";
                     break;
             }
         ?>
