@@ -8,20 +8,9 @@ A Freelancer Guild of Talented Craftsmen.
 * __Income:__ We plan on charing weekly rates of $10,000. Simple math $10,000 / 40 Hours = $250 an hour.
 * __Benefits:__ Right now it is not much. Access to an incredible group, collecting money from the client, higher income, working remote. In the future we plan on incorporating to provide proper legal coverage and contacts.
 
-## Team Members & Emails
-* Christoper Kennedy - kennedysgarage@gmail.com
-* Aaron Hall - llahnoraa@gmail.com
-* Tim Smith - smith@timothybsmith.com
-* Chris Jeane
-* Jarod Reyes -
-* Dennis Gaebel - &#103;&#114;&#097;&#121;&#103;&#104;&#111;&#115;&#116;&#064;&#103;&#114;&#097;&#121;&#103;&#104;&#111;&#115;&#116;&#118;&#105;&#115;&#117;&#097;&#108;&#115;&#046;&#099;&#111;&#109;
-* John Britton -
-* Frank Denbow -
-* Jon Gottfried -
-* Sara Kennedy -
-* Kristina St. Peter -
-* Justin LaMonica -
-* Jenna Santana -
+## What we need from you
+* Give your email below
+* Tell us about your skills [https://github.com/arctap/arctap/wiki/Team-Skills](https://github.com/arctap/arctap/wiki/Team-Skills)
 
 ## Incoming Request
 * Each client has a Project Manger. The PM will be the first and main contact with the client. They will be there for the intro meeting to get a better grasp of the requirements of the project and what is needed for it. Once they know the scope they will seek out the appropriate team members to take on that project. The PM will see the project until the end.
@@ -32,6 +21,19 @@ A Freelancer Guild of Talented Craftsmen.
 * Add members to the repo
 * Add members to team@arctap.com
 * Create a process for how to handle incoming request
-* Maybe create a wiki of everyone. Each members page could include personal strengths (e.g. Rails, iOS, JavaScript).
-* Thinking about building a tool for the client to see invoices and were we are on projects.
 * Build some kind of calendar to keep track of who is available for each week of the year.
+
+## Team Members & Emails
+* Christoper Kennedy - kennedysgarage@gmail.com
+* Aaron Hall - llahnoraa@gmail.com
+* Tim Smith - smith@timothybsmith.com
+* Chris Jeane
+* Jarod Reyes -
+* Dennis Gaebel - grayghost@grayghostvisuals.com
+* John Britton -
+* Frank Denbow -
+* Jon Gottfried -
+* Sara Kennedy -
+* Kristina St. Peter -
+* Justin LaMonica -
+* Jenna Santana -
