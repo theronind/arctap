@@ -108,7 +108,7 @@
     <link rel="shortcut icon" href="/favicon.png">
     <!-- styles -->
     <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
-    <link href="/css/style.css?v1.4" rel="stylesheet">
+    <link href="/css/style.css?v1.5" rel="stylesheet">
     <!-- modernizr -->
     <script src="/js/libs/modernizr-2.5.3.min.js"></script>
 </head>

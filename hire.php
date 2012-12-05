@@ -41,7 +41,7 @@
                                 <textarea id="message" name="message" placeholder="Give us a brief description and tell us why it will be awesome to work with you on this project." required></textarea>
                             </li>
                             <li class="g4">
-                                <input type="submit" class="btn btn-action" value="Send" name="submit">
+                                <input type="submit" class="btn-action" value="Send" name="submit">
                             </li>
                             <li class="success g4" style="display:none">Your message has been sent successfully.</li>
                         </ul>

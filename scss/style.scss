@@ -675,6 +675,8 @@ nav ol {
     // ----------- max479px ----------- //
     @media screen and (max-width: 29.9375em) {
         float: none;
+        padding: 1.5em 0;
+        width: 100%;
     }
 }
 
@@ -907,8 +909,11 @@ select:required {
 // ==========================================================================
 
 .btn-action {
+    @extend .btn;
     background: #fc6a63;
     color: $vanilla_white;
+    padding: .75em 0;
+    width: 100px;
 }
 
 .btn-action:hover {
