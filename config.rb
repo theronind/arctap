@@ -2,7 +2,8 @@
 # require "/Library/Ruby/Gems/1.8/gems/compass-0.12.1/lib/compass.rb";
 
 # Set this to the root of your project when deployed:
-http_path = "/"
+# http_path = "/"
+http_path = "http://arctap.com/"
 
 # Set the images directory relative to your http_path or change
 # the location of the images themselves using http_images_path:
@@ -10,7 +11,7 @@ http_path = "/"
 
 # http://compass-style.org/reference/compass/helpers/urls/#stylesheet-url
 # http://chriseppstein.github.com/blog/2010/05/17/where-are-your-images
-http_images_path = "http://arctap.com/img/"
+#http_images_path = ""
 
 # Compass will automatically add cache busters to your images based on image timestamps.
 # This will keep browser caches from displaying the wrong image if you change the image but not the url.

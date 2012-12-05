@@ -12,7 +12,7 @@
         <div class="container">
             <div id="page">
 
-                <div class="flexslider">
+                <figure class="flexslider">
                     <ul class="slides">
                         <li>
                             <a href="/work/statuschart/" rel="external"><span><img src="/work/statuschart/img/slide1.png" alt=""></span></a>
@@ -27,7 +27,7 @@
                             <p class="flex-caption">The East Wing</p>
                         </li>
                     </ul>
-                </div><!--/flexslider-->
+                </figure><!--/flexslider-->
 
                 <section class="content" role="main">
                     <div class="g4">

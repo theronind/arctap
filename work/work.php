@@ -5,7 +5,7 @@
         <section id="intro">
             <div class="container">
                 <h2>Our Work</h2>
-                <div id="nav">
+                <div id="sort-nav">
                     <ul id="filter">
                         <li class="sort-works">Sort Work:</li>
                         <li class="current"><a href=""><i class="ss-icon">&#xE9A3;</i><span>All</span></a></li>
