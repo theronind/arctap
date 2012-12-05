@@ -10,7 +10,7 @@
 
         <div class="container">
             <div id="page">
-                <div class="content" role="main">
+                <section class="content" role="main">
                     <div class="g4">
                         <p>You are about to make a great first step. We don't want to waste anyone's time, so we will keep this questionnaire brief. After we review this little intro of your needs we well get in touch. Thanks for your time and we look forward to speaking with you.</p>
                     </div><!--/g4-->
@@ -61,7 +61,7 @@
                         <h3>Just say Hi.</h3>
                         <p class="last">Feel free to reach out to us at anytime. Our group email is <a href="mailto:&#116;&#101;&#097;&#109;&#064;&#097;&#114;&#099;&#116;&#097;&#112;&#046;&#099;&#111;&#109;">&#116;&#101;&#097;&#109;&#064;&#097;&#114;&#099;&#116;&#097;&#112;&#046;&#099;&#111;&#109;</a> or for a quicker response say hello to us on twitter at <a href="http://twitter.com/arctap" rel="author me">@ArcTap</a>.</p>
                     </div><!--/g1_5-->
-                </div><!--/content-->
+                </section><!--/content-->
             </div><!--/page-->
         </div><!--/container-->
 

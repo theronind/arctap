@@ -111,7 +111,7 @@ hr {
     border: 0;
     border-bottom: 1px solid #ccc;
     margin: 10px 0;
-    padding: 0;
+    padding: 0 2%;
 }
 
 label {
@@ -323,17 +323,27 @@ nav li {
     display: inline;
 }
 
-nav li a,
-nav li a:hover {
+nav li a {
     display: inline-block;
-    padding: 8px 14px 4px;
-    color: #fff;
+    padding: 8px 14px 8px;
 }
 
-nav li:last-child a {
-    border-radius:3px;
-    background-color: #69cbff;
-    color: #26495c;
+nav li {
+    a,
+    a:hover {
+        color: #FFF;
+    }
+    &:last-child {
+        a {
+            border-radius:3px;
+            background: #50cefe;
+            color: #1e4a5c;
+            &:hover {
+                background: #008EC4;
+                color: white;
+            }
+        }
+    }
 }
 
 nav ul,
@@ -453,7 +463,7 @@ nav ol {
 }
 
 .slides img {
-  border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
 }
 
 
@@ -484,6 +494,16 @@ nav ol {
 // ==========================================================================
 // ✪ $About
 // ==========================================================================
+
+.about-hero-copy {
+    &:after {
+        border-bottom: 1px solid #ccc;
+        display: inline-block;
+        width: 96%;
+        margin: 1em auto;
+        padding: .5em 0;
+    }
+}
 
 .nyc-photo {
     background: red;
@@ -637,9 +657,13 @@ nav ol {
     padding: 0;
 }
 
+.sort-works {
+    color: #FFF;
+}
+
 
 // ==========================================================================
-// ✪ $Hire
+// ✪ $Hire Page
 // ==========================================================================
 
 #hire #hireForm .g2,
@@ -686,20 +710,26 @@ nav ol {
     }
 }
 
-#hire-bar .btn {
-    width: 100%;
-    // ----------- min400px ----------- //
-    @media screen and (min-width: 25em) {
-        float: right;
-        width: 100px;
-    }
-    // ----------- max479px ----------- //
-    @media screen and (max-width: 48em) {
-        margin-top: 10px;
-    }
-    // ----------- max768px ----------- //
-    @media screen and (max-width: 48em) {
-        margin-top: 10px;
+#hire-bar {
+    .btn {
+        width: 100%;
+        &:hover {
+            background: #132e38;
+            color: #FFF;
+        }
+        // ----------- min400px ----------- //
+        @media screen and (min-width: 25em) {
+            float: right;
+            width: 100px;
+        }
+        // ----------- max479px ----------- //
+        @media screen and (max-width: 48em) {
+            margin-top: 10px;
+        }
+        // ----------- max768px ----------- //
+        @media screen and (max-width: 48em) {
+            margin-top: 10px;
+        }
     }
 }
 
@@ -728,9 +758,14 @@ label {
 
 input[type="name"],
 input[type="text"],
+input[type="email"] {
+    @include transition($transition-1: all .3s ease-in-out);
+}
+
+input[type="name"],
+input[type="text"],
 input[type="email"],
 textarea {
-    @include transition($transition-1: all .3s ease-in-out);
     border: 1px solid #BDBDBD;
     border-radius: 4px 4px 4px 4px;
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.20);

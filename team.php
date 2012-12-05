@@ -10,8 +10,7 @@
 
         <div class="container">
             <div id="page">
-                <div class="content" role="main">
-
+                <section class="content" role="main">
                     <ul id="team">
                         <li class="g1_5">
                             <div class="pic"><img src="/img/team/christopher-kennedy.jpg" alt=""></div>
@@ -178,8 +177,7 @@
                             </div><!--/bio-->
                         </li>
                     </ul>
-
-                </div><!--/content-->
+                </section><!--/content-->
             </div><!--/page-->
         </div><!--/container-->
 

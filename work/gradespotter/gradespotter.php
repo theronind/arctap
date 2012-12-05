@@ -28,7 +28,7 @@
                     </ul>
                 </div><!--/flexslider-->
 
-                <div class="content" role="main">
+                <section class="content" role="main">
                     <div class="g4">
                         <div class="title clearfix">
                             <h2><a href="http://gradespotter.com" rel="external"><img src="/work/gradespotter/img/icon.png" alt=""><span>Grade Spotter</span></a></h2>
@@ -36,7 +36,7 @@
                         </div><!--/title-->
                         <p>Grade Spotter is a full-featured restaurant inspection guide for your iPhone. There are no more excuses for the unknown reasons behind your favorite NYC restaurant's grade.</p>
                     </div><!--/g4-->
-                </div><!--/content-->
+                </section><!--/content-->
 
             </div><!--/page-->
         </div><!--/container-->

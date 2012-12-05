@@ -7,6 +7,7 @@
                 <h2>Our Work</h2>
                 <div id="nav">
                     <ul id="filter">
+                        <li class="sort-works">Sort Work:</li>
                         <li class="current"><a href=""><i class="ss-icon">&#xE9A3;</i><span>All</span></a></li>
                         <li><a href=""><i class="ss-icon">&#x1F4BB;</i><span>Web</span></a></li>
                         <li><a href=""><i class="ss-icon">&#x1F4F1;</i><span>Mobile</span></a></li>
@@ -17,8 +18,7 @@
 
         <div class="container">
             <div id="page">
-                <div class="content" role="main">
-
+                <section class="content" role="main">
                     <ul id="portfolio">
                         <li class="g2 web">
                             <a href="/work/statuschart/" rel="bookmark"><img src="/work/statuschart/img/slide3.png" alt=""></a>
@@ -33,8 +33,7 @@
                             <a href="/work/theeastwing/" rel="bookmark"><img src="/work/theeastwing/img/slide1.png" alt=""></a>
                         </li>
                     </ul>
-
-                </div><!--/content-->
+                </section><!--/content-->
             </div><!--/page-->
         </div><!--/container-->
 

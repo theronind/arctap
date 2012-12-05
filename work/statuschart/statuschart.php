@@ -28,7 +28,7 @@
                     </ul>
                 </div><!--/flexslider-->
 
-                <div class="content" role="main">
+                <section class="content" role="main">
                     <div class="g4">
                         <div class="title clearfix">
                             <h2><a href="https://www.statuschart.com"><img src="/work/statuschart/img/icon.png" alt=""><span>Status Chart</span></a></h2>
@@ -38,7 +38,7 @@
                         </div><!--/title-->
                         <p>Status Chart is your professional dashboard. The simplest way track and share your professional milestones and all of the important things that make you who you are.</p>
                     </div><!--/g4-->
-                </div><!--/content-->
+                </section><!--/content-->
 
             </div><!--/page-->
         </div><!--/container-->
