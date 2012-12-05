@@ -14,7 +14,7 @@ $(document).ready(function () {
 
         var filterVal = $(this).find("span").text().toLowerCase().replace(' ', '-');
 
-        if (filterVal === 'all') {
+        if (filterVal == 'all') {
             $('ul#portfolio li.hidden').fadeIn('slow').removeClass('hidden');
         } else {
             $('ul#portfolio li').each(function () {
@@ -30,7 +30,7 @@ $(document).ready(function () {
 
     // Hire Form
     // http://www.spruce.it/noise/simple-ajax-contact-form
-    $('#hireForm .btn').click(function () {
+    $('#hireForm input[type="submit"]').click(function () {
         var name       = $('#name').val(),
             email      = $('#email').val(),
             company    = $('#company').val(),
