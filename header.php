@@ -1,8 +1,7 @@
 <!doctype html>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -104,11 +103,9 @@
     <meta name="MobileOptimized" content="320">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <!-- favicon -->
     <link rel="shortcut icon" href="/favicon.png">
-    <!-- styles -->
     <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
-    <link href="/css/style.css?v1.5" rel="stylesheet">
+    <link href="/css/style.css?v1.6" rel="stylesheet">
     <!-- modernizr -->
     <script src="/js/libs/modernizr-2.5.3.min.js"></script>
 </head>
@@ -119,10 +116,8 @@
     <div id="header-wrap">
         <header class="banner" role="banner">
             <div class="container">
-                <h1 class="logo">
-                    <a href="/" rel="bookmark author"><span>ArcTap</span></a>
-                </h1>
-                <nav role="navigation">
+                <h1 class="logo"><a href="/" rel="bookmark author" class="arctap-anchor-link"><span>ArcTap</span></a></h1>
+                <nav class="main-nav" role="navigation">
                     <ul>
                         <li><a href="/about/" rel="bookmark">About</a></li>
                         <li><a href="/team/" rel="bookmark">Team</a></li>
