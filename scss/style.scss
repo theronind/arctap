@@ -583,17 +583,21 @@ textarea:invalid {
 #team .links .statuschart {
     color: #df5753;
 }
-
+#team .links .statuschart img{
+    height: 20px;
+    width: 20px;
+    vertical-align: baseline;
+}
 #team .links .website {
     color: #35cbe6;
 }
 
-.status-chart-icon {
+/*.status-chart-icon {
     display: inline-block;
     height: 20px;
     width: 22px;
-    background: url(../img/team/statuschart-20x20.png) center center no-repeat;
-}
+    background: url(../img/team/statuschart.svg) center center no-repeat;
+}*/
 
 
 // ==========================================================================
