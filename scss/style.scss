@@ -587,13 +587,25 @@ textarea:invalid {
     color: #35cbe6;
 }
 
-.status-chart-icon {
+/*.status-chart-icon {
     display: inline-block;
     height: 20px;
     width: 20px;
     background: url(../img/team/statuschart.svgz) center center no-repeat;
+}*/
+.status-chart-icon {
+    @extend %inline_block;
+    height: 20px;
+    width: 20px;
+    background: image-url("statuschart.svgz") 0px 0px no-repeat;
+    color: $vanilla_white;
+    .no-svg & {
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAABGCAYAAAHJB+bRAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABOZJREFUaN61WbvRpEgMJgNCIIA1cNZezK2zqHPWXC6C4zIgBKouAUIgBOoi6BAIof11OPhLzC+EXt3MUqUaphFfq9V6tSgKuL58/TYU9NoHN/xnOQYug4Q7XAZ+/f3XdtCNcx9cLjcspzrwut9n7akYPbqfLqs5ZHwtAAYWTr4NaLnMtv+ul9n3m+oi/DFA3uC1dUrQUs3f9LsPjGQNBzUsM2UUUemWikjaKi7j+58S3Q/0pf1//Nz6q5pFO9kIc2lZyEpQB0k9w6lDUX/k/6oyHWZ3mtv+GynjDL8l3j5WLrLPeIZGmhrfVxxqx4xF1XKABs0oGtcWHozMeNipO/+0O9XK3kd2w7lpP/4zlnOT8cIIImDGICJaU1evlQkyX3yCM1JAr7XQtKmxBZnaQStY/IzGlsJzIaCKeTadto3+21Ix4zWNbdY7OIT1igVvHLDohaCnwIxj3UUrYNyc7ZKLmAjNPBu8GxOM57HIuQCg+ffPdoCAflKVBETCci3wjIinlYAilwgYnp6MTbfJYSAqQAuSqJMS4MczLuElBcpP3vYMIwvHSIEYmtg8eujEmHkmQFHg63G5s2nFgWO55S1FQG7YmJSwSOZDzKz0LJGLuhWx1dLjJTUEjZPKXHcbcXQGMFyh1SlgEV4qhecNPJ+8YNFZKG1cvXGb2VO1muFfm1GrbGFFvav2O+s/mkuwbqGS37zF5CwlKVdOEZSugiUBCsAVrSq1KjJyGQyBtd6NfBW2zLJbeGlMMbPbAYhMMimptPZ4S9CK/LNIUr1E8VeO8hI8Bv/n+x/dfz9/zCjJt1lgJG1K1HiAai2rIZ5o5fKDsTOZhMm1rBUsACErRl+n5D7hJiStDZ+mGkeRtBm5e3Ul+ZQzCTyvzpveA4YbBgLvVEjLRaYh0cAAroWg6GAZtrSaz7WnlXKlABgKtb3Bg9cK3/jSlROwM+y0xIZZSWWu5tt4A01PQaVdcDQsGtMnwX9nBawSJ1Sjh1JTWyGsRDpbuR1FQKrnSLFRotVVCit5e0QFqUWz2pl7xwU1+8o0SCrjNNzRpqlYRj4Q7NRU9Nb8QnOmRLWGr9Q3JpkzBJs8LSek1Zh1gkLCrU7+jrG9wXhnQLxlinCdt1IjJrBpJbih8SVFwMXSANhTcHrxuZWVVMl7F0QFbByHZy9NxqFyc4ciJOAoPO+B56RVESxo9oUPAylb3CbaURC2tE5wxinVi0dPGCD94i3lPIUcJLsvOliTEp7JiVsizw9PgzX11uHJ+ZCEpK5418WkqdMBes7WIHy0wjt18bsv0MZkePBZyXTZDcF3XFCmjsyXUaveG7Ve6xOBStSO5yaeoP/QEBrgmbSQObtIVarg6QkoLHZgcLsUEPr5IDxaqS7snCQoeSHrnECaOObBBQQN3Lda7bvTkKmRYLUNHMc6tuczPxRuetRf4+0+cDY3v8GRLl7+cLEd1V6TaWda/FsIzUZDrbrYL26DPrCzVOqMeTbckXIJ6NhODy3OHboIOJlfhK9C0s/UnkZ09IYs0o9e6EDIMOrwuEsuR5T2HBw9nTZjtZT6jMUOYkQhWzVnAGaFKoQ1mrZKJoxWeUS2I7wpNY6eUBKJoG9vpzGCxaR6EQACE3i7B0I1DGZ8XMhCu3pVQsiCCtcB7GlRsk3McaJU7Y7OrBKAN+uL3/97d0n3ilhUDQAAAABJRU5ErkJggg==) 0px -30px no-repeat;
+    }
+    &:hover {
+        color: $vanilla_white;
+    }
 }
-
 
 // ==========================================================================
 // ✪ $Work
