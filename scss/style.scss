@@ -595,8 +595,8 @@ textarea:invalid {
 }*/
 .status-chart-icon {
     @extend %inline_block;
-    height: 20px;
-    width: 20px;
+    height: 24px;
+    width: 24px;
     background: image-url("statuschart.svgz") 0px 0px no-repeat;
     color: $vanilla_white;
     .no-svg & {
