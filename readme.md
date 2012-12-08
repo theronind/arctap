@@ -14,6 +14,6 @@ Our main focus is crafting amazing experiences on mobile, tablet, & desktop devi
 ####Process
 Collectively we get a lot of work request. We work together to see what needs to be done and who is available to be apart of that project. Once we have the team assembled we will be able to start the project.
 
-**ArcTap** &raquo; [http://arctap.com](https://arctap.com)
+**ArcTap** &raquo; [http://arctap.com](http://arctap.com)
 
 **Twitter** &raquo; [@ArcTap](https://twitter.com/arctap)
