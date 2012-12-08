@@ -19,7 +19,7 @@
                                 <ul class="links">
                                     <li><a href="http://kennedysgarage.com/" class="website" rel="external me"><i class="ss-icon">&#x1F30E;</i></a></li>
                                     <li><a href="https://twitter.com/kennedysgarage" class="twitter" rel="external me"><i class="ss-icon ss-social">&#xF611;</i></a></li>
-                                    <li><a href="https://www.statuschart.com/kennedysgarage" class="statuschart" rel="external me"><img src="/img/team/statuschart.svg"></a></li>
+                                    <li><a href="https://www.statuschart.com/kennedysgarage" class="statuschart" rel="external me"><i class="status-chart-icon"></i></a></li>
                                 </ul>
                                 <h4>UX Strategist</h4>
                             </div><!--/bio-->
@@ -42,7 +42,7 @@
                                 <ul class="links">
                                     <li><a href="http://timothybsmith.com/" class="website" rel="external me"><i class="ss-icon">&#x1F30E;</i></a></li>
                                     <li><a href="https://twitter.com/timothybsmith" class="twitter" rel="external me"><i class="ss-icon ss-social">&#xF611;</i></a></li>
-                                    <li><a href="https://www.statuschart.com/timothybsmith" class="statuschart" rel="external me"><img src="/img/team/statuschart.svg"></a></li>
+                                    <li><a href="https://www.statuschart.com/timothybsmith" class="statuschart" rel="external me"><i class="status-chart-icon"></i></a></li>
                                 </ul>
                                 <h4>Designer</h4>
                             </div><!--/bio-->
@@ -76,7 +76,7 @@
                                 <ul class="links">
                                     <li><a href="http://www.chrisjeane.com/" class="website" rel="external me"><i class="ss-icon">&#x1F30E;</i></a></li>
                                     <li><a href="https://twitter.com/chrisjeane" class="twitter" rel="external me"><i class="ss-icon ss-social">&#xF611;</i></a></li>
-                                    <li><a href="https://www.statuschart.com/chrisjeane" class="statuschart" rel="external me"><img src="/img/team/statuschart.svg"></a></li>
+                                    <li><a href="https://www.statuschart.com/chrisjeane" class="statuschart" rel="external me"><i class="status-chart-icon"></i></a></li>
                                 </ul>
                                 <h4>Developer</h4>
                             </div><!--/bio-->
@@ -102,7 +102,7 @@
                                 <h3>Frank Denbow</h3>
                                 <ul class="links">
                                     <li><a href="https://twitter.com/FrankDenbow" class="twitter" rel="external me"><i class="ss-icon ss-social">&#xF611;</i></a></li>
-                                    <li><a href="https://www.statuschart.com/frank" class="statuschart" rel="external me"><img src="/img/team/statuschart.svg"></a></li>
+                                    <li><a href="https://www.statuschart.com/frank" class="statuschart" rel="external me"><i class="status-chart-icon"></i></a></li>
                                 </ul>
                                 <h4>iOS Developer</h4>
                             </div><!--/bio-->
@@ -114,7 +114,7 @@
                                 <ul class="links">
                                     <li><a href="http://www.jonmarkgo.com/" class="website" rel="external me"><i class="ss-icon">&#x1F30E;</i></a></li>
                                     <li><a href="https://twitter.com/jonmarkgo" class="twitter" rel="external me"><i class="ss-icon ss-social">&#xF611;</i></a></li>
-                                    <li><a href="https://www.statuschart.com/jonmarkgo" class="statuschart" rel="external me"><img src="/img/team/statuschart.svg"></a></li>
+                                    <li><a href="https://www.statuschart.com/jonmarkgo" class="statuschart" rel="external me"><i class="status-chart-icon"></i></a></li>
                                 </ul>
                                 <h4>Developer</h4>
                             </div><!--/bio-->
@@ -150,7 +150,7 @@
                                 <ul class="links">
                                     <li><a href="http://www.jennasantana.com/" class="website" rel="external me"><i class="ss-icon">&#x1F30E;</i></a></li>
                                     <li><a href="https://twitter.com/vh1jenna" class="twitter" rel="external me"><i class="ss-icon ss-social">&#xF611;</i></a></li>
-                                    <li><a href="https://www.statuschart.com/jennasantana" class="statuschart" rel="external me"><img src="/img/team/statuschart.svg"></a></li>
+                                    <li><a href="https://www.statuschart.com/jennasantana" class="statuschart" rel="external me"><i class="status-chart-icon"></i></a></li>
                                 </ul>
                                 <h4>Copywriter</h4>
                             </div><!--/bio-->
