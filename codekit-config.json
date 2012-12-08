@@ -141,17 +141,6 @@
       "initialSize" : 3528,
       "fileType" : 8192
     },
-    "\/img\/team\/frank-denbow.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/team\/frank-denbow.jpg",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/img\/team\/frank-denbow.jpg",
-      "initialSize" : 140678,
-      "fileType" : 4096
-    },
     "\/scss\/_ss-social.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -164,6 +153,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/work\/touchingnews\/demo.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/touchingnews\/demo.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/work\/touchingnews\/img\/slide2.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -175,26 +173,27 @@
       "initialSize" : 250141,
       "fileType" : 8192
     },
-    "\/work\/touchingnews\/demo.css" : {
+    "\/js\/libs\/jquery-1.7.1.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-1.7.1.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/minified\/jquery-1.7.1.min-min.js",
+      "fileType" : 64
+    },
+    "\/img\/team\/frank-denbow.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/touchingnews\/demo.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/scss\/_vars.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/_vars.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/_vars.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/img\/team\/frank-denbow.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/img\/team\/frank-denbow.jpg",
+      "initialSize" : 140678,
+      "fileType" : 4096
     },
     "\/img\/team\/tim-smith.png" : {
       "ignoreWasSetByUser" : 0,
@@ -218,16 +217,17 @@
       "initialSize" : 1790,
       "fileType" : 8192
     },
-    "\/js\/libs\/jquery-1.7.1.min.js" : {
-      "ignoreWasSetByUser" : 1,
+    "\/scss\/_vars.scss" : {
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/jquery-1.7.1.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/libs\/minified\/jquery-1.7.1.min-min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/scss\/_vars.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/css\/_vars.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/js\/minified\/script-min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -240,15 +240,15 @@
       "outputAbbreviatedPath" : "\/js\/minified\/minified\/script-min-min.js",
       "fileType" : 64
     },
-    "\/img\/arctap-sprite.png" : {
+    "\/work\/arcfont\/img\/slide2.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/arctap-sprite.png",
+      "inputAbbreviatedPath" : "\/work\/arcfont\/img\/slide2.png",
       "processed" : 1,
-      "outputAbbreviatedPath" : "\/img\/arctap-sprite.png",
-      "initialSize" : 1944,
+      "outputAbbreviatedPath" : "\/work\/arcfont\/img\/slide2.png",
+      "initialSize" : 250141,
       "fileType" : 8192
     },
     "\/favicon.png" : {
@@ -293,6 +293,17 @@
       "initialSize" : 216976,
       "fileType" : 8192
     },
+    "\/img\/arctap-sprite.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/arctap-sprite.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/img\/arctap-sprite.png",
+      "initialSize" : 1944,
+      "fileType" : 8192
+    },
     "\/footer.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -301,17 +312,6 @@
       "inputAbbreviatedPath" : "\/footer.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/apple-touch-icon-57x57-precomposed.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/apple-touch-icon-57x57-precomposed.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/apple-touch-icon-57x57-precomposed.png",
-      "initialSize" : 3520,
-      "fileType" : 8192
     },
     "\/scss\/_typography.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -325,17 +325,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/work\/arcfont\/img\/slide2.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/arcfont\/img\/slide2.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/arcfont\/img\/slide2.png",
-      "initialSize" : 250141,
-      "fileType" : 8192
-    },
     "\/work\/statuschart\/img\/slide3.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -345,6 +334,17 @@
       "processed" : 1,
       "outputAbbreviatedPath" : "\/work\/statuschart\/img\/slide3.png",
       "initialSize" : 16564,
+      "fileType" : 8192
+    },
+    "\/apple-touch-icon-57x57-precomposed.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/apple-touch-icon-57x57-precomposed.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/apple-touch-icon-57x57-precomposed.png",
+      "initialSize" : 3520,
       "fileType" : 8192
     },
     "\/work\/cochlear\/img\/slide1.png" : {
@@ -525,16 +525,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/work\/statuschart\/img\/slide2.png" : {
+    "\/about.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/statuschart\/img\/slide2.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/statuschart\/img\/slide2.png",
-      "initialSize" : 155465,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/about.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/img\/team\/justin-lamonica.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -547,14 +545,16 @@
       "initialSize" : 94352,
       "fileType" : 4096
     },
-    "\/team.php" : {
+    "\/work\/statuschart\/img\/slide2.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/team.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/work\/statuschart\/img\/slide2.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/work\/statuschart\/img\/slide2.png",
+      "initialSize" : 155465,
+      "fileType" : 8192
     },
     "\/work\/statuschart\/statuschart.php" : {
       "ignoreWasSetByUser" : 0,
@@ -587,12 +587,12 @@
       "initialSize" : 305,
       "fileType" : 8192
     },
-    "\/about.php" : {
+    "\/team.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/about.php",
+      "inputAbbreviatedPath" : "\/team.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -618,14 +618,16 @@
       "initialSize" : 6108,
       "fileType" : 8192
     },
-    "\/work\/cochlear\/cochlear.php" : {
+    "\/work\/arcfont\/img\/slide3.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/cochlear\/cochlear.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/work\/arcfont\/img\/slide3.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/work\/arcfont\/img\/slide3.png",
+      "initialSize" : 54717,
+      "fileType" : 8192
     },
     "\/scss\/_ss-standard.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -639,16 +641,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/work\/arcfont\/img\/slide3.png" : {
+    "\/work\/cochlear\/cochlear.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/arcfont\/img\/slide3.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/arcfont\/img\/slide3.png",
-      "initialSize" : 54717,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/work\/cochlear\/cochlear.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/scss\/_normalize.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -766,17 +766,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/work\/touchingnews\/img\/noise-bbb.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/noise-bbb.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/noise-bbb.png",
-      "initialSize" : 7358,
-      "fileType" : 8192
-    },
     "\/work\/theeastwing\/img\/slide2.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -786,6 +775,17 @@
       "processed" : 1,
       "outputAbbreviatedPath" : "\/work\/theeastwing\/img\/slide2.png",
       "initialSize" : 303818,
+      "fileType" : 8192
+    },
+    "\/work\/touchingnews\/img\/noise-bbb.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/noise-bbb.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/noise-bbb.png",
+      "initialSize" : 7358,
       "fileType" : 8192
     },
     "\/work\/touchingnews\/img\/slide1.png" : {
@@ -866,6 +866,17 @@
       "initialSize" : 31312,
       "fileType" : 4096
     },
+    "\/img\/team\/jenna-santana.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/team\/jenna-santana.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/img\/team\/jenna-santana.jpg",
+      "initialSize" : 100834,
+      "fileType" : 4096
+    },
     "\/work\/arcfont\/img\/icon.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -899,17 +910,6 @@
       "outputAbbreviatedPath" : "\/css\/_h5bp-resets.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/img\/team\/jenna-santana.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/team\/jenna-santana.jpg",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/img\/team\/jenna-santana.jpg",
-      "initialSize" : 100834,
-      "fileType" : 4096
     },
     "\/img\/bg_direction_nav.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1015,16 +1015,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/js\/ss-standard.js" : {
+    "\/img\/team\/christopher-kennedy.jpg" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/ss-standard.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/minified\/ss-standard-min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/img\/team\/christopher-kennedy.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/img\/team\/christopher-kennedy.jpg",
+      "initialSize" : 157853,
+      "fileType" : 4096
     },
     "\/work\/kristinastpeter\/img\/slide3.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1037,17 +1037,6 @@
       "initialSize" : 631526,
       "fileType" : 8192
     },
-    "\/img\/team\/christopher-kennedy.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/team\/christopher-kennedy.jpg",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/img\/team\/christopher-kennedy.jpg",
-      "initialSize" : 157853,
-      "fileType" : 4096
-    },
     "\/work\/touchingnews\/img\/icon.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1058,6 +1047,17 @@
       "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/icon.png",
       "initialSize" : 5497,
       "fileType" : 8192
+    },
+    "\/js\/ss-standard.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/ss-standard.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/minified\/ss-standard-min.js",
+      "fileType" : 64
     },
     "\/work\/arcfont\/img\/slide1.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1097,17 +1097,6 @@
       "processed" : 1,
       "outputAbbreviatedPath" : "\/work\/gradespotter\/img\/slide2.png",
       "initialSize" : 250141,
-      "fileType" : 8192
-    },
-    "\/img\/team\/statuschart-20x20.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/team\/statuschart-20x20.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/img\/team\/statuschart-20x20.png",
-      "initialSize" : 1493,
       "fileType" : 8192
     },
     "\/img\/team\/dennis-gaebel.png" : {
