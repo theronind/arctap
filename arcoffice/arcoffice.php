@@ -1,10 +1,17 @@
-<?php  $title = 'ArcOffice';  include '../header.php'; ?>
+<?php  $title = 'ArcOffice';  include 'header.php'; ?>
 
-    <div id="arcoffice">
+    <div id="arcoffice" class="pepsi">
 
         <section id="intro">
             <div class="container">
-                <h2>ArcOffice</h2>
+                <h2><a href="/arcoffice">Pepsi</a></h2>
+                <div id="nav">
+                    <ul id="filter">
+                        <li><a href="">Activity</a></li>
+                        <li><a href="">Invoice</a></li>
+                        <li><a href="">Logout</a></li>
+                    </ul>
+                </div><!--/nav-->
             </div><!--/container-->
         </section><!--/intro-->
 
@@ -36,4 +43,4 @@
 
     </div><!--/arcoffice-->
 
-<?php include("../footer.php"); ?>
+<?php include("footer.php"); ?>
