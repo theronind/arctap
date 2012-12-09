@@ -150,11 +150,6 @@ nav {
     font-size: 1.125em; // 18 / 16 = 1.125em
 }
 
-#team .links i {
-    font-size: 23px; // 19 / 16 = 1.1875em
-    font-weight: bold;
-}
-
 
 // ==========================================================================
 // ✪ $Team
@@ -168,8 +163,10 @@ nav {
     font-size: 1em; // 16px / 16px = 1em
 }
 
-.status-chart-icon {
-    line-height: 1.1875;
+.team-links a {
+    font-size: 24px; // 24 / 16 =
+    font-weight: bold;
+    line-height: 1.275;
 }
 
 

@@ -283,10 +283,10 @@ textarea:invalid {
         @extend %inline_block;
         height: 1.81818181818182em; // 40px / 22px = 1.81818181818182
         padding-left: 1.81818181818182em; // 40px / 22px = 1.81818181818182
-        background: image-url("arctap-sprite.svgz") 0px -50px no-repeat; // sprite 50px / 22px = 2.27272727272727em
+        background: image-url("arctap-sprite.svgz") 0px -54px no-repeat; // sprite 54px / 22px = 2.27272727272727em
         color: $vanilla_white;
         .no-svg & {
-            background: url($arctap_sprite_base64) 0px -50px no-repeat; // sprite 50px / 22px = 2.27272727272727em
+            background: url($arctap_sprite_base64) 0px -54px no-repeat; // sprite 54px / 22px = 2.27272727272727em
         }
         &:hover {
             color: $vanilla_white;
@@ -383,16 +383,13 @@ textarea:invalid {
     h1 {
         margin: 0 0 10px;
     }
-
     h1,
     h2 {
         color: $vanilla_white;
     }
-
     h2 {
         margin: 0;
     }
-
     p {
         margin: 0 auto;
         max-width: 600px;
@@ -458,30 +455,6 @@ textarea:invalid {
 
 
 // ==========================================================================
-// ✪ $Grade Spotter
-// ==========================================================================
-
-#intro-app {
-    padding: 70px 0;
-}
-
-#intro-app .g8 {
-    margin: 130px 0 0;
-}
-
-#intro-app img {
-    float: left;
-    margin: 0 20px 20px 0;
-}
-
-#intro-app h2 {
-    float: left;
-    margin: 27px 0 0;
-    width: 460px;
-}
-
-
-// ==========================================================================
 // ✪ $About
 // ==========================================================================
 
@@ -535,39 +508,29 @@ textarea:invalid {
     margin: -35px 0px -60px 0px;
 }
 
-#team .links {
-    list-style: none;
+.team-links {
     float: right;
-    margin: 0;
-    padding: 0;
-}
-
-#team .links li {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-
-    .lt-ie8 & {
-        display: inline;
+    list-style: none;
+    li {
+        @extend %inline_block;
+        height: 24px;
+        margin: 0;
+        padding: 0;
+        .lt-ie8 & {
+            display: inline;
+        }
+    }
+    a {
+        @extend %inline_block;
+        height: 24px;
+        color: #10abf2;
     }
 }
 
-#team .links .twitter {
-    color: #10abf2;
-}
-
-#team .links .statuschart {
-    color: #df5753;
-}
-#team .links .website {
-    color: #35cbe6;
-}
-
-.status-chart-icon {
-    @extend %inline_block;
+.statuschart-icon {
     height: 24px;
     width: 24px;
-    background: image-url("statuschart.svgz") 0px 0px no-repeat;
+    background: image-url("arctap-sprite.svgz") 0px 0px no-repeat;
     color: $vanilla_white;
     .no-svg & {
         background: url($arctap_sprite_base64) -1px 0px no-repeat;
@@ -691,6 +654,30 @@ textarea:invalid {
 
 .sort-works {
     color: #FFF;
+}
+
+
+// ==========================================================================
+// ✪ $Grade Spotter
+// ==========================================================================
+
+#intro-app {
+    padding: 70px 0;
+}
+
+#intro-app .g8 {
+    margin: 130px 0 0;
+}
+
+#intro-app img {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+#intro-app h2 {
+    float: left;
+    margin: 27px 0 0;
+    width: 460px;
 }
 
 
@@ -992,6 +979,7 @@ select:required {
 // ✪ $Footer
 // ==========================================================================
 
+// footer container
 #footer-wrap {
     background-color: #c3c5c7;
 }
@@ -1004,6 +992,7 @@ select:required {
     }
 }
 
+// Primary Footer
 .primary-footer {
     padding: 22px 10px 0px;
     color: #2b343d;
@@ -1012,6 +1001,7 @@ select:required {
     }
 }
 
+// Copyright Icon
 #copy {
     @extend %inline_block;
     margin: 0;
@@ -1020,10 +1010,10 @@ select:required {
         height: 2.14285714285714em; // 30px / 14px = 2.14285714285714
         margin: 0 0.71428571428571em 0 0; // 10px / 14px = 0.71428571428571
         padding-left: 2.14285714285714em; // 30px / 14px = 2.14285714285714
-        background: image-url("arctap-sprite.svgz") 0px -20px no-repeat;
+        background: image-url("arctap-sprite.svgz") 0px -24px no-repeat;
         .no-svg & {
             height: 2.15em;
-            background: url($arctap_sprite_base64) 0px -20px no-repeat;
+            background: url($arctap_sprite_base64) 0px -24px no-repeat;
         }
         span {
             @extend %inline_block;
@@ -1034,6 +1024,7 @@ select:required {
     }
 }
 
+// social icon
 #social {
     float: right;
     list-style: none;
@@ -1118,21 +1109,6 @@ select:required {
 // ✪ $Helper classes
 // ==========================================================================
 
-.ir {
-    background-color: transparent;
-    border: 0;
-    overflow: hidden;
-    // IE 6/7 fallback
-    *text-indent: -9999px;
-}
-
-.ir:before {
-    content: "";
-    display: block;
-    width: 0;
-    height: 100%;
-}
-
 .hidden {
     display: none !important;
     visibility: hidden;
@@ -1157,10 +1133,6 @@ select:required {
     overflow: visible;
     position: static;
     width: auto;
-}
-
-.invisible {
-    visibility: hidden;
 }
 
 .clearfix:before,
