@@ -105,7 +105,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link rel="shortcut icon" href="/favicon.png">
     <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
-    <link href="/css/style.css?v1.7" rel="stylesheet">
+    <link href="/css/style.css?v1.8" rel="stylesheet">
     <!-- modernizr -->
     <script src="/js/libs/modernizr-2.5.3.min.js"></script>
 </head>
@@ -116,7 +116,7 @@
     <div id="header-wrap">
         <header class="banner" role="banner">
             <div class="container">
-                <h1 class="logo"><a href="/" rel="bookmark author" class="arctap-anchor-link"><span>ArcTap</span></a></h1>
+                <h1 class="logo"><a href="/" rel="bookmark author" class="arctap-link"><span>ArcTap</span></a></h1>
                 <nav class="main-nav" role="navigation">
                     <ul>
                         <li><a href="/about/" rel="bookmark">About</a></li>

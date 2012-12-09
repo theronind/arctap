@@ -128,6 +128,7 @@ textarea:invalid {
 .container {
     margin: 0 auto;
     max-width: $container_width;
+    min-height: 100%;
     .lt-ie9 & {
         width: $ie_container_width;
     }
@@ -243,7 +244,6 @@ textarea:invalid {
 
 #wrapper {
     height: auto !important;
-    height: 100%;
     margin: 0 auto -4.375em; // 70px / 16px = 4.375
     min-height: 100%;
 }
@@ -279,7 +279,7 @@ textarea:invalid {
         padding: .5em 0;
         text-align: center;
     }
-    .arctap-anchor-link {
+    .arctap-link {
         @extend %inline_block;
         height: 1.81818181818182em; // 40px / 22px = 1.81818181818182
         padding-left: 1.81818181818182em; // 40px / 22px = 1.81818181818182
@@ -538,11 +538,11 @@ textarea:invalid {
     width: 24px;
     background: image-url("arctap-sprite.svgz") 0px 0px no-repeat;
     .no-svg & {
-        background: url($arctap_sprite_base64) -1px 0px no-repeat;
+        background: url($arctap_sprite_base64) 0px 1px no-repeat;
     }
     .lt-ie8 & {
         position: relative;
-        top: -5px;
+        top: 0px;
     }
 }
 
@@ -652,10 +652,6 @@ textarea:invalid {
             color: $vanilla_white;
         }
     }
-}
-
-.sort-works {
-    color: #FFF;
 }
 
 

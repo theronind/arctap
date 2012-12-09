@@ -17,7 +17,7 @@
                 <a href="/" rel="bookmark author"><span>ArcTap &copy; 2012</span></a>
             </p>
             <ul id="social">
-                <li><a href="https://twitter.com/arctap" rel="author me"><span class="follow-copy">Follow us</span><span class="ss-icon ss-social">&#xF611;</span></a></li>
+                <li><a href="https://twitter.com/arctap" rel="author me"><span class="follow-copy">Follow us</span><span class="ss-icon ss-social-circle">&#xF611;</span></a></li>
             </ul>
         </div><!--/container-->
     </footer>
