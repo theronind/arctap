@@ -26,7 +26,7 @@
 
 html {
     @extend %proxima_nova;
-    -webkit-font-smoothing: antialiased;
+    //-webkit-font-smoothing: antialiased;
 }
 
 body {
@@ -76,18 +76,16 @@ h6 {
 
 
 // ==========================================================================
-// ✪ $Header
+// ✪ $Logo
 // ==========================================================================
 
-.banner {
-    .logo {
-        @extend %titillum_light;
-        font-size: 1.375em; // 22px / 16px
+.logo {
+    @extend %titillum_light;
+    font-size: 1.375em; // 22px / 16px
 
-        // ----------- max479px ----------- //
-        @media screen and (max-width: 29.9375em) {
-            text-align: center;
-        }
+    // ----------- max479px ----------- //
+    @media screen and (max-width: 29.9375em) {
+        text-align: center;
     }
 }
 
@@ -110,22 +108,19 @@ nav {
 // ✪ $Intro
 // ==========================================================================
 
-#intro h1 {
-    font-size: 3.625em; // 58px / 16px = 3.625em
-    text-align: center;
+#intro {
+    h1 {
+        font-size: 3.625em; // 58px / 16px = 3.625em
+        text-align: center;
 
-    // ----------- max479px ----------- //
-    @media screen and (max-width: 29.9375em) {
-        font-size: 2.75em; // 44px / 16px = 2.75em
+        // ----------- max479px ----------- //
+        @media screen and (max-width: 29.9375em) {
+            font-size: 2.75em; // 44px / 16px = 2.75em
+        }
     }
-}
-
-#intro p {
-    text-align: center;
-}
-
-#intro #nav i {
-    font-size: 1.125em; // 18 / 16 = 1.125em
+    p {
+        text-align: center;
+    }
 }
 
 
@@ -139,20 +134,7 @@ nav {
 
 
 // ==========================================================================
-// ✪ $Grade Spotter
-// ==========================================================================
-
-#intro-app h2 {
-    font-size: 2em; // 32px / 16px = 2em
-}
-
-#intro-app p {
-    font-size: 1.125em; // 18 / 16 = 1.125em
-}
-
-
-// ==========================================================================
-// ✪ $Team
+// ✪ $Team Page
 // ==========================================================================
 
 #team h3 {
@@ -176,6 +158,19 @@ nav {
 
 #work .buttons i {
     font-size: 0.875em; // 14px / 16px = 0.875em
+}
+
+
+// ==========================================================================
+// ✪ $Grade Spotter Page
+// ==========================================================================
+
+#intro-app h2 {
+    font-size: 2em; // 32px / 16px = 2em
+}
+
+#intro-app p {
+    font-size: 1.125em; // 18 / 16 = 1.125em
 }
 
 
