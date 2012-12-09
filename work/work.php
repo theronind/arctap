@@ -7,7 +7,6 @@
                 <h2>Our Work</h2>
                 <div id="sort-nav">
                     <ul id="filter">
-                        <li class="sort-works">Sort Work:</li>
                         <li class="current"><a href=""><i class="ss-icon">&#xE9A3;</i><span>All</span></a></li>
                         <li><a href=""><i class="ss-icon">&#x1F4BB;</i><span>Web</span></a></li>
                         <li><a href=""><i class="ss-icon">&#x1F4F1;</i><span>Mobile</span></a></li>
