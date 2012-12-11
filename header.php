@@ -99,13 +99,11 @@
     ?>
     <!-- mobile meta tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link rel="shortcut icon" href="/favicon.png">
     <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
-    <link href="/css/style.css?v1.8" rel="stylesheet">
+    <link href="/css/style.css?v1.9" rel="stylesheet">
     <!-- modernizr -->
     <script src="/js/libs/modernizr-2.5.3.min.js"></script>
 </head>

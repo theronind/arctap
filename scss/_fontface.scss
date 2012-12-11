@@ -88,3 +88,15 @@
     font-weight: normal;
     font-style: normal;
 }
+
+// StatusChart Icon Font
+@font-face {
+    font-family: 'arctapicons';
+    src:url('../font/arctapicons/arctapicons.eot');
+    src:url('../font/arctapicons/arctapicons.eot?#iefix') format('embedded-opentype'),
+        url('../font/arctapicons/arctapicons.svg#arctapicons') format('svg'),
+        url('../font/arctapicons/arctapicons.woff') format('woff'),
+        url('../font/arctapicons/arctapicons.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

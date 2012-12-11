@@ -1,0 +1,33 @@
+@font-face {
+	font-family: 'arctapicons';
+	src:url('fonts/arctapicons.eot');
+	src:url('fonts/arctapicons.eot?#iefix') format('embedded-opentype'),
+		url('fonts/arctapicons.svg#arctapicons') format('svg'),
+		url('fonts/arctapicons.woff') format('woff'),
+		url('fonts/arctapicons.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'arctapicons';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	font-family: 'arctapicons';
+	font-style: normal;
+	speak: none;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-statuschart:before {
+	content: "\e000";
+}

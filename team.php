@@ -19,7 +19,7 @@
                                 <ul class="team-links">
                                     <li><a href="http://kennedysgarage.com/" class="ss-icon" rel="external me">&#x1F30E;</a></li>
                                     <li><a href="https://twitter.com/kennedysgarage" class="ss-icon ss-social-circle" rel="external me">&#xF611;</a></li>
-                                    <li><a href="https://www.statuschart.com/kennedysgarage" class="statuschart-icon" rel="external me"></a></li>
+                                    <li><a href="https://www.statuschart.com/kennedysgarage" aria-hidden="true" data-icon="&#xe000;" rel="external me"></a></li>
                                 </ul>
                                 <h4 class="job-title">UX Strategist</h4>
                             </div><!--/bio-->
@@ -42,7 +42,7 @@
                                 <ul class="team-links">
                                     <li><a href="http://timothybsmith.com/" class="ss-icon" rel="external me">&#x1F30E;</a></li>
                                     <li><a href="https://twitter.com/timothybsmith" class="ss-icon ss-social-circle" rel="external me">&#xF611;</a></li>
-                                    <li><a href="https://www.statuschart.com/timothybsmith" class="statuschart-icon" rel="external me"></a></li>
+                                    <li><a href="https://www.statuschart.com/timothybsmith" aria-hidden="true" data-icon="&#xe000;" rel="external me"></a></li>
                                 </ul>
                                 <h4 class="job-title">Designer</h4>
                             </div><!--/bio-->
@@ -76,7 +76,7 @@
                                 <ul class="team-links">
                                     <li><a href="http://www.chrisjeane.com/" class="ss-icon" rel="external me">&#x1F30E;</a></li>
                                     <li><a href="https://twitter.com/chrisjeane" class="ss-icon ss-social-circle" rel="external me">&#xF611;</a></li>
-                                    <li><a href="https://www.statuschart.com/chrisjeane" class="statuschart-icon" rel="external me"></a></li>
+                                    <li><a href="https://www.statuschart.com/chrisjeane" aria-hidden="true" data-icon="&#xe000;" rel="external me"></a></li>
                                 </ul>
                                 <h4 class="job-title">Developer</h4>
                             </div><!--/bio-->
@@ -102,7 +102,7 @@
                                 <h3 class="arctap-member">Frank Denbow</h3>
                                 <ul class="team-links">
                                     <li><a href="https://twitter.com/FrankDenbow" class="ss-icon ss-social-circle" rel="external me">&#xF611;</a></li>
-                                    <li><a href="https://www.statuschart.com/frank" class="statuschart-icon" rel="external me"></a></li>
+                                    <li><a href="https://www.statuschart.com/frank" aria-hidden="true" data-icon="&#xe000;" rel="external me"></a></li>
                                 </ul>
                                 <h4 class="job-title">iOS Developer</h4>
                             </div><!--/bio-->
@@ -114,7 +114,7 @@
                                 <ul class="team-links">
                                     <li><a href="http://www.jonmarkgo.com/" class="ss-icon" rel="external me">&#x1F30E;</a></li>
                                     <li><a href="https://twitter.com/jonmarkgo" class="ss-icon ss-social-circle" rel="external me">&#xF611;</a></li>
-                                    <li><a href="https://www.statuschart.com/jonmarkgo" class="statuschart-icon" rel="external me"></a></li>
+                                    <li><a href="https://www.statuschart.com/jonmarkgo" aria-hidden="true" data-icon="&#xe000;" rel="external me"></a></li>
                                 </ul>
                                 <h4 class="job-title">Developer</h4>
                             </div><!--/bio-->
@@ -150,7 +150,7 @@
                                 <ul class="team-links">
                                     <li><a href="http://www.jennasantana.com/" class="ss-icon ss-icon" rel="external me">&#x1F30E;</a></li>
                                     <li><a href="https://twitter.com/vh1jenna" class="ss-icon ss-social-circle" rel="external me">&#xF611;</a></li>
-                                    <li><a href="https://www.statuschart.com/jennasantana" class="statuschart-icon" rel="external me"></a></li>
+                                    <li><a href="https://www.statuschart.com/jennasantana" aria-hidden="true" data-icon="&#xe000;" rel="external me"></a></li>
                                 </ul>
                                 <h4 class="job-title">Copywriter</h4>
                             </div><!--/bio-->

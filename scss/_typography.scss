@@ -21,6 +21,35 @@
 
 
 // ==========================================================================
+// ✪ $Status Chart Icon - Custom ArcTap Icons
+// ==========================================================================
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+    font-family: 'arctapicons';
+    content: attr(data-icon);
+    speak: none;
+    font-weight: normal;
+    line-height: 1.25;
+    -webkit-font-smoothing: antialiased;
+}
+
+// /* Use the following CSS code if you want to have a class per icon */
+// [class^="icon-"]:before, [class*=" icon-"]:before {
+//     font-family: 'arctapicons';
+//     font-style: normal;
+//     speak: none;
+//     font-weight: normal;
+//     line-height: 1;
+//     -webkit-font-smoothing: antialiased;
+// }
+// .icon-statuschart:before {
+//     content: "\e000";
+// }
+
+
+
+// ==========================================================================
 // ✪ $Global Typography
 // ==========================================================================
 
@@ -145,10 +174,14 @@ nav {
     font-size: 1em; // 16px / 16px = 1em
 }
 
-.team-links a {
-    font-size: 24px; // 24 / 16 =
-    font-weight: bold;
-    line-height: 1.275;
+.team-links {
+    a {
+        font-size: 24px;
+        -webkit-font-smoothing: antialiased;
+    }
+    a[data-icon] {
+        color: #ca594d;
+    }
 }
 
 
@@ -236,6 +269,5 @@ footer {
 
 #social .ss-icon {
     font-size: 2em; // 30px / 16px = 2em
-    font-weight: bold;
     line-height: 1.25em;
 }
