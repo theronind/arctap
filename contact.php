@@ -1,6 +1,6 @@
 <?php  $title = 'Contact'; include 'header.php'; ?>
 
-    <div id="hire">
+    <div id="contact">
 
         <section id="intro">
             <div class="container">
@@ -59,6 +59,6 @@
             </div><!--/page-->
         </div><!--/container-->
 
-    </div><!--/hire-->
+    </div><!--/contact-->
 
 <?php include("footer.php"); ?>
