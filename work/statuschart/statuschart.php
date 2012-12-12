@@ -36,7 +36,7 @@
                                 <a href="https://www.statuschart.com" class="btn btn-primary" rel="external">Visit Site <i class="ss-icon">&#x1F4BB;</i></a>
                             </div>
                         </div><!--/title-->
-                        <p>Status Chart is your professional dashboard. The simplest way track and share your professional milestones and all of the important things that make you who you are.</p>
+                        <p>We recognized that resumes don't accurately present the professional experience for those in the creative and tech fields. Status Chart is a flexible dashboard and resume add-on that allows those individuals to show work they've done, startup and freelance experience, conferences and hackathons they've attended, awards won, and more. Status Chart has been featured in BetaBeat, and became the top topic on Hacker News.</p>
                     </div><!--/g4-->
                 </section><!--/content-->
 

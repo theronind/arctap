@@ -1,10 +1,10 @@
-<?php  $title = 'Hire'; include 'header.php'; ?>
+<?php  $title = 'Contact'; include 'header.php'; ?>
 
     <div id="hire">
 
         <section id="intro">
             <div class="container">
-                <h2>Hire Us</h2>
+                <h2>Contact Us</h2>
             </div><!--/container-->
         </section><!--/intro-->
 
@@ -12,17 +12,21 @@
             <div id="page">
                 <section class="content" role="main">
                     <div class="g4">
-                        <p>You are about to make a great first step. We don't want to waste anyone's time, so we will keep this questionnaire brief. After we review this little intro of your needs we well get in touch. Thanks for your time and we look forward to speaking with you.</p>
+                        <p>Need a more information or want to set up a meeting to chat about your project?<br/>
+                        Call Kennedy at 347-688-8864 or fill out the form below to email us. We'll respond within 24 hours.</p>
                     </div><!--/g4-->
 
                     <form id="hireForm" method="post" role="form">
                         <ul class="clearfix">
-                            <li class="g2"><!-- <label for="name">Name</label> --><input type="name" id="name" name="name" placeholder="* Your Name" required></li>
-                            <li class="g2"><!-- <label for="email">E&ndash;mail</label> --><input type="email" id="email" name="email" placeholder="* Your Email Address" required></li>
-                            <li class="g2"><!-- <label for="company">Company</label> --><input type="text" id="company" name="company" placeholder="* Company Name" required></li>
+                            <li class="g2"><input type="name" id="name" name="name" placeholder="* Your Name" required></li>
+                            <li class="g2"><input type="text" id="company" name="company" placeholder="* Company Name" required></li>
+                            <li class="g2"><input type="tel" id="phone" name="phone" placeholder="* Phone Number" required></li>
+                            <li class="g2"><input type="email" id="email" name="email" placeholder="* Your Email Address" required></li>
+                            <li class="g2"><input type="text" id="website" name="website" placeholder="* Website" required></li>
                             <li class="g2">
                                 <select name="budget" id="budget" required>
                                     <option selected="selected" value="DEFAULT">* Estimated Budget</option>
+                                    <option value="Don't know yet">Don't know yet</option>
                                     <option value="$20,000 &ndash; $40,000">$20,000 &ndash; $40,000</option>
                                     <option value="$40,000 &ndash; $60,000">$40,000 &ndash; $60,000</option>
                                     <option value="$60,000 &ndash; $80,000">$60,000 &ndash; $80,000</option>
@@ -31,7 +35,7 @@
                                     <option value="$200,000 Plus">$200,000 Plus</option>
                                 </select>
                             </li>
-                            <li class="g4"><textarea id="message" name="message" placeholder="* Give us a brief description and tell us why it will be awesome to work with you on this project." required></textarea></li>
+                            <li class="g4"><textarea id="message" name="message" placeholder="* Give us a brief description of your project and target launch date, if you have one." required></textarea></li>
                             <li class="g4"><input type="submit" class="btn-action" value="Send" name="submit"></li>
                             <li class="success g4" style="display:none">Your message has been sent successfully.</li>
                         </ul>

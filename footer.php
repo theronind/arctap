@@ -2,7 +2,7 @@
         <div class="container">
             <div id="hire-bar" class="clearfix">
                 <p><em>Ready to get started?</em> Let's craft something beautiful together.</p>
-                <a href="/hire" class="btn" rel="bookmark author">Hire Us</a>
+                <a href="/contact/" class="btn" rel="bookmark author">Contact Us</a>
             </div><!--/hire-bar-->
         </div><!--/container-->
     <?php endif; ?>

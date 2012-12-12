@@ -713,7 +713,7 @@ textarea:invalid {
         }
         @media screen and (min-width: 25em) { // ----------- min400px ----------- //
             float: right;
-            width: 100px;
+            width: 115px;
         }
         @media screen and (max-width: 48em) { // ----------- max479px ----------- //
             margin-top: 10px;
@@ -770,12 +770,14 @@ label {
 }
 
 input[type="name"],
+input[type="tel"],
 input[type="text"],
 input[type="email"] {
     @include transition($transition-1: all .3s ease-in-out);
 }
 
 input[type="name"],
+input[type="tel"],
 input[type="text"],
 input[type="email"],
 textarea {
@@ -792,6 +794,7 @@ textarea {
 }
 
 input[type="name"]:focus,
+input[type="tel"]:focus,
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {

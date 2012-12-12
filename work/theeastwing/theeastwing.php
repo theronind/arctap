@@ -32,7 +32,7 @@
                                 <a href="http://theeastwing.net/" class="btn btn-primary" rel="external">Visit Site<i class="ss-icon">&#x1F4BB;</i></a>
                             </div>
                         </div><!--/title-->
-                        <p>The East Wing is a weekly show that talks about design, user experience, problem solving and the keys to creating products with value.</p>
+                        <p>Design-focused podcaster Tim Smith needed a website for his weekly show, The East Wing-and if you're going to talk design, your website better reflect that. We built this responsive-design website to house their past podcasts, along with other show info. When The East Wing's subscribers click through on their smartphones, the site reconfigures to fit the browser and look great, even on-the-go.</p>
                     </div><!--/g4-->
                 </section><!--/content-->
 

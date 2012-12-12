@@ -36,7 +36,7 @@
                                 <a href="http://kristinastpeter.com" class="btn btn-primary" rel="external">Visit Site <i class="ss-icon">&#x1F4BB;</i></a>
                             </div>
                         </div><!--/title-->
-                        <p>Kristina St. Peter is an amazing Public Relations Coordinator that is also an essential part of our team. This website was a gift for her as a little token of our appreciation when she helped us out on Grade Spotter. The site is a single page r&eacute;sum&eacute; that looks great on everything from your iPhone to your desktop.</p>
+                        <p>Kristina St. Peter is a freelance Public Relations Coordinator who needed a website to refer potential clients to. We created a Facebook Timeline-inspired responsive website for her which houses her r&eacute;sum&eacute;, and allows Kristina's experience to shine on the web and in mobile browsers. </p>
                     </div><!--/g4-->
                 </section><!--/content-->
 
