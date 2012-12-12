@@ -32,15 +32,27 @@ $(document).ready(function () {
     // http://www.spruce.it/noise/simple-ajax-contact-form
     $('#contactForm input[type="submit"]').click(function () {
         var name       = $('#name').val(),
-            email      = $('#email').val(),
             company    = $('#company').val(),
+            phone      = $('#phone').val(),
+            email      = $('#email').val(),
+            website    = $('#website').val(),
             budget     = $('#budget').val(),
             message    = $('#message').val(),
-            dataString = "name=" + name + "&email=" + email + "&company=" + company + "&budget=" + budget + "&message=" + message;
+            dataString = "name=" + name + "&company=" + company + "&phone=" + phone + "&email=" + email + "&website=" + website + "&budget=" + budget + "&message=" + message;
 
         if (name === '') {
             $('#name').css({'background-color' : '#FAFFBD'});
             $('#name').click(function () {
+                $(this).css({'background-color' : '#ffffff'});
+            });
+        } else if (company === '') {
+            $('#company').css({'background-color' : '#FAFFBD'});
+            $("#company").click(function () {
+                $(this).css({'background-color' : '#ffffff'});
+            });
+        } else if (phone === '') {
+            $('#phone').css({'background-color' : '#FAFFBD'});
+            $("#phone").click(function () {
                 $(this).css({'background-color' : '#ffffff'});
             });
         } else if (email === '') {
@@ -48,9 +60,9 @@ $(document).ready(function () {
             $("#email").click(function () {
                 $(this).css({'background-color' : '#ffffff'});
             });
-        } else if (company === '') {
-            $('#company').css({'background-color' : '#FAFFBD'});
-            $("#company").click(function () {
+        } else if (website === '') {
+            $('#website').css({'background-color' : '#FAFFBD'});
+            $("#website").click(function () {
                 $(this).css({'background-color' : '#ffffff'});
             });
         } else if (budget === 'DEFAULT') {
@@ -68,7 +80,7 @@ $(document).ready(function () {
                 type: "POST",
                 url: "/contactMail.php",
                 data: dataString,
-                success: function () { $('.success').fadeIn(1000); }
+                success: function () { $('.success').fadeIn(1000).delay(5000).fadeOut(1000); }
             });
         }
         return false;
