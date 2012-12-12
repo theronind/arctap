@@ -16,7 +16,7 @@
                         Call Kennedy at 347-688-8864 or fill out the form below to email us. We'll respond within 24 hours.</p>
                     </div><!--/g4-->
 
-                    <form id="hireForm" method="post" role="form">
+                    <form id="contactForm" method="post" role="form">
                         <ul class="clearfix">
                             <li class="g2"><input type="name" id="name" name="name" placeholder="* Your Name" required></li>
                             <li class="g2"><input type="text" id="company" name="company" placeholder="* Company Name" required></li>
