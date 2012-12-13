@@ -660,16 +660,16 @@ textarea:invalid {
 
 
 // ==========================================================================
-// $Contact Page
+// $Hire Page
 // ==========================================================================
 
-#contact #contactForm .g2,
-#contact #contactForm .g4 {
+#hire #hireForm .g2,
+#hire #hireForm .g4 {
     margin-top: 0;
     margin-bottom: 0;
 }
 
-#contact .btn {
+#hire .btn {
     float: right;
     margin-bottom: 10px;
     @media screen and (max-width: 29.9375em) { // ----------- max479px ----------- //
@@ -681,10 +681,10 @@ textarea:invalid {
 
 
 // ==========================================================================
-// $Contact Bar Module
+// $Hire Bar Module
 // ==========================================================================
 
-#contact-bar {
+#hire-bar {
     background-color: #fc6a63;
     border-radius: 3px;
     margin: 0 0 30px;
@@ -694,7 +694,7 @@ textarea:invalid {
     }
 }
 
-#contact-bar p {
+#hire-bar p {
     width: 100%;
     color: #fff;
     display: inline-block;
@@ -705,7 +705,7 @@ textarea:invalid {
     }
 }
 
-#contact-bar {
+#hire-bar {
     .btn {
         width: 100%;
         @media screen and (max-width: 24.999em) { // ----------- min400px ----------- //
@@ -743,7 +743,7 @@ label {
     cursor: text;
 }
 
-#contactForm {
+#hireForm {
     ul {
         list-style: none;
         margin: 0;
@@ -754,7 +754,7 @@ label {
     }
 }
 
-#contactForm {
+#hireForm {
     &:after {
         content: "";
         border-bottom: 1px solid #ccc;

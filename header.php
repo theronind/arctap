@@ -42,8 +42,8 @@
                     case 'Kristina St. Peter':
                         echo "ArcTap &raquo; Work &raquo; $title &raquo; The site is a single page résumé that looks great on everything from your iPhone to your desktop.";
                         break;
-                    // Contact Page
-                    case 'Contact':
+                    // Hire Page
+                    case 'Hire':
                         echo "ArcTap &raquo; $title &raquo; You're about to make a great first step towards an amazing project by telling us a little bit about your project.";
                         break;
                 }
@@ -92,7 +92,7 @@
                 echo '<meta name="description" content="A weekly show that talks about design, user experience, problem solving and the keys to creating products with value.">';
                 break;
             // Hire Page
-            case 'Contact':
+            case 'Hire':
                 echo '<meta name="description" content="Ready to get started? Let\'s craft something beautiful together. We are ready when you are to start your awesome project with us. Leave a message and our talented experts will promptly reply to your request.">';
                 break;
         }
@@ -120,7 +120,7 @@
                         <li><a href="/about/" rel="bookmark">About</a></li>
                         <li><a href="/team/" rel="bookmark">Team</a></li>
                         <li><a href="/work/" rel="bookmark">Our Work</a></li>
-                        <li><a href="/contact/" rel="bookmark">Contact Us</a></li>
+                        <li><a href="/hire/" rel="bookmark">Hire Us</a></li>
                     </ul>
                 </nav>
             </div><!--/container-->

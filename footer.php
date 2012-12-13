@@ -1,9 +1,9 @@
-    <?php if ($title !== "Contact"): ?>
+    <?php if ($title !== "Hire"): ?>
         <div class="container">
-            <div id="contact-bar" class="clearfix">
+            <div id="hire-bar" class="clearfix">
                 <p><em>Ready to get started?</em> Let's craft something beautiful together.</p>
-                <a href="/contact/" class="btn" rel="bookmark author">Contact Us</a>
-            </div><!--/contact-bar-->
+                <a href="/hire/" class="btn" rel="bookmark author">Hire Us</a>
+            </div><!--/hires-bar-->
         </div><!--/container-->
     <?php endif; ?>
 
