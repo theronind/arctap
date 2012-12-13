@@ -4,8 +4,8 @@
 
         <section id="intro">
             <div class="container">
-                <h1>We Craft Experiences</h1>
-                <p>Our main focus is to launch that big idea and to produce amazing experience for everyone. We are an amazing little team of freelancers with elegant designs based out of New York City. Let us help you take your idea to reality.</p>
+                <h1>Real apps for real people.</h1>
+                <p>ArcTap is an app boutique, not an advertising agency. We create branded apps that's usefulness isn't overshadowed by marketing speak. And more engaging apps mean more return on investment.</p>
             </div><!--/container-->
         </section><!--/intro-->
 
@@ -31,17 +31,18 @@
 
                 <section class="content" role="main">
                     <div class="g4">
-                        <h5 class="intro-copy">ArcTap is an outstanding team of trusted freelancers that work together to craft the perfect solution for you and your customers. Each team member is hand selected to join based on their proven excellence in their field.</h5>
+                        <h5 class="intro-copy">Create real tools that people want - or even need.</h5>
+                        <p>An app that gets downloaded is great, but if your app becomes a home screen staple, that's true success. Here's why we can help: </p>
                     </div><!--/g4-->
 
                     <div class="g2">
-                        <h3>Services</h3>
-                        <p>Our main focus is crafting amazing experiences on mobile, tablet, &amp; desktop devices. We have a fully developed team ready to take on any project. This includes everything from branding to mobile development.</p>
+                        <h3>We have a focus</h3>
+                        <p>Those who are good at many things, are never great at anything. That's why ArcTap has one focus: mobile. Apps for tablet and smartphone, responsive web design, mobile first-if you take it on-the-go, we can do it.</p>
                     </div><!--/g2-->
 
                     <div class="g2">
-                        <h3>Process</h3>
-                        <p>Collectively we get a lot of work request. We work together to see what needs to be done and who is available to be apart of that project. Once we have the team assembled we will be able to start the project. </p>
+                        <h3>And we're different</h3>
+                        <p>Our team has agency experience, but more uniquely, backgrounds at tech startups. We know innovation and we know dedication, so you'll work with dev and design from your first meeting to understand your goals, so we can exceed them.</p>
                     </div><!--/g2-->
 
                 </section><!--/content-->
