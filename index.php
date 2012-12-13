@@ -4,8 +4,8 @@
 
         <section id="intro">
             <div class="container">
-                <h1>Real apps for real people.</h1>
-                <p>ArcTap is an app boutique, not an advertising agency. We create branded apps that's usefulness isn't overshadowed by marketing speak. And more engaging apps mean more return on investment.</p>
+                <h1>We Craft Experiences</h1>
+                <p>Our main focus is to launch that big idea and to produce amazing experience for everyone. We are an amazing little team of freelancers with elegant designs based out of New York City. Let us help you take your idea to reality.</p>
             </div><!--/container-->
         </section><!--/intro-->
 
