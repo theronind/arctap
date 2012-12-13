@@ -11,6 +11,7 @@ if ( $_POST ) {
     if(get_magic_quotes_gpc()) {
         $name = stripslashes($name);
         $company = stripslashes($company);
+        $budget = stripslashes($budget);
         $message = stripslashes($message);
     }
 
