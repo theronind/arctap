@@ -12,7 +12,7 @@
         <div class="container">
             <div id="page">
 
-                <figure class="flexslider">
+                <div class="flexslider">
                     <ul class="slides">
                         <li>
                             <a href="/work/statuschart/" rel="external"><span><img src="/work/statuschart/img/slide1.png" alt=""></span></a>
@@ -27,22 +27,21 @@
                             <p class="flex-caption">The East Wing</p>
                         </li>
                     </ul>
-                </figure><!--/flexslider-->
+                </div><!--/flexslider-->
 
                 <section class="content" role="main">
                     <div class="g4">
-                        <h5 class="intro-copy">Create real tools that people want - or even need.</h5>
-                        <p>An app that gets downloaded is great, but if your app becomes a home screen staple, that's true success. Here's why we can help: </p>
+                        <h5 class="intro-copy">ArcTap is an outstanding team of trusted freelancers that work together to craft the perfect solution for you and your customers. Each team member is hand selected to join based on their proven excellence in their field.</h5>
                     </div><!--/g4-->
 
                     <div class="g2">
-                        <h3>We have a focus</h3>
-                        <p>Those who are good at many things, are never great at anything. That's why ArcTap has one focus: mobile. Apps for tablet and smartphone, responsive web design, mobile first-if you take it on-the-go, we can do it.</p>
+                        <h3>Services</h3>
+                        <p>Our main focus is crafting amazing experiences on mobile, tablet, &amp; desktop devices. We have a fully developed team ready to take on any project. This includes everything from branding to mobile development.</p>
                     </div><!--/g2-->
 
                     <div class="g2">
-                        <h3>And we're different</h3>
-                        <p>Our team has agency experience, but more uniquely, backgrounds at tech startups. We know innovation and we know dedication, so you'll work with dev and design from your first meeting to understand your goals, so we can exceed them.</p>
+                        <h3>Process</h3>
+                        <p>Collectively we get a lot of work request. We work together to see what needs to be done and who is available to be apart of that project. Once we have the team assembled we will be able to start the project. </p>
                     </div><!--/g2-->
 
                 </section><!--/content-->

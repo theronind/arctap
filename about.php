@@ -14,16 +14,8 @@
                 <section class="content" role="main">
                     <article class="clearfix about-hero-copy">
                         <div class="g2">
-                            <p><strong>Agency trained. <br/>Startup experienced.</strong></p>
-                            <p>Our team members have experience working with all the big brands: American Express, Microsoft, Tiffany, Coca-Cola - but more interestingly, our staff is entrenched in the tech startup scene. It's important because our people know what the next biggest trend in mobile will be, because they're on the front lines creating it. </p>
-                            <p class="last">The services we offer include: </p>
-                            <ul>
-                                <li>iPhone, Android, and Windows platform development </li>
-                                <li>Site/Mobile web design </li>
-                                <li>UX/UI strategy </li>
-                                <li>Content strategy </li>
-                                <li>Copywriting</li>
-                            </ul>
+                            <p><strong>ArcTap is a team of amazing freelancers that regularly work together on mobile, tablet, &amp; web based projects.</strong></p>
+                            <p class="last">The idea of putting together a great team was easy, the hard part now is to find time for all the awesome ideas out there. Because of this we are very selective on what projects we take on. What makes us unique is not only the solid team, but what the team is made up of. We understand that apps sometimes need more then just a designer and a developer.</p>
                         </div><!--/g2-->
                         <div class="g2">
                             <img src="/img/about/nyc.png" class="nyc-photo" alt="A view from above of New York City">
@@ -31,10 +23,20 @@
                     </article>
 
                     <aside class="clearfix" role="complementary">
-                        <div class="g4">
-                            <h3>How we work</h3>
-                            <p>In your first consultation meeting, you'll meet with Kennedy, ArcTap’s founder and UX Strategist, along with a person in development, design, and account. We'll talk about your goals and probably do a bit of a quick, top-of-the-head brainstorm with you, then get back with you on process, timing, and fees. ArcTap’s team members are all freelance, which is great for your budget as the cost of retaining a full-time staff is never passed on to you. Instead, we charge a weekly rate to allocate a team 100% to your project. You'll never share your ArcTap team with another account, so that we can stay dedicated and on top of your project. Additionally, our flexibility allows us to work on your schedule, even if you need something turned around in a time crunch.</p>
-                        </div><!--/g4-->
+                        <div class="g1_5">
+                            <h3>Fine Craftsmanship</h3>
+                            <p>We are all lucky to have such an amazing network of trusted and experienced talent. We have been around the block a few times and understand that it is cheaper in the long run to build it right the first time.</p>
+                        </div><!--/g2-->
+
+                        <div class="g1_5">
+                            <h3>Elegant Design</h3>
+                            <p>Classic is what we build. We have found that chasing the trends puts a quick expiration date on your product. With minimal maintenance, to keep up with best practices, you will have a lasting image.</p>
+                        </div><!--/g2-->
+
+                        <div class="g1_5">
+                            <h3>Absolute Quality</h3>
+                            <p>We only accept A Players to be apart of our team, someone who really understands their field and is attentive to details. We also only take on A Clients. This ensures we are on the same level.</p>
+                        </div><!--/g2-->
                     </aside>
                 </section><!--/content-->
 
