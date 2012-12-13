@@ -28,9 +28,9 @@ $(document).ready(function () {
         return false;
     });
 
-    // Contact Form
+    // Hire Form
     // http://www.spruce.it/noise/simple-ajax-contact-form
-    $('#contactForm input[type="submit"]').click(function () {
+    $('#hireForm input[type="submit"]').click(function () {
         var name       = $('#name').val(),
             company    = $('#company').val(),
             phone      = $('#phone').val(),
@@ -78,7 +78,7 @@ $(document).ready(function () {
         } else {
             $.ajax({
                 type: "POST",
-                url: "/contactMail.php",
+                url: "/hireMail.php",
                 data: dataString,
                 success: function () { $('.success').fadeIn(1000).delay(5000).fadeOut(1000); }
             });
