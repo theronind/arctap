@@ -32,7 +32,7 @@
                         break;
                     // Work : Grade Spotter
                     case 'Grade Spotter':
-                        echo "ArcTap &raquo; Work &raquo; $title &raquo; Grade Spotter is a full&ndash;featured restaurant inspection guide for your iPhone. There are no more excuses for the unknown reasons behind your favorite NYC restaurant\'s grade.";
+                        echo "ArcTap &raquo; Work &raquo; $title &raquo; Grade Spotter is a full&ndash;featured restaurant inspection guide for your iPhone. There are no more excuses for the unknown reasons behind your favorite NYC restaurant's grade.";
                         break;
                     // Work : The East Wing
                     case 'The East Wing':
