@@ -12,16 +12,16 @@
             <div id="page">
                 <section class="content" role="main">
                     <div class="g4">
-                        <p>You are about to make a great first step. We don't want to waste anyone's time, so we will keep this questionnaire brief. After we review this little intro of your needs we well get in touch. Thanks for your time and we look forward to speaking with you.</p>
+                        <p>You're about to make that great first step in any project &ndash;explaining your vision. We don't wanna waste anyone's time, so we'll keep this questionnaire brief. After we've reviewed this little intro of your needs we'll get in touch <abbr title="as soon as possible">ASAP</abbr> (that's short for quick!).</p>
                     </div><!--/g4-->
 
                     <form id="hireForm" method="post" role="form">
                         <ul class="clearfix">
                             <li class="g2"><input type="name" id="name" name="name" placeholder="* Your Name" required></li>
-                            <li class="g2"><input type="text" id="company" name="company" placeholder="* Company Name" required></li>
+                            <li class="g2"><input type="text" id="company" name="company" placeholder="* Company Name"></li>
                             <li class="g2"><input type="tel" id="phone" name="phone" placeholder="* Phone Number" required></li>
                             <li class="g2"><input type="email" id="email" name="email" placeholder="* Your Email Address" required></li>
-                            <li class="g2"><input type="text" id="website" name="website" placeholder="* Website" required></li>
+                            <li class="g2"><input type="text" id="website" name="website" placeholder="Website"></li>
                             <li class="g2">
                                 <select name="budget" id="budget" required>
                                     <option selected="selected" value="DEFAULT">* Estimated Budget</option>

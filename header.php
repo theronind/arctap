@@ -24,11 +24,11 @@
                         break;
                     // Work Page
                     case 'Work':
-                        echo "ArcTap &raquo; $title &raquo; A Collection of our Work for Mobile and the Web.";
+                        echo "ArcTap &raquo; $title &raquo; A Collection of our work including everything from branding to the Web.";
                         break;
                     // Work : Status Chart
                     case 'Status Chart':
-                        echo "ArcTap &raquo; Work &raquo; $title &raquo; The simplest way track and share your professional milestones and all of the important things that make you who you are.";
+                        echo "ArcTap &raquo; Work &raquo; $title &raquo; The simplest way to track and share your professional milestones and all of the important things that make you who you are.";
                         break;
                     // Work : Grade Spotter
                     case 'Grade Spotter':
@@ -40,11 +40,11 @@
                         break;
                     // Work : Kristina St. Peter
                     case 'Kristina St. Peter':
-                        echo "ArcTap &raquo; Work &raquo; $title &raquo; The site is a single page résumé that looks great on everything from your iPhone to your desktop.";
+                        echo "ArcTap &raquo; Work &raquo; $title &raquo; A single page résumé that looks great on everything from your iPhone to your desktop.";
                         break;
                     // Hire Page
                     case 'Hire':
-                        echo "ArcTap &raquo; $title &raquo; You're about to make a great first step towards an amazing project by telling us a little bit about your project.";
+                        echo "ArcTap &raquo; $title &raquo; You're about to make a great first step towards an amazing project by telling us a little bit about yours. Let's make something awesome.";
                         break;
                 }
             ?></title>
@@ -61,7 +61,7 @@
         switch ($title) {
             // Home Page
             case '':
-                echo '<meta name="description" content="Our main focus is crafting amazing experiences on mobile, tablet, & desktop devices. We have a fully developed team of freelancers ready to take on any project.">';
+                echo '<meta name="description" content="Our main focus is crafting amazing experiences on smartphones, tablet, & desktop devices. We have a fully developed team of freelancers ready to take on any project.">';
                 break;
             // About Page
             case 'About':
@@ -103,7 +103,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link rel="shortcut icon" href="/favicon.png">
     <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
-    <link href="/css/style.css?v1.9" rel="stylesheet">
+    <link href="/css/style.css?v2.0" rel="stylesheet">
     <!-- modernizr -->
     <script src="/js/libs/modernizr-2.5.3.min.js"></script>
 </head>
