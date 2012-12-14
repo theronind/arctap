@@ -125,9 +125,9 @@ error_reporting(E_STRICT | E_ALL );
                 <h1 class="logo"><a href="/" rel="bookmark author" class="arctap-link"><span>ArcTap</span></a></h1>
                 <nav class="main-nav" role="navigation">
                     <ul>
-                        <li><a href="/about/" rel="bookmark">About</a></li>
-                        <li><a href="/team/" rel="bookmark">Team</a></li>
-                        <li><a href="/work/" rel="bookmark">Our Work</a></li>
+                        <li><a href="/about/" <?php if( $title == 'About' ) { echo 'class="nav-selected"'; } ?> rel="bookmark">About</a></li>
+                        <li><a href="/team/" <?php if( $title == 'Team' ) { echo 'class="nav-selected"'; } ?> rel="bookmark">Team</a></li>
+                        <li><a href="/work/" <?php if( $title == 'Work' ) { echo 'class="nav-selected"'; } ?> rel="bookmark">Our Work</a></li>
                         <li><a href="/hire/" rel="bookmark">Hire Us</a></li>
                     </ul>
                 </nav>

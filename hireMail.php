@@ -61,7 +61,7 @@ if ( $_POST ) {
         }
 
         // email
-        if ( empty( $_POST['email'] ) || !preg_match('/^[^0-9][a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[@][a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{2,4}$/', $email) ) {
+        if ( empty( $_POST['email'] ) || !preg_match( '/^[^0-9][a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[@][a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{2,4}$/', $email ) ) {
             $error = TRUE;
         }
 
@@ -84,13 +84,14 @@ if ( $_POST ) {
         if ( !$error ) {
 
             // thank you message to the user
-            echo "<h2>Thank you!</h2>
-                  <div class=\"thankyou\">
-                  <p>$name your inquiry with ArcTap has been sent. We'll be in touch very soon to your email address provided &rarr; $email. Thanks for picking us and Cheers!</p>
+            echo "<div class=\"thankyou g4\">
+                    <h2>Thank you $name!</h2>
+                    <p>Your inquiry with ArcTap was sent with success. We'll be in touch very, very soon at $email. Thanks for picking us and Cheers!</p>
                   </div>";
 
             // send mail to the admin
-            $mail_sent = mail( $address, $subject, $body, "From: team@arctap.com" );
+            //$mail_sent =
+            mail( $address, $subject, $body, "From: team@arctap.com" );
 
             /*// send mail to the user
             if ( $mail_sent == TRUE ) {
