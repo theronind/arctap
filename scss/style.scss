@@ -503,6 +503,7 @@ textarea:invalid {
 .team-links {
     float: right;
     list-style: none;
+    padding: 0;
     //background: rgba(0,0,0,0.20);
     li {
         @extend %inline_block;
