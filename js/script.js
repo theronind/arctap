@@ -6,6 +6,32 @@ $(document).ready(function () {
         directionNav: false
     });
 
+    // feature test for element and attribute support
+    function elementSupportsAttribute(element, attribute) {
+        var test = document.createElement(element);
+        if (attribute in test) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    // input placeholder fallbacks
+    if (!elementSupportsAttribute('input', 'placeholder')) {
+        // input value insertion
+        $('#name').val('*Name');
+        $('#company').val('Company Name');
+        $('#phone').val('Phone Number');
+        $('#email').val('*Your Email Address');
+        $('#website').val('http://');
+        $('#message').val('*Give us a brief description of your project and target launch date, if you have one.');
+
+        // focus state for inputs
+        $('input.form-input').focus(function () {
+            $(this).val('');
+        });
+    }
+
     // Work Sort
     // http://net.tutsplus.com/tutorials/javascript-ajax/creating-a-filterable-portfolio-with-jquery/
     $('#filter a').click(function () {

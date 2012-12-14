@@ -17,11 +17,21 @@
 
                     <form id="hireForm" method="post" role="form">
                         <ul class="clearfix">
-                            <li class="g2"><input type="name" id="name" name="name" placeholder="* Your Name" required></li>
-                            <li class="g2"><input type="text" id="company" name="company" placeholder="* Company Name"></li>
-                            <li class="g2"><input type="tel" id="phone" name="phone" placeholder="* Phone Number" required></li>
-                            <li class="g2"><input type="email" id="email" name="email" placeholder="* Your Email Address" required></li>
-                            <li class="g2"><input type="text" id="website" name="website" placeholder="Website"></li>
+                            <li class="g2">
+                                <input type="name" class="form-input" id="name" name="name" value="<?php if ( isset( $POST['name'] ) ) { print htmlspecialchars( $POST['name'] ); } ?>" placeholder="* Your Name" required>
+                            </li>
+                            <li class="g2">
+                                <input type="text" class="form-input" id="company" name="company" value="<?php if ( isset( $POST['company'] ) ) { print htmlspecialchars( $POST['company'] ); } ?>" placeholder="Company Name">
+                            </li>
+                            <li class="g2">
+                                <input type="tel" class="form-input" id="phone" name="phone" value="<?php if ( isset( $POST['phone'] ) ) { print htmlspecialchars( $POST['phone'] ); } ?>" placeholder="Phone Number">
+                            </li>
+                            <li class="g2">
+                                <input type="email" class="form-input" id="email" name="email" value="<?php if ( isset( $POST['email'] ) ) { print htmlspecialchars( $POST['email'] ); } ?>" placeholder="* Your Email Address" required>
+                            </li>
+                            <li class="g2">
+                                <input type="url" class="form-input" id="website" name="website" value="<?php if ( isset( $POST['website'] ) ) { print htmlspecialchars( $POST['website'] ); } ?>" placeholder="http://">
+                            </li>
                             <li class="g2">
                                 <select name="budget" id="budget" required>
                                     <option selected="selected" value="DEFAULT">* Estimated Budget</option>
@@ -33,7 +43,9 @@
                                     <option value="$200,000 Plus">$200,000 Plus</option>
                                 </select>
                             </li>
-                            <li class="g4"><textarea id="message" name="message" placeholder="* Give us a brief description of your project and target launch date, if you have one." required></textarea></li>
+                            <li class="g4">
+                                <textarea id="message" name="message" value="<?php if ( isset( $POST['message'] ) ) { print htmlspecialchars( $POST['message'] ); } ?>" placeholder="* Give us a brief description of your project and target launch date, if you have one." required></textarea>
+                            </li>
                             <li class="g4"><input type="submit" class="btn-action" value="Send" name="submit"></li>
                             <li class="success g4" style="display:none">Your message has been sent successfully.</li>
                         </ul>

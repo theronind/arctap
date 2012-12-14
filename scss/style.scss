@@ -772,7 +772,8 @@ label {
 input[type="name"],
 input[type="tel"],
 input[type="text"],
-input[type="email"] {
+input[type="email"],
+input[type="url"] {
     @include transition($transition-1: all .3s ease-in-out);
 }
 
@@ -780,6 +781,7 @@ input[type="name"],
 input[type="tel"],
 input[type="text"],
 input[type="email"],
+input[type="url"],
 textarea {
     border: 1px solid #BDBDBD;
     border-radius: 4px 4px 4px 4px;
@@ -797,6 +799,7 @@ input[type="name"]:focus,
 input[type="tel"]:focus,
 input[type="text"]:focus,
 input[type="email"]:focus,
+input[type="url"]:focus,
 textarea:focus {
     box-shadow: 0 0 4px rgba(105,203,255, 0.6);
     border: 1px solid #69CBFF;
