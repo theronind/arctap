@@ -284,7 +284,7 @@ textarea:invalid {
             background: url($arctap_sprite_base64) 0px -30px no-repeat; // sprite 54px / 22px = 2.27272727272727em
         }
         &:hover {
-            color: $vanilla_white;
+            @extend %opacity_fade;
         }
         span {
             @extend %inline_block;
@@ -321,16 +321,16 @@ textarea:invalid {
             display: inline-block;
             line-height: 1;
             padding: 9px 14px;
+            color: #FFF;
+            &:hover {
+                @extend %opacity_fade;
+            }
             @media screen and (max-width: 21.875em) { // ----------- max350px ----------- //
                 background: darken($banner_bg_color, 5%);
                 border-radius:3px;
                 padding: .75em;
                 width: 100%;
             }
-        }
-        a,
-        a:hover {
-            color: #FFF;
         }
         &:last-child {
             a {
@@ -1029,6 +1029,10 @@ select:required {
         a[href="https://twitter.com/arctap"] {
             display: inline-block;
             height: 1.875em; // 30px / 16px = 1.875
+            &:hover {
+                @extend %opacity_fade;
+                text-shadow: 0 1px 1px rgba(255,255,255,0.30);
+            }
             span {
                 display: inline-block;
             }
