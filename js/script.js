@@ -1,3 +1,14 @@
+// feature test for element and attribute support
+function elementSupportsAttribute(element, attribute) {
+    var test = document.createElement(element);
+    if (attribute in test) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+// Document.Ready
 $(document).ready(function () {
 
     // http://flexslider.woothemes.com/
@@ -5,16 +16,6 @@ $(document).ready(function () {
         animation: "slide",
         directionNav: false
     });
-
-    // feature test for element and attribute support
-    function elementSupportsAttribute(element, attribute) {
-        var test = document.createElement(element);
-        if (attribute in test) {
-            return true;
-        } else {
-            return false;
-        }
-    }
 
     // input placeholder fallbacks
     if (!elementSupportsAttribute('input', 'placeholder')) {

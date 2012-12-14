@@ -103,7 +103,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link rel="shortcut icon" href="/favicon.png">
     <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
-    <link href="/css/style.css?v2.1" rel="stylesheet">
+    <link href="/css/style.css?v2.2" rel="stylesheet">
     <!-- modernizr -->
     <script src="/js/libs/modernizr-2.6.2.min.js"></script>
 </head>
