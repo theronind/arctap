@@ -15,22 +15,71 @@
                         <p>You're about to make that great first step in any project &ndash;explaining your vision. We don't wanna waste anyone's time, so we'll keep this questionnaire brief. After we've reviewed this little intro of your needs we'll get in touch <abbr title="as soon as possible">ASAP</abbr> (that's short for quick!).</p>
                     </div><!--/g4-->
 
-                    <form id="hireForm" method="post" role="form">
-                        <ul class="clearfix">
+                    <?php require('hireMail.php'); //form validation script ?>
+                    <!-- ******** start contact form ******** -->
+                    <?php if ( ! isset ( $_POST ['submit'] ) OR $error ) { ?>
+
+                    <form action="<?php $_SERVER['PHP_SELF'] ?>" enctype="application/x-www-form-urlencoded" method="post" id="hireForm" role="form">
+
+                      <input type="hidden" name="hide" value="Your message was sent securely. We will be in touch" />
+                      <ul class="clearfix">
                             <li class="g2">
-                                <input type="name" class="form-input" id="name" name="name" value="<?php if ( isset( $POST['name'] ) ) { print htmlspecialchars( $POST['name'] ); } ?>" placeholder="* Your Name" required>
+                                <input type="name" class="form-input" id="name" name="name" value="<?php if ( isset( $POST['name'] ) ) { print htmlspecialchars( $POST['name'] ); } ?>" placeholder="* Your Name">
+                                <?php
+                                if ( isset( $_POST['submit'] ) ) {
+
+                                    if ( empty( $_POST['name'] ) ) {
+                                        echo "<p class='error'><span class=\"icon-warning-sign\" title=\"alert icon for form errors\"></span> please enter your e&ndash;mail</p>";
+                                        $error = TRUE;
+                                    }
+                                }else { $error = TRUE; } ?>
                             </li>
                             <li class="g2">
                                 <input type="text" class="form-input" id="company" name="company" value="<?php if ( isset( $POST['company'] ) ) { print htmlspecialchars( $POST['company'] ); } ?>" placeholder="Company Name">
+                                <?php
+                                if ( isset( $_POST['submit'] ) ) {
+
+                                    if ( empty( $_POST['company'] ) ) {
+                                        echo "<p class='error'><span class=\"icon-warning-sign\" title=\"alert icon for form errors\"></span> please enter your company name</p>";
+                                        $error = TRUE;
+                                    }
+                                }else { $error = TRUE; } ?>
                             </li>
                             <li class="g2">
                                 <input type="tel" class="form-input" id="phone" name="phone" value="<?php if ( isset( $POST['phone'] ) ) { print htmlspecialchars( $POST['phone'] ); } ?>" placeholder="Phone Number">
+                                <?php
+                                if ( isset( $_POST['submit'] ) ) {
+
+                                    if ( empty( $_POST['phone'] ) ) {
+                                        echo "<p class='error'><span class=\"icon-warning-sign\" title=\"alert icon for form errors\"></span> please let us know how to reach you</p>";
+                                        $error = TRUE;
+                                    }
+                                }else { $error = TRUE; } ?>
                             </li>
                             <li class="g2">
-                                <input type="email" class="form-input" id="email" name="email" value="<?php if ( isset( $POST['email'] ) ) { print htmlspecialchars( $POST['email'] ); } ?>" placeholder="* Your Email Address" required>
+                                <input type="email" class="form-input" id="email" name="email" value="<?php if ( isset( $POST['email'] ) ) { echo htmlspecialchars( $POST['email'] ); } ?>" placeholder="* Your Email Address">
+                                <?php
+                                    if ( isset( $_POST['submit'] ) ) {
+                                        if ( empty( $_POST['email'] ) ) {
+                                            echo "<p class='error'><span class=\"icon-warning-sign\" title=\"alert icon for form errors\"></span> We need your email address so we can get in touch. Don't leave it blank</p>";
+                                            $error = TRUE;
+                                        }
+
+                                        if( !preg_match('/^[^0-9][a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[@][a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{2,4}$/', $email) ) {
+                                            echo "<p class='error'><span class=\"icon-warning-sign\" title=\"alert icon for email syntax errors\"></span> We need your email address syntax to be username@emailprovider.domain</p>";
+                                            $error = true;
+                                        }
+                                    }else { $error = TRUE; } ?>
                             </li>
                             <li class="g2">
                                 <input type="url" class="form-input" id="website" name="website" value="<?php if ( isset( $POST['website'] ) ) { print htmlspecialchars( $POST['website'] ); } ?>" placeholder="http://">
+                                <?php
+                                    if ( isset( $_POST['submit'] ) ) {
+                                      if ( empty( $_POST['website'] ) ) {
+                                            echo "<p class='error'><span class=\"icon-warning-sign\" title=\"alert icon for form errors\"></span> Please let us know your URL</p>";
+                                            $error = TRUE;
+                                      }
+                                    }else { $error = TRUE; } ?>
                             </li>
                             <li class="g2">
                                 <select name="budget" id="budget" required>
@@ -42,14 +91,32 @@
                                     <option value="$140,000 &ndash; $200,000">$140,000 &ndash; $200,000</option>
                                     <option value="$200,000 Plus">$200,000 Plus</option>
                                 </select>
+                                <?php
+                                    if ( isset( $_POST['submit'] ) ) {
+                                      if ( empty( $_POST['budget'] ) ) {
+                                            echo "<p class='error'><span class=\"icon-warning-sign\" title=\"alert icon for form errors\"></span> Please let us know your Budget</p>";
+                                            $error = TRUE;
+                                      }
+                                    }else { $error = TRUE; } ?>
                             </li>
                             <li class="g4">
-                                <textarea id="message" name="message" value="<?php if ( isset( $POST['message'] ) ) { print htmlspecialchars( $POST['message'] ); } ?>" placeholder="* Give us a brief description of your project and target launch date, if you have one." required></textarea>
+                                <textarea id="message" name="message" value="<?php if ( isset( $POST['message'] ) ) { print htmlspecialchars( $POST['message'] ); } ?>" placeholder="* Give us a brief description of your project and target launch date, if you have one."></textarea>
+                                <?php
+                                    if ( isset( $_POST['submit'] ) ) {
+                                        if ( empty( $_POST['message'] ) ) {
+                                            echo "<p class='error'><span class=\"icon-warning-sign\" title=\"alert icon for form errors\"></span> Please let us know your message</p>";
+                                            $error = TRUE;
+                                        }
+                                    }else { $error = TRUE; } ?>
                             </li>
-                            <li class="g4"><input type="submit" class="btn-action" value="Send" name="submit"></li>
-                            <li class="success g4" style="display:none">Your message has been sent successfully.</li>
-                        </ul>
-                    </form>
+
+
+                        <li class="g4"><input type="submit" class="btn-action" value="Send" name="submit"></li>
+                        <li class="success g4" style="display:none">Your message has been sent successfully.</li>
+                    </ul>
+                  </form>
+                  <?php } ?>
+
 
                     <div class="g1_5">
                         <h3>Rate</h3>
