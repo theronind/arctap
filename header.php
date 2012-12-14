@@ -105,7 +105,7 @@
     <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
     <link href="/css/style.css?v2.1" rel="stylesheet">
     <!-- modernizr -->
-    <script src="/js/libs/modernizr-2.5.3.min.js"></script>
+    <script src="/js/libs/modernizr-2.6.2.min.js"></script>
 </head>
 <body>
 <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
