@@ -12,14 +12,26 @@
             <div id="page">
                 <section class="content" role="main">
                     <div class="g4">
-                        <p>You are about to make a great first step. We don't want to waste anyone's time, so we will keep this questionnaire brief. After we review this little intro of your needs we well get in touch. Thanks for your time and we look forward to speaking with you.</p>
+                        <p>You're about to make that great first step in any project &ndash;explaining your vision. We don't wanna waste anyone's time, so we'll keep this questionnaire brief. After we've reviewed this little intro of your needs we'll get in touch <abbr title="as soon as possible">ASAP</abbr> (that's short for quick!).</p>
                     </div><!--/g4-->
 
                     <form id="hireForm" method="post" role="form">
                         <ul class="clearfix">
-                            <li class="g2"><!-- <label for="name">Name</label> --><input type="name" id="name" name="name" placeholder="* Your Name" required></li>
-                            <li class="g2"><!-- <label for="email">E&ndash;mail</label> --><input type="email" id="email" name="email" placeholder="* Your Email Address" required></li>
-                            <li class="g2"><!-- <label for="company">Company</label> --><input type="text" id="company" name="company" placeholder="* Company Name" required></li>
+                            <li class="g2">
+                                <input type="name" class="form-input" id="name" name="name" value="<?php if ( isset( $POST['name'] ) ) { print htmlspecialchars( $POST['name'] ); } ?>" placeholder="* Your Name" required>
+                            </li>
+                            <li class="g2">
+                                <input type="text" class="form-input" id="company" name="company" value="<?php if ( isset( $POST['company'] ) ) { print htmlspecialchars( $POST['company'] ); } ?>" placeholder="Company Name">
+                            </li>
+                            <li class="g2">
+                                <input type="tel" class="form-input" id="phone" name="phone" value="<?php if ( isset( $POST['phone'] ) ) { print htmlspecialchars( $POST['phone'] ); } ?>" placeholder="Phone Number">
+                            </li>
+                            <li class="g2">
+                                <input type="email" class="form-input" id="email" name="email" value="<?php if ( isset( $POST['email'] ) ) { print htmlspecialchars( $POST['email'] ); } ?>" placeholder="* Your Email Address" required>
+                            </li>
+                            <li class="g2">
+                                <input type="url" class="form-input" id="website" name="website" value="<?php if ( isset( $POST['website'] ) ) { print htmlspecialchars( $POST['website'] ); } ?>" placeholder="http://">
+                            </li>
                             <li class="g2">
                                 <select name="budget" id="budget" required>
                                     <option selected="selected" value="DEFAULT">* Estimated Budget</option>
@@ -31,7 +43,9 @@
                                     <option value="$200,000 Plus">$200,000 Plus</option>
                                 </select>
                             </li>
-                            <li class="g4"><textarea id="message" name="message" placeholder="* Give us a brief description and tell us why it will be awesome to work with you on this project." required></textarea></li>
+                            <li class="g4">
+                                <textarea id="message" name="message" value="<?php if ( isset( $POST['message'] ) ) { print htmlspecialchars( $POST['message'] ); } ?>" placeholder="* Give us a brief description of your project and target launch date, if you have one." required></textarea>
+                            </li>
                             <li class="g4"><input type="submit" class="btn-action" value="Send" name="submit"></li>
                             <li class="success g4" style="display:none">Your message has been sent successfully.</li>
                         </ul>

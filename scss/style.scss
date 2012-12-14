@@ -1,5 +1,5 @@
 // ==========================================================================
-// ✪ $Tool We Use For This Project
+// $Tool We Use For This Project
 // ==========================================================================
 
 // SPRITES
@@ -9,21 +9,21 @@
 
 
 // ==========================================================================
-// ✪ $Compass
+// $Compass
 // ==========================================================================
 
 @import "compass";
 
 
 // ==========================================================================
-// ✪ $Normalize
+// $Normalize
 // ==========================================================================
 
 @import "normalize";
 
 
 // ==========================================================================
-// ✪ $H5BP Resets
+// $H5BP Resets
 // ==========================================================================
 
 //@import "reset";
@@ -31,7 +31,7 @@
 
 
 // ==========================================================================
-// ✪ $Symbolset
+// $Symbolset
 // ==========================================================================
 
 @import "ss-social";
@@ -39,7 +39,7 @@
 
 
 // ==========================================================================
-// ✪ $Typography
+// $Typography
 // ==========================================================================
 
 @import "fontface";
@@ -47,36 +47,28 @@
 
 
 // ==========================================================================
-// ✪ $Plugins
+// $Plugins
 // ==========================================================================
 
 @import "flexslider";
 
 
 // ==========================================================================
-// ✪ $Variables
+// $Variables
 // ==========================================================================
 
 @import "vars";
 
 
 // ==========================================================================
-// ✪ $Helpers
+// $Helpers
 // ==========================================================================
 
 @import "helpers";
 
 
 // ==========================================================================
-// ✪ $ArcOffice
-// ==========================================================================
-
-@import "arcoffice";
-
-
-
-// ==========================================================================
-// ✪ $Globals
+// $Globals
 // ==========================================================================
 
 h1,
@@ -130,12 +122,13 @@ textarea:invalid {
 
 
 // ==========================================================================
-// ✪ $Structure
+// $Structure
 // ==========================================================================
 
 .container {
     margin: 0 auto;
     max-width: $container_width;
+    //min-height: 100%;
     .lt-ie9 & {
         width: $ie_container_width;
     }
@@ -158,7 +151,7 @@ textarea:invalid {
 
 
 // ==========================================================================
-// ✪ $Grid
+// $Grid
 // ==========================================================================
 
 .g1,
@@ -173,7 +166,6 @@ textarea:invalid {
 
 .g1 {
     max-width: 96%;
-
     // ----------- min768px / max1023px ----------- //
     @media screen and (min-width: 48em) and (max-width: 63.9375em) {
         max-width: 21%;
@@ -190,7 +182,6 @@ textarea:invalid {
 
 .g1_5 {
     max-width: 96%;
-
     // ----------- min480px / max767px ----------- //
     @media screen and (min-width: 30em) and (max-width: 47.9375em) {
         max-width: 46%;
@@ -207,7 +198,6 @@ textarea:invalid {
 
 .g2 {
     max-width: 96%;
-
     // ----------- min768px / max1023px ----------- //
     @media screen and (min-width: 48em) and (max-width: 63.9375em) {
         max-width: 46%;
@@ -220,7 +210,6 @@ textarea:invalid {
 
 .g3 {
     max-width: 96%;
-
     // ----------- min768px / max1023px ----------- //
     @media screen and (min-width: 48em) and (max-width: 63.9375em) {
         max-width: 71%;
@@ -233,7 +222,6 @@ textarea:invalid {
 
 .g4 {
     max-width: 96%;
-
     // ----------- min768px / max1023px ----------- //
     @media screen and (min-width: 48em) and (max-width: 63.9375em) {
         max-width: 96%;
@@ -246,19 +234,18 @@ textarea:invalid {
 
 
 // ==========================================================================
-// ✪ $Wrapper
+// $Wrapper
 // ==========================================================================
 
 #wrapper {
     height: auto !important;
-    height: 100%;
     margin: 0 auto -4.375em; // 70px / 16px = 4.375
     min-height: 100%;
 }
 
 
 // ==========================================================================
-// ✪ $Banner
+// $Banner
 // ==========================================================================
 
 #header-wrap {
@@ -274,7 +261,7 @@ textarea:invalid {
 
 
 // ==========================================================================
-// ✪ $Logo
+// $Logo
 // ==========================================================================
 
 .logo {
@@ -287,14 +274,14 @@ textarea:invalid {
         padding: .5em 0;
         text-align: center;
     }
-    .arctap-anchor-link {
+    .arctap-link {
         @extend %inline_block;
         height: 1.81818181818182em; // 40px / 22px = 1.81818181818182
         padding-left: 1.81818181818182em; // 40px / 22px = 1.81818181818182
-        background: image-url("arctap-sprite.svgz") 0px -50px no-repeat; // sprite 50px / 22px = 2.27272727272727em
+        background: image-url("arctap-sprite.svgz") 0px -30px no-repeat; // sprite 54px / 22px = 2.27272727272727em
         color: $vanilla_white;
         .no-svg & {
-            background: url($arctap_sprite_base64) 0px -50px no-repeat; // sprite 50px / 22px = 2.27272727272727em
+            background: url($arctap_sprite_base64) 0px -30px no-repeat; // sprite 54px / 22px = 2.27272727272727em
         }
         &:hover {
             color: $vanilla_white;
@@ -313,7 +300,7 @@ textarea:invalid {
 
 
 // ==========================================================================
-// ✪ $Navigation
+// $Navigation
 // ==========================================================================
 
 .main-nav {
@@ -335,12 +322,10 @@ textarea:invalid {
             line-height: 1;
             padding: 9px 14px;
             @media screen and (max-width: 21.875em) { // ----------- max350px ----------- //
-                border: 1px solid darken($banner_bg_color, 8%);
+                background: darken($banner_bg_color, 5%);
                 border-radius:3px;
-                box-shadow: inset 0 1px 1px rgba(0,0,0,0.30), 0 1px 1px rgba(255,255,255,0.20);
                 padding: .75em;
                 width: 100%;
-                background: darken($banner_bg_color, 5%);
             }
         }
         a,
@@ -353,12 +338,14 @@ textarea:invalid {
                 background: #50cefe;
                 color: #1e4a5c;
                 &:hover {
-                    background: #008EC4;
-                    color: $vanilla_white;
+                    background: darken(#50cefe, 10%);
+                    color: #1e4a5c;
+                }
+                &:active {
+                    background: lighten(#50cefe, 10%);
                 }
                 @media screen and (max-width: 21.875em) { // ----------- max350px ----------- //
-                    background: darken($banner_bg_color, 5%);
-                    color: $vanilla_white;
+
                 }
             }
         }
@@ -382,7 +369,7 @@ textarea:invalid {
 
 
 // ==========================================================================
-// ✪ $Intro
+// $Intro
 // ==========================================================================
 
 #intro {
@@ -391,16 +378,13 @@ textarea:invalid {
     h1 {
         margin: 0 0 10px;
     }
-
     h1,
     h2 {
         color: $vanilla_white;
     }
-
     h2 {
         margin: 0;
     }
-
     p {
         margin: 0 auto;
         max-width: 600px;
@@ -410,7 +394,7 @@ textarea:invalid {
 
 
 // ==========================================================================
-// ✪ $Page
+// $Page
 // ==========================================================================
 
 #page {
@@ -430,7 +414,7 @@ textarea:invalid {
 
 
 // ==========================================================================
-// ✪ $Home
+// $Home
 // ==========================================================================
 
 #home {
@@ -466,31 +450,7 @@ textarea:invalid {
 
 
 // ==========================================================================
-// ✪ $Grade Spotter
-// ==========================================================================
-
-#intro-app {
-    padding: 70px 0;
-}
-
-#intro-app .g8 {
-    margin: 130px 0 0;
-}
-
-#intro-app img {
-    float: left;
-    margin: 0 20px 20px 0;
-}
-
-#intro-app h2 {
-    float: left;
-    margin: 27px 0 0;
-    width: 460px;
-}
-
-
-// ==========================================================================
-// ✪ $About
+// $About Page
 // ==========================================================================
 
 .about-hero-copy {
@@ -511,87 +471,65 @@ textarea:invalid {
 
 
 // ==========================================================================
-// ✪ $Team
+// $Team Page
 // ==========================================================================
 
-#team {
-    list-style: none;
-    margin: 0;
+.arctap-team {
+    list-style-type: none;
     padding: 0;
 }
 
-#team h3 {
+.arctap-member,
+.job-title {
+    margin: 0;
+}
+
+.arctap-member {
     display: inline;
-    margin: 0;
 }
 
-#team h4 {
+.job-title {
     color: #7695a3;
-    margin: 0;
 }
 
-#team .pic {
-    border-radius: 3px;
-    display: block;
+.team-pic {
     margin-bottom: 4%;
-    overflow:hidden;
-    position: relative;
+    overflow: hidden;
+    img {
+        margin: -35px 0px -60px 0px;
+    }
 }
 
-#team .pic img {
-    border-radius: 3px;
-    margin: -35px 0px -60px 0px;
-}
-
-#team .links {
-    list-style: none;
+.team-links {
     float: right;
-    margin: 0;
+    list-style: none;
     padding: 0;
-}
-
-#team .links li {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-
-    .lt-ie8 & {
-        display: inline;
-    }
-}
-
-#team .links .twitter {
-    color: #10abf2;
-}
-
-#team .links .statuschart {
-    color: #df5753;
-}
-#team .links .website {
-    color: #35cbe6;
-}
-
-.status-chart-icon {
-    @extend %inline_block;
-    height: 24px;
-    width: 24px;
-    background: image-url("statuschart.svgz") 0px 0px no-repeat;
-    color: $vanilla_white;
-    .no-svg & {
-        background: url($arctap_sprite_base64) -1px 0px no-repeat;
-    }
-    &:hover {
-        color: $vanilla_white;
-    }
-    .lt-ie8 & {
-        position: relative;
-        top: -5px;
+    //background: rgba(0,0,0,0.20);
+    li {
+        @extend %inline_block;
+        height: 24px;
+        // margin: 0;
+        // padding: 0;
+        width: 24px;
+        .lt-ie8 & {
+            display: inline;
+        }
+        a {
+            @extend %inline_block;
+            height: 24px;
+            width: 24px;
+            color: #10abf2;
+            &:hover,
+            &:active {
+                opacity: 0.60;
+            }
+        }
     }
 }
 
 
 // ==========================================================================
-// ✪ $Work
+// $Work Page
 // ==========================================================================
 
 #work img {
@@ -697,13 +635,33 @@ textarea:invalid {
     }
 }
 
-.sort-works {
-    color: #FFF;
+
+// ==========================================================================
+// $Grade Spotter Page
+// ==========================================================================
+
+#intro-app {
+    padding: 70px 0;
+}
+
+#intro-app .g8 {
+    margin: 130px 0 0;
+}
+
+#intro-app img {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+#intro-app h2 {
+    float: left;
+    margin: 27px 0 0;
+    width: 460px;
 }
 
 
 // ==========================================================================
-// ✪ $Hire Page
+// $Hire Page
 // ==========================================================================
 
 #hire #hireForm .g2,
@@ -724,7 +682,7 @@ textarea:invalid {
 
 
 // ==========================================================================
-// ✪ $Hire Bar
+// $Hire Bar Module
 // ==========================================================================
 
 #hire-bar {
@@ -756,7 +714,7 @@ textarea:invalid {
         }
         @media screen and (min-width: 25em) { // ----------- min400px ----------- //
             float: right;
-            width: 100px;
+            width: 115px;
         }
         @media screen and (max-width: 48em) { // ----------- max479px ----------- //
             margin-top: 10px;
@@ -768,11 +726,14 @@ textarea:invalid {
             width: 93%;
         }
     }
+    .btn:hover{
+
+    }
 }
 
 
 // ==========================================================================
-// ✪ $Form
+// $Form
 // ==========================================================================
 
 label {
@@ -810,14 +771,18 @@ label {
 }
 
 input[type="name"],
+input[type="tel"],
 input[type="text"],
-input[type="email"] {
+input[type="email"],
+input[type="url"] {
     @include transition($transition-1: all .3s ease-in-out);
 }
 
 input[type="name"],
+input[type="tel"],
 input[type="text"],
 input[type="email"],
+input[type="url"],
 textarea {
     border: 1px solid #BDBDBD;
     border-radius: 4px 4px 4px 4px;
@@ -832,8 +797,10 @@ textarea {
 }
 
 input[type="name"]:focus,
+input[type="tel"]:focus,
 input[type="text"]:focus,
 input[type="email"]:focus,
+input[type="url"]:focus,
 textarea:focus {
     box-shadow: 0 0 4px rgba(105,203,255, 0.6);
     border: 1px solid #69CBFF;
@@ -884,7 +851,6 @@ select optgroup {
     color: #6db38e;
     clear: both;
     display: block;
-    margin: 10px 0;
     padding: 10px;
 }
 
@@ -906,12 +872,12 @@ select:required {
 
 
 // ==========================================================================
-// ✪ $Button Module
+// $Button Module
 // ==========================================================================
 
 .btn {
     @include transition($transition-1: .3s all ease-in-out);
-    background: #fff;
+    background: #EFF1F5;
     border: none;
     border-radius: 3px;
     color: #26495c;
@@ -927,8 +893,8 @@ select:required {
 }
 
 .btn:hover {
-    background: lighten(#172d38, 10%);
-    color: $vanilla_white;
+    background-color: #fff;
+    color: #26495c;
 }
 
 .btn:active {
@@ -937,7 +903,7 @@ select:required {
 
 
 // ==========================================================================
-// ✪ $Primary Button Module
+// $Primary Button Module
 // ==========================================================================
 
 .btn-primary {
@@ -956,7 +922,7 @@ select:required {
 
 
 // ==========================================================================
-// ✪ $Action Button Module
+// $Action Button Module
 // ==========================================================================
 
 .btn-action {
@@ -968,16 +934,17 @@ select:required {
 }
 
 .btn-action:hover {
-    background: darken(#fc6a63, 10%);
+    background: darken(#fc6a63, 5%);
+    color: #fff;
 }
 
 .btn-action:active {
-    @extend .btn-action:hover;
+    background: lighten(#fc6a63, 5%);
 }
 
 
 // ==========================================================================
-// ✪ $Download App Button Module
+// $Download App Button Module
 // ==========================================================================
 
 .btn-dlapp {
@@ -997,9 +964,10 @@ select:required {
 
 
 // ==========================================================================
-// ✪ $Footer
+// $Footer
 // ==========================================================================
 
+// footer container
 #footer-wrap {
     background-color: #c3c5c7;
 }
@@ -1012,6 +980,7 @@ select:required {
     }
 }
 
+// Primary Footer
 .primary-footer {
     padding: 22px 10px 0px;
     color: #2b343d;
@@ -1020,6 +989,7 @@ select:required {
     }
 }
 
+// Copyright Icon
 #copy {
     @extend %inline_block;
     margin: 0;
@@ -1028,10 +998,10 @@ select:required {
         height: 2.14285714285714em; // 30px / 14px = 2.14285714285714
         margin: 0 0.71428571428571em 0 0; // 10px / 14px = 0.71428571428571
         padding-left: 2.14285714285714em; // 30px / 14px = 2.14285714285714
-        background: image-url("arctap-sprite.svgz") 0px -20px no-repeat;
+        background: image-url("arctap-sprite.svgz") 0px 0px no-repeat;
         .no-svg & {
             height: 2.15em;
-            background: url($arctap_sprite_base64) 0px -20px no-repeat;
+            background: url($arctap_sprite_base64) 0px 0px no-repeat;
         }
         span {
             @extend %inline_block;
@@ -1042,6 +1012,7 @@ select:required {
     }
 }
 
+// social icon
 #social {
     float: right;
     list-style: none;
@@ -1073,7 +1044,7 @@ select:required {
 
 
 // ==========================================================================
-// ✪ $Animation
+// $Animation
 // ==========================================================================
 
 @-webkit-keyframes fadeIn {
@@ -1123,23 +1094,8 @@ select:required {
 
 
 // ==========================================================================
-// ✪ $Helper classes
+// $Helper classes
 // ==========================================================================
-
-.ir {
-    background-color: transparent;
-    border: 0;
-    overflow: hidden;
-    // IE 6/7 fallback
-    *text-indent: -9999px;
-}
-
-.ir:before {
-    content: "";
-    display: block;
-    width: 0;
-    height: 100%;
-}
 
 .hidden {
     display: none !important;
@@ -1167,10 +1123,6 @@ select:required {
     width: auto;
 }
 
-.invisible {
-    visibility: hidden;
-}
-
 .clearfix:before,
 .clearfix:after {
     content: " "; // 1
@@ -1187,7 +1139,7 @@ select:required {
 
 
 // ==========================================================================
-// ✪ $Custom Helper Classes
+// $Custom Helper Classes
 // ==========================================================================
 
 .last{
@@ -1196,7 +1148,7 @@ select:required {
 
 
 // ==========================================================================
-// ✪ $Viewport
+// $Viewport
 // ==========================================================================
 
 // http://dev.w3.org/csswg/css-device-adapt/
@@ -1208,7 +1160,7 @@ select:required {
 
 
 // ==========================================================================
-// ✪ $Print
+// $Print
 // ==========================================================================
 
 @media print {

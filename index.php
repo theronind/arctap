@@ -5,14 +5,14 @@
         <section id="intro">
             <div class="container">
                 <h1>We Craft Experiences</h1>
-                <p>Our main focus is to launch that big idea and to produce amazing experience for everyone. We are an amazing little team of freelancers with elegant designs based out of New York City. Let us help you take your idea to reality.</p>
+                <p>Our main focus is to launch that big idea and to produce amazing experiences for everyone. We're an amazing little team of freelancers with elegant designs based out of New York City. Let us help you make your idea into a reality.</p>
             </div><!--/container-->
         </section><!--/intro-->
 
         <div class="container">
             <div id="page">
 
-                <figure class="flexslider">
+                <div class="flexslider">
                     <ul class="slides">
                         <li>
                             <a href="/work/statuschart/" rel="external"><span><img src="/work/statuschart/img/slide1.png" alt=""></span></a>
@@ -27,7 +27,7 @@
                             <p class="flex-caption">The East Wing</p>
                         </li>
                     </ul>
-                </figure><!--/flexslider-->
+                </div><!--/flexslider-->
 
                 <section class="content" role="main">
                     <div class="g4">
@@ -36,12 +36,12 @@
 
                     <div class="g2">
                         <h3>Services</h3>
-                        <p>Our main focus is crafting amazing experiences on mobile, tablet, &amp; desktop devices. We have a fully developed team ready to take on any project. This includes everything from branding to mobile development.</p>
+                        <p>Our main focus is crafting amazing experiences on smartphones, tablet, &amp; desktop devices. We have a fully developed team ready to take on any project from branding all the way up to mobile development.</p>
                     </div><!--/g2-->
 
                     <div class="g2">
                         <h3>Process</h3>
-                        <p>Collectively we get a lot of work request. We work together to see what needs to be done and who is available to be apart of that project. Once we have the team assembled we will be able to start the project. </p>
+                        <p>Collectively we get a ton of work requests. We work together to see what needs to be done and who's available to be apart of that project. Once we have an awesome team assembled we hit the ground running.</p>
                     </div><!--/g2-->
 
                 </section><!--/content-->
