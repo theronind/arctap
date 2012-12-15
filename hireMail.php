@@ -26,14 +26,14 @@ if ( $_POST ) {
     $error = FALSE;
 
     // admin email
-    $address  = "grayghost@grayghostvisuals.com";
-    $subject  = "Inquiry: " . $name. '\n';
-    $body    .= "Name: " . $name . '\n';
-    $body    .= "Company: " . $company . '\n';
-    $body    .= "Phone: " . $phone . '\n';
-    $body    .= "Email: " . $email . '\n';
-    $body    .= "Website: " . $website . '\n';
-    $body    .= "Budget: " . $budget . '\n';
+    $address  = "grayghost@grayghostvisuals.com" . '\r\n';
+    $subject  = "Inquiry: " . $name . '\r\n';
+    $body    .= "Name: " . $name . '\r\n';
+    $body    .= "Company: " . $company . '\r\n';
+    $body    .= "Phone: " . $phone . '\r\n';
+    $body    .= "Email: " . $email . '\r\n';
+    $body    .= "Website: " . $website . '\r\n';
+    $body    .= "Budget: " . $budget . '\r\n';
     $body    .= "Message: " . $message;
 
     $headers  = "From: " . $email . '\r\n';
