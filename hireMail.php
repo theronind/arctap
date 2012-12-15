@@ -90,7 +90,7 @@ if ( $_POST ) {
                   </div>";
 
             // send mail to the admin
-            ini_set (SMTP, smtp.mailserver.com)
+            //ini_set (SMTP, smtp@gmail.com)
             $mail_sent = mail( $address, $subject, $body, "From: team@arctap.com" );
 
             /*// send mail to the user
