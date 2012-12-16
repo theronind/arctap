@@ -1,5 +1,6 @@
 <?php
 if ( $_POST ) {
+    $hide    = $_POST['hide'];
     $name    = trim( $_POST['name'] );
     $company = trim( $_POST['company'] );
     $phone   = trim( $_POST['phone'] );
@@ -7,11 +8,6 @@ if ( $_POST ) {
     $website = trim( $_POST['website'] );
     $budget  = trim( $_POST['budget'] );
     $message = trim( $_POST['message'] );
-
-    $hide    = $_POST['hide'];
-
-    // allow user to use html tags
-    //$display_HTMLtags = htmlentities( $_POST [''] );
 
     // cleanse user first name input
     $strip_HTMLtags_name    = strip_tags( $_POST ['name'] );
@@ -26,20 +22,25 @@ if ( $_POST ) {
     $error = FALSE;
 
     // admin email
-    $address  = "grayghost@grayghostvisuals.com";
-    $subject  = "ArcTap Work Inquiry from $name";
-    $body     = "Name: $name \n\r";
-    $body    .= "Company: $company \n\r";
-    $body    .= "Phone: $phone \n\r";
-    $body    .= "Email: $email \n\r";
-    $body    .= "Website: $website \n\r";
-    $body    .= "Budget: $budget \n\r";
-    $body    .= "Message: $message";
+    $arctap_email  = "grayghost@grayghostvisuals.com";
+    $subject       = "Wow! It's an ArcTap Work Inquiry from $name. Yeehaw!";
+    $body          = "Client: $name \n\r";
+    $body         .= "Company: $company \n\r";
+    $body         .= "Phone: $phone \n\r";
+    $body         .= "Email: $email \n\r";
+    $body         .= "Website: $website \n\r";
+    $body         .= "Budget: $budget \n\r";
+    $body         .= "Message: $message";
+
+    // client email subject line
+    $client_subject = "Your ArcTap work inquiry has been received.";
+    //client email message
+    $client_body = "Hey there $name. We have your information and inquiry for our team at ArcTap. Please be patient while we return your message to $email.";
 
     $headers  = "From: $email \r\n";
-    $headers .= "Reply-To: " . strip_tags($address) . '\r\n';
-    $headers .= 'MIME-Version: 1.0\r\n';
-    $headers .= 'Content-Type: text/html; charset=ISO-8859-1\r\n';
+    $headers .= "Reply-To: " . strip_tags($arctap_email) . '\r\n';
+    $headers .= "MIME-Version: 1.0\r\n";
+    $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
     if ( isset( $_POST['submit'] ) || $error == true ) {
 
@@ -48,23 +49,8 @@ if ( $_POST ) {
             $error = TRUE;
         }
 
-        // first name
-        if ( empty( $_POST['company'] ) && $error ) {
-            $error = TRUE;
-        }
-
-        // first name
-        if ( empty( $_POST['phone'] ) && $error ) {
-            $error = TRUE;
-        }
-
         // email
         if ( empty( $_POST['email'] ) || !preg_match( '/^[^0-9][a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[@][a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{2,4}$/', $email ) ) {
-            $error = TRUE;
-        }
-
-        // first name
-        if ( empty( $_POST['website'] ) && $error ) {
             $error = TRUE;
         }
 
@@ -82,19 +68,19 @@ if ( $_POST ) {
         if ( !$error ) {
 
             // thank you message to the user
-            echo "<div class=\"thankyou g4\">
+            echo "<div class=\"server-confirm-msg g4\">
                     <h2>Thank you $name!</h2>
                     <p>Your inquiry with ArcTap was sent with success. We'll be in touch very, very soon at $email. Thanks for picking us and Cheers!</p>
                   </div>";
 
-            // send mail to the admin
             //ini_set (SMTP, smtp@gmail.com)
-            $mail_sent = mail( $address, $subject, $body, "From: team@arctap.com" );
+            // send mail to ArcTap
+            $mail_sent = mail( $arctap_email, $subject, $body, "From: team@arctap.com" );
 
-            /*// send mail to the user
+            // send mail to the user
             if ( $mail_sent == TRUE ) {
-              mail( $email, $client_subject, $client_body, "From: RochesterInstituteOfDogGrooming.com" );
-            }*/
+              mail( $email, $client_subject, $client_body, "From: ArcTap.com" );
+            }
         }
     }else {
         $error = TRUE;
