@@ -10,9 +10,6 @@ if ( $_POST ) {
 
     $hide    = $_POST['hide'];
 
-    // allow user to use html tags
-    //$display_HTMLtags = htmlentities( $_POST [''] );
-
     // cleanse user first name input
     $strip_HTMLtags_name    = strip_tags( $_POST ['name'] );
     $strip_HTMLtags_company = strip_tags( $_POST ['company'] );
@@ -47,6 +44,10 @@ if ( $_POST ) {
         if ( empty( $_POST['name'] ) && $error ) {
             $error = TRUE;
         }
+        // name < 3 chars
+        if ( strlen( $_POST['name'] ) < 3 ) {
+            $error = TRUE;
+        }
 
         // empty email or pregex
         if ( empty( $_POST['email'] ) || !preg_match( '/^[^0-9][a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[@][a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{2,4}$/', $email ) ) {
@@ -62,13 +63,12 @@ if ( $_POST ) {
         if ( empty( $_POST['message'] ) && $error ) {
             $error = TRUE;
         }
-
         // message < 10 chars
         if ( strlen( $_POST['message'] ) < 10 ) {
             $error = TRUE;
         }
 
-        // no validation errors found. do the following
+        // no validation errors found. please do the following magic
         if ( !$error ) {
 
             // thank you message to the user

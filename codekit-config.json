@@ -2,134 +2,85 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "7978",
   "files" : {
-    "\/js\/script.js" : {
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/css\/cmxformTemplate.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/script.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/minified\/script-min.js",
-      "fileType" : 64
-    },
-    "\/404.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/404.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/img\/team\/sara-kennedy.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/team\/sara-kennedy.jpg",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/img\/team\/sara-kennedy.jpg",
-      "initialSize" : 173190,
-      "fileType" : 4096
-    },
-    "\/work\/touchingnews\/img\/desktop.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/desktop.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/desktop.png",
-      "initialSize" : 305,
-      "fileType" : 8192
-    },
-    "\/img\/team\/aaron-hall.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/team\/aaron-hall.jpg",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/img\/team\/aaron-hall.jpg",
-      "initialSize" : 128216,
-      "fileType" : 4096
-    },
-    "\/work\/touchingnews\/img\/300x250a.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/300x250a.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/300x250a.png",
-      "initialSize" : 8941,
-      "fileType" : 8192
-    },
-    "\/work\/touchingnews\/app.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/touchingnews\/app.css",
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/css\/cmxformTemplate.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/img\/team\/kevin-quinn.jpg" : {
+    "\/work\/statuschart\/img\/slide2.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/team\/kevin-quinn.jpg",
+      "inputAbbreviatedPath" : "\/work\/statuschart\/img\/slide2.png",
       "processed" : 1,
-      "outputAbbreviatedPath" : "\/img\/team\/kevin-quinn.jpg",
-      "initialSize" : 121481,
-      "fileType" : 4096
-    },
-    "\/work\/kristinastpeter\/img\/icon.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/kristinastpeter\/img\/icon.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/kristinastpeter\/img\/icon.png",
-      "initialSize" : 1538,
+      "outputAbbreviatedPath" : "\/work\/statuschart\/img\/slide2.png",
+      "initialSize" : 155465,
       "fileType" : 8192
     },
-    "\/work\/kristinastpeter\/img\/slide2.png" : {
+    "\/work\/touchingnews\/demo.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/kristinastpeter\/img\/slide2.png",
+      "inputAbbreviatedPath" : "\/work\/touchingnews\/demo.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/work\/kristinastpeter\/kristinastpeter.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/kristinastpeter\/kristinastpeter.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_pt_PT.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_pt_PT.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_pt_PT-min.js",
+      "fileType" : 64
+    },
+    "\/work\/theeastwing\/img\/icon.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/theeastwing\/img\/icon.png",
       "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/kristinastpeter\/img\/slide2.png",
-      "initialSize" : 360017,
+      "outputAbbreviatedPath" : "\/work\/theeastwing\/img\/icon.png",
+      "initialSize" : 6108,
       "fileType" : 8192
     },
-    "\/img\/statuschart.png" : {
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/file_input.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/statuschart.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/statuschart.png",
-      "initialSize" : 446,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/file_input.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
-    "\/scss\/_vars.scss" : {
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_ca.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/_vars.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/_vars.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_ca.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_ca-min.js",
+      "fileType" : 64
     },
     "\/work\/statuschart\/img\/icon.png" : {
       "ignoreWasSetByUser" : 0,
@@ -142,176 +93,67 @@
       "initialSize" : 3275,
       "fileType" : 8192
     },
-    "\/work\/touchingnews\/demo.css" : {
+    "\/work\/gradespotter\/img\/icon.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/touchingnews\/demo.css",
+      "inputAbbreviatedPath" : "\/work\/gradespotter\/img\/icon.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/work\/gradespotter\/img\/icon.png",
+      "initialSize" : 6034,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/emails.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/emails.php",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "fileType" : 2048
     },
-    "\/img\/team\/frank-denbow.jpg" : {
+    "\/team.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/team\/frank-denbow.jpg",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/img\/team\/frank-denbow.jpg",
-      "initialSize" : 140678,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/team.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
-    "\/scss\/_ss-social.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/_ss-social.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/_ss-social.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/work\/touchingnews\/img\/slide2.png" : {
+    "\/work\/gradespotter\/img\/slide1.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/slide2.png",
+      "inputAbbreviatedPath" : "\/work\/gradespotter\/img\/slide1.png",
       "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/slide2.png",
-      "initialSize" : 250141,
+      "outputAbbreviatedPath" : "\/work\/gradespotter\/img\/slide1.png",
+      "initialSize" : 310781,
       "fileType" : 8192
     },
-    "\/img\/arctap-icon.png" : {
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_pt_BR.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/arctap-icon.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/arctap-icon.png",
-      "initialSize" : 17002,
-      "fileType" : 8192
-    },
-    "\/apple-touch-icon-precomposed.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/apple-touch-icon-precomposed.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/apple-touch-icon-precomposed.png",
-      "initialSize" : 3528,
-      "fileType" : 8192
-    },
-    "\/apple-touch-icon-72x72-precomposed.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/apple-touch-icon-72x72-precomposed.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/apple-touch-icon-72x72-precomposed.png",
-      "initialSize" : 4425,
-      "fileType" : 8192
-    },
-    "\/img\/glare.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/glare.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/img\/glare.png",
-      "initialSize" : 1790,
-      "fileType" : 8192
-    },
-    "\/img\/team\/tim-smith.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/team\/tim-smith.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/img\/team\/tim-smith.png",
-      "initialSize" : 384249,
-      "fileType" : 8192
-    },
-    "\/js\/minified\/script-min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/minified\/script-min.js",
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_pt_BR.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/minified\/minified\/script-min-min.js",
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_pt_BR-min.js",
       "fileType" : 64
     },
-    "\/work\/arcfont\/img\/slide2.png" : {
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_it.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/arcfont\/img\/slide2.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/arcfont\/img\/slide2.png",
-      "initialSize" : 250141,
-      "fileType" : 8192
-    },
-    "\/favicon.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/favicon.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/favicon.png",
-      "initialSize" : 1297,
-      "fileType" : 8192
-    },
-    "\/font\/proximanova\/proximanova-light-demo.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/font\/proximanova\/proximanova-light-demo.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/apple-touch-icon.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/apple-touch-icon.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/apple-touch-icon.png",
-      "initialSize" : 3476,
-      "fileType" : 8192
-    },
-    "\/work\/touchingnews\/img\/moon.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/moon.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/moon.png",
-      "initialSize" : 216976,
-      "fileType" : 8192
-    },
-    "\/footer.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/footer.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_it.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_it-min.js",
+      "fileType" : 64
     },
     "\/apple-touch-icon-57x57-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
@@ -323,6 +165,141 @@
       "outputAbbreviatedPath" : "\/apple-touch-icon-57x57-precomposed.png",
       "initialSize" : 3520,
       "fileType" : 8192
+    },
+    "\/404.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/404.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/img\/team\/justin-lamonica.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/team\/justin-lamonica.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/img\/team\/justin-lamonica.jpg",
+      "initialSize" : 94352,
+      "fileType" : 4096
+    },
+    "\/work\/statuschart\/img\/slide1.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/statuschart\/img\/slide1.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/work\/statuschart\/img\/slide1.png",
+      "initialSize" : 165550,
+      "fileType" : 8192
+    },
+    "\/apple-touch-icon-114x114-precomposed.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/apple-touch-icon-114x114-precomposed.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/apple-touch-icon-114x114-precomposed.png",
+      "initialSize" : 6506,
+      "fileType" : 8192
+    },
+    "\/work\/arcfont\/img\/icon.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/arcfont\/img\/icon.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/work\/arcfont\/img\/icon.png",
+      "initialSize" : 6034,
+      "fileType" : 8192
+    },
+    "\/work\/statuschart\/statuschart.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/statuschart\/statuschart.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/css\/reset.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/css\/reset.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/methods_pt.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/methods_pt.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/methods_pt-min.js",
+      "fileType" : 64
+    },
+    "\/img\/team\/chris-jeane.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/team\/chris-jeane.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/img\/team\/chris-jeane.jpg",
+      "initialSize" : 31312,
+      "fileType" : 4096
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_sl.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_sl.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_sl-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery.form.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery.form.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/minified\/jquery.form-min.js",
+      "fileType" : 64
+    },
+    "\/work\/arcfont\/img\/slide1.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/arcfont\/img\/slide1.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/work\/arcfont\/img\/slide1.png",
+      "initialSize" : 310781,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/css\/cmxform.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/css\/cmxform.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/scss\/_typography.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -336,47 +313,118 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/work\/statuschart\/img\/slide3.png" : {
+    "\/work\/arcfont\/img\/slide2.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/statuschart\/img\/slide3.png",
+      "inputAbbreviatedPath" : "\/work\/arcfont\/img\/slide2.png",
       "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/statuschart\/img\/slide3.png",
-      "initialSize" : 16564,
+      "outputAbbreviatedPath" : "\/work\/arcfont\/img\/slide2.png",
+      "initialSize" : 250141,
       "fileType" : 8192
     },
-    "\/work\/cochlear\/img\/slide1.png" : {
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/rand.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/cochlear\/img\/slide1.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/cochlear\/img\/slide1.png",
-      "initialSize" : 139004,
-      "fileType" : 8192
-    },
-    "\/work\/touchingnews\/demo.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/touchingnews\/demo.php",
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/rand.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/work\/touchingnews\/img\/mobile-l.png" : {
+    "\/work\/arcfont\/img\/slide3.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/mobile-l.png",
+      "inputAbbreviatedPath" : "\/work\/arcfont\/img\/slide3.png",
       "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/mobile-l.png",
-      "initialSize" : 302,
+      "outputAbbreviatedPath" : "\/work\/arcfont\/img\/slide3.png",
+      "initialSize" : 54717,
       "fileType" : 8192
+    },
+    "\/work\/touchingnews\/img\/slide1.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/slide1.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/slide1.png",
+      "initialSize" : 310781,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/images\/button.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/images\/button.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/images\/button.png",
+      "initialSize" : 1546,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/multipart\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/multipart\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/about.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/about.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/header.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/header.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_ro.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_ro.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_ro-min.js",
+      "fileType" : 64
+    },
+    "\/apple-touch-icon.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/apple-touch-icon.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/apple-touch-icon.png",
+      "initialSize" : 3476,
+      "fileType" : 8192
+    },
+    "\/js\/script.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/script.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/minified\/script-min.js",
+      "fileType" : 64
     },
     "\/work\/touchingnews\/img\/moon.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -389,16 +437,341 @@
       "initialSize" : 30591,
       "fileType" : 4096
     },
-    "\/work\/theeastwing\/img\/thumb.png" : {
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_fa.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/theeastwing\/img\/thumb.png",
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_fa.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_fa-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/grunt.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/grunt.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/minified\/grunt-min.js",
+      "fileType" : 64
+    },
+    "\/img\/team\/kevin-quinn.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/team\/kevin-quinn.jpg",
       "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/theeastwing\/img\/thumb.png",
-      "initialSize" : 133570,
+      "outputAbbreviatedPath" : "\/img\/team\/kevin-quinn.jpg",
+      "initialSize" : 121481,
+      "fileType" : 4096
+    },
+    "\/hireMail.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/hireMail.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/work\/touchingnews\/img\/tablet-l.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/tablet-l.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/tablet-l.png",
+      "initialSize" : 303,
       "fileType" : 8192
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_fi.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_fi.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_fi-min.js",
+      "fileType" : 64
+    },
+    "\/work\/cochlear\/img\/slide1.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/cochlear\/img\/slide1.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/work\/cochlear\/img\/slide1.png",
+      "initialSize" : 139004,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_lt.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_lt.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_lt-min.js",
+      "fileType" : 64
+    },
+    "\/work\/touchingnews\/demo.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/touchingnews\/demo.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/work\/touchingnews\/img\/728x90.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/728x90.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/728x90.png",
+      "initialSize" : 8881,
+      "fileType" : 8192
+    },
+    "\/favicon.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/favicon.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/favicon.png",
+      "initialSize" : 1297,
+      "fileType" : 8192
+    },
+    "\/img\/team\/frank-denbow.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/team\/frank-denbow.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/img\/team\/frank-denbow.jpg",
+      "initialSize" : 140678,
+      "fileType" : 4096
+    },
+    "\/img\/arctap-icon.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/arctap-icon.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/arctap-icon.png",
+      "initialSize" : 17002,
+      "fileType" : 8192
+    },
+    "\/work\/arcfont\/arcfont.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/arcfont\/arcfont.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_kk.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_kk.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_kk-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/qunit\/qunit.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/qunit\/qunit.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/work\/touchingnews\/img\/mobile-l.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/mobile-l.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/mobile-l.png",
+      "initialSize" : 302,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery-1.7.2.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery-1.7.2.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/minified\/jquery-1.7.2-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/images\/help.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/images\/help.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/images\/help.png",
+      "initialSize" : 1615,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_el.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_el.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_el-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/images\/image.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/images\/image.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_et.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_et.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_et-min.js",
+      "fileType" : 64
+    },
+    "\/work\/touchingnews\/img\/tablet-p.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/tablet-p.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/tablet-p.png",
+      "initialSize" : 305,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/js\/ss-social.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/ss-social.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/minified\/ss-social-min.js",
+      "fileType" : 64
+    },
+    "\/work\/kristinastpeter\/img\/icon.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/kristinastpeter\/img\/icon.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/work\/kristinastpeter\/img\/icon.png",
+      "initialSize" : 1538,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_uk.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_uk.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_uk-min.js",
+      "fileType" : 64
+    },
+    "\/work\/kristinastpeter\/img\/slide2.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/kristinastpeter\/img\/slide2.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/work\/kristinastpeter\/img\/slide2.png",
+      "initialSize" : 360017,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/errorIcon.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/errorIcon.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/errorIcon.png",
+      "initialSize" : 457,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/milk\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/milk\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tinymce\/themes\/simple\/skins\/default\/ui.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tinymce\/themes\/simple\/skins\/default\/ui.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/multipart\/js\/jquery.maskedinput-1.0.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/multipart\/js\/jquery.maskedinput-1.0.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/multipart\/js\/minified\/jquery.maskedinput-1.0-min.js",
+      "fileType" : 64
     },
     "\/work\/touchingnews\/img\/mobile-p.png" : {
       "ignoreWasSetByUser" : 0,
@@ -410,6 +783,123 @@
       "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/mobile-p.png",
       "initialSize" : 298,
       "fileType" : 8192
+    },
+    "\/work\/touchingnews\/img\/icon.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/icon.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/icon.png",
+      "initialSize" : 5497,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/dist\/additional-methods.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/dist\/additional-methods.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/dist\/minified\/additional-methods.min-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/milk\/right_white.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/milk\/right_white.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/milk\/right_white.png",
+      "initialSize" : 1579,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/multipart\/js\/ui.accordion.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/multipart\/js\/ui.accordion.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/multipart\/js\/minified\/ui.accordion-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/warningIcon.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/warningIcon.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/warningIcon.png",
+      "initialSize" : 516,
+      "fileType" : 8192
+    },
+    "\/img\/team\/john-britton.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/team\/john-britton.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/img\/team\/john-britton.jpg",
+      "initialSize" : 164265,
+      "fileType" : 4096
+    },
+    "\/js\/minified\/script-min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/minified\/script-min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/minified\/minified\/script-min-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/dist\/jquery.validate.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/dist\/jquery.validate.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/dist\/minified\/jquery.validate.min-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_tr.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_tr.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_tr-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/style.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/style.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/scss\/style.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -423,96 +913,36 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/hireMail.php" : {
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/milk\/milk.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/hireMail.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/work\/kristinastpeter\/img\/slide1.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/kristinastpeter\/img\/slide1.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/kristinastpeter\/img\/slide1.png",
-      "initialSize" : 382567,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/milk\/milk.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/milk\/milk.png",
+      "initialSize" : 5121,
       "fileType" : 8192
     },
-    "\/work\/touchingnews\/touchingnews.php" : {
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/touchingnews\/touchingnews.php",
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/js\/libs\/modernizr-2.6.2.min.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_no.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/modernizr-2.6.2.min.js",
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_no.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/minified\/modernizr-2.6.2.min-min.js",
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_no-min.js",
       "fileType" : 64
-    },
-    "\/github.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/github.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/work\/touchingnews\/img\/728x90.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/728x90.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/728x90.png",
-      "initialSize" : 8881,
-      "fileType" : 8192
-    },
-    "\/work\/gradespotter\/img\/slide1.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/gradespotter\/img\/slide1.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/gradespotter\/img\/slide1.png",
-      "initialSize" : 310781,
-      "fileType" : 8192
-    },
-    "\/work\/gradespotter\/img\/slide3.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/gradespotter\/img\/slide3.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/gradespotter\/img\/slide3.png",
-      "initialSize" : 54717,
-      "fileType" : 8192
-    },
-    "\/about.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/about.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/hire.php" : {
       "ignoreWasSetByUser" : 0,
@@ -523,119 +953,37 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/work\/statuschart\/img\/slide2.png" : {
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery.metadata.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/statuschart\/img\/slide2.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/statuschart\/img\/slide2.png",
-      "initialSize" : 155465,
-      "fileType" : 8192
-    },
-    "\/img\/team\/justin-lamonica.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/team\/justin-lamonica.jpg",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/img\/team\/justin-lamonica.jpg",
-      "initialSize" : 94352,
-      "fileType" : 4096
-    },
-    "\/team.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/team.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/font\/arctapicons\/lib\/style.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/font\/arctapicons\/lib\/style.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/img\/team\/jarod-reyes.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/team\/jarod-reyes.jpg",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/img\/team\/jarod-reyes.jpg",
-      "initialSize" : 84526,
-      "fileType" : 4096
-    },
-    "\/work\/touchingnews\/img\/tablet-p.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/tablet-p.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/tablet-p.png",
-      "initialSize" : 305,
-      "fileType" : 8192
-    },
-    "\/work\/touchingnews\/img\/tablet-l.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/tablet-l.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/tablet-l.png",
-      "initialSize" : 303,
-      "fileType" : 8192
-    },
-    "\/work\/statuschart\/statuschart.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/statuschart\/statuschart.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/img\/about\/nyc.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/about\/nyc.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/img\/about\/nyc.png",
-      "initialSize" : 213845,
-      "fileType" : 8192
-    },
-    "\/work\/theeastwing\/img\/icon.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/theeastwing\/img\/icon.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/theeastwing\/img\/icon.png",
-      "initialSize" : 6108,
-      "fileType" : 8192
-    },
-    "\/font\/arctapicons\/lib\/lte-ie7.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/font\/arctapicons\/lib\/lte-ie7.js",
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery.metadata.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/font\/arctapicons\/lib\/minified\/lte-ie7-min.js",
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/minified\/jquery.metadata-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/dist\/jquery.validate.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/dist\/jquery.validate.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/dist\/minified\/jquery.validate-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_si.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_si.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_si-min.js",
       "fileType" : 64
     },
     "\/scss\/_ss-standard.scss" : {
@@ -650,238 +998,166 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/work\/arcfont\/img\/slide3.png" : {
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/errorcontainer-demo.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/arcfont\/img\/slide3.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/arcfont\/img\/slide3.png",
-      "initialSize" : 54717,
-      "fileType" : 8192
-    },
-    "\/work\/cochlear\/cochlear.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/cochlear\/cochlear.php",
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/errorcontainer-demo.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/scss\/_normalize.scss" : {
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/jquerymobile.html" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/_normalize.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/_normalize.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/jquerymobile.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
-    "\/js\/plugins.js" : {
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/qunit\/qunit.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/qunit\/qunit.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/qunit\/minified\/qunit-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/images\/sf.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/images\/sf.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/images\/sf.png",
+      "initialSize" : 3745,
+      "fileType" : 8192
+    },
+    "\/grunt.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/plugins.js",
+      "inputAbbreviatedPath" : "\/grunt.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/minified\/plugins-min.js",
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/minified\/grunt-min.js",
       "fileType" : 64
     },
-    "\/apple-touch-icon-114x114-precomposed.png" : {
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/image_req.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/apple-touch-icon-114x114-precomposed.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/apple-touch-icon-114x114-precomposed.png",
-      "initialSize" : 6506,
-      "fileType" : 8192
-    },
-    "\/work\/gradespotter\/img\/icon.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/gradespotter\/img\/icon.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/gradespotter\/img\/icon.png",
-      "initialSize" : 6034,
-      "fileType" : 8192
-    },
-    "\/work\/touchingnews\/img\/300x250b.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/300x250b.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/300x250b.png",
-      "initialSize" : 39615,
-      "fileType" : 8192
-    },
-    "\/index.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.php",
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/image_req.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/work\/cochlear\/img\/icon.png" : {
+    "\/img\/team\/tim-smith.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/cochlear\/img\/icon.png",
+      "inputAbbreviatedPath" : "\/img\/team\/tim-smith.png",
       "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/cochlear\/img\/icon.png",
-      "initialSize" : 3435,
+      "outputAbbreviatedPath" : "\/img\/team\/tim-smith.png",
+      "initialSize" : 384249,
       "fileType" : 8192
     },
-    "\/header.php" : {
+    "\/work\/gradespotter\/gradespotter.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/header.php",
+      "inputAbbreviatedPath" : "\/work\/gradespotter\/gradespotter.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/img\/team\/kristina-stpeter.jpg" : {
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery-1.4.4.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/team\/kristina-stpeter.jpg",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/img\/team\/kristina-stpeter.jpg",
-      "initialSize" : 204297,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery-1.4.4.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/minified\/jquery-1.4.4-min.js",
+      "fileType" : 64
     },
-    "\/css\/style.css" : {
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/milk\/milk.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/style.css",
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/milk\/milk.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/work\/theeastwing\/img\/slide2.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/theeastwing\/img\/slide2.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/theeastwing\/img\/slide2.png",
-      "initialSize" : 303818,
-      "fileType" : 8192
-    },
-    "\/work\/touchingnews\/img\/noise-bbb.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/noise-bbb.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/noise-bbb.png",
-      "initialSize" : 7358,
-      "fileType" : 8192
-    },
-    "\/work\/touchingnews\/img\/slide1.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/slide1.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/slide1.png",
-      "initialSize" : 310781,
-      "fileType" : 8192
-    },
-    "\/work\/touchingnews\/img\/slide3.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/slide3.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/slide3.png",
-      "initialSize" : 54717,
-      "fileType" : 8192
-    },
-    "\/work\/statuschart\/img\/slide1.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/statuschart\/img\/slide1.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/statuschart\/img\/slide1.png",
-      "initialSize" : 165550,
-      "fileType" : 8192
-    },
-    "\/scss\/_helpers.scss" : {
-      "ignoreWasSetByUser" : 0,
+    "\/js\/libs\/modernizr-2.6.2.min.js" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/_helpers.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/_helpers.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/js\/libs\/modernizr-2.6.2.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/minified\/modernizr-2.6.2.min-min.js",
+      "fileType" : 64
     },
-    "\/font\/arctapicons\/lib\/index.html" : {
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/firebug.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/font\/arctapicons\/lib\/index.html",
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/firebug.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/img\/team\/chris-jeane.jpg" : {
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/dynamic-totals.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/team\/chris-jeane.jpg",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/img\/team\/chris-jeane.jpg",
-      "initialSize" : 31312,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/dynamic-totals.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
-    "\/js\/ss-social.js" : {
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery-1.5.2.js" : {
       "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery-1.5.2.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/minified\/jquery-1.5.2-min.js",
+      "fileType" : 64
+    },
+    "\/font\/arctapicons\/lib\/lte-ie7.js" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/ss-social.js",
+      "inputAbbreviatedPath" : "\/font\/arctapicons\/lib\/lte-ie7.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/minified\/ss-social-min.js",
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/font\/arctapicons\/lib\/minified\/lte-ie7-min.js",
       "fileType" : 64
     },
-    "\/img\/team\/john-britton.jpg" : {
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/login\/images\/header1.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/team\/john-britton.jpg",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/img\/team\/john-britton.jpg",
-      "initialSize" : 164265,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/login\/images\/header1.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/login\/images\/header1.jpg",
+      "initialSize" : 442,
       "fileType" : 4096
     },
     "\/img\/team\/jenna-santana.jpg" : {
@@ -895,122 +1171,91 @@
       "initialSize" : 100834,
       "fileType" : 4096
     },
-    "\/work\/arcfont\/img\/icon.png" : {
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/rules.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/arcfont\/img\/icon.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/arcfont\/img\/icon.png",
-      "initialSize" : 6034,
-      "fileType" : 8192
-    },
-    "\/scss\/_h5bp-resets.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/_h5bp-resets.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/_h5bp-resets.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/work\/touchingnews\/img\/paper-thumb.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/paper-thumb.jpg",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/paper-thumb.jpg",
-      "initialSize" : 31568,
-      "fileType" : 4096
-    },
-    "\/img\/bg_direction_nav.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/bg_direction_nav.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/img\/bg_direction_nav.png",
-      "initialSize" : 1866,
-      "fileType" : 8192
-    },
-    "\/config.rb" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/config.rb",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 32768
-    },
-    "\/grunt.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/grunt.js",
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/rules.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/minified\/grunt-min.js",
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/minified\/rules-min.js",
       "fileType" : 64
     },
-    "\/img\/team\/jon-gottfried.jpg" : {
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/firebugx.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/team\/jon-gottfried.jpg",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/img\/team\/jon-gottfried.jpg",
-      "initialSize" : 153151,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/firebugx.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/minified\/firebugx-min.js",
+      "fileType" : 64
     },
-    "\/work\/gradespotter\/gradespotter.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/gradespotter\/gradespotter.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/work\/touchingnews\/img\/paper.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/paper.jpg",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/paper.jpg",
-      "initialSize" : 477654,
-      "fileType" : 4096
-    },
-    "\/scss\/_flexslider.scss" : {
+    "\/js\/ss-standard.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/_flexslider.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/_flexslider.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/js\/ss-standard.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/minified\/ss-standard-min.js",
+      "fileType" : 64
     },
-    "\/work\/kristinastpeter\/kristinastpeter.php" : {
+    "\/work\/theeastwing\/img\/slide2.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/kristinastpeter\/kristinastpeter.php",
+      "inputAbbreviatedPath" : "\/work\/theeastwing\/img\/slide2.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/work\/theeastwing\/img\/slide2.png",
+      "initialSize" : 303818,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tinymce\/tiny_mce.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tinymce\/tiny_mce.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tinymce\/minified\/tiny_mce-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_fr.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_fr.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_fr-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/firebug.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/firebug.css",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "fileType" : 16
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_vi.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_vi.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_vi-min.js",
+      "fileType" : 64
     },
     "\/work\/theeastwing\/img\/slide1.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1021,6 +1266,119 @@
       "processed" : 1,
       "outputAbbreviatedPath" : "\/work\/theeastwing\/img\/slide1.png",
       "initialSize" : 382556,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/custom-methods-demo.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/custom-methods-demo.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/selects\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/selects\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/multipart\/js\/ui.core.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/multipart\/js\/ui.core.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/multipart\/js\/minified\/ui.core-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_eu.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_eu.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_eu-min.js",
+      "fileType" : 64
+    },
+    "\/work\/theeastwing\/theeastwing.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/theeastwing\/theeastwing.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/font\/proximanova\/proximanova-light-demo.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/font\/proximanova\/proximanova-light-demo.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/img\/glare.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/glare.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/img\/glare.png",
+      "initialSize" : 1790,
+      "fileType" : 8192
+    },
+    "\/img\/team\/sara-kennedy.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/team\/sara-kennedy.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/img\/team\/sara-kennedy.jpg",
+      "initialSize" : 173190,
+      "fileType" : 4096
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/mktSignup.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/mktSignup.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/minified\/mktSignup-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-1.8.3.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-1.8.3.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/minified\/jquery-1.8.3.min-min.js",
+      "fileType" : 64
+    },
+    "\/img\/bg_direction_nav.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/bg_direction_nav.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/img\/bg_direction_nav.png",
+      "initialSize" : 1866,
       "fileType" : 8192
     },
     "\/scss\/_fontface.scss" : {
@@ -1035,47 +1393,118 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/img\/arctap-icon128x128.png" : {
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/form.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/arctap-icon128x128.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/arctap-icon128x128.png",
-      "initialSize" : 4650,
-      "fileType" : 8192
-    },
-    "\/work\/work.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/work.php",
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/form.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/js\/ss-standard.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/ss-standard.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/minified\/ss-standard-min.js",
-      "fileType" : 64
-    },
-    "\/work\/kristinastpeter\/img\/slide3.png" : {
+    "\/font\/arctapicons\/lib\/style.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/kristinastpeter\/img\/slide3.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/kristinastpeter\/img\/slide3.png",
-      "initialSize" : 631526,
+      "inputAbbreviatedPath" : "\/font\/arctapicons\/lib\/style.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/infoIcon.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/infoIcon.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/infoIcon.png",
+      "initialSize" : 524,
       "fileType" : 8192
+    },
+    "\/work\/gradespotter\/img\/slide3.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/gradespotter\/img\/slide3.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/work\/gradespotter\/img\/slide3.png",
+      "initialSize" : 54717,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_nl.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_nl.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_nl-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery-1.3.2.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery-1.3.2.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/minified\/jquery-1.3.2-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/login\/screen.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/login\/screen.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/methods.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/methods.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/minified\/methods-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_cs.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_cs.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_cs-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_he.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_he.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_he-min.js",
+      "fileType" : 64
+    },
+    "\/github.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/github.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/img\/team\/christopher-kennedy.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1088,56 +1517,204 @@
       "initialSize" : 157853,
       "fileType" : 4096
     },
-    "\/work\/touchingnews\/img\/icon.png" : {
+    "\/config.rb" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/icon.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/icon.png",
-      "initialSize" : 5497,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/config.rb",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 32768
     },
-    "\/work\/arcfont\/img\/slide1.png" : {
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/login\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/arcfont\/img\/slide1.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/arcfont\/img\/slide1.png",
-      "initialSize" : 310781,
-      "fileType" : 8192
-    },
-    "\/work\/theeastwing\/theeastwing.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/theeastwing\/theeastwing.php",
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/login\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/work\/arcfont\/arcfont.php" : {
+    "\/apple-touch-icon-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/arcfont\/arcfont.php",
+      "inputAbbreviatedPath" : "\/apple-touch-icon-precomposed.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/apple-touch-icon-precomposed.png",
+      "initialSize" : 3528,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/step2.htm" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/step2.htm",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/work\/gradespotter\/img\/slide2.png" : {
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery-1.6.1.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/gradespotter\/img\/slide2.png",
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery-1.6.1.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/minified\/jquery-1.6.1-min.js",
+      "fileType" : 64
+    },
+    "\/work\/kristinastpeter\/img\/slide1.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/kristinastpeter\/img\/slide1.png",
       "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/gradespotter\/img\/slide2.png",
-      "initialSize" : 250141,
+      "outputAbbreviatedPath" : "\/work\/kristinastpeter\/img\/slide1.png",
+      "initialSize" : 382567,
       "fileType" : 8192
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_hu.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_hu.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_hu-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_sr.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_sr.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_sr-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_sv.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_sv.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_sv-min.js",
+      "fileType" : 64
+    },
+    "\/js\/plugins.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/plugins.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/minified\/plugins-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/minified\/jquery-min.js",
+      "fileType" : 64
+    },
+    "\/work\/touchingnews\/img\/slide3.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/slide3.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/slide3.png",
+      "initialSize" : 54717,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_zh_TW.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_zh_TW.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_zh_TW-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_ru.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_ru.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_ru-min.js",
+      "fileType" : 64
+    },
+    "\/work\/touchingnews\/img\/300x250a.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/300x250a.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/300x250a.png",
+      "initialSize" : 8941,
+      "fileType" : 8192
+    },
+    "\/work\/work.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/work.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/jquery.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/jquery.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/minified\/jquery-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/multipart\/style.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/multipart\/style.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/methods_nl.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/methods_nl.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/methods_nl-min.js",
+      "fileType" : 64
     },
     "\/img\/team\/dennis-gaebel.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1150,15 +1727,838 @@
       "initialSize" : 190917,
       "fileType" : 8192
     },
-    "\/js\/libs\/jquery-1.8.3.min.js" : {
-      "ignoreWasSetByUser" : 1,
+    "\/scss\/_h5bp-resets.scss" : {
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/jquery-1.8.3.min.js",
+      "inputAbbreviatedPath" : "\/scss\/_h5bp-resets.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/css\/_h5bp-resets.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_lv.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_lv.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/minified\/jquery-1.8.3.min-min.js",
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_lv-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_ka.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_ka.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_ka-min.js",
+      "fileType" : 64
+    },
+    "\/scss\/_ss-social.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/_ss-social.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/css\/_ss-social.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/scss\/_normalize.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/_normalize.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/css\/_normalize.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/images\/time.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/images\/time.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/images\/time.png",
+      "initialSize" : 793,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/dist\/additional-methods.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/dist\/additional-methods.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/dist\/minified\/additional-methods-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/newsession.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/newsession.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/img\/about\/nyc.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/about\/nyc.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/img\/about\/nyc.png",
+      "initialSize" : 213845,
+      "fileType" : 8192
+    },
+    "\/img\/team\/jarod-reyes.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/team\/jarod-reyes.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/img\/team\/jarod-reyes.jpg",
+      "initialSize" : 84526,
+      "fileType" : 4096
+    },
+    "\/footer.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/footer.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_da.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_da.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_da-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tabs\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tabs\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/large.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/large.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_de.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_de.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_de-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/images\/left-nav-callout-long.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/images\/left-nav-callout-long.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/images\/left-nav-callout-long.png",
+      "initialSize" : 1381,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/radio-checkbox-select-demo.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/radio-checkbox-select-demo.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/css\/core.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/css\/core.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/img\/team\/aaron-hall.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/team\/aaron-hall.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/img\/team\/aaron-hall.jpg",
+      "initialSize" : 128216,
+      "fileType" : 4096
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/js\/chili-1.7.pack.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/js\/chili-1.7.pack.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/js\/minified\/chili-1.7.pack-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/ie6.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/ie6.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_th.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_th.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_th-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/captcha.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/captcha.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/minified\/captcha-min.js",
+      "fileType" : 64
+    },
+    "\/work\/touchingnews\/img\/noise-bbb.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/noise-bbb.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/noise-bbb.png",
+      "initialSize" : 7358,
+      "fileType" : 8192
+    },
+    "\/work\/gradespotter\/img\/slide2.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/gradespotter\/img\/slide2.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/work\/gradespotter\/img\/slide2.png",
+      "initialSize" : 250141,
+      "fileType" : 8192
+    },
+    "\/scss\/_vars.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/_vars.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/css\/_vars.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/css\/screen.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/css\/screen.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/css\/chili.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/css\/chili.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/css\/style.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/style.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/tabs.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/tabs.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/work\/touchingnews\/touchingnews.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/touchingnews\/touchingnews.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/work\/cochlear\/cochlear.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/cochlear\/cochlear.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tinymce\/themes\/simple\/editor_template.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tinymce\/themes\/simple\/editor_template.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tinymce\/themes\/simple\/minified\/editor_template-min.js",
+      "fileType" : 64
+    },
+    "\/work\/touchingnews\/img\/desktop.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/desktop.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/desktop.png",
+      "initialSize" : 305,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_bg.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_bg.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_bg-min.js",
+      "fileType" : 64
+    },
+    "\/font\/arctapicons\/lib\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/font\/arctapicons\/lib\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery.mockjax.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery.mockjax.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/minified\/jquery.mockjax-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_hr.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_hr.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_hr-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_sk.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_sk.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_sk-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/jquery.maskedinput.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/jquery.maskedinput.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/minified\/jquery.maskedinput-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/process.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/process.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/img\/arctap-icon128x128.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/arctap-icon128x128.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/arctap-icon128x128.png",
+      "initialSize" : 4650,
+      "fileType" : 8192
+    },
+    "\/work\/touchingnews\/img\/moon.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/moon.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/moon.png",
+      "initialSize" : 216976,
+      "fileType" : 8192
+    },
+    "\/work\/touchingnews\/img\/paper.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/paper.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/paper.jpg",
+      "initialSize" : 477654,
+      "fileType" : 4096
+    },
+    "\/work\/touchingnews\/img\/slide2.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/slide2.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/slide2.png",
+      "initialSize" : 250141,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/methods_de.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/methods_de.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/methods_de-min.js",
+      "fileType" : 64
+    },
+    "\/work\/cochlear\/img\/icon.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/cochlear\/img\/icon.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/work\/cochlear\/img\/icon.png",
+      "initialSize" : 3435,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/messages.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/messages.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/minified\/messages-min.js",
+      "fileType" : 64
+    },
+    "\/img\/statuschart.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/statuschart.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/statuschart.png",
+      "initialSize" : 446,
+      "fileType" : 8192
+    },
+    "\/work\/kristinastpeter\/img\/slide3.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/kristinastpeter\/img\/slide3.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/work\/kristinastpeter\/img\/slide3.png",
+      "initialSize" : 631526,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/custom-messages-metadata-demo.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/custom-messages-metadata-demo.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/scss\/_helpers.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/_helpers.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/css\/_helpers.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_ar.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_ar.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_ar-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/milk\/emails.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/milk\/emails.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/apple-touch-icon-72x72-precomposed.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/apple-touch-icon-72x72-precomposed.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/apple-touch-icon-72x72-precomposed.png",
+      "initialSize" : 4425,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/milk\/left_white.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/milk\/left_white.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/milk\/left_white.png",
+      "initialSize" : 538,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/test.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/test.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/minified\/test-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/firebug.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/firebug.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/minified\/firebug-min.js",
+      "fileType" : 64
+    },
+    "\/scss\/_flexslider.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/_flexslider.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/css\/_flexslider.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/work\/touchingnews\/img\/300x250b.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/300x250b.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/300x250b.png",
+      "initialSize" : 39615,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/milk\/users.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/milk\/users.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/img\/team\/kristina-stpeter.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/team\/kristina-stpeter.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/img\/team\/kristina-stpeter.jpg",
+      "initialSize" : 204297,
+      "fileType" : 4096
+    },
+    "\/work\/theeastwing\/img\/thumb.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/theeastwing\/img\/thumb.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/work\/theeastwing\/img\/thumb.png",
+      "initialSize" : 133570,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tinymce\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tinymce\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_ja.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_ja.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_ja-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/stylesheet.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/stylesheet.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery-1.4.2.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery-1.4.2.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/minified\/jquery-1.4.2-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_pl.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_pl.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_pl-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_es.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_es.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_es-min.js",
+      "fileType" : 64
+    },
+    "\/work\/statuschart\/img\/slide3.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/statuschart\/img\/slide3.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/work\/statuschart\/img\/slide3.png",
+      "initialSize" : 16564,
+      "fileType" : 8192
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/themerollered.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/themerollered.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/work\/touchingnews\/img\/paper-thumb.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/paper-thumb.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/paper-thumb.jpg",
+      "initialSize" : 31568,
+      "fileType" : 4096
+    },
+    "\/img\/team\/jon-gottfried.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/team\/jon-gottfried.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/img\/team\/jon-gottfried.jpg",
+      "initialSize" : 153151,
+      "fileType" : 4096
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/events.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/events.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/ajaxSubmit-intergration-demo.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/ajaxSubmit-intergration-demo.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/work\/touchingnews\/app.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/touchingnews\/app.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tinymce\/themes\/simple\/langs\/en.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tinymce\/themes\/simple\/langs\/en.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tinymce\/themes\/simple\/langs\/minified\/en-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_zh.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_zh.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_zh-min.js",
       "fileType" : 64
     }
   },
