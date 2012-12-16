@@ -43,52 +43,41 @@ if ( $_POST ) {
 
     if ( isset( $_POST['submit'] ) || $error == true ) {
 
-        // first name
+        // empty name
         if ( empty( $_POST['name'] ) && $error ) {
             $error = TRUE;
         }
 
-        // first name
-        if ( empty( $_POST['company'] ) && $error ) {
-            $error = TRUE;
-        }
-
-        // first name
-        if ( empty( $_POST['phone'] ) && $error ) {
-            $error = TRUE;
-        }
-
-        // email
+        // empty email or pregex
         if ( empty( $_POST['email'] ) || !preg_match( '/^[^0-9][a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[@][a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{2,4}$/', $email ) ) {
             $error = TRUE;
         }
 
-        // first name
-        if ( empty( $_POST['website'] ) && $error ) {
-            $error = TRUE;
-        }
-
-        // first name
+        // empty budget
         if ( empty( $_POST['budget'] ) && $error ) {
             $error = TRUE;
         }
 
-        // first name
+        // empty message
         if ( empty( $_POST['message'] ) && $error ) {
             $error = TRUE;
         }
 
-        // if no error is found
+        // message < 10 chars
+        if ( strlen( $_POST['message'] ) < 10 ) {
+            $error = TRUE;
+        }
+
+        // no validation errors found. do the following
         if ( !$error ) {
 
             // thank you message to the user
-            echo "<div class=\"thankyou g4\">
-                    <h2>Thank you $name!</h2>
-                    <p>Your inquiry with ArcTap was sent with success. We'll be in touch very, very soon at $email. Thanks for picking us and Cheers!</p>
-                  </div>";
+            echo htmlspecialchars("<div class=\"server-success g4\">
+                                       <h2>Thank you $name!</h2>
+                                        <p>Your inquiry with ArcTap was sent with success. We'll be in touch very, very soon at $email. Thanks for picking us and Cheers!</p>
+                                   </div>");
 
             // send mail to the admin
-            //ini_set (SMTP, smtp@gmail.com)
             $mail_sent = mail( $address, $subject, $body, "From: team@arctap.com" );
 
             /*// send mail to the user

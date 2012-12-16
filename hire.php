@@ -15,70 +15,50 @@
                         <p>You're about to make that great first step in any project &ndash;explaining your vision. We don't wanna waste anyone's time, so we'll keep this questionnaire brief. After we've reviewed this little intro of your needs we'll get in touch <abbr title="as soon as possible">ASAP</abbr> (that's short for quick!).</p>
                     </div><!--/g4-->
 
-                    <?php require('hireMail.php'); //form validation script ?>
-                    <!-- ******** start contact form ******** -->
+                    <!-- FORM START -->
+                    <?php require('hireMail.php'); ?>
+
                     <?php if ( ! isset ( $_POST ['submit'] ) OR $error ) { ?>
                         <form action="<?php $_SERVER['PHP_SELF'] ?>" enctype="application/x-www-form-urlencoded" method="post" id="hireForm" role="form">
-
                           <input type="hidden" name="hide" value="Your message was sent securely. We will be in touch" />
                           <ul class="clearfix">
                                 <li class="g2">
-                                    <input type="name" class="form-input" id="name" name="name" value="<?php if ( isset( $_POST['name'] ) ) { print htmlspecialchars( $_POST['name'] ); } ?>" placeholder="* Your Name">
+                                    <input type="name" class="form-input" id="name" name="name" value="<?php if ( isset( $_POST['name'] ) ) { echo htmlspecialchars( $_POST['name'] ); } ?>" placeholder="* Your Name" minlength="3" required>
                                     <?php
                                     if ( isset( $_POST['submit'] ) ) {
-
                                         if ( empty( $_POST['name'] ) ) {
-                                            echo "<p class='error'><span class=\"ss-standard ss-alert\" title=\"alert icon for form errors\"></span> please enter your name</p>";
+                                            echo "<p class='server-error'><span class=\"ss-standard ss-alert\" title=\"empty name error\"></span> please enter your name</p>";
+                                            $error = TRUE;
+                                        }
+                                        if ( strlen( $_POST['name'] ) < 3 ) {
+                                            echo "<p class='server-error'><span class=\"ss-standard ss-alert\" title=\"string length error\"></span>Your Name must be more than 3 chars in length</p>";
                                             $error = TRUE;
                                         }
                                     }else { $error = TRUE; } ?>
                                 </li>
                                 <li class="g2">
-                                    <input type="text" class="form-input" id="company" name="company" value="<?php if ( isset( $_POST['company'] ) ) { print htmlspecialchars( $_POST['company'] ); } ?>" placeholder="Company Name">
-                                    <?php
-                                    if ( isset( $_POST['submit'] ) ) {
-
-                                        if ( empty( $_POST['company'] ) ) {
-                                            echo "<p class='error'><span class=\"ss-standard ss-alert\" title=\"alert icon for form errors\"></span> please enter your company name</p>";
-                                            $error = TRUE;
-                                        }
-                                    }else { $error = TRUE; } ?>
+                                    <input type="text" class="form-input" id="company" name="company" value="<?php if ( isset( $_POST['company'] ) ) { echo htmlspecialchars( $_POST['company'] ); } ?>" placeholder="Company Name">
                                 </li>
                                 <li class="g2">
-                                    <input type="tel" class="form-input" id="phone" name="phone" value="<?php if ( isset( $_POST['phone'] ) ) { print htmlspecialchars( $_POST['phone'] ); } ?>" placeholder="Phone Number">
-                                    <?php
-                                    if ( isset( $_POST['submit'] ) ) {
-
-                                        if ( empty( $_POST['phone'] ) ) {
-                                            echo "<p class='error'><span class=\"ss-standard ss-alert\" title=\"alert icon for form errors\"></span> please let us know how to reach you</p>";
-                                            $error = TRUE;
-                                        }
-                                    }else { $error = TRUE; } ?>
+                                    <input type="tel" class="form-input" id="phone" name="phone" value="<?php if ( isset( $_POST['phone'] ) ) { echo htmlspecialchars( $_POST['phone'] ); } ?>" placeholder="Phone Number">
                                 </li>
                                 <li class="g2">
-                                    <input type="email" class="form-input" id="email" name="email" value="<?php if ( isset( $_POST['email'] ) ) { echo htmlspecialchars( $_POST['email'] ); } ?>" placeholder="* Your Email Address">
+                                    <input type="email" class="form-input" id="email" name="email" value="<?php if ( isset( $_POST['email'] ) ) { echo htmlspecialchars( $_POST['email'] ); } ?>" placeholder="* Your Email Address" required>
                                     <?php
                                         if ( isset( $_POST['submit'] ) ) {
                                             if ( empty( $_POST['email'] ) ) {
-                                                echo "<p class='error'><span class=\"ss-standard ss-alert\" title=\"alert icon for form errors\"></span> We need your email address so we can get in touch. Don't leave it blank</p>";
+                                                echo "<p class='server-error'><span class=\"ss-standard ss-alert\" title=\"empty email error\"></span> We need your email address so we can get in touch. Don't leave it blank</p>";
                                                 $error = TRUE;
                                             }
 
                                             if( !preg_match('/^[^0-9][a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[@][a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{2,4}$/', $email) ) {
-                                                echo "<p class='error'><span class=\"ss-standard ss-alert\" title=\"alert icon for email syntax errors\"></span> We need your email address syntax to be username@emailprovider.domain</p>";
+                                                echo "<p class='server-error'><span class=\"ss-standard ss-alert\" title=\"email syntax error\"></span> We need your email address syntax to be username@emailprovider.domain</p>";
                                                 $error = true;
                                             }
                                         }else { $error = TRUE; } ?>
                                 </li>
                                 <li class="g2">
-                                    <input type="url" class="form-input" id="website" name="website" value="<?php if ( isset( $_POST['website'] ) ) { print htmlspecialchars( $_POST['website'] ); } ?>" placeholder="http://">
-                                    <?php
-                                        if ( isset( $_POST['submit'] ) ) {
-                                          if ( empty( $_POST['website'] ) ) {
-                                                echo "<p class='error'><span class=\"ss-standard ss-alert\" title=\"alert icon for form errors\"></span> Please let us know your URL</p>";
-                                                $error = TRUE;
-                                          }
-                                        }else { $error = TRUE; } ?>
+                                    <input type="url" class="form-input" id="website" name="website" value="<?php if ( isset( $_POST['website'] ) ) { echo htmlspecialchars( $_POST['website'] ); } ?>" placeholder="http://">
                                 </li>
                                 <li class="g2">
                                     <select name="budget" id="budget" required>
@@ -93,17 +73,21 @@
                                     <?php
                                         if ( isset( $_POST['submit'] ) ) {
                                           if ( empty( $_POST['budget'] ) ) {
-                                                echo "<p class='error'><span class=\"ss-standard ss-alert\" title=\"alert icon for form errors\"></span> Please let us know your Budget</p>";
+                                                echo "<p class='server-error'><span class=\"ss-standard ss-alert\" title=\"empty budget error\"></span> Please let us know your Budget</p>";
                                                 $error = TRUE;
                                           }
                                         }else { $error = TRUE; } ?>
                                 </li>
                                 <li class="g4">
-                                    <textarea id="message" name="message" value="<?php if ( isset( $_POST['message'] ) ) { print htmlspecialchars( $_POST['message'] ); } ?>" placeholder="* Give us a brief description of your project and target launch date, if you have one."></textarea>
+                                    <textarea id="message" name="message" placeholder="* Give us a brief description of your project and target launch date, if you have one." required><?php if ( isset( $_POST['message'] ) ) { echo htmlspecialchars( $_POST['message'] ); } ?></textarea>
                                     <?php
                                         if ( isset( $_POST['submit'] ) ) {
                                             if ( empty( $_POST['message'] ) ) {
-                                                echo "<p class='error'><span class=\"ss-standard ss-alert\" title=\"alert icon for form errors\"></span> Please let us know your message</p>";
+                                                echo "<p class='server-error'><span class=\"ss-standard ss-alert\" title=\"empty message error\"></span> Please let us know your message</p>";
+                                                $error = TRUE;
+                                            }
+                                            if ( strlen( $_POST['message'] ) < 10 ) {
+                                                echo "<p class='server-error'><span class=\"ss-standard ss-alert\" title=\"string length error\"></span> Please make sure your message is more than 10 chars in length</p>";
                                                 $error = TRUE;
                                             }
                                         }else { $error = TRUE; } ?>
@@ -113,7 +97,7 @@
                         </ul>
                     </form>
                 <?php } ?>
-
+                <!-- FORM END -->
 
                     <div class="g1_5">
                         <h3>Rate</h3>
