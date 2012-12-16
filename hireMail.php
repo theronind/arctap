@@ -27,17 +27,17 @@ if ( $_POST ) {
 
     // admin email
     $address  = "grayghost@grayghostvisuals.com";
-    $subject  = "Inquiry: " . $name. '\n';
-    $body    .= "Name: " . $name . '\n';
-    $body    .= "Company: " . $company . '\n';
-    $body    .= "Phone: " . $phone . '\n';
-    $body    .= "Email: " . $email . '\n';
-    $body    .= "Website: " . $website . '\n';
-    $body    .= "Budget: " . $budget . '\n';
-    $body    .= "Message: " . $message;
+    $subject  = "ArcTap Work Inquiry from $name";
+    $body     = "Name: $name \n\r";
+    $body    .= "Company: $company \n\r";
+    $body    .= "Phone: $phone \n\r";
+    $body    .= "Email: $email \n\r";
+    $body    .= "Website: $website \n\r";
+    $body    .= "Budget: $budget \n\r";
+    $body    .= "Message: $message";
 
-    $headers  = "From: " . $email . '\r\n';
-    $headers .= "Reply-To: ". strip_tags($address) . '\r\n';
+    $headers  = "From: $email \r\n";
+    $headers .= "Reply-To: " . strip_tags($address) . '\r\n';
     $headers .= 'MIME-Version: 1.0\r\n';
     $headers .= 'Content-Type: text/html; charset=ISO-8859-1\r\n';
 
