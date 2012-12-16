@@ -72,10 +72,10 @@ if ( $_POST ) {
         if ( !$error ) {
 
             // thank you message to the user
-            echo htmlspecialchars("<div class=\"server-success g4\">
-                                       <h2>Thank you $name!</h2>
-                                        <p>Your inquiry with ArcTap was sent with success. We'll be in touch very, very soon at $email. Thanks for picking us and Cheers!</p>
-                                   </div>");
+            echo "<div class=\"server-success g4\">
+                    <h2>Thank you $name!</h2>
+                     <p>Your inquiry with ArcTap was sent with success. We'll be in touch very, very soon at $email. Thanks for picking us and Cheers!</p>
+                  </div>";
 
             // send mail to the admin
             $mail_sent = mail( $address, $subject, $body, "From: team@arctap.com" );
