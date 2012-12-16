@@ -54,6 +54,10 @@ if ( $_POST ) {
             $error = TRUE;
         }
 
+        if ( !preg_match( '/^((1-)?\d{3}-)\d{3}-\d{4}$/', $phone ) ) { // Validate a US phone Number
+            $error = TRUE;
+        }
+
         // first name
         if ( empty( $_POST['budget'] ) && $error ) {
             $error = TRUE;
@@ -68,10 +72,10 @@ if ( $_POST ) {
         if ( !$error ) {
 
             // thank you message to the user
-            echo "<div class=\"server-confirm-msg g4\">
-                    <h2>Thank you $name!</h2>
-                    <p>Your inquiry with ArcTap was sent with success. We'll be in touch very, very soon at $email. Thanks for picking us and Cheers!</p>
-                  </div>";
+            echo htmlspecialchars("<div class=\"server-confirm-msg g4\">
+                                       <h2>Thank you $name!</h2>
+                                       <p>Your inquiry with ArcTap was sent with success. We'll be in touch very, very soon at $email. Thanks for picking us and Cheers!</p>
+                                   </div>");
 
             //ini_set (SMTP, smtp@gmail.com)
             // send mail to ArcTap

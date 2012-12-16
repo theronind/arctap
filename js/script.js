@@ -35,7 +35,7 @@ $(document).ready(function () {
 
     // Work Sort
     // http://net.tutsplus.com/tutorials/javascript-ajax/creating-a-filterable-portfolio-with-jquery/
-    $('#filter a').click(function () {
+    $('#filter a').on('click', function () {
         $('ul#filter .current').removeClass('current');
         $(this).parent().addClass('current');
 
@@ -57,7 +57,7 @@ $(document).ready(function () {
 
     // Hire Form
     // http://www.spruce.it/noise/simple-ajax-contact-form
-    $('#hireForm input[type="submit"]').click(function () {
+    $('#hireForm input[type="submit"]').on('click', function () {
         var name       = $('#name').val(),
             company    = $('#company').val(),
             phone      = $('#phone').val(),
@@ -72,27 +72,32 @@ $(document).ready(function () {
             $('#name').click(function () {
                 $(this).css({'background-color' : '#ffffff'});
             });
-        } else if (company === '') {
-            $('#company').css({'background-color' : '#FAFFBD'});
-            $("#company").click(function () {
-                $(this).css({'background-color' : '#ffffff'});
-            });
-        } else if (phone === '') {
-            $('#phone').css({'background-color' : '#FAFFBD'});
-            $("#phone").click(function () {
-                $(this).css({'background-color' : '#ffffff'});
-            });
-        } else if (email === '') {
+        }
+        // else if (company === '') {
+        //     $('#company').css({'background-color' : '#FAFFBD'});
+        //     $("#company").click(function () {
+        //         $(this).css({'background-color' : '#ffffff'});
+        //     });
+        // }
+        // else if (phone === '') {
+        //     $('#phone').css({'background-color' : '#FAFFBD'});
+        //     $("#phone").click(function () {
+        //         $(this).css({'background-color' : '#ffffff'});
+        //     });
+        // } 
+        else if (email === '') {
             $('#email').css({'background-color' : '#FAFFBD'});
             $("#email").click(function () {
                 $(this).css({'background-color' : '#ffffff'});
             });
-        } else if (website === '') {
-            $('#website').css({'background-color' : '#FAFFBD'});
-            $("#website").click(function () {
-                $(this).css({'background-color' : '#ffffff'});
-            });
-        } else if (budget === 'DEFAULT') {
+        } 
+        // else if (website === '') {
+        //     $('#website').css({'background-color' : '#FAFFBD'});
+        //     $("#website").click(function () {
+        //         $(this).css({'background-color' : '#ffffff'});
+        //     });
+        // }
+        else if (budget === 'DEFAULT') {
             $('#budget').css({'background-color' : '#FAFFBD'});
             $("#budget").click(function () {
                 $(this).css({'background-color' : '#ffffff'});

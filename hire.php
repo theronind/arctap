@@ -38,6 +38,14 @@
                                 </li>
                                 <li class="g2">
                                     <input type="tel" class="form-input" id="phone" name="phone" value="<?php if ( isset( $_POST['phone'] ) ) { print htmlspecialchars( $_POST['phone'] ); } ?>" placeholder="Phone Number">
+                                    <?php
+                                        if ( isset( $_POST['submit'] ) ) {
+                                            if( !empty( $_POST['phone'] ) && !preg_match( '/^((1-)?\d{3}-)\d{3}-\d{4}$/', $phone ) ) {
+                                                echo "<p class='error'><span class=\"ss-standard ss-alert\" title=\"alert icon for email syntax errors\"></span> We need your email address syntax to be username@emailprovider.domain</p>";
+                                                $error = true;
+                                            }
+                                        }else { $error = TRUE; }
+                                    ?>
                                 </li>
                                 <li class="g2">
                                     <input type="email" class="form-input" id="email" name="email" value="<?php if ( isset( $_POST['email'] ) ) { echo htmlspecialchars( $_POST['email'] ); } ?>" placeholder="* Your Email Address">
