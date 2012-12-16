@@ -69,42 +69,22 @@ $(document).ready(function () {
 
         if (name === '') {
             $('#name').css({'background-color' : '#FAFFBD'});
-            $('#name').click(function () {
+            $('#name').on('click', function () {
                 $(this).css({'background-color' : '#ffffff'});
             });
-        }
-        // else if (company === '') {
-        //     $('#company').css({'background-color' : '#FAFFBD'});
-        //     $("#company").click(function () {
-        //         $(this).css({'background-color' : '#ffffff'});
-        //     });
-        // }
-        // else if (phone === '') {
-        //     $('#phone').css({'background-color' : '#FAFFBD'});
-        //     $("#phone").click(function () {
-        //         $(this).css({'background-color' : '#ffffff'});
-        //     });
-        // } 
-        else if (email === '') {
+        } else if (email === '') {
             $('#email').css({'background-color' : '#FAFFBD'});
-            $("#email").click(function () {
+            $("#email").on('click', function () {
                 $(this).css({'background-color' : '#ffffff'});
             });
-        } 
-        // else if (website === '') {
-        //     $('#website').css({'background-color' : '#FAFFBD'});
-        //     $("#website").click(function () {
-        //         $(this).css({'background-color' : '#ffffff'});
-        //     });
-        // }
-        else if (budget === 'DEFAULT') {
+        } else if (budget === 'DEFAULT') {
             $('#budget').css({'background-color' : '#FAFFBD'});
-            $("#budget").click(function () {
+            $("#budget").on('click', function () {
                 $(this).css({'background-color' : '#ffffff'});
             });
         } else if (message === '') {
             $('#message').css({'background-color' : '#FAFFBD'});
-            $("#message").click(function () {
+            $("#message").on('click', function () {
                 $(this).css({'background-color' : '#ffffff'});
             });
         } else {
@@ -117,5 +97,4 @@ $(document).ready(function () {
         }
         return false;
     });
-
 });

@@ -77,8 +77,6 @@ if ( $_POST ) {
                                        <p>Your inquiry with ArcTap was sent with success. We'll be in touch very, very soon at $email. Thanks for picking us and Cheers!</p>
                                    </div>");
 
-            //ini_set (SMTP, smtp@gmail.com)
-            // send mail to ArcTap
             $mail_sent = mail( $arctap_email, $subject, $body, "From: team@arctap.com" );
 
             // send mail to the user
