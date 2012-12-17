@@ -31,26 +31,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/work\/kristinastpeter\/kristinastpeter.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/kristinastpeter\/kristinastpeter.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_pt_PT.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_pt_PT.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_pt_PT-min.js",
-      "fileType" : 64
-    },
     "\/work\/theeastwing\/img\/icon.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -62,6 +42,26 @@
       "initialSize" : 6108,
       "fileType" : 8192
     },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_pt_PT.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_pt_PT.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_pt_PT-min.js",
+      "fileType" : 64
+    },
+    "\/work\/kristinastpeter\/kristinastpeter.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/work\/kristinastpeter\/kristinastpeter.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/file_input.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -72,13 +72,13 @@
       "fileType" : 2048
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_ca.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_ca.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_ca-min.js",
       "fileType" : 64
     },
@@ -134,24 +134,24 @@
       "fileType" : 8192
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_pt_BR.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_pt_BR.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_pt_BR-min.js",
       "fileType" : 64
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_it.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_it.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_it-min.js",
       "fileType" : 64
     },
@@ -238,13 +238,13 @@
       "fileType" : 16
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/methods_pt.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/methods_pt.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/methods_pt-min.js",
       "fileType" : 64
     },
@@ -260,24 +260,24 @@
       "fileType" : 4096
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_sl.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_sl.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_sl-min.js",
       "fileType" : 64
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery.form.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery.form.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/minified\/jquery.form-min.js",
       "fileType" : 64
     },
@@ -394,13 +394,13 @@
       "fileType" : 2048
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_ro.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_ro.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_ro-min.js",
       "fileType" : 64
     },
@@ -438,24 +438,24 @@
       "fileType" : 4096
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_fa.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_fa.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_fa-min.js",
       "fileType" : 64
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/grunt.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/grunt.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/minified\/grunt-min.js",
       "fileType" : 64
     },
@@ -491,13 +491,13 @@
       "fileType" : 8192
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_fi.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_fi.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_fi-min.js",
       "fileType" : 64
     },
@@ -513,13 +513,13 @@
       "fileType" : 8192
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_lt.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_lt.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_lt-min.js",
       "fileType" : 64
     },
@@ -586,13 +586,13 @@
       "fileType" : 2048
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_kk.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_kk.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_kk-min.js",
       "fileType" : 64
     },
@@ -617,13 +617,13 @@
       "fileType" : 8192
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery-1.7.2.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery-1.7.2.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/minified\/jquery-1.7.2-min.js",
       "fileType" : 64
     },
@@ -639,13 +639,13 @@
       "fileType" : 8192
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_el.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_el.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_el-min.js",
       "fileType" : 64
     },
@@ -659,13 +659,13 @@
       "fileType" : 2048
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_et.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_et.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_et-min.js",
       "fileType" : 64
     },
@@ -712,13 +712,13 @@
       "fileType" : 8192
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_uk.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_uk.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_uk-min.js",
       "fileType" : 64
     },
@@ -763,13 +763,13 @@
       "fileType" : 16
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/multipart\/js\/jquery.maskedinput-1.0.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/multipart\/js\/jquery.maskedinput-1.0.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/multipart\/js\/minified\/jquery.maskedinput-1.0-min.js",
       "fileType" : 64
     },
@@ -796,13 +796,13 @@
       "fileType" : 8192
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/dist\/additional-methods.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/dist\/additional-methods.min.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/dist\/minified\/additional-methods.min-min.js",
       "fileType" : 64
     },
@@ -818,13 +818,13 @@
       "fileType" : 8192
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/multipart\/js\/ui.accordion.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/multipart\/js\/ui.accordion.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/multipart\/js\/minified\/ui.accordion-min.js",
       "fileType" : 64
     },
@@ -862,13 +862,13 @@
       "fileType" : 64
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/dist\/jquery.validate.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/dist\/jquery.validate.min.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/dist\/minified\/jquery.validate.min-min.js",
       "fileType" : 64
     },
@@ -882,13 +882,13 @@
       "fileType" : 2048
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_tr.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_tr.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_tr-min.js",
       "fileType" : 64
     },
@@ -900,17 +900,6 @@
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/style.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
-    },
-    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/milk\/milk.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/milk\/milk.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/milk\/milk.png",
-      "initialSize" : 5121,
-      "fileType" : 8192
     },
     "\/scss\/style.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -924,6 +913,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/milk\/milk.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/milk\/milk.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/milk\/milk.png",
+      "initialSize" : 5121,
+      "fileType" : 8192
+    },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -934,13 +934,13 @@
       "fileType" : 2048
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_no.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_no.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_no-min.js",
       "fileType" : 64
     },
@@ -954,35 +954,35 @@
       "fileType" : 2048
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery.metadata.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery.metadata.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/minified\/jquery.metadata-min.js",
       "fileType" : 64
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/dist\/jquery.validate.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/dist\/jquery.validate.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/dist\/minified\/jquery.validate-min.js",
       "fileType" : 64
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_si.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_si.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_si-min.js",
       "fileType" : 64
     },
@@ -1017,14 +1017,25 @@
       "fileType" : 2048
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/qunit\/qunit.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/qunit\/qunit.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/qunit\/minified\/qunit-min.js",
+      "fileType" : 64
+    },
+    "\/grunt.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/grunt.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/minified\/grunt-min.js",
       "fileType" : 64
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/images\/sf.png" : {
@@ -1037,17 +1048,6 @@
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/images\/sf.png",
       "initialSize" : 3745,
       "fileType" : 8192
-    },
-    "\/grunt.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/grunt.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/minified\/grunt-min.js",
-      "fileType" : 64
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/image_req.php" : {
       "ignoreWasSetByUser" : 0,
@@ -1079,15 +1079,24 @@
       "fileType" : 2048
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery-1.4.4.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery-1.4.4.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/minified\/jquery-1.4.4-min.js",
       "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/milk\/milk.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/milk\/milk.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/js\/libs\/modernizr-2.6.2.min.js" : {
       "ignoreWasSetByUser" : 1,
@@ -1109,15 +1118,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/milk\/milk.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/milk\/milk.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/dynamic-totals.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1128,13 +1128,13 @@
       "fileType" : 2048
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery-1.5.2.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery-1.5.2.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/minified\/jquery-1.5.2-min.js",
       "fileType" : 64
     },
@@ -1172,24 +1172,24 @@
       "fileType" : 4096
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/rules.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/rules.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/minified\/rules-min.js",
       "fileType" : 64
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/firebugx.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/firebugx.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/minified\/firebugx-min.js",
       "fileType" : 64
     },
@@ -1216,24 +1216,24 @@
       "fileType" : 8192
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tinymce\/tiny_mce.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tinymce\/tiny_mce.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tinymce\/minified\/tiny_mce-min.js",
       "fileType" : 64
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_fr.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_fr.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_fr-min.js",
       "fileType" : 64
     },
@@ -1247,13 +1247,13 @@
       "fileType" : 16
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_vi.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_vi.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_vi-min.js",
       "fileType" : 64
     },
@@ -1287,24 +1287,24 @@
       "fileType" : 2048
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/multipart\/js\/ui.core.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/multipart\/js\/ui.core.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/multipart\/js\/minified\/ui.core-min.js",
       "fileType" : 64
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_eu.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_eu.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_eu-min.js",
       "fileType" : 64
     },
@@ -1349,13 +1349,13 @@
       "fileType" : 4096
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/mktSignup.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/mktSignup.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/minified\/mktSignup-min.js",
       "fileType" : 64
     },
@@ -1434,24 +1434,24 @@
       "fileType" : 8192
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_nl.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_nl.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_nl-min.js",
       "fileType" : 64
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery-1.3.2.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery-1.3.2.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/minified\/jquery-1.3.2-min.js",
       "fileType" : 64
     },
@@ -1465,35 +1465,35 @@
       "fileType" : 16
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/methods.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/methods.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/minified\/methods-min.js",
       "fileType" : 64
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_cs.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_cs.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_cs-min.js",
       "fileType" : 64
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_he.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_he.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_he-min.js",
       "fileType" : 64
     },
@@ -1556,13 +1556,13 @@
       "fileType" : 2048
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery-1.6.1.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery-1.6.1.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/minified\/jquery-1.6.1-min.js",
       "fileType" : 64
     },
@@ -1578,35 +1578,35 @@
       "fileType" : 8192
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_hu.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_hu.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_hu-min.js",
       "fileType" : 64
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_sr.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_sr.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_sr-min.js",
       "fileType" : 64
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_sv.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_sv.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_sv-min.js",
       "fileType" : 64
     },
@@ -1622,13 +1622,13 @@
       "fileType" : 64
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/minified\/jquery-min.js",
       "fileType" : 64
     },
@@ -1644,24 +1644,24 @@
       "fileType" : 8192
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_zh_TW.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_zh_TW.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_zh_TW-min.js",
       "fileType" : 64
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_ru.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_ru.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_ru-min.js",
       "fileType" : 64
     },
@@ -1686,13 +1686,13 @@
       "fileType" : 2048
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/jquery.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/jquery.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/minified\/jquery-min.js",
       "fileType" : 64
     },
@@ -1706,13 +1706,13 @@
       "fileType" : 16
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/methods_nl.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/methods_nl.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/methods_nl-min.js",
       "fileType" : 64
     },
@@ -1740,24 +1740,24 @@
       "debugStyle" : 0
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_lv.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_lv.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_lv-min.js",
       "fileType" : 64
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_ka.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_ka.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_ka-min.js",
       "fileType" : 64
     },
@@ -1796,17 +1796,6 @@
       "initialSize" : 793,
       "fileType" : 8192
     },
-    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/dist\/additional-methods.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/dist\/additional-methods.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/dist\/minified\/additional-methods-min.js",
-      "fileType" : 64
-    },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/newsession.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1815,6 +1804,17 @@
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/newsession.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/dist\/additional-methods.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/dist\/additional-methods.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/dist\/minified\/additional-methods-min.js",
+      "fileType" : 64
     },
     "\/img\/about\/nyc.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1848,13 +1848,13 @@
       "fileType" : 2048
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_da.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_da.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_da-min.js",
       "fileType" : 64
     },
@@ -1877,13 +1877,13 @@
       "fileType" : 2048
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_de.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_de.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_de-min.js",
       "fileType" : 64
     },
@@ -1937,13 +1937,13 @@
       "fileType" : 4096
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/js\/chili-1.7.pack.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/js\/chili-1.7.pack.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/js\/minified\/chili-1.7.pack-min.js",
       "fileType" : 64
     },
@@ -1957,24 +1957,24 @@
       "fileType" : 16
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_th.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_th.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_th-min.js",
       "fileType" : 64
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/captcha.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/captcha.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/minified\/captcha-min.js",
       "fileType" : 64
     },
@@ -2066,16 +2066,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tinymce\/themes\/simple\/editor_template.js" : {
+    "\/resources\/quickassets\/lib.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tinymce\/themes\/simple\/editor_template.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tinymce\/themes\/simple\/minified\/editor_template-min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/resources\/quickassets\/lib.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/work\/touchingnews\/img\/desktop.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2089,14 +2087,36 @@
       "fileType" : 8192
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_bg.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_bg.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_bg-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tinymce\/themes\/simple\/editor_template.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tinymce\/themes\/simple\/editor_template.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tinymce\/themes\/simple\/minified\/editor_template-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery.mockjax.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery.mockjax.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/minified\/jquery.mockjax-min.js",
       "fileType" : 64
     },
     "\/font\/arctapicons\/lib\/index.html" : {
@@ -2108,48 +2128,26 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery.mockjax.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery.mockjax.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/minified\/jquery.mockjax-min.js",
-      "fileType" : 64
-    },
-    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_hr.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_hr.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_hr-min.js",
-      "fileType" : 64
-    },
-    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_sk.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_sk.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_sk-min.js",
-      "fileType" : 64
-    },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/jquery.maskedinput.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/jquery.maskedinput.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/minified\/jquery.maskedinput-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_hr.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_hr.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_hr-min.js",
       "fileType" : 64
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/process.php" : {
@@ -2161,14 +2159,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/resources\/quickassets\/lib.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_sk.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/resources\/quickassets\/lib.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_sk.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_sk-min.js",
+      "fileType" : 64
     },
     "\/img\/arctap-icon128x128.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2215,13 +2215,13 @@
       "fileType" : 8192
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/methods_de.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/methods_de.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/methods_de-min.js",
       "fileType" : 64
     },
@@ -2237,13 +2237,13 @@
       "fileType" : 8192
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/messages.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/messages.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/minified\/messages-min.js",
       "fileType" : 64
     },
@@ -2291,13 +2291,13 @@
       "debugStyle" : 0
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_ar.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_ar.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_ar-min.js",
       "fileType" : 64
     },
@@ -2342,13 +2342,13 @@
       "fileType" : 8192
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/test.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/test.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/minified\/test-min.js",
       "fileType" : 64
     },
@@ -2365,13 +2365,13 @@
       "debugStyle" : 0
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/firebug.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/firebug.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/minified\/firebug-min.js",
       "fileType" : 64
     },
@@ -2427,13 +2427,13 @@
       "fileType" : 2048
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_ja.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_ja.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_ja-min.js",
       "fileType" : 64
     },
@@ -2447,35 +2447,35 @@
       "fileType" : 16
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery-1.4.2.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery-1.4.2.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/minified\/jquery-1.4.2-min.js",
       "fileType" : 64
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_pl.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_pl.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_pl-min.js",
       "fileType" : 64
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_es.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_es.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_es-min.js",
       "fileType" : 64
     },
@@ -2549,24 +2549,24 @@
       "fileType" : 16
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tinymce\/themes\/simple\/langs\/en.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tinymce\/themes\/simple\/langs\/en.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tinymce\/themes\/simple\/langs\/minified\/en-min.js",
       "fileType" : 64
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_zh.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_zh.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_zh-min.js",
       "fileType" : 64
     }

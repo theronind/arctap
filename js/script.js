@@ -72,90 +72,90 @@ $(document).ready(function () {
     });//end setDefaults
 
     //jquery validation
-        $('#hireForm').validate({
+    $('#hireForm').validate({
 
-                // custom rules
-                rules: {
-                        name: {
-                                required:true, 
-                                minlength: 3
-                        },
-                        company: {
-                                required:true, 
-                                minlength: 3
-                        },
-                        email: {
-                                required: true,
-                                email: true
-                        },
-                        message: {
-                                required:true,
-                                minlength:10
-                        }
+        // custom rules
+        rules: {
+                name: {
+                        required:true,
+                        minlength: 3
                 },
-
-                // custom messages
-                messages: {
-                        name: {
-                                required: "please enter your first name",
-                                minlength:"field must contain more than 3 characters"
-                        },
-                        company: {
-                                required: "please enter your last name",
-                                minlength:"field must contain more than 3 characters"
-                        },
-                        email: {
-                                required: "We need your email address",
-                                email: "please use the correct syntax = username@emailprovider.domain"
-                        },
-                        message: {
-                                required: "We need to know why you're contacting us",
-                                minlength: "this field must contain more than 10 characters"
-                        }
+                company: {
+                        required:false,
+                        minlength: 3
+                },
+                email: {
+                        required: true,
+                        email: true
+                },
+                message: {
+                        required:true,
+                        minlength:10
                 }
-        });//end validate
+        },
+
+        // custom messages
+        messages: {
+                name: {
+                        required: "please enter your first name",
+                        minlength:"your name must contain more than 3 characters"
+                },
+                company: {
+                        required: "please enter your company",
+                        minlength:"company must contain more than 3 characters in length"
+                },
+                email: {
+                        required: "We need your email address",
+                        email: "please use the correct syntax = username@emailprovider.domain"
+                },
+                message: {
+                        required: "We need to know why you're contacting us",
+                        minlength: "your message must contain more than 10 characters in length"
+                }
+        }
+    });//end validate
 
     // Hire Form
     // http://www.spruce.it/noise/simple-ajax-contact-form
-    // $('#hireForm input[type="submit"]').on('click', function () {
-    //     var name       = $('#name').val(),
-    //         company    = $('#company').val(),
-    //         phone      = $('#phone').val(),
-    //         email      = $('#email').val(),
-    //         website    = $('#website').val(),
-    //         budget     = $('#budget').val(),
-    //         message    = $('#message').val(),
-    //         dataString = "name=" + name + "&company=" + company + "&phone=" + phone + "&email=" + email + "&website=" + website + "&budget=" + budget + "&message=" + message;
+    $('#hireForm input[type="submit"]').on('click', function () {
+        var name       = $('#name').val(),
+            company    = $('#company').val(),
+            phone      = $('#phone').val(),
+            email      = $('#email').val(),
+            website    = $('#website').val(),
+            budget     = $('#budget').val(),
+            message    = $('#message').val(),
+            dataString = "name=" + name + "&company=" + company + "&phone=" + phone + "&email=" + email + "&website=" + website + "&budget=" + budget + "&message=" + message;
 
-    //     if (name === '') {
-    //         $('#name').css({'background-color' : '#FAFFBD'});
-    //         $('#name').on('click', function () {
-    //             $(this).css({'background-color' : '#ffffff'});
-    //         });
-    //     } else if (email === '') {
-    //         $('#email').css({'background-color' : '#FAFFBD'});
-    //         $("#email").on('click', function () {
-    //             $(this).css({'background-color' : '#ffffff'});
-    //         });
-    //     } else if (budget === 'DEFAULT') {
-    //         $('#budget').css({'background-color' : '#FAFFBD'});
-    //         $("#budget").on('click', function () {
-    //             $(this).css({'background-color' : '#ffffff'});
-    //         });
-    //     } else if (message === '') {
-    //         $('#message').css({'background-color' : '#FAFFBD'});
-    //         $("#message").on('click', function () {
-    //             $(this).css({'background-color' : '#ffffff'});
-    //         });
-    //     } else {
-    //         $.ajax({
-    //             type: "POST",
-    //             url: "/hireMail.php",
-    //             data: dataString,
-    //             success: function () { $('.success').fadeIn(1000).delay(5000).fadeOut(1000); }
-    //         });
-    //     }
-    //     return false;
-    // });
+        if (name === '') {
+            $('#name').css({'background-color' : '#FAFFBD'});
+            $('#name').on('click', function () {
+                $(this).css({'background-color' : '#ffffff'});
+            });
+        } else if (email === '') {
+            $('#email').css({'background-color' : '#FAFFBD'});
+            $("#email").on('click', function () {
+                $(this).css({'background-color' : '#ffffff'});
+            });
+        } else if (budget === 'DEFAULT') {
+            $('#budget').css({'background-color' : '#FAFFBD'});
+            $("#budget").on('click', function () {
+                $(this).css({'background-color' : '#ffffff'});
+            });
+        } else if (message === '') {
+            $('#message').css({'background-color' : '#FAFFBD'});
+            $("#message").on('click', function () {
+                $(this).css({'background-color' : '#ffffff'});
+            });
+        } else {
+            $.ajax({
+                type: "POST",
+                url: "/hireMail.php",
+                data: dataString,
+                success: function () { $('.success').fadeIn(1000).delay(5000).fadeOut(1000); }
+            });
+        }
+        return false;
+    });
 
 });

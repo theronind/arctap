@@ -23,7 +23,7 @@
                           <input type="hidden" name="hide" value="Your message was sent securely. We will be in touch" />
                           <ul class="clearfix">
                                 <li class="g2">
-                                    <input type="name" class="form-input" id="name" name="name" value="<?php if ( isset( $_POST['name'] ) ) { echo htmlspecialchars( $_POST['name'] ); } ?>" placeholder="* Your Name" minlength="3">   <!-- required -->
+                                    <input type="name" class="form-input" id="name" name="name" value="<?php if ( isset( $_POST['name'] ) ) { echo htmlspecialchars( $_POST['name'] ); } ?>" placeholder="* Your Name" minlength="3" required>
                                     <?php
                                         if ( isset( $_POST['submit'] ) ) {
                                             if ( empty( $_POST['name'] ) ) {
@@ -44,7 +44,7 @@
                                     <input type="tel" class="form-input" id="phone" name="phone" value="<?php if ( isset( $_POST['phone'] ) ) { echo htmlspecialchars( $_POST['phone'] ); } ?>" placeholder="Phone Number">
                                 </li>
                                 <li class="g2">
-                                    <input type="email" class="form-input" id="email" name="email" value="<?php if ( isset( $_POST['email'] ) ) { echo htmlspecialchars( $_POST['email'] ); } ?>" placeholder="* Your Email Address">   <!-- pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?" required -->
+                                    <input type="email" class="form-input" id="email" name="email" value="<?php if ( isset( $_POST['email'] ) ) { echo htmlspecialchars( $_POST['email'] ); } ?>" placeholder="* Your Email Address" pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?" required>
                                     <?php
                                         if ( isset( $_POST['submit'] ) ) {
                                             if ( empty( $_POST['email'] ) ) {
@@ -83,8 +83,7 @@
                                     ?>
                                 </li>
                                 <li class="g4">
-                                    <!-- required -->
-                                    <textarea id="message" name="message" placeholder="* Give us a brief description of your project and target launch date, if you have one." minlenght="10"><?php if ( isset( $_POST['message'] ) ) { echo htmlspecialchars( $_POST['message'] ); } ?></textarea>
+                                    <textarea id="message" name="message" placeholder="* Give us a brief description of your project and target launch date, if you have one." minlenght="10" required><?php if ( isset( $_POST['message'] ) ) { echo htmlspecialchars( $_POST['message'] ); } ?></textarea>
                                     <?php
                                         if ( isset( $_POST['submit'] ) ) {
                                             if ( empty( $_POST['message'] ) ) {

@@ -738,13 +738,13 @@ textarea:invalid {
 // $Form
 // ==========================================================================
 
-label {
-    color: #b6bcbf;
-    position: absolute;
-    top: 8px;
-    left: 12px;
-    cursor: text;
-}
+// label {
+//     color: #b6bcbf;
+//     position: absolute;
+//     top: 8px;
+//     left: 12px;
+//     cursor: text;
+// }
 
 #hireForm {
     ul {
@@ -868,9 +868,14 @@ textarea:-moz-placeholder {
     display: block;
     padding: 10px;
 }
-
 .server-error {
     @extend .error_message;
+}
+// JS Error Messages
+label[generated="true"].error {
+    @extend .error_message;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 input,
