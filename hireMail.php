@@ -23,7 +23,7 @@ if ( $_POST ) {
     $error = FALSE;
 
     // admin email
-    $address  = "grayghost@grayghostvisuals.com";
+    $admin_email  = "grayghost@grayghostvisuals.com";
     $subject  = "ArcTap Work Inquiry from $name";
     $body     = "Name: $name \n\r";
     $body    .= "Company: $company \n\r";
@@ -33,8 +33,12 @@ if ( $_POST ) {
     $body    .= "Budget: $budget \n\r";
     $body    .= "Message: $message";
 
+    // client email
+    $client_subject = "ArcTap Project Inquiry Received for $name";
+    $client_body    = "Dear $name. We have your information and inquiry safe and sound for your ArcTap project inquiry. Please be patient while we return your message ASAP to $email.";
+
     $headers  = "From: $email \r\n";
-    $headers .= "Reply-To: " . strip_tags($address) . '\r\n';
+    $headers .= "Reply-To: " . strip_tags($admin_email) . '\r\n';
     $headers .= 'MIME-Version: 1.0\r\n';
     $headers .= 'Content-Type: text/html; charset=ISO-8859-1\r\n';
 
@@ -51,11 +55,6 @@ if ( $_POST ) {
 
         // empty email or pregex
         if ( empty( $_POST['email'] ) || !preg_match( '/^[^0-9][a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[@][a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{2,4}$/', $email ) ) {
-            $error = TRUE;
-        }
-
-        // empty budget
-        if ( empty( $_POST['budget'] ) && $error ) {
             $error = TRUE;
         }
 
@@ -78,12 +77,12 @@ if ( $_POST ) {
                   </div>";
 
             // send mail to the admin
-            $mail_sent = mail( $address, $subject, $body, "From: team@arctap.com" );
+            $mail_sent = mail( $admin_email, $subject, $body, "From: team@arctap.com" );
 
-            /*// send mail to the user
+            // send mail to the user
             if ( $mail_sent == TRUE ) {
               mail( $email, $client_subject, $client_body, "From: RochesterInstituteOfDogGrooming.com" );
-            }*/
+            }
         }
     }else {
         $error = TRUE;

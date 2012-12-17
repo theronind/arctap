@@ -1,13 +1,13 @@
 <?php
     ob_start();
-    /*UNIVERSAL ERROR REPORTING*/
+    // UNIVERSAL ERROR REPORTING
     ini_set('display_errors', 1);
     //ini_set('display_errors', 0);
     error_reporting(E_STRICT | E_ALL );
     //error_reporting(0);
 ?>
 <?php
-    // Quick Assets
+    // Quick Assets : Van Patten Media
     // Github
     // https://github.com/vanpattenmedia/quickassets
     // Video Tutorials
@@ -16,47 +16,36 @@
     // Part 3: http://www.youtube.com/watch?v=cNzni6LgYpE&feature=youtu.be
     if ( $title == 'Work' ) {
         include_once '../resources/quickassets/lib.php';
+    } elseif ( $title == 'Status Chart' || $title == 'Grade Spotter' || $title == 'Kristina St. Peter' || $title == 'The East Wing' ) {
+        include_once '../../resources/quickassets/lib.php';
     } else {
         include_once './resources/quickassets/lib.php';
     }
 
-    // Instantiate Quick Asset
+    // Instantiate QuickAssets
     $a = new QuickAsset();
 
-    //Show Method
-    $a->addShowMethod('qstring', function($host, $assetFile, $assetPath, $bustString) {
+    // Show Method
+    $a->addShowMethod( 'qstring', function( $host, $assetFile, $assetPath, $bustString ) {
         return $host . $assetPath . $assetFile . '?' . $bustString;
-    });
-
-    // Bust Method MD5
-    $a->addBustMethod('md5', function($assetPath, $assetFile, $rootPath) {
-        return md5($rootPath . $assetPath . $assetFile);
-    });
-
-    // Bust Method Date
-    $a->addBustMethod('date', function($assetPath, $assetFile, $rootPath) {
-        return date('Ymd');
     });
 
     // Asset Type CSS
     $a->addAssetType('css', array(
-            'assetPath' => 'css/',
+            'assetPath'  => 'css/',
             'showMethod' => 'qstring',
-            'rootPath' => '/Library/WebServer/share/httpd/arctap/',
-            'bustMethod' => 'date',
+            'rootPath'   => '/',
         ));
 
     // Asset Type JS
     $a->addAssetType('js', array(
-            'assetPath' => 'js/minified/',
+            'assetPath'  => 'js/minified/',
             'showMethod' => 'qstring',
-            'rootPath' => '/Library/WebServer/share/httpd/arctap/',
-            'bustMethod' => 'date',
+            'rootPath'   => '/',
         ));
 
     // Host
-    // Change URL when deployed to live server
-    $a->addHost('//arctap.local/', array(
+    $a->addHost('/', array(
             'assetTypes' => 'css, js',
         ));
 ?>
@@ -165,7 +154,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link rel="shortcut icon" href="/favicon.png">
     <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
-    <link href="<?php echo $a->url('css', 'style.css') ?>" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo $a->url('css', 'style.css') ?>">
     <!-- modernizr -->
     <script src="/js/libs/modernizr-2.6.2.min.js"></script>
 </head>

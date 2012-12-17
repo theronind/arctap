@@ -31,7 +31,7 @@
                                                 $error = TRUE;
                                             }
                                             if ( strlen( $_POST['name'] ) < 3 ) {
-                                                echo "<p class='server-error'><span class=\"ss-standard ss-alert\" title=\"string length error\"></span>Your name must be more than 3 chars in length</p>";
+                                                echo "<p class='server-error'><span class=\"ss-standard ss-alert\" title=\"name string length error\"></span>Your name must be more than 3 chars in length</p>";
                                                 $error = TRUE;
                                             }
                                         } else { $error = TRUE; }
@@ -73,14 +73,6 @@
                                         <option value="$140,000 &ndash; $200,000">$140,000 &ndash; $200,000</option>
                                         <option value="$200,000 Plus">$200,000 Plus</option>
                                     </select>
-                                    <?php
-                                        if ( isset( $_POST['submit'] ) ) {
-                                          if ( empty( $_POST['budget'] ) ) {
-                                                echo "<p class='server-error'><span class=\"ss-standard ss-alert\" title=\"empty budget error\"></span> Please let us know your Budget</p>";
-                                                $error = TRUE;
-                                          }
-                                        } else { $error = TRUE; }
-                                    ?>
                                 </li>
                                 <li class="g4">
                                     <textarea id="message" name="message" placeholder="* Give us a brief description of your project and target launch date, if you have one." minlenght="10" required><?php if ( isset( $_POST['message'] ) ) { echo htmlspecialchars( $_POST['message'] ); } ?></textarea>

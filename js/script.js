@@ -60,11 +60,15 @@ $(document).ready(function () {
         debug: false,
         submitHandler: function(form) {
                 var options = {
+                        type: "POST",
+                        url: "/hireMail.php",
+                        data: dataString,
                         clearForm: true,
                         resetForm: true,
                         clearFields: true,
                         success: function() {
-                                alert('Thanks for your request. The form has been submitted so no need to hit the send button once again');
+                                //alert('Thanks for your request. The form has been submitted so no need to hit the send button once again');
+                                $('.success').fadeIn(1000).delay(5000).fadeOut(1000);
                         }
                 };
                 $(form).ajaxSubmit(options);
@@ -115,9 +119,10 @@ $(document).ready(function () {
         }
     });//end validate
 
+
     // Hire Form
     // http://www.spruce.it/noise/simple-ajax-contact-form
-    $('#hireForm input[type="submit"]').on('click', function () {
+    /*$('#hireForm input[type="submit"]').on('click', function () {
         var name       = $('#name').val(),
             company    = $('#company').val(),
             phone      = $('#phone').val(),
@@ -156,6 +161,6 @@ $(document).ready(function () {
             });
         }
         return false;
-    });
+    });*/
 
 });

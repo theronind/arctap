@@ -879,10 +879,9 @@ label[generated="true"].error {
 }
 
 input,
-textarea,
-select {
+textarea {
     &:required {
-        @include background(repeating-linear-gradient(45deg, transparent, transparent 35px, #FFF 35px, #FFF 70px));
+        @include background(repeating-linear-gradient(45deg, transparent, transparent 45px, #FFF 35px, #FFF 60px));
     }
 }
 
