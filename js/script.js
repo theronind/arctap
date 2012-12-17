@@ -60,9 +60,9 @@ $(document).ready(function () {
         debug: false,
         submitHandler: function(form) {
                 var options = {
-                        type: "POST",
+                        //type: "POST",
                         url: "/hireMail.php",
-                        data: dataString,
+                        //data: dataString,
                         clearForm: true,
                         resetForm: true,
                         clearFields: true,
@@ -71,7 +71,45 @@ $(document).ready(function () {
                                 $('.success').fadeIn(1000).delay(5000).fadeOut(1000);
                         }
                 };
-                $(form).ajaxSubmit(options);
+                //$(form).ajaxSubmit(options);
+                // Hire Form
+                // http://www.spruce.it/noise/simple-ajax-contact-form
+                $('#hireForm').submit(function () {
+                    var name       = $('#name').val(),
+                        company    = $('#company').val(),
+                        phone      = $('#phone').val(),
+                        email      = $('#email').val(),
+                        website    = $('#website').val(),
+                        budget     = $('#budget').val(),
+                        message    = $('#message').val(),
+                        dataString = "name=" + name + "&company=" + company + "&phone=" + phone + "&email=" + email + "&website=" + website + "&budget=" + budget + "&message=" + message;
+
+                    if (name === '') {
+                        $('#name').css({'background-color' : '#FAFFBD'});
+                        $('#name').on('click', function () {
+                            $(this).css({'background-color' : '#ffffff'});
+                        });
+                    } else if (email === '') {
+                        $('#email').css({'background-color' : '#FAFFBD'});
+                        $("#email").on('click', function () {
+                            $(this).css({'background-color' : '#ffffff'});
+                        });
+                    } else if (message === '') {
+                        $('#message').css({'background-color' : '#FAFFBD'});
+                        $("#message").on('click', function () {
+                            $(this).css({'background-color' : '#ffffff'});
+                        });
+                    } else {
+                        /*$.ajax({
+                            type: "POST",
+                            url: "/hireMail.php",
+                            data: dataString,
+                            success: function () { $('.success').fadeIn(1000).delay(5000).fadeOut(1000); }
+                        });*/
+                        $(this).ajaxSubmit(options);
+                    }
+                    return false;
+                });
         }
     });//end setDefaults
 
@@ -119,48 +157,5 @@ $(document).ready(function () {
         }
     });//end validate
 
-
-    // Hire Form
-    // http://www.spruce.it/noise/simple-ajax-contact-form
-    /*$('#hireForm input[type="submit"]').on('click', function () {
-        var name       = $('#name').val(),
-            company    = $('#company').val(),
-            phone      = $('#phone').val(),
-            email      = $('#email').val(),
-            website    = $('#website').val(),
-            budget     = $('#budget').val(),
-            message    = $('#message').val(),
-            dataString = "name=" + name + "&company=" + company + "&phone=" + phone + "&email=" + email + "&website=" + website + "&budget=" + budget + "&message=" + message;
-
-        if (name === '') {
-            $('#name').css({'background-color' : '#FAFFBD'});
-            $('#name').on('click', function () {
-                $(this).css({'background-color' : '#ffffff'});
-            });
-        } else if (email === '') {
-            $('#email').css({'background-color' : '#FAFFBD'});
-            $("#email").on('click', function () {
-                $(this).css({'background-color' : '#ffffff'});
-            });
-        } else if (budget === 'DEFAULT') {
-            $('#budget').css({'background-color' : '#FAFFBD'});
-            $("#budget").on('click', function () {
-                $(this).css({'background-color' : '#ffffff'});
-            });
-        } else if (message === '') {
-            $('#message').css({'background-color' : '#FAFFBD'});
-            $("#message").on('click', function () {
-                $(this).css({'background-color' : '#ffffff'});
-            });
-        } else {
-            $.ajax({
-                type: "POST",
-                url: "/hireMail.php",
-                data: dataString,
-                success: function () { $('.success').fadeIn(1000).delay(5000).fadeOut(1000); }
-            });
-        }
-        return false;
-    });*/
 
 });

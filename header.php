@@ -1,12 +1,13 @@
 <?php
+    // Output Buffer
     ob_start();
+
     // UNIVERSAL ERROR REPORTING
-    ini_set('display_errors', 1);
-    //ini_set('display_errors', 0);
-    error_reporting(E_STRICT | E_ALL );
-    //error_reporting(0);
-?>
-<?php
+    //ini_set('display_errors', 1);
+    ini_set('display_errors', 0);
+    //error_reporting(E_STRICT | E_ALL );
+    error_reporting(0);
+
     // Quick Assets : Van Patten Media
     // Github
     // https://github.com/vanpattenmedia/quickassets
