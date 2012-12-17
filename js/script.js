@@ -55,47 +55,107 @@ $(document).ready(function () {
         return false;
     });
 
+    jQuery.validator.setDefaults({
+
+        debug: false,
+        submitHandler: function(form) {
+                var options = {
+                        clearForm: true,
+                        resetForm: true,
+                        clearFields: true,
+                        success: function() {
+                                alert('Thanks for your request. The form has been submitted so no need to hit the send button once again');
+                        }
+                };
+                $(form).ajaxSubmit(options);
+        }
+    });//end setDefaults
+
+    //jquery validation
+        $('#hireForm').validate({
+
+                // custom rules
+                rules: {
+                        name: {
+                                required:true, 
+                                minlength: 3
+                        },
+                        company: {
+                                required:true, 
+                                minlength: 3
+                        },
+                        email: {
+                                required: true,
+                                email: true
+                        },
+                        message: {
+                                required:true,
+                                minlength:10
+                        }
+                },
+
+                // custom messages
+                messages: {
+                        name: {
+                                required: "please enter your first name",
+                                minlength:"field must contain more than 3 characters"
+                        },
+                        company: {
+                                required: "please enter your last name",
+                                minlength:"field must contain more than 3 characters"
+                        },
+                        email: {
+                                required: "We need your email address",
+                                email: "please use the correct syntax = username@emailprovider.domain"
+                        },
+                        message: {
+                                required: "We need to know why you're contacting us",
+                                minlength: "this field must contain more than 10 characters"
+                        }
+                }
+        });//end validate
+
     // Hire Form
     // http://www.spruce.it/noise/simple-ajax-contact-form
-    $('#hireForm input[type="submit"]').on('click', function () {
-        var name       = $('#name').val(),
-            company    = $('#company').val(),
-            phone      = $('#phone').val(),
-            email      = $('#email').val(),
-            website    = $('#website').val(),
-            budget     = $('#budget').val(),
-            message    = $('#message').val(),
-            dataString = "name=" + name + "&company=" + company + "&phone=" + phone + "&email=" + email + "&website=" + website + "&budget=" + budget + "&message=" + message;
+    // $('#hireForm input[type="submit"]').on('click', function () {
+    //     var name       = $('#name').val(),
+    //         company    = $('#company').val(),
+    //         phone      = $('#phone').val(),
+    //         email      = $('#email').val(),
+    //         website    = $('#website').val(),
+    //         budget     = $('#budget').val(),
+    //         message    = $('#message').val(),
+    //         dataString = "name=" + name + "&company=" + company + "&phone=" + phone + "&email=" + email + "&website=" + website + "&budget=" + budget + "&message=" + message;
 
-        if (name === '') {
-            $('#name').css({'background-color' : '#FAFFBD'});
-            $('#name').on('click', function () {
-                $(this).css({'background-color' : '#ffffff'});
-            });
-        } else if (email === '') {
-            $('#email').css({'background-color' : '#FAFFBD'});
-            $("#email").on('click', function () {
-                $(this).css({'background-color' : '#ffffff'});
-            });
-        } else if (budget === 'DEFAULT') {
-            $('#budget').css({'background-color' : '#FAFFBD'});
-            $("#budget").on('click', function () {
-                $(this).css({'background-color' : '#ffffff'});
-            });
-        } else if (message === '') {
-            $('#message').css({'background-color' : '#FAFFBD'});
-            $("#message").on('click', function () {
-                $(this).css({'background-color' : '#ffffff'});
-            });
-        } else {
-            $.ajax({
-                type: "POST",
-                url: "/hireMail.php",
-                data: dataString,
-                success: function () { $('.success').fadeIn(1000).delay(5000).fadeOut(1000); }
-            });
-        }
-        return false;
-    });
+    //     if (name === '') {
+    //         $('#name').css({'background-color' : '#FAFFBD'});
+    //         $('#name').on('click', function () {
+    //             $(this).css({'background-color' : '#ffffff'});
+    //         });
+    //     } else if (email === '') {
+    //         $('#email').css({'background-color' : '#FAFFBD'});
+    //         $("#email").on('click', function () {
+    //             $(this).css({'background-color' : '#ffffff'});
+    //         });
+    //     } else if (budget === 'DEFAULT') {
+    //         $('#budget').css({'background-color' : '#FAFFBD'});
+    //         $("#budget").on('click', function () {
+    //             $(this).css({'background-color' : '#ffffff'});
+    //         });
+    //     } else if (message === '') {
+    //         $('#message').css({'background-color' : '#FAFFBD'});
+    //         $("#message").on('click', function () {
+    //             $(this).css({'background-color' : '#ffffff'});
+    //         });
+    //     } else {
+    //         $.ajax({
+    //             type: "POST",
+    //             url: "/hireMail.php",
+    //             data: dataString,
+    //             success: function () { $('.success').fadeIn(1000).delay(5000).fadeOut(1000); }
+    //         });
+    //     }
+    //     return false;
+    // });
 
 });

@@ -1,3 +1,4 @@
+
 // ==========================================================================
 // $Tool We Use For This Project
 // ==========================================================================
@@ -876,7 +877,7 @@ input,
 textarea,
 select {
     &:required {
-        @include background(repeating-linear-gradient(-45deg, transparent, transparent 35px, rgba(180,0,0,0.05) 35px, rgba(180,0,0,0.05) 70px));
+        @include background(repeating-linear-gradient(45deg, transparent, transparent 35px, #FFF 35px, #FFF 70px));
     }
 }
 
