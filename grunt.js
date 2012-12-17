@@ -1,13 +1,16 @@
 // https://github.com/gruntjs
 // http://gruntjs.com
-
+//
+// Grunt.js Workflow
+// http://merrickchristensen.com/articles/gruntjs-workflow.html
+//
 // global module:false
 module.exports = function(grunt) {
 
     // Project configuration.
     grunt.initConfig({
         meta: {
-            version: '0.1.0',
+            version: '2.4.0',
             banner: '/*! PROJECT_NAME - v<%= meta.version %> - ' +
             '<%= grunt.template.today("yyyy-mm-dd") %>\n' +
             '* http://PROJECT_WEBSITE/\n' +
@@ -23,16 +26,6 @@ module.exports = function(grunt) {
             // grunt qunit will test all .html
             all: ['*.html']
         },
-        /*server: {
-            port: 8000,
-            base: '.'
-        }*/
-        /*concat: {
-            dist: {
-                src: ['', ''],
-                dest: ''
-            }
-        },*/
         min: {
             dist: {
                 src: ['js/ss-social.js', 'js/ss-standard.js', 'js/plugins.js', 'js/script.js'],
@@ -58,7 +51,13 @@ module.exports = function(grunt) {
                 browser: true
             },
             globals: {
-                jQuery: true
+                jQuery: true,
+                require: true,
+                define: true,
+                requirejs: true,
+                describe: true,
+                expect: true,
+                it: true
             }
         },
         uglify: {}
