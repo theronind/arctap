@@ -34,14 +34,14 @@
     $a->addAssetType('css', array(
             'assetPath'  => 'css/',
             'showMethod' => 'qstring',
-            'rootPath'   => '/',
+            'rootPath'   => '',
         ));
 
     // Asset Type JS
     $a->addAssetType('js', array(
             'assetPath'  => 'js/minified/',
             'showMethod' => 'qstring',
-            'rootPath'   => '/',
+            'rootPath'   => '',
         ));
 
     // Host
