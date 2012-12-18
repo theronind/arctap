@@ -892,14 +892,17 @@
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_tr-min.js",
       "fileType" : 64
     },
-    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/style.css" : {
+    "\/scss\/style.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/style.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/scss\/style.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/css\/style.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/milk\/milk.png" : {
       "ignoreWasSetByUser" : 0,
@@ -912,17 +915,14 @@
       "initialSize" : 5121,
       "fileType" : 8192
     },
-    "\/scss\/style.scss" : {
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/style.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/style.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/style.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/style.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/index.php" : {
       "ignoreWasSetByUser" : 0,
@@ -1069,12 +1069,12 @@
       "initialSize" : 384249,
       "fileType" : 8192
     },
-    "\/work\/gradespotter\/gradespotter.php" : {
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/firebug.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/gradespotter\/gradespotter.php",
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/firebug.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1109,12 +1109,12 @@
       "outputAbbreviatedPath" : "\/js\/libs\/minified\/modernizr-2.6.2.min-min.js",
       "fileType" : 64
     },
-    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/firebug.html" : {
+    "\/work\/gradespotter\/gradespotter.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/firebug.html",
+      "inputAbbreviatedPath" : "\/work\/gradespotter\/gradespotter.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1610,17 +1610,6 @@
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_sv-min.js",
       "fileType" : 64
     },
-    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/minified\/jquery-min.js",
-      "fileType" : 64
-    },
     "\/js\/plugins.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -1630,6 +1619,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/minified\/plugins-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/minified\/jquery-min.js",
       "fileType" : 64
     },
     "\/work\/touchingnews\/img\/slide3.png" : {
@@ -1796,6 +1796,15 @@
       "initialSize" : 793,
       "fileType" : 8192
     },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/newsession.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/newsession.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/dist\/additional-methods.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -1806,15 +1815,6 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/dist\/minified\/additional-methods-min.js",
       "fileType" : 64
-    },
-    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/newsession.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/newsession.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/img\/about\/nyc.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2108,6 +2108,17 @@
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tinymce\/themes\/simple\/minified\/editor_template-min.js",
       "fileType" : 64
     },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery.mockjax.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery.mockjax.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/minified\/jquery.mockjax-min.js",
+      "fileType" : 64
+    },
     "\/font\/arctapicons\/lib\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2116,28 +2127,6 @@
       "inputAbbreviatedPath" : "\/font\/arctapicons\/lib\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_sk.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_sk.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_sk-min.js",
-      "fileType" : 64
-    },
-    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/jquery.maskedinput.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/jquery.maskedinput.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/minified\/jquery.maskedinput-min.js",
-      "fileType" : 64
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_hr.js" : {
       "ignoreWasSetByUser" : 1,
@@ -2150,6 +2139,17 @@
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_hr-min.js",
       "fileType" : 64
     },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_sk.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_sk.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_sk-min.js",
+      "fileType" : 64
+    },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/process.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2159,15 +2159,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery.mockjax.js" : {
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/jquery.maskedinput.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery.mockjax.js",
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/jquery.maskedinput.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/minified\/jquery.mockjax-min.js",
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/minified\/jquery.maskedinput-min.js",
       "fileType" : 64
     },
     "\/img\/arctap-icon128x128.png" : {
@@ -2352,6 +2352,17 @@
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/minified\/test-min.js",
       "fileType" : 64
     },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/firebug.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/firebug.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/minified\/firebug-min.js",
+      "fileType" : 64
+    },
     "\/scss\/_flexslider.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2363,17 +2374,6 @@
       "outputAbbreviatedPath" : "\/css\/_flexslider.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/firebug.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/firebug.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/firebug\/minified\/firebug-min.js",
-      "fileType" : 64
     },
     "\/work\/touchingnews\/img\/300x250b.png" : {
       "ignoreWasSetByUser" : 0,

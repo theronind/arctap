@@ -23,7 +23,7 @@ if ( $_POST ) {
     $error = FALSE;
 
     // admin email
-    $admin_email  = "grayghost@grayghostvisuals.com";
+    $admin_email  = "team@arctap.com";
     $subject      = "ArcTap Work Inquiry from $name";
     $body         = "Name: $name \n\r";
     $body        .= "Company: $company \n\r";
@@ -35,7 +35,7 @@ if ( $_POST ) {
 
     // client email
     $client_subject = "ArcTap Project Inquiry Received for $name";
-    $client_body    = "Dear $name. We have your information and inquiry safe and sound for your ArcTap project inquiry. Please be patient while we return your message ASAP to $email.";
+    $client_body    = "Dear $name. We have your information safe and sound regarding your ArcTap project inquiry. Please be patient while we return your message ASAP to $email.";
 
     $headers  = "From: $email \r\n";
     $headers .= "Reply-To: " . strip_tags($admin_email) . '\r\n';
@@ -77,7 +77,7 @@ if ( $_POST ) {
                   </div>";
 
             // send mail to the admin
-            $mail_sent = mail( $admin_email, $subject, $body, "From: hire@arctap.com" );
+            $mail_sent = mail( $admin_email, $subject, $body, "From: webform@arctap.com" );
 
             // send mail to the user
             if ( $mail_sent == TRUE ) {
