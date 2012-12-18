@@ -41,7 +41,7 @@
                                     <input type="text" class="form-input" id="company" name="company" value="<?php if ( isset( $_POST['company'] ) ) { echo htmlspecialchars( $_POST['company'] ); } ?>" placeholder="Company Name">
                                 </li>
                                 <li class="g2">
-                                    <input type="tel" class="form-input" id="phone" name="phone" value="<?php if ( isset( $_POST['phone'] ) ) { echo htmlspecialchars( $_POST['phone'] ); } ?>" placeholder="Phone Number" required>
+                                    <input type="tel" class="form-input" id="phone" name="phone" value="<?php if ( isset( $_POST['phone'] ) ) { echo htmlspecialchars( $_POST['phone'] ); } ?>" placeholder="Phone Number">
                                 </li>
                                 <li class="g2">
                                     <input type="email" class="form-input" id="email" name="email" value="<?php if ( isset( $_POST['email'] ) ) { echo htmlspecialchars( $_POST['email'] ); } ?>" placeholder="* Your Email Address" pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?" required>
@@ -64,8 +64,8 @@
                                 </li>
                                 <li class="g2">
                                     <!-- required -->
-                                    <select name="budget" id="budget">
-                                        <option selected="selected" value="DEFAULT">* Estimated Budget</option>
+                                    <select name="budget" id="budget" required>
+                                        <option selected="selected" value="<?php if ( isset( $_POST['budget'] ) ) { echo htmlspecialchars( $_POST['budget'] ); } ?>">* Estimated Budget</option>
                                         <option value="$20,000 &ndash; $40,000">$20,000 &ndash; $40,000</option>
                                         <option value="$40,000 &ndash; $60,000">$40,000 &ndash; $60,000</option>
                                         <option value="$60,000 &ndash; $80,000">$60,000 &ndash; $80,000</option>

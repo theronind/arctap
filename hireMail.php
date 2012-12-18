@@ -77,11 +77,11 @@ if ( $_POST ) {
                   </div>";
 
             // send mail to the admin
-            $mail_sent = mail( $admin_email, $subject, $body, "From: team@arctap.com" );
+            $mail_sent = mail( $admin_email, $subject, $body, "From: hire@arctap.com" );
 
             // send mail to the user
             if ( $mail_sent == TRUE ) {
-              mail( $email, $client_subject, $client_body, "From: RochesterInstituteOfDogGrooming.com" );
+              mail( $email, $client_subject, $client_body, "From: team@arctap.com" );
             }
         }
     }else {

@@ -1,8 +1,5 @@
-// ==========================================================================
 // Element Supports Attribute
 // feature test for element and attribute support
-// ==========================================================================
-
 function elementSupportsAttribute(element, attribute) {
     var test = document.createElement(element);
     if (attribute in test) {
@@ -18,7 +15,6 @@ $(document).ready(function () {
     // ==========================================================================
     // Flexslider
     // http://flexslider.woothemes.com/
-    // ==========================================================================
 
     $('.flexslider').flexslider({
         animation: "slide",
@@ -28,7 +24,6 @@ $(document).ready(function () {
 
     // ==========================================================================
     // Placeholder Attribute Fallback
-    // ==========================================================================
 
     if (!elementSupportsAttribute('input', 'placeholder')) {
         // input value insertion
@@ -49,7 +44,6 @@ $(document).ready(function () {
     // ==========================================================================
     // Work Sort
     // http://net.tutsplus.com/tutorials/javascript-ajax/creating-a-filterable-portfolio-with-jquery
-    // ==========================================================================
 
     $('#filter a').on('click', function () {
         $('ul#filter .current').removeClass('current');
@@ -74,7 +68,6 @@ $(document).ready(function () {
 
     // ==========================================================================
     // jQuery Form Validate
-    // ==========================================================================
 
     jQuery.validator.setDefaults({
         debug: false,
@@ -103,19 +96,18 @@ $(document).ready(function () {
         // custom rules
         rules: {
             name: {
-                required: true,
-                minlength: 1
+                required: true
             },
             company: {
                 required: false,
-                minlength: 3
+                minlength: 2
             },
             email: {
                 required: true,
                 email: true
             },
             phone: {
-                required: true,
+                required: false,
                 phoneUS: true
             },
             message: {
@@ -127,19 +119,21 @@ $(document).ready(function () {
         // custom messages
         messages: {
             name: {
-                    required: "please enter your first name",
+                    required: "<b class=\"ss-standard ss-alert\"></b> What can we call you by?",
                     minlength:"your name must contain more than 3 characters"
             },
             company: {
-                    required: "please enter your company",
-                    minlength:"company must contain more than 3 characters in length"
+                    minlength:"Your company has less than two letters?"
             },
             email: {
-                    required: "We need your email address",
-                    email: "please use the correct syntax = username@emailprovider.domain"
+                    required: "<b class=\"ss-standard ss-alert\"></b> We need your email address",
+                    email: "Ya' need use the correct syntax partner = username@emailprovider.domain"
+            },
+            budget: {
+                    required: "<b class=\"ss-standard ss-alert\"></b> Oh no! We don't know your budget."
             },
             message: {
-                    required: "We need to know why you're contacting us",
+                    required: "<b class=\"ss-standard ss-alert\"></b> We need to know why you're contacting us",
                     minlength: "your message must contain more than 10 characters in length"
             }
         }
