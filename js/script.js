@@ -68,6 +68,7 @@ $(document).ready(function () {
 
     // ==========================================================================
     // jQuery Form Validate
+    // https://github.com/jzaefferer/jquery-validation
 
     jQuery.validator.setDefaults({
         debug: false,
@@ -107,8 +108,11 @@ $(document).ready(function () {
                 email: true
             },
             phone: {
-                required: false,
+                required: true,
                 phoneUS: true
+            },
+            budget: {
+                required: true
             },
             message: {
                 required: true,
@@ -127,7 +131,10 @@ $(document).ready(function () {
             },
             email: {
                     required: "<b class=\"ss-standard ss-alert\"></b> We need your email address",
-                    email: "Ya' need use the correct syntax partner = username@emailprovider.domain"
+                    email: "Ya' need use the correct syntax (i.e. username@emailprovider.domain)"
+            },
+            phone: {
+                    required: "<b class=\"ss-standard ss-alert\"></b> Oh no! you didn't provide a US phone syntax."
             },
             budget: {
                     required: "<b class=\"ss-standard ss-alert\"></b> Oh no! We don't know your budget."

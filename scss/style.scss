@@ -669,7 +669,6 @@ textarea:invalid {
 #hire #hireForm .g2,
 #hire #hireForm .g4 {
     margin-top: 0;
-    margin-bottom: 0;
 }
 
 #hire .btn {
@@ -890,7 +889,7 @@ label[generated="true"].error {
         background-color: #FAFFBD;
     }
     &.valid {
-        background: white;
+        background: #FFF;
     }
 }
 

@@ -24,14 +24,14 @@ if ( $_POST ) {
 
     // admin email
     $admin_email  = "grayghost@grayghostvisuals.com";
-    $subject  = "ArcTap Work Inquiry from $name";
-    $body     = "Name: $name \n\r";
-    $body    .= "Company: $company \n\r";
-    $body    .= "Phone: $phone \n\r";
-    $body    .= "Email: $email \n\r";
-    $body    .= "Website: $website \n\r";
-    $body    .= "Budget: $budget \n\r";
-    $body    .= "Message: $message";
+    $subject      = "ArcTap Work Inquiry from $name";
+    $body         = "Name: $name \n\r";
+    $body        .= "Company: $company \n\r";
+    $body        .= "Phone: $phone \n\r";
+    $body        .= "Email: $email \n\r";
+    $body        .= "Website: $website \n\r";
+    $body        .= "Budget: $budget \n\r";
+    $body        .= "Message: $message";
 
     // client email
     $client_subject = "ArcTap Project Inquiry Received for $name";
