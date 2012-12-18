@@ -671,6 +671,10 @@ textarea:invalid {
     margin-top: 0;
 }
 
+#hire #hireForm .g2 {
+    margin-bottom: 20px;
+}
+
 #hire .btn {
     float: right;
     margin-bottom: 10px;
@@ -737,14 +741,6 @@ textarea:invalid {
 // $Form
 // ==========================================================================
 
-// label {
-//     color: #b6bcbf;
-//     position: absolute;
-//     top: 8px;
-//     left: 12px;
-//     cursor: text;
-// }
-
 #hireForm {
     &:after {
         content: "";
@@ -783,7 +779,6 @@ textarea {
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.20);
     display: inline-block;
     height: 40px;
-    margin-bottom: 0px;
     padding: 6px 4px 4px 10px;
     width: 100%;
     vertical-align: baseline;
@@ -852,7 +847,7 @@ textarea:-moz-placeholder {
     border-radius: 3px;
     color: #8A1F11;
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 10px;
 }
 
