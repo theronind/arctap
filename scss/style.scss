@@ -746,17 +746,6 @@ textarea:invalid {
 // }
 
 #hireForm {
-    ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
-    li {
-        position: relative;
-    }
-}
-
-#hireForm {
     &:after {
         content: "";
         border-bottom: 1px solid #ccc;
@@ -765,10 +754,14 @@ textarea:invalid {
         padding: .5em 0;
         width: 96%;
     }
-}
-
-#message {
-    min-height: 100px;
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        position: relative;
+    }
 }
 
 input[type="name"],
@@ -790,7 +783,7 @@ textarea {
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.20);
     display: inline-block;
     height: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     padding: 6px 4px 4px 10px;
     width: 100%;
     vertical-align: baseline;
@@ -810,29 +803,14 @@ textarea:focus {
 
 select {
     background: #f8f8f8;
-    background: -moz-linear-gradient(top,  #f8f8f8 0%, #efefef 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#efefef));
-    background: -webkit-linear-gradient(top,  #f8f8f8 0%,#efefef 100%);
-    background: -o-linear-gradient(top,  #f8f8f8 0%,#efefef 100%);
-    background: -ms-linear-gradient(top,  #f8f8f8 0%,#efefef 100%);
-    background: linear-gradient(to bottom,  #f8f8f8 0%,#efefef 100%);
+    @include background-image(linear-gradient(to bottom, #efefef 0%, #f8f8f8 100%));
     border: 1px solid #C0C2C4;
     border-radius: 3px 3px 3px 3px;
-    box-shadow: 0 -2px 0 rgba(50, 50, 50, 0.1) inset, 0 1px 0 #FFFFFF inset;
     color: #6A777D;
     height: 40px;
-    margin-bottom: 20px;
-    outline: medium none;
-    overflow: hidden;
     padding: 9px 8px 8px 7px;
     vertical-align: top;
     width: 100%;
-}
-
-select option,
-select optgroup {
-    background-color: #fff;
-    padding:2px;
 }
 
 input::-webkit-input-placeholder,
@@ -849,6 +827,10 @@ textarea:-moz-placeholder {
 // ==========================================================================
 // $Form Validation
 // ==========================================================================
+
+#message {
+    min-height: 100px;
+}
 
 .success {
     background-color: #e3fbee;
@@ -869,7 +851,8 @@ textarea:-moz-placeholder {
     border: 1px solid #FBC2C4;
     border-radius: 3px;
     color: #8A1F11;
-    display: block;
+    display: inline-block;
+    margin-top: 20px;
     padding: 10px;
 }
 
@@ -880,7 +863,6 @@ textarea:-moz-placeholder {
 label[generated="true"].error {
     @extend .error_message;
     width: 100%;
-    margin-bottom: 20px;
 }
 
 .form-input,
