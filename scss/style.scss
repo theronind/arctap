@@ -846,14 +846,19 @@ textarea:-moz-placeholder {
     color: #bfbfbf;
 }
 
+
+// ==========================================================================
+// $Form Validation
+// ==========================================================================
+
 .success {
     background-color: #e3fbee;
     border: 1px solid #d1e8dc;
     border-radius: 3px;
     color: #6db38e;
     clear: both;
-    display: block;
     padding: 10px;
+    display: none;
 }
 
 .server-success {
@@ -868,14 +873,26 @@ textarea:-moz-placeholder {
     display: block;
     padding: 10px;
 }
+
 .server-error {
     @extend .error_message;
 }
-// JS Error Messages
+
 label[generated="true"].error {
     @extend .error_message;
     width: 100%;
     margin-bottom: 20px;
+}
+
+.form-input,
+#message {
+    &.error {
+        background-color: #FAFFBD;
+    }
+}
+
+.form-input.valid {
+    background: white;
 }
 
 input,
