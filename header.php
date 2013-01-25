@@ -157,9 +157,8 @@
     <!-- DNS prefetching -->
     <!-- http://csswizardry.com/2013/01/front-end-performance-for-web-designers-and-front-end-developers -->
     <!-- https://github.com/csswizardry/csswizardry.github.com/blob/b52472cea6a0f087944afda750839d7c96fab7d3/_layouts/default.html#L7-L15 -->
-    <link rel="dns-prefetch" href="//use.typekit.net">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="dns-prefetch" href="//www.google-analytics.com">
-    <link rel="dns-prefetch" href="//maps.googleapis.com">
     <!-- web fonts -->
     <link href="//fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
     <!-- stylesheet -->
