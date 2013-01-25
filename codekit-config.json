@@ -1,6 +1,6 @@
 {
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
-  "creatorBuild" : "7978",
+  "creatorBuild" : "8248",
   "files" : {
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/css\/cmxformTemplate.css" : {
       "ignoreWasSetByUser" : 0,
@@ -355,6 +355,17 @@
       "initialSize" : 310781,
       "fileType" : 8192
     },
+    "\/js\/libs\/jquery-1.9.0.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-1.9.0.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/minified\/jquery-1.9.0.min-min.js",
+      "fileType" : 64
+    },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/images\/button.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -366,6 +377,15 @@
       "initialSize" : 1546,
       "fileType" : 8192
     },
+    "\/about.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/about.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/multipart\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -375,14 +395,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/about.php" : {
+    "\/img\/team\/rory-pettengill.jpeg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/about.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/img\/team\/rory-pettengill.jpeg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/team\/rory-pettengill.jpeg",
+      "initialSize" : 17675,
+      "fileType" : 4096
     },
     "\/header.php" : {
       "ignoreWasSetByUser" : 0,
@@ -404,16 +426,16 @@
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_ro-min.js",
       "fileType" : 64
     },
-    "\/apple-touch-icon.png" : {
+    "\/work\/touchingnews\/img\/moon.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/apple-touch-icon.png",
+      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/moon.jpg",
       "processed" : 1,
-      "outputAbbreviatedPath" : "\/apple-touch-icon.png",
-      "initialSize" : 3476,
-      "fileType" : 8192
+      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/moon.jpg",
+      "initialSize" : 30591,
+      "fileType" : 4096
     },
     "\/js\/script.js" : {
       "ignoreWasSetByUser" : 0,
@@ -426,16 +448,16 @@
       "outputAbbreviatedPath" : "\/js\/minified\/script-min.js",
       "fileType" : 64
     },
-    "\/work\/touchingnews\/img\/moon.jpg" : {
+    "\/apple-touch-icon.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/work\/touchingnews\/img\/moon.jpg",
+      "inputAbbreviatedPath" : "\/apple-touch-icon.png",
       "processed" : 1,
-      "outputAbbreviatedPath" : "\/work\/touchingnews\/img\/moon.jpg",
-      "initialSize" : 30591,
-      "fileType" : 4096
+      "outputAbbreviatedPath" : "\/apple-touch-icon.png",
+      "initialSize" : 3476,
+      "fileType" : 8192
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_fa.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1027,17 +1049,6 @@
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/test\/qunit\/minified\/qunit-min.js",
       "fileType" : 64
     },
-    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/images\/sf.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/images\/sf.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/images\/sf.png",
-      "initialSize" : 3745,
-      "fileType" : 8192
-    },
     "\/grunt.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -1048,6 +1059,17 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/minified\/grunt-min.js",
       "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/images\/sf.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/images\/sf.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/images\/sf.png",
+      "initialSize" : 3745,
+      "fileType" : 8192
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/image_req.php" : {
       "ignoreWasSetByUser" : 0,
@@ -1359,17 +1381,6 @@
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/minified\/mktSignup-min.js",
       "fileType" : 64
     },
-    "\/js\/libs\/jquery-1.8.3.min.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/jquery-1.8.3.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/libs\/minified\/jquery-1.8.3.min-min.js",
-      "fileType" : 64
-    },
     "\/img\/bg_direction_nav.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1577,17 +1588,6 @@
       "initialSize" : 382567,
       "fileType" : 8192
     },
-    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_sr.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_sr.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_sr-min.js",
-      "fileType" : 64
-    },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_hu.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1597,6 +1597,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_hu-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_sr.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_sr.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_sr-min.js",
       "fileType" : 64
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_sv.js" : {
@@ -1796,6 +1807,15 @@
       "initialSize" : 793,
       "fileType" : 8192
     },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/newsession.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/newsession.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/dist\/additional-methods.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1806,15 +1826,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/dist\/minified\/additional-methods-min.js",
       "fileType" : 64
-    },
-    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/newsession.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/captcha\/newsession.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/img\/about\/nyc.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2097,16 +2108,14 @@
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_bg-min.js",
       "fileType" : 64
     },
-    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tinymce\/themes\/simple\/editor_template.js" : {
+    "\/font\/arctapicons\/lib\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tinymce\/themes\/simple\/editor_template.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tinymce\/themes\/simple\/minified\/editor_template-min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/font\/arctapicons\/lib\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/jquery.mockjax.js" : {
       "ignoreWasSetByUser" : 0,
@@ -2119,15 +2128,6 @@
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/lib\/minified\/jquery.mockjax-min.js",
       "fileType" : 64
     },
-    "\/font\/arctapicons\/lib\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/font\/arctapicons\/lib\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_hr.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2137,6 +2137,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_hr-min.js",
+      "fileType" : 64
+    },
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_sk.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_sk.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_sk-min.js",
       "fileType" : 64
     },
     "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/marketo\/jquery.maskedinput.js" : {
@@ -2159,15 +2170,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_sk.js" : {
+    "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tinymce\/themes\/simple\/editor_template.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/messages_sk.js",
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tinymce\/themes\/simple\/editor_template.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/localization\/minified\/messages_sk-min.js",
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-validation-1.10.0.zip Folder\/demo\/tinymce\/themes\/simple\/minified\/editor_template-min.js",
       "fileType" : 64
     },
     "\/img\/arctap-icon128x128.png" : {
@@ -2596,6 +2607,7 @@
   ],
   "projectSettings" : {
     "hamlNoEscapeInAttributes" : 0,
+    "kitAutoOutputPathStyle" : 0,
     "lessOutputStyle" : 0,
     "hamlAutoOutputPathReplace2" : "",
     "draggedImportConcatenationStyle" : 1,
@@ -2627,6 +2639,7 @@
     "hamlOutputStyle" : 0,
     "stylusAutoOutputPathRelativePath" : "..\/css",
     "jsCheckerIndent" : 4,
+    "kitAutoOutputPathRelativePath" : "",
     "lessAutoOutputPathReplace2" : "css",
     "jadeAutoOutputPathReplace2" : "",
     "shouldRunBless" : 1,
@@ -2651,7 +2664,10 @@
     "coffeeAutoOutputPathReplace1" : "",
     "hamlUseDoubleQuotes" : 0,
     "coffeeAutoOutputPathReplace2" : "",
+    "kitAutoOutputPathReplace1" : "",
     "uglifyReservedNamesString" : "",
+    "coffeeOutputStyle" : 0,
+    "slimAutoOutputPathRelativePath" : "",
     "jsHintFlags" : {
       "latedef" : 1,
       "newcap" : 1,
@@ -2710,8 +2726,6 @@
       "laxbreak" : 0,
       "plusplus" : 0
     },
-    "coffeeOutputStyle" : 0,
-    "slimAutoOutputPathRelativePath" : "",
     "jsLintFlags" : {
       "white" : 0,
       "bitwise" : 0,
@@ -2737,7 +2751,6 @@
       "confusion" : 0,
       "evil" : 0,
       "on" : 0,
-      "cap" : 0,
       "windows" : 0,
       "devel" : 0,
       "rhino" : 0,
@@ -2763,6 +2776,7 @@
     "slimAutoOutputPathReplace2" : "",
     "jadeCompileDebug" : 1,
     "slimRailsCompatible" : 0,
+    "kitAutoOutputPathReplace2" : "",
     "lessDebugStyle" : 0,
     "javascriptAutoOutputPathRelativePath" : "minified\/",
     "slimAutoOutputPathStyle" : 0

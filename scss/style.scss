@@ -500,6 +500,11 @@ textarea:invalid {
     img {
         margin: -35px 0px -60px 0px;
     }
+    @media screen and (max-width: 47.9375em) {
+        img[src="/img/team/rory-pettengill.jpeg"] {
+            width: 100%;
+        }
+    }
 }
 
 .team-links {

@@ -31,6 +31,7 @@
                                 <ul class="team-links">
                                     <li><a href="http://aaron.im/" class="ss-icon" rel="external me">&#x1F30E;</a></li>
                                     <li><a href="https://twitter.com/llahnoraa" class="ss-icon ss-social-circle" rel="external me">&#xF611;</a></li>
+                                    <li><a href="https://www.statuschart.com/timothybsmith" aria-hidden="true" data-icon="&#xe000;" rel="external me"></a></li>
                                 </ul>
                                 <h4 class="job-title">Designer</h4>
                             </div><!--/bio-->
@@ -42,7 +43,19 @@
                                 <ul class="team-links">
                                     <li><a href="http://timothybsmith.com/" class="ss-icon" rel="external me">&#x1F30E;</a></li>
                                     <li><a href="https://twitter.com/timothybsmith" class="ss-icon ss-social-circle" rel="external me">&#xF611;</a></li>
-                                    <li><a href="https://www.statuschart.com/timothybsmith" aria-hidden="true" data-icon="&#xe000;" rel="external me"></a></li>
+                                    <li><a href="https://www.statuschart.com/llahnoraa" aria-hidden="true" data-icon="&#xe000;" rel="external me"></a></li>
+                                </ul>
+                                <h4 class="job-title">Designer</h4>
+                            </div><!--/bio-->
+                        </li>
+                        <li class="g1_5">
+                            <div class="team-pic"><img src="/img/team/rory-pettengill.jpeg" alt=""></div>
+                            <div class="bio">
+                                <h3 class="arctap-member">Rory Pettengill</h3>
+                                <ul class="team-links">
+                                    <li><a href="http://www.rorypettingill.com" class="ss-icon" rel="external me">&#x1F30E;</a></li>
+                                    <li><a href="https://twitter.com/rorypettingill" class="ss-icon ss-social-circle" rel="external me">&#xF611;</a></li>
+                                    <li><a href="https://www.statuschart.com/rorypettingill" aria-hidden="true" data-icon="&#xe000;" rel="external me"></a></li>
                                 </ul>
                                 <h4 class="job-title">Designer</h4>
                             </div><!--/bio-->
@@ -54,6 +67,7 @@
                                 <ul class="team-links">
                                     <li><a href="http://jarodreyes.com/" class="ss-icon" rel="external me">&#x1F30E;</a></li>
                                     <li><a href="https://twitter.com/jreyesdesign" class="ss-icon ss-social-circle" rel="external me">&#xF611;</a></li>
+                                    <li><a href="https://www.statuschart.com/jarod" aria-hidden="true" data-icon="&#xe000;" rel="external me"></a></li>
                                 </ul>
                                 <h4 class="job-title">Front&ndash;end Developer</h4>
                             </div><!--/bio-->
@@ -65,6 +79,7 @@
                                 <ul class="team-links">
                                     <li><a href="http://grayghostvisuals.com" class="ss-icon" rel="external me">&#x1F30E;</a></li>
                                     <li><a href="https://twitter.com/gryghostvisuals" class="ss-icon ss-social-circle" rel="external me">&#xF611;</a></li>
+                                    <li><a href="https://www.statuschart.com/dennisgaebel" aria-hidden="true" data-icon="&#xe000;" rel="external me"></a></li>
                                 </ul>
                                 <h4 class="job-title">Front&ndash;end Developer</h4>
                             </div><!--/bio-->

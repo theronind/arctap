@@ -154,7 +154,15 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link rel="shortcut icon" href="/favicon.png">
-    <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <!-- DNS prefetching -->
+    <!-- http://csswizardry.com/2013/01/front-end-performance-for-web-designers-and-front-end-developers -->
+    <!-- https://github.com/csswizardry/csswizardry.github.com/blob/b52472cea6a0f087944afda750839d7c96fab7d3/_layouts/default.html#L7-L15 -->
+    <link rel="dns-prefetch" href="//use.typekit.net">
+    <link rel="dns-prefetch" href="//www.google-analytics.com">
+    <link rel="dns-prefetch" href="//maps.googleapis.com">
+    <!-- web fonts -->
+    <link href="//fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <!-- stylesheet -->
     <link rel="stylesheet" href="<?php echo $a->url('css', 'style.css') ?>">
     <!-- modernizr -->
     <script src="/js/libs/modernizr-2.6.2.min.js"></script>
