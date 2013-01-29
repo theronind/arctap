@@ -51,7 +51,7 @@
                         <li class="g1_5">
                             <div class="team-pic"><img src="/img/team/rory-pettengill.jpeg" alt=""></div>
                             <div class="bio">
-                                <h3 class="arctap-member">Rory Pettengill</h3>
+                                <h3 class="arctap-member">Rory Pettingill</h3>
                                 <ul class="team-links">
                                     <li><a href="http://www.rorypettingill.com" class="ss-icon" rel="external me">&#x1F30E;</a></li>
                                     <li><a href="https://twitter.com/rorypettingill" class="ss-icon ss-social-circle" rel="external me">&#xF611;</a></li>
