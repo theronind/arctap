@@ -34,7 +34,7 @@
                             <h2><a href="http://gradespotter.com" rel="external"><img src="/work/gradespotter/img/icon.png" alt=""><span>Grade Spotter</span></a></h2>
                             <div class="buttons"><a href="http://itunes.apple.com/us/app/grade-spotter/id515154594?ls=1&mt=8" class="btn btn-dlapp" rel="external">Download App<i class="ss-icon">&#x1F4F1;</i></a><a href="http://gradespotter.com" class="btn btn-primary" rel="external">Visit Site<i class="ss-icon">&#x1F4BB;</i></a></div>
                         </div><!--/title-->
-                        <p>Grade Spotter is a full-featured restaurant inspection guide for your iPhone. There are no more excuses for the unknown reasons behind your favorite NYC restaurant's grade. This App was hand crafter by <a href="http://twitter.com/kennedysgarage">Kennedy</a> and <a href="http://twitter.com/rjowens">Richard Owens</a>.</p>
+                        <p>Grade Spotter is a full-featured restaurant inspection guide for your iPhone. There are no more excuses for the unknown reasons behind your favorite NYC restaurant's grade. This App was hand crafter by <a href="https://www.statuschart.com/kennedysgarage">Kennedy</a> and <a href="https://www.statuschart.com/rjowens">Richard Owens</a>.</p>
                     </div><!--/g4-->
                 </section><!--/content-->
 
