@@ -61,15 +61,13 @@
                             </div><!--/bio-->
                         </li>
                         <li class="g1_5">
-                            <div class="team-pic"><img src="/img/team/jarod-reyes.jpg" alt=""></div>
+                            <div class="team-pic"><img src="/img/team/ratzinger.png" alt=""></div>
                             <div class="bio">
-                                <h3 class="arctap-member">Jarod Reyes</h3>
+                                <h3 class="arctap-member">Joey Ratzinger</h3>
                                 <ul class="team-links">
-                                    <li><a href="http://jarodreyes.com/" class="ss-icon" rel="external me">&#x1F30E;</a></li>
-                                    <li><a href="https://twitter.com/jreyesdesign" class="ss-icon ss-social-circle" rel="external me">&#xF611;</a></li>
-                                    <li><a href="https://www.statuschart.com/jarod" aria-hidden="true" data-icon="&#xe000;" rel="external me"></a></li>
+                                    <li><a href="http://en.wikipedia.org/wiki/Pope_Benedict_XVI" class="ss-icon" rel="external me">&#x1F30E;</a></li>
                                 </ul>
-                                <h4 class="job-title">Front&ndash;end Developer</h4>
+                                <h4 class="job-title">International Relations</h4>
                             </div><!--/bio-->
                         </li>
                         <li class="g1_5">
@@ -148,39 +146,6 @@
                             <img src="http://placehold.it/460x460"/>
                             <h3 class="arctap-member">Stephen Cannizzaro</h3><h4 class="job-title">Front-end Developer</h4>
                         </li>-->
-                        <li class="g1_5">
-                            <div class="team-pic"><img src="/img/team/sara-kennedy.jpg" alt=""></div>
-                            <div class="bio">
-                                <h3 class="arctap-member">Sara Kennedy</h3>
-                                <ul class="team-links">
-                                    <li><a href="https://twitter.com/gatorsaranyc" class="ss-icon ss-social-circle" rel="external me">&#xF611;</a></li>
-                                </ul>
-                                <h4 class="job-title">Brand Manager</h4>
-                            </div><!--/bio-->
-                        </li>
-                        <li class="g1_5">
-                            <div class="team-pic"><img src="/img/team/jenna-santana.jpg" alt=""></div>
-                            <div class="bio">
-                                <h3 class="arctap-member">Jenna Santana</h3>
-                                <ul class="team-links">
-                                    <li><a href="http://www.jennasantana.com/" class="ss-icon ss-icon" rel="external me">&#x1F30E;</a></li>
-                                    <li><a href="https://twitter.com/vh1jenna" class="ss-icon ss-social-circle" rel="external me">&#xF611;</a></li>
-                                    <li><a href="https://www.statuschart.com/jennasantana" aria-hidden="true" data-icon="&#xe000;" rel="external me"></a></li>
-                                </ul>
-                                <h4 class="job-title">Copywriter</h4>
-                            </div><!--/bio-->
-                        </li>
-                        <li class="g1_5">
-                            <div class="team-pic"><img src="/img/team/kristina-stpeter.jpg" alt=""></div>
-                            <div class="bio">
-                                <h3 class="arctap-member">Kristina St. Peter</h3>
-                                <ul class="team-links">
-                                    <li><a href="http://kristinastpeter.com" class="ss-icon" rel="external me">&#x1F30E;</a></li>
-                                    <li><a href="https://twitter.com/kristinastpeter" class="ss-icon ss-social-circle" rel="external me">&#xF611;</a></li>
-                                </ul>
-                                <h4 class="job-title">Public Relations Coordinator</h4>
-                            </div><!--/bio-->
-                        </li>
                         <li class="g1_5">
                             <div class="team-pic"><img src="/img/team/justin-lamonica.jpg" alt=""></div>
                             <div class="bio">
