@@ -61,13 +61,15 @@
                             </div><!--/bio-->
                         </li>
                         <li class="g1_5">
-                            <div class="team-pic"><img src="/img/team/ratzinger.png" alt=""></div>
+                            <div class="team-pic"><img src="/img/team/jarod-reyes.jpg" alt=""></div>
                             <div class="bio">
-                                <h3 class="arctap-member">Joey Ratzinger</h3>
+                                <h3 class="arctap-member">Jarod Reyes</h3>
                                 <ul class="team-links">
-                                    <li><a href="http://en.wikipedia.org/wiki/Pope_Benedict_XVI" class="ss-icon" rel="external me">&#x1F30E;</a></li>
+                                    <li><a href="http://jarodreyes.com/" class="ss-icon" rel="external me">&#x1F30E;</a></li>
+                                    <li><a href="https://twitter.com/jreyesdesign" class="ss-icon ss-social-circle" rel="external me">&#xF611;</a></li>
+                                    <li><a href="https://www.statuschart.com/jarod" aria-hidden="true" data-icon="&#xe000;" rel="external me"></a></li>
                                 </ul>
-                                <h4 class="job-title">International Relations</h4>
+                            <h4 class="job-title">Front&ndash;end Developer</h4>
                             </div><!--/bio-->
                         </li>
                         <li class="g1_5">
