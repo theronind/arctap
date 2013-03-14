@@ -158,6 +158,18 @@
                                 <h4 class="job-title">Account Supervisor</h4>
                             </div><!--/bio-->
                         </li>
+                        <li class="g1_5">
+                            <div class="team-pic"><img src="/img/team/rodrigo-sanchez.jpg" alt="Meow"></div>
+                            <div class="bio">
+                                <h3 class="arctap-member">Rodrigo Sanchez</h3>
+                                <ul class="team-links">
+                                    <li><a href="http://flightstudio1.com" class="ss-icon" rel="external me">&#x1F30E;</a></li>
+                                    <li><a href="https://twitter.com/rodrigosanchez" class="ss-icon ss-social-circle" rel="external me">&#xF611;</a></li>
+                                    <li><a href="https://www.statuschart.com/rodrigosanchez" aria-hidden="true" data-icon="&#xe000;" rel="external me"></a></li>
+                                </ul>
+                                <h4 class="job-title">Cat Herder</h4>
+                            </div><!--/bio-->
+                        </li>
                     </ul>
                 </section><!--/content-->
             </div><!--/page-->
