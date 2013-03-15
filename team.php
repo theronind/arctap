@@ -170,6 +170,18 @@
                                 <h4 class="job-title">Cat Herder</h4>
                             </div><!--/bio-->
                         </li>
+                        <li class="g1_5">
+                            <div class="team-pic"><img src="/img/team/nicole-dominguez.jpg" alt=""></div>
+                            <div class="bio">
+                                <h3 class="arctap-member">Nicole Dominguez</h3>
+                                <ul class="team-links">
+                                    <li><a href="http://nicoledominguez.com" class="ss-icon" rel="external me">&#x1F30E;</a></li>
+                                    <li><a href="https://twitter.com/sodevious" class="ss-icon ss-social-circle" rel="external me">&#xF611;</a></li>
+                                    <li><a href="https://www.statuschart.com/sodevious" aria-hidden="true" data-icon="&#xe000;" rel="external me"></a></li>
+                                </ul>
+                                <h4 class="job-title">Designer</h4>
+                            </div><!--/bio-->
+                        </li>
                     </ul>
                 </section><!--/content-->
             </div><!--/page-->

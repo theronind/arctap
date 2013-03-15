@@ -37,3 +37,4 @@ A Freelancer Guild of Talented Craftsmen.
 * Kristina St. Peter -
 * Justin LaMonica -
 * Jenna Santana -
+* Nicole Dominguez - nicoledominguez@me.com
