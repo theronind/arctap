@@ -183,7 +183,7 @@
                             </div><!--/bio-->
                         </li>
                         <li class="g1_5">
-                            <div class="team-pic"><img src="/img/team/wookie.jpg" alt=""></div>
+                            <div class="team-pic"><img src="/img/team/wookie-the-cat.jpg" alt=""></div>
                             <div class="bio">
                                 <h3 class="arctap-member">Wookie</h3>
                                 <h4 class="job-title">Office Pet</h4>
