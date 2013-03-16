@@ -31,7 +31,7 @@
                                 <ul class="team-links">
                                     <li><a href="http://aaron.im/" class="ss-icon" rel="external me">&#x1F30E;</a></li>
                                     <li><a href="https://twitter.com/llahnoraa" class="ss-icon ss-social-circle" rel="external me">&#xF611;</a></li>
-                                    <li><a href="https://www.statuschart.com/timothybsmith" aria-hidden="true" data-icon="&#xe000;" rel="external me"></a></li>
+                                    <li><a href="https://www.statuschart.com/llahnoraa" aria-hidden="true" data-icon="&#xe000;" rel="external me"></a></li>
                                 </ul>
                                 <h4 class="job-title">Designer</h4>
                             </div><!--/bio-->
@@ -43,7 +43,7 @@
                                 <ul class="team-links">
                                     <li><a href="http://timothybsmith.com/" class="ss-icon" rel="external me">&#x1F30E;</a></li>
                                     <li><a href="https://twitter.com/timothybsmith" class="ss-icon ss-social-circle" rel="external me">&#xF611;</a></li>
-                                    <li><a href="https://www.statuschart.com/llahnoraa" aria-hidden="true" data-icon="&#xe000;" rel="external me"></a></li>
+                                    <li><a href="https://www.statuschart.com/timothybsmith" aria-hidden="true" data-icon="&#xe000;" rel="external me"></a></li>
                                 </ul>
                                 <h4 class="job-title">Designer</h4>
                             </div><!--/bio-->
