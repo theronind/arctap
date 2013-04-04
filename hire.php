@@ -98,7 +98,7 @@
 
                     <div class="g1_5">
                         <h3>Rate</h3>
-                        <p class="last">$10,000/week per resource. Why charge weekly? We have found that this enables us to deliver more features, at a higher quality, over the life of a project.</p>
+                        <p class="last">We charge per week per each resource. Why charge weekly? We have found that this enables us to deliver more features, at a higher quality, over the life of a project.</p>
                     </div><!--/g1_5-->
 
                     <div class="g1_5">
