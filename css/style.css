@@ -6,7 +6,10 @@ html,body{
   text-rendering: optimizeLegibility;
   width: 100%;
 }
+
+
 /* ========================================================= Typography ===*/
+
 @font-face {
     font-family: 'TitilliumBold';
     src: url('/font/titillium/TitilliumText22L005-webfont.eot');
@@ -43,6 +46,33 @@ p{
   font-size: 18px;
   margin: 0;
 }
+
+
+/* ========================================================= Header Animation ===*/
+
+/* We'll come back to this when gulp and sass is installed */
+
+header > img[src*="ginger.svg"] {
+  -webkit-transform: translateX(-500px) translateZ(0);
+  -webkit-animation: slideIn 600ms 1 forwards normal;
+}
+
+.welcome {
+  -webkit-transform: translateY(-150px);
+  -webkit-animation: fadeIn 600ms 1 forwards normal;
+  opacity: 0;
+}
+
+@-webkit-keyframes slideIn {
+  from {-webkit-transform: translateX(-500px);}
+  to {-webkit-transform: translateX(0);}
+}
+
+@-webkit-keyframes fadeIn {
+  to {-webkit-transform: translateY(0);opacity: 1;}
+}
+
+
 /* ========================================================= Header ===*/
 header{
   margin: 8% 0;
