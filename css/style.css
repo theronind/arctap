@@ -54,12 +54,12 @@ p{
 
 header > img[src*="ginger.svg"] {
   -webkit-transform: translateX(-500px) translateZ(0);
-  -webkit-animation: slideIn 600ms 1 forwards normal;
+  -webkit-animation: slideIn 600ms 1 forwards normal cubic-bezier(.4,0,0,.8);
 }
 
 .welcome {
   -webkit-transform: translateY(-150px);
-  -webkit-animation: fadeIn 600ms 1 forwards normal;
+   -webkit-animation: fadeIn 600ms 1 forwards normal cubic-bezier(.4,0,0,.8);
   opacity: 0;
 }
 
