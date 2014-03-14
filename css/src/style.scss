@@ -1,29 +1,48 @@
-// ========================================================= Fonts
+// ==========================================================================
+// $Variables
+// ==========================================================================
 
-@font-face {
-	font-family: 'TitilliumBold';
-	src: url('/font/titillium/TitilliumText22L005-webfont.eot');
-	src: url('/font/titillium/TitilliumText22L005-webfont?#iefix') format('embedded-opentype'),
-			 url('/font/titillium/TitilliumText22L005-webfont.woff') format('woff'),
-			 url('/font/titillium/TitilliumText22L005-webfont.ttf') format('truetype'),
-			 url('/font/titillium/TitilliumText22L005-webfont.svg#TitilliumText22L005-webfont') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'ProximaNova';
-	src: url('/font/proximanova/proximanova-regular-webfont.eot');
-	src: url('/font/proximanova/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
-			 url('/font/proximanova/proximanova-regular-webfont.woff') format('woff'),
-			 url('/font/proximanova/proximanova-regular-webfont.ttf') format('truetype'),
-			 url('/font/proximanova/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
+// @import "variables/global";
 
 
-// ========================================================= Base
+// ==========================================================================
+// $Functions
+// ==========================================================================
+
+// 1. Aspect Ratio
+// 2. Context Calc
+// 3. Strip Units
+
+@import "functions/aspect-ratio";
+@import "functions/context-calc";
+@import "functions/strip-units";
+
+
+// ==========================================================================
+// $Placeholders
+// ==========================================================================
+
+// 1. Psuedo Content
+// 2. List Styling
+// 3. Highlight
+// 4. Display
+// 5. Vertical Align
+// 5. Font Loader
+
+@import "placeholders/psuedo-elements";
+@import "placeholders/list-styling";
+@import "placeholders/highlight";
+@import "placeholders/display";
+@import "placeholders/vertical-align";
+@import "placeholders/font-loader";
+
+
+// ==========================================================================
+// $Utility
+// ==========================================================================
+
+@import "utility/reset";
+@import "utility/base";
 
 html,
 body {
@@ -36,7 +55,11 @@ body {
 }
 
 
-// ========================================================= Typography
+// ==========================================================================
+// $Typography
+// ==========================================================================
+
+@import "typography/fonts";
 
 h1 {
 	font-family: 'TitilliumBold', sans-serif;
@@ -58,7 +81,9 @@ p {
 }
 
 
-// ========================================================= Header Animation
+// ==========================================================================
+// $Modules
+// ==========================================================================
 
 $ginger-x: -500px;
 $welcome-y: -150px;
@@ -75,9 +100,6 @@ header {
 	animation: fadeIn 600ms 1 forwards normal cubic-bezier(.4,0,0,.8);
 	opacity: 0;
 }
-
-
-// ========================================================= Keyframes
 
 @keyframes slideIn {
 	from {
@@ -96,9 +118,6 @@ header {
 	}
 }
 
-
-// ========================================================= Header
-
 header {
 	margin: 8% 0;
 }
@@ -116,9 +135,6 @@ header img {
 	vertical-align: middle;
 	width: 100%;
 }
-
-
-// ========================================================= Members
 
 .members{
 	background-color: #f7f7f7;
@@ -150,9 +166,6 @@ header img {
 	text-align: center;
 }
 
-
-// ========================================================= Footer
-
 footer {
 	margin: 0 0 2%;
 	text-align: center;
@@ -167,7 +180,28 @@ footer p{
 }
 
 
-// ========================================================= Adapt
+// ==========================================================================
+// $Helpers
+// ==========================================================================
+
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; }
+.ir br { display: none; }
+.hidden { display: none !important; visibility: hidden; }
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+.invisible { visibility: hidden; }
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+.clear{clear: both;}
+
+.hide {display: none;}
+.show {display: block;}
+
+
+// ==========================================================================
+// $Breakpoints
+// ==========================================================================
 
 @media all and (min-width: 460px) {
 
@@ -219,4 +253,24 @@ footer p{
 		font-size: 28px;
 	}
 
+}
+
+
+// ==========================================================================
+// $Print
+// ==========================================================================
+
+@media print {
+    * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; }
+    a, a:visited { text-decoration: underline; }
+    a[href]:after { content: " (" attr(href) ")"; }
+    abbr[title]:after { content: " (" attr(title) ")"; }
+    .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
+    pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+    thead { display: table-header-group; }
+    tr, img { page-break-inside: avoid; }
+    img { max-width: 100% !important; }
+    @page { margin: 0.5cm; }
+    p, h2, h3 { orphans: 3; widows: 3; }
+    h2, h3 { page-break-after: avoid; }
 }
