@@ -1,1236 +1,169 @@
-
-// ==========================================================================
-// $Tool We Use For This Project
-// ==========================================================================
-
-// SPRITES
-// http://websemantics.co.uk/online_tools/image_to_data_uri_convertor/result/
-
-// Adobe Illustrator CS4
-
-
-// ==========================================================================
-// $Compass
-// ==========================================================================
-
-@import "compass";
-
-
-// ==========================================================================
-// $Normalize
-// ==========================================================================
-
-@import "normalize";
-
-
-// ==========================================================================
-// $H5BP Resets
-// ==========================================================================
-
-//@import "reset";
-@import "h5bp-resets";
-
-
-// ==========================================================================
-// $Symbolset
-// ==========================================================================
-
-@import "ss-social";
-@import "ss-standard";
-
-
-// ==========================================================================
-// $Typography
-// ==========================================================================
-
-@import "fontface";
-@import "typography";
-
-
-// ==========================================================================
-// $Plugins
-// ==========================================================================
-
-@import "flexslider";
-
-
-// ==========================================================================
-// $Variables
-// ==========================================================================
-
-@import "vars";
-
-
-// ==========================================================================
-// $Helpers
-// ==========================================================================
-
-@import "helpers";
-
-
-// ==========================================================================
-// $Globals
-// ==========================================================================
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    @extend %header_style; // root/scss/_helper.scss
-}
-
-p,
-ul,
-ol {
-    color: $body_copy_color;
-    margin: 0 0 1.5em;
-}
-
-img {
-    height: auto;
-    max-width: 100%;
-    vertical-align: middle;
-}
-
-hr {
-    clear: both;
-    display: block;
-    height: 1px;
-    border: 0;
-    border-bottom: 1px solid #ccc;
-    margin: 10px 0;
-    padding: 0 2%;
-}
-
-label {
-    cursor: pointer;
-}
-
-input,
-textarea {
-    outline: none;
-}
-
-//input:valid,
-//textarea:valid {}
-
-input:invalid,
-textarea:invalid {
-    background-color: #f0dddd;
-}
-
-
-// ==========================================================================
-// $Structure
-// ==========================================================================
-
-.container {
-    margin: 0 auto;
-    max-width: $container_width;
-    //min-height: 100%;
-    .lt-ie9 & {
-        width: $ie_container_width;
-    }
-}
-.container:before,
-.container:after,
-.content:before,
-.content:after {
-    content: "";
-    display: table;
-}
-.container:after,
-.content:after {
-    clear: both;
-}
-.container,
-.content {
-    zoom: 1;
-}
-
-
-// ==========================================================================
-// $Grid
-// ==========================================================================
-
-.g1,
-.g2,
-.g3,
-.g4,
-.g1_5 {
-    float: left;
-    margin: $column_gutter;
-    width: 100%;
-}
-
-.g1 {
-    max-width: 96%;
-    // ----------- min768px / max1023px ----------- //
-    @media screen and (min-width: 48em) and (max-width: 63.9375em) {
-        max-width: 21%;
-    }
-    // ----------- min480px / max767px ----------- //
-    @media screen and (min-width: 30em) and (max-width: 47.9375em) {
-        max-width: 46%;
-    }
-    // ----------- min1023px / max6000 ----------- //
-    @media screen and (min-width: 63.9375em) and (max-width: 375em) {
-        max-width: 21%;
-    }
-}
-
-.g1_5 {
-    max-width: 96%;
-    // ----------- min480px / max767px ----------- //
-    @media screen and (min-width: 30em) and (max-width: 47.9375em) {
-        max-width: 46%;
-    }
-    // ----------- min768px / max1023px ----------- //
-    @media screen and (min-width: 48em) and (max-width: 63.9375em) {
-        max-width: 29.333%;
-    }
-    // ----------- min1023px / max6000 ----------- //
-    @media screen and (min-width: 63.9375em) and (max-width: 375em) {
-        max-width: 29.333%;
-    }
-}
-
-.g2 {
-    max-width: 96%;
-    // ----------- min768px / max1023px ----------- //
-    @media screen and (min-width: 48em) and (max-width: 63.9375em) {
-        max-width: 46%;
-    }
-    // ----------- min1023px / max6000 ----------- //
-    @media screen and (min-width: 63.9375em) and (max-width: 375em) {
-        max-width: 46%;
-    }
-}
-
-.g3 {
-    max-width: 96%;
-    // ----------- min768px / max1023px ----------- //
-    @media screen and (min-width: 48em) and (max-width: 63.9375em) {
-        max-width: 71%;
-    }
-    // ----------- min1023px / max6000 ----------- //
-    @media screen and (min-width: 63.9375em) and (max-width: 375em) {
-        max-width: 71%;
-    }
-}
-
-.g4 {
-    max-width: 96%;
-    // ----------- min768px / max1023px ----------- //
-    @media screen and (min-width: 48em) and (max-width: 63.9375em) {
-        max-width: 96%;
-    }
-    // ----------- min1023px / max6000 ----------- //
-    @media screen and (min-width: 63.9375em) and (max-width: 375em) {
-        max-width: 96%;
-    }
-}
-
-
-// ==========================================================================
-// $Wrapper
-// ==========================================================================
-
-#wrapper {
-    height: auto !important;
-    margin: 0 auto -4.375em; // 70px / 16px = 4.375
-    min-height: 100%;
-}
-
-
-// ==========================================================================
-// $Banner
-// ==========================================================================
-
-#header-wrap {
-    padding: 0 0.625em; // 10px / 16px = 0.625
-    background: $banner_bg_color;
-}
-
-.banner {
-    padding: 0.9375em 0; // 15px / 16px = 0.9375em
-    position: relative;
-    z-index: 1;
-}
-
-
-// ==========================================================================
-// $Logo
-// ==========================================================================
-
-.logo {
-    @extend %inline_block;
-    margin: 0;
-    .lt-ie8 & {
-        //background: darken(#1e4a5c, 10%);
-        width: 100%;
-        margin: 0 auto;
-        padding: .5em 0;
-        text-align: center;
-    }
-    .arctap-link {
-        @extend %inline_block;
-        height: 1.81818181818182em; // 40px / 22px = 1.81818181818182
-        padding-left: 1.81818181818182em; // 40px / 22px = 1.81818181818182
-        background: image-url("arctap-sprite.svgz") 0px -30px no-repeat; // sprite 54px / 22px = 2.27272727272727em
-        color: $vanilla_white;
-        .no-svg & {
-            background: url($arctap_sprite_base64) 0px -30px no-repeat; // sprite 54px / 22px = 2.27272727272727em
-        }
-        &:hover {
-            @extend %opacity_fade;
-        }
-        span {
-            @extend %inline_block;
-            margin: 0.54545454545455em 0 0; // 12 / 22 = 0.54545454545455
-            padding-left: 0.22727272727273em; // 5px / 22px = 0.22727272727273
-            vertical-align: top;
-        }
-    }
-    @media screen and (max-width: 29.9375em) { // ----------- max479px ----------- //
-        display: block;
-    }
-}
-
-
-// ==========================================================================
-// $Navigation
-// ==========================================================================
-
-.main-nav {
-    display: inline;
-    float: right;
-    margin: 3px 0 0;
-    .lt-ie8 & {
-        width: 100%;
-        margin: 0 auto;
-        text-align: center;
-    }
-    @media screen and (max-width: 29.9375em) { // ----------- max479px ----------- //
-        float: none;
-    }
-    li {
-        display: inline;
-        a {
-            display: inline-block;
-            line-height: 1;
-            padding: 9px 14px;
-            color: #FFF;
-            &:hover,
-            &.nav-selected {
-                @extend %opacity_fade;
-            }
-            @media screen and (max-width: 21.875em) { // ----------- max350px ----------- //
-                background: darken($banner_bg_color, 5%);
-                border-radius:3px;
-                padding: .75em;
-                width: 100%;
-            }
-        }
-        &:last-child {
-            a {
-                border-radius:3px;
-                background: #50cefe;
-                color: #1e4a5c;
-                &:hover {
-                    background: darken(#50cefe, 10%);
-                    color: #1e4a5c;
-                }
-                &:active {
-                    background: lighten(#50cefe, 10%);
-                }
-                @media screen and (max-width: 21.875em) { // ----------- max350px ----------- //
-
-                }
-            }
-        }
-        @media screen and (max-width: 21.875em) { // ----------- max479px ----------- //
-            display: block;
-            margin: .75em 0;
-        }
-        @media screen and (max-width: 29.9375em) { // ----------- max479px ----------- //
-            float: none;
-        }
-    }
-}
-
-.main-nav ul,
-.main-nav ol {
-    list-style: none;
-    list-style-image: none;
-    margin: 0;
-    padding: 0;
-}
-
-
-// ==========================================================================
-// $Intro
-// ==========================================================================
-
-#intro {
-    padding: 30px 10px 55px;
-    background-color: #fc6a63;
-    h1 {
-        margin: 0 0 10px;
-    }
-    h1,
-    h2 {
-        color: $vanilla_white;
-    }
-    h2 {
-        margin: 0;
-    }
-    p {
-        margin: 0 auto;
-        max-width: 600px;
-        color: $intro_copy_color;
-    }
-}
-
-
-// ==========================================================================
-// $Page
-// ==========================================================================
-
-#page {
-    background-color: #eff1f5;
-    border-radius: 3px;
-    margin: -40px 0 30px;
-    position: relative;
-    z-index: 5;
-    @media screen and (max-width: 60.0625em) { // ----------- max768px ----------- //
-        border-radius: 0px;
-    }
-}
-
-.content {
-    padding: 1%;
-}
-
-
-// ==========================================================================
-// $Home
-// ==========================================================================
-
-#home {
-    #intro {
-        padding: 70px 0 100px;
-        @media screen and (max-width: 48em) { // ----------- max768px ----------- //
-            padding-left: 2%;
-            padding-right: 2%;
-        }
-    }
-}
-
-.slides span {
-    display: block;
-    position: relative;
-}
-
-.slides span:before {
-    border-radius: 3px 3px 0 0;
-    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.70),
-                inset 0 0   3px rgba(255, 255, 255, 0.70),
-                inset 0 2px 0   rgba(255, 255, 255, 0.50);
-    content: "";
-    height: 100%;
-    left: 0;
-    position: absolute;
-    width: 100%;
-}
-
-.slides img {
-    border-radius: 3px 3px 0 0;
-}
-
-
-// ==========================================================================
-// $About Page
-// ==========================================================================
-
-.about-hero-copy {
-    &:after {
-        border-bottom: 1px solid #ccc;
-        display: inline-block;
-        width: 96%;
-        margin: 1em auto;
-        padding: .5em 0;
-    }
-}
-
-.nyc-photo {
-    @media screen and (max-width: 48em) { // ----------- max768px ----------- //
-        width: 100%;
-    }
-}
-
-
-// ==========================================================================
-// $Team Page
-// ==========================================================================
-
-.arctap-team {
-    list-style-type: none;
-    padding: 0;
-}
-
-.arctap-member,
-.job-title {
-    margin: 0;
-}
-
-.arctap-member {
-    display: inline;
-}
-
-.job-title {
-    color: #7695a3;
-}
-
-.team-pic {
-    margin-bottom: 4%;
-    overflow: hidden;
-    img {
-        margin: -35px 0px -60px 0px;
-    }
-    @media screen and (max-width: 47.9375em) {
-        img[src="/img/team/rory-pettengill.jpeg"] {
-            width: 100%;
-        }
-    }
-}
-
-.team-links {
-    float: right;
-    list-style: none;
-    padding: 0;
-    //background: rgba(0,0,0,0.20);
-    li {
-        @extend %inline_block;
-        height: 24px;
-        // margin: 0;
-        // padding: 0;
-        width: 24px;
-        .lt-ie8 & {
-            display: inline;
-        }
-        a {
-            @extend %inline_block;
-            height: 24px;
-            width: 24px;
-            color: #10abf2;
-            &:hover,
-            &:active {
-                opacity: 0.60;
-            }
-        }
-    }
-}
-
-
-// ==========================================================================
-// $Work Page
-// ==========================================================================
-
-#work img {
-    border-radius: 3px;
-}
-
-#work h2 {
-    display: inline-block;
-    margin: 0;
-}
-
-#work h2 a {
-    color: #455860;
-}
-
-#work h2 img {
-    margin: -5px 10px 0 0;
-    vertical-align: middle;
-}
-
-#work h2 span {
-    display: inline-block;
-}
-
-#work .icon {
-    border-radius: 3px;
-}
-
-#work .buttons {
-    float: right;
-    margin-top: 2px 0 0;
-    @media screen and (max-width: 29.9375em) { // ----------- max479px ----------- //
-        float: none;
-    }
-}
-
-#work .buttons i {
-    margin: 0 0 0 5px;
-    vertical-align: middle;
-}
-
-#work .flexslider span {
-    display: block;
-    position: relative;
-}
-
-#work .flexslider span:before {
-    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.70),
-                inset 0 0   3px rgba(255, 255, 255, 0.70),
-                inset 0 2px 0   rgba(255, 255, 255, 0.50);
-    content: "";
-    height: 100%;
-    left: 0;
-    position: absolute;
-    width: 100%;
-}
-
-#work .title {
-    border-bottom: 3px solid #c3c5c7;
-    margin: 0 0 20px;
-    padding: 0 0 20px;
-}
-
-#portfolio {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-#portfolio li {
-    padding: 0;
-}
-
-#sort-nav {
-    float: right;
-    ul {
-        list-style: none;
-        margin: 14px 0 0;
-        padding: 0;
-        li {
-            display: inline-block;
-            margin: 0 0 0 12px;
-            padding: 0;
-            .lt-ie8 & {
-                display: inline;
-            }
-        }
-    }
-    a {
-        outline: none;
-        color: #EFF1F5;
-    }
-    i {
-        color: #EFF1F5;
-    }
-    span {
-        display: none;
-    }
-    .current {
-        i {
-            color: $vanilla_white;
-        }
-    }
-}
-
-
-// ==========================================================================
-// $Grade Spotter Page
-// ==========================================================================
-
-#intro-app {
-    padding: 70px 0;
-}
-
-#intro-app .g8 {
-    margin: 130px 0 0;
-}
-
-#intro-app img {
-    float: left;
-    margin: 0 20px 20px 0;
-}
-
-#intro-app h2 {
-    float: left;
-    margin: 27px 0 0;
-    width: 460px;
-}
-
-
-// ==========================================================================
-// $Hire Page
-// ==========================================================================
-
-#hire #hireForm .g2,
-#hire #hireForm .g4 {
-    margin-top: 0;
-}
-
-#hire #hireForm .g2 {
-    margin-bottom: 20px;
-}
-
-#hire .btn {
-    float: right;
-    margin-bottom: 10px;
-    @media screen and (max-width: 29.9375em) { // ----------- max479px ----------- //
-        float: none;
-        padding: 1.5em 0;
-        width: 100%;
-    }
-}
-
-
-// ==========================================================================
-// $Hire Bar Module
-// ==========================================================================
-
-#hire-bar {
-    background-color: #fc6a63;
-    border-radius: 3px;
-    margin: 0 0 30px;
-    padding: 10px;
-    @media screen and (max-width: 59.9375em) { // ----------- max959px ----------- //
-        border-radius: 0;
-    }
-}
-
-#hire-bar p {
-    width: 100%;
-    color: #fff;
-    display: inline-block;
-    margin: 6px 0 0 5px;
-    @media screen and (min-width: 25em) { // ----------- min400px ----------- //
-        float: left;
-        width: 65%;
-    }
-}
-
-#hire-bar {
-    .btn {
-        width: 100%;
-        @media screen and (max-width: 24.999em) { // ----------- min400px ----------- //
-            padding: 1em;
-        }
-        @media screen and (min-width: 25em) { // ----------- min400px ----------- //
-            float: right;
-            width: 115px;
-        }
-        @media screen and (max-width: 48em) { // ----------- max479px ----------- //
-            margin-top: 10px;
-        }
-        @media screen and (max-width: 48em) { // ----------- max768px ----------- //
-            margin-top: 10px;
-        }
-        .lt-ie8 & {
-            width: 93%;
-        }
-    }
-    .btn:hover{
-
-    }
-}
-
-
-// ==========================================================================
-// $Form
-// ==========================================================================
-
-#hireForm {
-    &:after {
-        content: "";
-        border-bottom: 1px solid #ccc;
-        display: inline-block;
-        margin: 1em 2%;
-        padding: .5em 0;
-        width: 96%;
-    }
-    ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
-    li {
-        position: relative;
-    }
+html,body{
+  background-color: #fff;
+  color: #252429;
+  font-family: 'ProximaNova', sans-serif;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  width: 100%;
 }
 
-input[type="name"],
-input[type="tel"],
-input[type="text"],
-input[type="email"],
-input[type="url"] {
-    @include transition($transition-1: all .3s ease-in-out);
-}
-
-input[type="name"],
-input[type="tel"],
-input[type="text"],
-input[type="email"],
-input[type="url"],
-textarea {
-    border: 1px solid #BDBDBD;
-    border-radius: 4px 4px 4px 4px;
-    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.20);
-    display: inline-block;
-    height: 40px;
-    padding: 6px 4px 4px 10px;
-    width: 100%;
-    vertical-align: baseline;
-    color: #808080;
-}
-
-input[type="name"]:focus,
-input[type="tel"]:focus,
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="url"]:focus,
-textarea:focus {
-    box-shadow: 0 0 4px rgba(105,203,255, 0.6);
-    border: 1px solid #69CBFF;
-    color: #5C6E76;
-}
-
-select {
-    background: #f8f8f8;
-    @include background-image(linear-gradient(to bottom, #efefef 0%, #f8f8f8 100%));
-    border: 1px solid #C0C2C4;
-    border-radius: 3px 3px 3px 3px;
-    color: #6A777D;
-    height: 40px;
-    padding: 9px 8px 8px 7px;
-    vertical-align: top;
-    width: 100%;
-}
-
-input::-webkit-input-placeholder,
-textarea::-webkit-input-placeholder {
-    color: #bfbfbf;
-}
-
-input:-moz-placeholder,
-textarea:-moz-placeholder {
-    color: #bfbfbf;
-}
-
-
-// ==========================================================================
-// $Form Validation
-// ==========================================================================
-
-#message {
-    min-height: 100px;
-}
-
-.success {
-    background-color: #e3fbee;
-    border: 1px solid #d1e8dc;
-    border-radius: 3px;
-    color: #6db38e;
-    clear: both;
-    padding: 10px;
-    display: none;
-}
-
-.server-success {
-    @extend .success;
-}
-
-.error_message {
-    background-color: #FBE3E4;
-    border: 1px solid #FBC2C4;
-    border-radius: 3px;
-    color: #8A1F11;
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px;
-}
-
-.server-error {
-    @extend .error_message;
-}
-
-label[generated="true"].error {
-    @extend .error_message;
-    width: 100%;
-}
-
-.form-input,
-#message {
-    &.error {
-        background-color: #FAFFBD;
-    }
-    &.valid {
-        background: #FFF;
-    }
-}
-
-input,
-textarea,
-select {
-    &:required {
-        @include background(repeating-linear-gradient(45deg, transparent, transparent 45px, #FFF 35px, #FFF 60px));
-    }
-}
-
-
-// ==========================================================================
-// $Button Module
-// ==========================================================================
 
-.btn {
-    @include transition($transition-1: .3s all ease-in-out);
-    background: #EFF1F5;
-    border: none;
-    border-radius: 3px;
-    color: #26495c;
-    cursor: pointer;
-    @extend %inline_block;
-    margin: 0;
-    padding: 8px 15px 6px;
+/* ========================================================= Typography ===*/
 
-    // ----------- max479px ----------- //
-    @media screen and (max-width: 29.9375em) {
-        margin-top: 10px;
-    }
+@font-face {
+    font-family: 'TitilliumBold';
+    src: url('/font/titillium/TitilliumText22L005-webfont.eot');
+    src: url('/font/titillium/TitilliumText22L005-webfont?#iefix') format('embedded-opentype'),
+         url('/font/titillium/TitilliumText22L005-webfont.woff') format('woff'),
+         url('/font/titillium/TitilliumText22L005-webfont.ttf') format('truetype'),
+         url('/font/titillium/TitilliumText22L005-webfont.svg#TitilliumText22L005-webfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
-
-.btn:hover {
-    background-color: #fff;
-    color: #26495c;
-}
-
-.btn:active {
-    @extend .btn:hover;
-}
-
-
-// ==========================================================================
-// $Primary Button Module
-// ==========================================================================
-
-.btn-primary {
-    background: #69cbff;
-    color: #fff;
-}
-
-.btn-primary:hover {
-    background: darken(#69cbff, 10%);
-    color: #fff;
-}
-
-.btn-primary:active {
-    @extend .btn-primary:hover;
-}
-
-
-// ==========================================================================
-// $Action Button Module
-// ==========================================================================
-
-.btn-action {
-    @extend .btn;
-    background: #fc6a63;
-    color: $vanilla_white;
-    padding: .75em 0;
-    width: 100px;
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('/font/proximanova/proximanova-regular-webfont.eot');
+    src: url('/font/proximanova/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/font/proximanova/proximanova-regular-webfont.woff') format('woff'),
+         url('/font/proximanova/proximanova-regular-webfont.ttf') format('truetype'),
+         url('/font/proximanova/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
-
-.btn-action:hover {
-    background: darken(#fc6a63, 5%);
-    color: #fff;
-}
-
-.btn-action:active {
-    background: lighten(#fc6a63, 5%);
-}
-
-
-// ==========================================================================
-// $Download App Button Module
-// ==========================================================================
-
-.btn-dlapp {
-    margin-right: 10px;
-    background: #172d38;
-    color: $vanilla_white;
+h1{
+  font-family: 'TitilliumBold', sans-serif;
+  font-size: 41px;
+  font-weight: 700;
+  margin: 0 0 1%;
 }
-
-.btn-dlapp:hover {
-    background: lighten(#172d38, 10%);
-    color: #fff;
+h2{
+  font-family: 'TitilliumBold', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
 }
-
-.btn-dlapp:active {
-    background: #12222b;
+p{
+  font-size: 18px;
+  margin: 0;
 }
-
 
-// ==========================================================================
-// $Footer
-// ==========================================================================
-
-// footer container
-#footer-wrap {
-    background-color: #c3c5c7;
-}
 
-#footer-wrap,
-#push {
-    height: 70px;
-    .lt-ie8 & {
-        height: 85px;
-    }
-}
+/* ========================================================= Header Animation ===*/
 
-// Primary Footer
-.primary-footer {
-    padding: 22px 10px 0px;
-    color: #2b343d;
-    a {
-        color: #2b343d;
-    }
-}
+/* We'll come back to this when gulp and sass is installed */
 
-// Copyright Icon
-#copy {
-    @extend %inline_block;
-    margin: 0;
-    a {
-        @extend %inline_block;
-        height: 2.14285714285714em; // 30px / 14px = 2.14285714285714
-        margin: 0 0.71428571428571em 0 0; // 10px / 14px = 0.71428571428571
-        padding-left: 2.14285714285714em; // 30px / 14px = 2.14285714285714
-        background: image-url("arctap-sprite.svgz") 0px 0px no-repeat;
-        .no-svg & {
-            height: 2.15em;
-            background: url($arctap_sprite_base64) 0px 0px no-repeat;
-        }
-        span {
-            @extend %inline_block;
-            margin: 0.35714285714286em 0 0; // 5px / 14px = 0.35714285714286
-            padding-left: 0.35714285714286em; // 5px / 14px = 0.35714285714286
-            vertical-align: top;
-        }
-    }
+header > img[src*="ginger.svg"] {
+  -webkit-transform: translateX(-500px) translateZ(0);
+  -webkit-animation: slideIn 600ms 1 forwards normal cubic-bezier(.4,0,0,.8);
 }
 
-// social icon
-#social {
-    float: right;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    .lt-ie8 & {
-        position: relative;
-        top: -28px;
-    }
-    li {
-        height: 1.875em; // 30px / 16px = 1.875
-        margin: 0;
-        padding: 0;
-        a[href="https://twitter.com/arctap"] {
-            display: inline-block;
-            height: 1.875em; // 30px / 16px = 1.875
-            &:hover {
-                @extend %opacity_fade;
-                text-shadow: 0 1px 1px rgba(255,255,255,0.30);
-            }
-            span {
-                display: inline-block;
-            }
-        }
-    }
+.welcome {
+  -webkit-transform: translateY(-150px);
+   -webkit-animation: fadeIn 600ms 1 forwards normal cubic-bezier(.4,0,0,.8);
+  opacity: 0;
 }
 
-.follow-copy {
-    position: relative;
-    top: -10px;
-    right: 5px;
+@-webkit-keyframes slideIn {
+  from {-webkit-transform: translateX(-500px);}
+  to {-webkit-transform: translateX(0);}
 }
-
-
-// ==========================================================================
-// $Animation
-// ==========================================================================
 
 @-webkit-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@-moz-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@-ms-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@-o-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+  to {-webkit-transform: translateY(0);opacity: 1;}
 }
 
 
-// ==========================================================================
-// $Helper classes
-// ==========================================================================
-
-.hidden {
-    display: none !important;
-    visibility: hidden;
+/* ========================================================= Header ===*/
+header{
+  margin: 8% 0;
 }
-
-.visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
+header img{
+  display: inline-block;
+  margin: 0 0 5%;
+  padding: 0 5% 0 0;
+  width: 100%;
+}
+header .welcome{
+  display: inline-block;
+  padding: 0 5%;
+  vertical-align: middle;
+  width: 100%;
+}
+/* ========================================================= Members ===*/
+.members{
+  background-color: #f7f7f7;
+  list-style: none;
+  font-size: 0;
+  margin: 0 0 10%;
+  padding: 0;
+}
+.members li{
+  display: inline-block;
+  width: 100%;
+}
+.members li:last-child{
+  display:inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+.members img{
+  height: auto;
+  max-width: 100%;
+}
+.members li p{
+  font-size: 20px;
+  padding: 6% 0;
+  text-align: center;
+}
+/* ========================================================= Footer ===*/
+footer{
+  margin: 0 0 2%;
+  text-align: center;
+}
+footer img{
+  margin: 0 0 1%;
+}
+footer p{
+  font-size: 16px;
+}
+/* ========================================================= Adapt ===*/
+@media all and (min-width: 460px) {
+  header img{
+    margin: 0;
+    width: 40%;
+  }
+  header .welcome{
     padding: 0;
-    position: absolute;
-    width: 1px;
-}
+    width: 59%;
+  }
+  .members li{
+    width: 50%;
+  }
+  .members li:last-child{
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
+  }
+  .members li p{
+    font-size: 28px;
+    text-align: center;
+  }
+}
+@media all and (min-width: 920px) {
+  header img{
     margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-}
-
-.clearfix:before,
-.clearfix:after {
-    content: " "; // 1
-    display: table; // 2
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-.clearfix {
-    *zoom: 1;
-}
-
-
-// ==========================================================================
-// $Custom Helper Classes
-// ==========================================================================
-
-.last{
-    margin: 0;
-}
-
-
-// ==========================================================================
-// $Viewport
-// ==========================================================================
-
-// http://dev.w3.org/csswg/css-device-adapt/
-// http://timkadlec.com/2012/10/ie10-snap-mode-and-responsive-design/
-// for IE10 Snap Mode on Metro
-@-ms-viewport {
-    width: device-width;
-}
-
-
-// ==========================================================================
-// $Print
-// ==========================================================================
-
-@media print {
-    * {
-        background: transparent!important;
-        color: black !important;
-        box-shadow:none !important;
-        text-shadow: none !important;
-        filter:none !important;
-        -ms-filter: none !important;
-    }
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-    .ir a:after,
-    a[href^="javascript:"]:after,
-    a[href^="#"]:after {
-        content: "";
-    }
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-    thead {
-        display: table-header-group;
-    }
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-    img {
-        max-width: 100% !important;
-    }
-
-    @page {
-        margin: 0.5cm;
-    }
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+    max-width: 360px;
+    width: 50%;
+  }
+  header .welcome{
+    padding: 0 5%;
+    width: 50%;
+  }
+  .members li{
+    width: 20%;
+  }
+  .members li:last-child{
+    width: 40%;
+  }
+  .members li p{
+    font-size: 28px;
+  }
 }
