@@ -1,169 +1,222 @@
-html,body{
-  background-color: #fff;
-  color: #252429;
-  font-family: 'ProximaNova', sans-serif;
-  font-weight: 400;
-  text-rendering: optimizeLegibility;
-  width: 100%;
-}
-
-
-/* ========================================================= Typography ===*/
+// ========================================================= Fonts
 
 @font-face {
-    font-family: 'TitilliumBold';
-    src: url('/font/titillium/TitilliumText22L005-webfont.eot');
-    src: url('/font/titillium/TitilliumText22L005-webfont?#iefix') format('embedded-opentype'),
-         url('/font/titillium/TitilliumText22L005-webfont.woff') format('woff'),
-         url('/font/titillium/TitilliumText22L005-webfont.ttf') format('truetype'),
-         url('/font/titillium/TitilliumText22L005-webfont.svg#TitilliumText22L005-webfont') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'TitilliumBold';
+	src: url('/font/titillium/TitilliumText22L005-webfont.eot');
+	src: url('/font/titillium/TitilliumText22L005-webfont?#iefix') format('embedded-opentype'),
+			 url('/font/titillium/TitilliumText22L005-webfont.woff') format('woff'),
+			 url('/font/titillium/TitilliumText22L005-webfont.ttf') format('truetype'),
+			 url('/font/titillium/TitilliumText22L005-webfont.svg#TitilliumText22L005-webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
+
 @font-face {
-    font-family: 'ProximaNova';
-    src: url('/font/proximanova/proximanova-regular-webfont.eot');
-    src: url('/font/proximanova/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/font/proximanova/proximanova-regular-webfont.woff') format('woff'),
-         url('/font/proximanova/proximanova-regular-webfont.ttf') format('truetype'),
-         url('/font/proximanova/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-h1{
-  font-family: 'TitilliumBold', sans-serif;
-  font-size: 41px;
-  font-weight: 700;
-  margin: 0 0 1%;
-}
-h2{
-  font-family: 'TitilliumBold', sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  margin: 0;
-}
-p{
-  font-size: 18px;
-  margin: 0;
+	font-family: 'ProximaNova';
+	src: url('/font/proximanova/proximanova-regular-webfont.eot');
+	src: url('/font/proximanova/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('/font/proximanova/proximanova-regular-webfont.woff') format('woff'),
+			 url('/font/proximanova/proximanova-regular-webfont.ttf') format('truetype'),
+			 url('/font/proximanova/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 
-/* ========================================================= Header Animation ===*/
+// ========================================================= Base
 
-/* We'll come back to this when gulp and sass is installed */
+html,
+body {
+	background-color: #fff;
+	color: #252429;
+	font-family: 'ProximaNova', sans-serif;
+	font-weight: 400;
+	text-rendering: optimizeLegibility;
+	width: 100%;
+}
 
-header > img[src*="ginger.svg"] {
-  -webkit-transform: translateX(-500px) translateZ(0);
-  -webkit-animation: slideIn 600ms 1 forwards normal cubic-bezier(.4,0,0,.8);
+
+// ========================================================= Typography
+
+h1 {
+	font-family: 'TitilliumBold', sans-serif;
+	font-size: 41px;
+	font-weight: 700;
+	margin: 0 0 1%;
+}
+
+h2 {
+	font-family: 'TitilliumBold', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	margin: 0;
+}
+
+p {
+	font-size: 18px;
+	margin: 0;
+}
+
+
+// ========================================================= Header Animation
+
+$ginger-x: -500px;
+$welcome-y: -150px;
+
+header {
+	> img[src*="ginger.svg"] {
+		transform: translateX($ginger-x) translateZ(0);
+		animation: slideIn 600ms 1 forwards normal cubic-bezier(.4,0,0,.8);
+	}
 }
 
 .welcome {
-  -webkit-transform: translateY(-150px);
-   -webkit-animation: fadeIn 600ms 1 forwards normal cubic-bezier(.4,0,0,.8);
-  opacity: 0;
-}
-
-@-webkit-keyframes slideIn {
-  from {-webkit-transform: translateX(-500px);}
-  to {-webkit-transform: translateX(0);}
-}
-
-@-webkit-keyframes fadeIn {
-  to {-webkit-transform: translateY(0);opacity: 1;}
+	transform: translateY($welcome-y);
+	animation: fadeIn 600ms 1 forwards normal cubic-bezier(.4,0,0,.8);
+	opacity: 0;
 }
 
 
-/* ========================================================= Header ===*/
-header{
-  margin: 8% 0;
+// ========================================================= Keyframes
+
+@keyframes slideIn {
+	from {
+		transform: translateX($ginger-x);
+	}
+
+	to {
+		transform: translateX(0);
+	}
 }
-header img{
-  display: inline-block;
-  margin: 0 0 5%;
-  padding: 0 5% 0 0;
-  width: 100%;
+
+@keyframes fadeIn {
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
 }
-header .welcome{
-  display: inline-block;
-  padding: 0 5%;
-  vertical-align: middle;
-  width: 100%;
+
+
+// ========================================================= Header
+
+header {
+	margin: 8% 0;
 }
-/* ========================================================= Members ===*/
+
+header img {
+	display: inline-block;
+	margin: 0 0 5%;
+	padding: 0 5% 0 0;
+	width: 100%;
+}
+
+.welcome{
+	display: inline-block;
+	padding: 0 5%;
+	vertical-align: middle;
+	width: 100%;
+}
+
+
+// ========================================================= Members
+
 .members{
-  background-color: #f7f7f7;
-  list-style: none;
-  font-size: 0;
-  margin: 0 0 10%;
-  padding: 0;
+	background-color: #f7f7f7;
+	list-style: none;
+	font-size: 0;
+	margin: 0 0 10%;
+	padding: 0;
 }
-.members li{
-  display: inline-block;
-  width: 100%;
-}
-.members li:last-child{
-  display:inline-block;
-  width: 100%;
-  vertical-align: middle;
-}
-.members img{
-  height: auto;
-  max-width: 100%;
-}
-.members li p{
-  font-size: 20px;
-  padding: 6% 0;
-  text-align: center;
-}
-/* ========================================================= Footer ===*/
-footer{
-  margin: 0 0 2%;
-  text-align: center;
-}
-footer img{
-  margin: 0 0 1%;
-}
-footer p{
-  font-size: 16px;
-}
-/* ========================================================= Adapt ===*/
-@media all and (min-width: 460px) {
-  header img{
-    margin: 0;
-    width: 40%;
-  }
-  header .welcome{
-    padding: 0;
-    width: 59%;
-  }
-  .members li{
-    width: 50%;
-  }
-  .members li:last-child{
 
-  }
-  .members li p{
-    font-size: 28px;
-    text-align: center;
-  }
+.members li {
+	display: inline-block;
+	width: 100%;
 }
+
+.members li:last-child {
+	display:inline-block;
+	width: 100%;
+	vertical-align: middle;
+}
+
+.members img {
+	height: auto;
+	max-width: 100%;
+}
+
+.members li p {
+	font-size: 20px;
+	padding: 6% 0;
+	text-align: center;
+}
+
+
+// ========================================================= Footer
+
+footer {
+	margin: 0 0 2%;
+	text-align: center;
+}
+
+footer img {
+	margin: 0 0 1%;
+}
+
+footer p{
+	font-size: 16px;
+}
+
+
+// ========================================================= Adapt
+
+@media all and (min-width: 460px) {
+
+	header img {
+		margin: 0;
+		width: 40%;
+	}
+
+	.welcome {
+		padding: 0;
+		width: 59%;
+	}
+
+	.members li {
+		width: 50%;
+	}
+
+	// .members li:last-child{}
+
+	.members li p {
+		font-size: 28px;
+		text-align: center;
+	}
+
+}
+
 @media all and (min-width: 920px) {
-  header img{
-    margin: 0;
-    max-width: 360px;
-    width: 50%;
-  }
-  header .welcome{
-    padding: 0 5%;
-    width: 50%;
-  }
-  .members li{
-    width: 20%;
-  }
-  .members li:last-child{
-    width: 40%;
-  }
-  .members li p{
-    font-size: 28px;
-  }
+
+	header img {
+		margin: 0;
+		max-width: 360px;
+		width: 50%;
+	}
+
+	header .welcome {
+		padding: 0 5%;
+		width: 50%;
+	}
+
+	.members li {
+		width: 20%;
+	}
+
+	.members li:last-child { 
+		width: 40%;
+	}
+
+	.members li p {
+		font-size: 28px;
+	}
+
 }

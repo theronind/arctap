@@ -3,6 +3,7 @@
 // =======================================================
 
 var gulp = require('gulp'),
+    prefix = require('gulp-autoprefixer'),
     sass = require('gulp-ruby-sass'),
     concat = require('gulp-concat'),
     uglify = require('gulp-uglify'),
@@ -52,6 +53,7 @@ gulp.task('css', function() {
                 style: 'compressed'
             })
         )
+        .pipe(prefix("last 3 version", "> 1%", "ie 8", "ie 7"))
         .pipe(livereload(server))
         .pipe(gulp.dest(paths.css));
 

@@ -7,21 +7,21 @@
     "gulp-concat": "^2.1.7",
     "gulp-uglify": "^0.2.1",
     "gulp-jshint": "^1.5.0",
-    "jshint-stylish": "^0.1.5"
+    "jshint-stylish": "^0.1.5",
+    "gulp-autoprefixer": "0.0.6"
   },
-
   "jshintConfig": {
-    "boss":      true,
-    "node":      true,
+    "boss": true,
+    "node": true,
     "quotmark": "single",
-    "strict":    true,
+    "strict": true,
     "smarttabs": true,
-    "undef":     true,
-    "unused":    true,
-    "onecase":   true,
+    "undef": true,
+    "unused": true,
+    "onecase": true,
     "lastsemic": true,
-    "newcap":    false,
-    "maxlen":    100,
-    "indent":    4
+    "newcap": false,
+    "maxlen": 100,
+    "indent": 4
   }
 }
