@@ -17,6 +17,7 @@
     <li><img src="/img/members/tim-smith.png"/></li>
     <li><img src="/img/members/nicole-dominguez.jpg"/></li>
     <li><img src="/img/members/frank-denbow.jpg"/></li>
+    <li><img src="/img/members/brian-revak.jpg"/></li>
     <li><img src="/img/members/aaron-hall.jpg"/></li>
     <li><img src="/img/members/chris-jeane.jpg"/></li>
     <li><img src="/img/members/jarod-reyes.jpg"/></li>
