@@ -5,6 +5,8 @@
 //echo $a->url('js', 'script.js')
 ?>
 <script src="js/script.js"></script>
+<script src="js/ss-social.js"></script>
+<script src="js/ss-standard.js"></script>
 
 <script async>
 	var _gaq=[['_setAccount','UA-30650045-1'],['_trackPageview']];

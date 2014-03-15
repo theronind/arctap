@@ -60,6 +60,9 @@ body {
 // ==========================================================================
 
 @import "typography/fonts";
+@import "typography/ss-standard";
+@import "typography/ss-social-circle";
+@import "typography/ss-social-regular";
 
 h1 {
 	font-family: 'TitilliumBold', sans-serif;
@@ -69,6 +72,13 @@ h1 {
 }
 
 h2 {
+	font-family: 'TitilliumBold', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	margin: 0;
+}
+
+h3 {
 	font-family: 'TitilliumBold', sans-serif;
 	font-size: 24px;
 	font-weight: 700;
@@ -91,13 +101,13 @@ $welcome-y: -150px;
 header {
 	> img[src*="ginger.svg"] {
 		transform: translateX($ginger-x) translateZ(0);
-		animation: slideIn 600ms 1 forwards normal cubic-bezier(.4,0,0,.8);
+		animation: slideIn 600ms 1 forwards normal cubic-bezier(.4,0,.2,1);
 	}
 }
 
 .welcome {
 	transform: translateY($welcome-y);
-	animation: fadeIn 600ms 1 forwards normal cubic-bezier(.4,0,0,.8);
+	animation: fadeIn 600ms 1 forwards normal cubic-bezier(.4,0,.2,1);
 	opacity: 0;
 }
 
@@ -146,6 +156,7 @@ header img {
 
 .members li {
 	display: inline-block;
+	cursor: pointer;
 	width: 100%;
 }
 

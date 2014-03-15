@@ -18,9 +18,7 @@
 		<section role="main">
 
 			<ul class="members clearfix">
-				<li data-toggle="modal" data-target="#myModal">
-					<img src="/img/members/kennedy.jpg" alt="">
-				</li>
+				<li data-toggle="modal" data-target="#myModal"><img src="/img/members/kennedy.jpg" alt=""></li>
 				<li><img src="/img/members/dennis-gaebel.png" alt=""></li>
 				<li><img src="/img/members/tim-smith.png" alt=""></li>
 				<li><img src="/img/members/nicole-dominguez.jpg" alt=""></li>
@@ -53,21 +51,34 @@
 	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content">
-				<img src="/img/members/kennedy.jpg" alt="">
 
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h4 class="modal-title" id="myModalLabel">Modal title</h4>
-				</div>
+				<div class="face">
+					<img src="/img/members/kennedy.jpg" alt="">
+				</div><!--/face-->
 
-				<div class="modal-body">
-					<p>Hello Mr. Modal!</p>
-				</div>
+				<div class="bio">
+					<div class="modal-header">
+						<div class="close" data-dismiss="modal" aria-hidden="true"><i class="ss-icon ss-standard">&#x2421;</i></div>
+						<h3 class="modal-title" id="myModalLabel">Kennedy</h3>
+					</div>
 
-				<div class="modal-footer">
-					<button type="button" class="btn" data-dismiss="modal">Close</button>
-					<button type="button" class="btn">Save changes</button>
-				</div>
+					<div class="modal-body">
+						<h4>Designer</h4>
+						<p>A naively-optimistic entrepreneur, professional hacker, UX strategist, &amp; mobile UI designer with a passion for startups. He is currently working at Google as an Interaction Designer.</p>
+						<p class="tags">#ux, #design, #mobile, #html, #css</p>
+					</div>
+
+					<div class="modal-footer">
+						<ul class="social">
+							<li><a href=""><i class="ss-icon ss-social-circle">&#xF611;</i></a></li>
+							<li><a href=""><i class="ss-icon ss-social-circle">&#xF641;</i></a></li>
+							<li><a href=""><i class="ss-icon ss-social-circle">&#xF660;</i></a></li>
+							<li><a href=""><i class="ss-icon ss-social-circle">&#xF671;</i></a></li>
+							<li><a href=""><i class="ss-icon ss-social-circle">&#xF612;</i></a></li>
+						</ul>
+					</div>
+				</div><!--/bio-->
+
 			</div>
 		</div>
 	</div>

@@ -9,7 +9,7 @@
 $modalbg: white;
 $modal-backdrop-bg: black;
 $modal-slide-direction: left;
-$modal-max-width: 600px;
+$modal-max-width: 1000px;
 
 .fade {
     opacity: 0;
@@ -44,7 +44,7 @@ $modal-max-width: 600px;
 }
 
 .page.blurout {
-    animation: blurOut 600ms 1 forwards normal cubic-bezier(.4,0,0,.8);
+    animation: blurOut 600ms 1 forwards normal cubic-bezier(.4,0,.2,1);
 }
 
 
@@ -111,7 +111,6 @@ $modal-max-width: 600px;
 
 .modal-content {
     @extend %vertical-align;
-    padding: 1rem;
     background: $modalbg;
     background-clip: padding-box;
     outline: none;
@@ -131,29 +130,81 @@ $modal-max-width: 600px;
     }
 
     &.in {
-        opacity: 0.5;
+        opacity: 0.6;
     }
+}
+
+.face{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.bio{
+    display: inline-block;
+    padding: 2rem;
+    max-width: 440px;
 }
 
 .modal-header {
     min-height: 16.42857143px;
 
     .close {
+        cursor: pointer;
+        color: #999;
         position: absolute;
         right: 1rem;
         top: 1rem;
     }
 }
 
+.modal-title{
+    font-size: 52px;
+    font-weight: 400;
+    margin: 20px 0 20px 0;
+}
+
 .modal-body {
     position: relative;
 }
 
+.modal-body h4{
+    font-size: 30px;
+    margin: 0;
+}
+
+.tags{
+    color: #999;
+    font-size: 16px;
+    margin: 1rem 0 0;
+}
+
+.social{
+    list-style:  none;
+    margin: 0;
+    padding: 0;
+}
+
+.social li{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.social a{
+    color: #999;
+    font-size: 28px;
+    padding: 5px;
+}
+
+.social a:hover{
+    color: #1ba88a;
+    text-decoration: none;
+}
+
 .modal-footer {
-    text-align: right;
+    position: absolute;
+    bottom: 1rem;
 }
 
 .modal-footer .btn + .btn {
-    margin-left: 5px;
-    margin-bottom: 0;
 }
