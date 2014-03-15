@@ -1,7 +1,10 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="/js/libs/jquery-1.9.0.min.js"><\/script>')</script>
 
-<script src="<?php echo $a->url('js', 'script-min.js') ?>"></script>
+<?php
+//echo $a->url('js', 'script.js')
+?>
+<script src="js/script.js"></script>
 
 <script async>
 	var _gaq=[['_setAccount','UA-30650045-1'],['_trackPageview']];
