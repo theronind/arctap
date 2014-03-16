@@ -11,7 +11,7 @@
 
 	<section role="main">
 		<ul class="members clearfix">
-			<li data-toggle="modal" data-target="#myModal" data-name="Kennedy" data-role="Designer" data-tags="#ux, #design, #mobile, #html, #css" data-bio="A naively-optimistic entrepreneur, professional hacker, UX strategist, &amp; mobile UI designer with a passion for startups. He is currently working at Google as an Interaction Designer."><img src="/img/members/kennedy.jpg" alt=""></li>
+			<li data-toggle="modal" data-target="#myModal" data-name="Kennedy" data-role="Designer" data-tags="#ux, #design, #mobile, #html, #css" data-bio="A naively-optimistic entrepreneur, professional hacker, UX strategist, &amp; mobile UI designer with a passion for startups. He is currently working at Google as an Interaction Designer." data-twitter="kennedysgarage" data-instagram="kennedysgarage"><img src="/img/members/kennedy.jpg" alt=""></li>
 			<li data-toggle="modal" data-target="#myModal" data-name="Dennis Gaebel" data-role="Developer" data-tags="#ux, #design, #rwd, #html, #css #js" data-bio="this is my bio"><img src="/img/members/dennis-gaebel.png" alt=""></li>
 			<li data-toggle="modal" data-target="#myModal" data-name="Tim Smith" data-role="Designer" data-tags="" data-bio=""><img src="/img/members/tim-smith.png" alt=""></li>
 			<li data-toggle="modal" data-target="#myModal" data-name="Nicole Dominguez" data-role="Designer" data-tags="" data-bio=""><img src="/img/members/nicole-dominguez.jpg" alt=""></li>
