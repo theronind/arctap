@@ -303,14 +303,12 @@ var options = {
   'remote' : false
 }
 
-// Modal Options
 $('#myModal').modal(options);
 
-// Modal Events
-// http://getbootstrap.com/javascript/#modals
 $('#myModal').on('show.bs.modal', function() {
   $('.page').removeClass('blurout');
 });
+
 $('#myModal').on('hide.bs.modal', function() {
   $('.page').addClass('blurout');
 })

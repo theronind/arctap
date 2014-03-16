@@ -5,6 +5,7 @@
 //echo $a->url('js', 'script.js')
 ?>
 <script src="js/script.js"></script>
+<script src="js/members.js"></script>
 <script src="js/ss-social.js"></script>
 <script src="js/ss-standard.js"></script>
 
@@ -17,4 +18,3 @@
 
 </body>
 </html>
-<?php ob_end_flush(); ?>

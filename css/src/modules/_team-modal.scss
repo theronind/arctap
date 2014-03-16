@@ -8,207 +8,197 @@
 
 $modalbg: white;
 $modal-backdrop-bg: black;
+$modal-bg-blur: 4px;
 $modal-slide-direction: left;
 $modal-max-width: 960px;
 
 .fade {
-    opacity: 0;
-    transition: opacity 0.15s linear;
+	opacity: 0;
+	transition: opacity 0.15s linear;
 
-    &.in {
-        opacity: 1;
-    }
+	&.in {
+		opacity: 1;
+	}
 }
 
 .collapse {
-    display: none;
+	display: none;
 
-    &.in {
-        display: block;
-    }
+	&.in {
+		display: block;
+	}
 }
 
 .collapsing {
-    position: relative;
-    height: 0;
-    overflow: hidden;
-    transition: height 0.35s ease;
+	position: relative;
+	height: 0;
+	overflow: hidden;
+	transition: height 0.35s ease;
 }
 
 .modal-open {
-    overflow: hidden;
+	overflow: hidden;
 
-    .page {
-        filter: blur(4px);
-    }
+	.page {
+		filter: blur($modal-bg-blur);
+	}
 }
 
 .page.blurout {
-    animation: blurOut 600ms 1 forwards normal cubic-bezier(.4,0,.2,1);
+	animation: blurOut 600ms 1 forwards normal cubic-bezier(.4,0,.2,1);
 }
 
 
 @keyframes blurOut {
-    from {
-        filter: blur(4px);
-    }
-
-    to {
-        filter: blur(0);
-    }
+	from { filter: blur($modal-bg-blur); }
+	to { filter: blur(0); }
 }
 
 
 .modal {
-    display: none;
-    overflow: auto;
-    overflow-y: scroll;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1050;
-    overflow-scrolling: touch;
-    outline: 0;
-}
-
-
-%vertical-align {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+	display: none;
+	overflow: auto;
+	overflow-y: scroll;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1050;
+	-webkit-overflow-scrolling: touch;
+	outline: 0;
 }
 
 .modal.fade .modal-dialog {
-    @if $modal-slide-direction == 'top' {
-        transform: translate(0, -100%);
-    }
-    @else if $modal-slide-direction == 'left' {
-        transform: translate(-100%, 0);
-    }
-    @else if $modal-slide-direction == 'right' {
-        transform: translate(100%, 0);
-    }
-    @else {
-        transform: translate(0, 100%);
-    }
+	transition: transform 0.3s ease-out;
 
-    transition: transform 0.3s ease-out;
-}
+	@if $modal-slide-direction == 'top' {
+		transform: translate(0, -100%);
+	}
 
-.modal.in .modal-dialog {
-    transform: translate(0, 0);
+	@else if $modal-slide-direction == 'left' {
+		transform: translate(-100%, 0);
+	}
+
+	@else if $modal-slide-direction == 'right' {
+		transform: translate(100%, 0);
+	}
+
+	@else {
+		transform: translate(0, 100%);
+	}
 }
 
 .modal-dialog {
-    height: 100%;
-    position: relative;
-    width: 100%;
-    max-width: $modal-max-width;
-    margin: 30px auto;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	max-width: $modal-max-width;
+	margin: 0 auto;
+
+	.modal.in & {
+		transform: translate(0, 0);
+	}
 }
 
 .modal-content {
-    @extend %vertical-align;
-    background: $modalbg;
-    background-clip: padding-box;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
-    outline: none;
+	@extend %vertical-align;
+	background: $modalbg;
+	background-clip: padding-box;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	outline: none;
 }
 
 .modal-backdrop {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1040;
-    background: $modal-backdrop-bg;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1040;
+	background: $modal-backdrop-bg;
 
-    &.fade {
-        opacity: 0;
-    }
+	&.fade {
+		opacity: 0;
+	}
 
-    &.in {
-        opacity: 0.6;
-    }
+	&.in {
+		opacity: 0.6;
+	}
 }
 
-.face{
-    display: inline-block;
-    vertical-align: top;
+.face {
+	display: inline-block;
+	vertical-align: top;
 }
 
-.bio{
-    display: inline-block;
-    padding: 2rem;
-    max-width: 496px;
+.bio {
+	display: inline-block;
+	padding: 2rem;
+	max-width: 496px;
 }
 
 .modal-header {
-    min-height: 16.42857143px;
+	min-height: 16.42857143px;
 
-    .close {
-        cursor: pointer;
-        color: #999;
-        position: absolute;
-        right: 1rem;
-        top: 1rem;
-    }
-    .close:hover{
-        color: #252429;
-    }
+	.close {
+		cursor: pointer;
+		color: #999;
+		position: absolute;
+		right: 1rem;
+		top: 1rem;
+
+		&:hover {
+			color: #252429;
+		}
+	}
 }
 
-.modal-title{
-    font-size: 52px;
-    font-weight: 400;
-    margin: 20px 0 20px 0;
+.modal-title {
+	font-size: 52px;
+	font-weight: 400;
+	margin: 20px 0 20px 0;
 }
 
 .modal-body {
-    position: relative;
+	position: relative;
+
+	h4 {
+		font-size: 30px;
+		margin: 0;
+	}
 }
 
-.modal-body h4{
-    font-size: 30px;
-    margin: 0;
+.tags {
+	color: #999;
+	font-size: 16px;
+	margin: 1rem 0 0;
 }
 
-.tags{
-    color: #999;
-    font-size: 16px;
-    margin: 1rem 0 0;
-}
+.social {
+	list-style:  none;
+	margin: 0;
+	padding: 0;
 
-.social{
-    list-style:  none;
-    margin: 0;
-    padding: 0;
-}
+	li {
+		display: inline-block;
+		margin: 0;
+		padding: 0;
+	}
 
-.social li{
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-}
+	a {
+		color: #999;
+		font-size: 28px;
+		padding: 5px;
 
-.social a{
-    color: #999;
-    font-size: 28px;
-    padding: 5px;
-}
-
-.social a:hover{
-    color: #1ba88a;
-    text-decoration: none;
+		&:hover {
+			color: #1ba88a;
+			text-decoration: none;
+		}
+	}
 }
 
 .modal-footer {
-    position: absolute;
-    bottom: 1rem;
-}
-
-.modal-footer .btn + .btn {
+	position: absolute;
+	bottom: 1rem;
 }
