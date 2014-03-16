@@ -1,8 +1,7 @@
 function modalsContent(event) {
 
 	var item = event.currentTarget,
-		memberPic = item.children[0].src,
-		twitterHref = $('.social li a[href="https://twitter.com/"]').attr('href');
+		memberPic = item.children[0].src;
 
 	// set the image
 	$('.face img').attr('src', memberPic);
@@ -14,12 +13,10 @@ function modalsContent(event) {
 	$('.member-title').text($(this).data('role'));
 
 	// add the bio
-	$('.member-bio').text($(this).data('bio'));
+	$('.member-bio').append().html($(this).data('bio'));
 
 	// add the tags
 	$('.tags').text($(this).data('tags'));
-
-	$('.social li a[href="https://twitter.com/"]').attr('href', twitterHref + $(this).data('twitter'));
 
 }
 

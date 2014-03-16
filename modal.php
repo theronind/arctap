@@ -18,12 +18,6 @@
                     <p class="member-bio"></p>
                     <p class="tags"></p>
                 </div>
-
-                <div class="modal-footer">
-                    <ul class="social">
-                        <li><a href="https://twitter.com/" class="ss-icon ss-social-circle">&#xF611;</a></li>
-                    </ul>
-                </div>
             </div>
 
         </div>
