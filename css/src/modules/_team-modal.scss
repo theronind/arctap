@@ -39,9 +39,9 @@ $modal-max-width: 960px;
 .modal-open {
 	overflow: hidden;
 
-	.page {
-		filter: blur($modal-bg-blur);
-	}
+	// .page {
+	// 	filter: blur($modal-bg-blur);
+	// }
 }
 
 .page.blurout {
@@ -56,6 +56,7 @@ $modal-max-width: 960px;
 
 
 .modal {
+	height: 100%;
 	display: none;
 	overflow: auto;
 	overflow-y: scroll;
@@ -77,11 +78,11 @@ $modal-max-width: 960px;
 	}
 
 	@else if $modal-slide-direction == 'left' {
-		transform: translate(-100%, 0);
+		transform: translate(-100%, -50%);
 	}
 
 	@else if $modal-slide-direction == 'right' {
-		transform: translate(100%, 0);
+		transform: translate(100%, -50%);
 	}
 
 	@else {
@@ -90,19 +91,20 @@ $modal-max-width: 960px;
 }
 
 .modal-dialog {
-	height: 100%;
 	position: relative;
 	width: 100%;
 	max-width: $modal-max-width;
 	margin: 0 auto;
+	@extend %vertical-align;
 
 	.modal.in & {
-		transform: translate(0, 0);
+		transform: translate(0, -50%);
 	}
 }
 
 .modal-content {
-	@extend %vertical-align;
+	position: relative;
+	overflow: auto;
 	background: $modalbg;
 	background-clip: padding-box;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.5);
@@ -128,14 +130,15 @@ $modal-max-width: 960px;
 }
 
 .face {
-	display: inline-block;
-	vertical-align: top;
+	float: left;
+	width: auto;
 }
 
 .bio {
-	display: inline-block;
-	padding: 2rem;
+	float: left;
 	max-width: 496px;
+	padding: 2rem;
+	width: auto;
 }
 
 .modal-header {
