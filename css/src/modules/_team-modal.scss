@@ -39,9 +39,9 @@ $modal-max-width: 960px;
 .modal-open {
 	overflow: hidden;
 
-	// .page {
-	// 	filter: blur($modal-bg-blur);
-	// }
+	.page {
+		filter: blur($modal-bg-blur);
+	}
 }
 
 .page.blurout {
