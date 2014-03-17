@@ -2,7 +2,6 @@ function modalsContent(event) {
 
 	var item = event.currentTarget,
 		memberPic = item.children[0].src;
-		console.log(memberPic);
 
 	// set the image
 	$('.face img').attr('src', memberPic);
@@ -17,7 +16,7 @@ function modalsContent(event) {
 	$('.member-bio').append().html($(this).data('bio'));
 
 	// add the tags
-	$('.tags').text($(this).data('tags'));
+	$('.member-tags').text($(this).data('tags'));
 
 	// Add name as a hash to URL
 	window.location.hash = $('.member-name').text().replace(' ', '');
