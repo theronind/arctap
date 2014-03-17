@@ -296,23 +296,30 @@
 // Modal Options
 // ==================================================
 
-var options = {
-	'backdrop' : true,
-	'keyboard' : true,
-	'show' : false,
-	'remote' : false
-}
+var arc_modal = $('#arcTapModal'),
+	options = {
+		'backdrop' : true,
+		'keyboard' : true,
+		'show' : false,
+		'remote' : false
+	};
 
-$('#myModal').modal(options);
+arc_modal.modal(options);
 
-$('#myModal').on('show.bs.modal', function() {
+arc_modal.on('show.bs.modal', function() {
 	$('.page').removeClass('blurout');
 });
 
-$('#myModal').on('hide.bs.modal', function() {
+arc_modal.on('hide.bs.modal', function() {
 	$('.page').addClass('blurout');
 
 	// http://lea.verou.me/2011/05/get-your-hash-the-bulletproof-way/
 	// var hash = location.hash.replace(/(?:^|\s)(#\w+)(?:\s|$)/g, "");
+	// console.log(hash);
 	// window.location.hash = hash;
+
+	// http://stackoverflow.com/questions/4715073/window-location-hash-prevent-scrolling-to-the-top
+	var arcTop = document.body.scrollTop;
+	window.location.href = '#';
+	document.body.scrollTop = arcTop;
 })
