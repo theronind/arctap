@@ -240,6 +240,12 @@
 		.on('show.bs.modal', '.modal', function () { $(document.body).addClass('modal-open') })
 		.on('hidden.bs.modal', '.modal', function () { $(document.body).removeClass('modal-open') })
 
+	$(document).ready(function() {
+		$('[data-toggle="modal"]').filter(function() {
+			if ($(this).attr('data-name').replace(' ', '') === window.location.hash.slice(1)) return $(this)
+		}).trigger('click');
+	})
+
 }(jQuery);
 
 /* ========================================================================
