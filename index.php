@@ -24,6 +24,7 @@
 			<li data-toggle="modal" data-target="#arcTapModal" data-name="Rodrigo Sanchez" data-role="Designer" data-tags="" data-bio="UXer. Developer. Designer. Artist. Creator. Human. = Creative Hybrid"><img src="/img/members/rodrigo-sanchez.jpg" alt=""></li>
 			<li data-toggle="modal" data-target="#arcTapModal" data-name="Jon Gottfried" data-role="Developer" data-tags="" data-bio="I&#39;m a Developer Evangelist &lt;a href=&quot;https://twitter.com/twilio&quot;&gt;@twilio&lt;/a&gt;, Pro Glasshole, co-founder of &lt;a href=&quot;https://twitter.com/hackerunion&quot;&gt;@hackerunion&lt;/a&gt;, and National Director &lt;a href=&quot;https://twitter.com/thestartupbus&quot;&gt;@thestartupbus&lt;/a&gt; - I empower people to build awesome things"><img src="/img/members/jon-gottfried.jpg" alt=""></li>
 			<li data-toggle="modal" data-target="#arcTapModal" data-name="Kevin Quinn" data-role="Voice Actor" data-tags="" data-bio="Wine, cooking, cigars, RADIO. Afternoon host on 104.1 KRBE FM"><img src="/img/members/kevin-quinn.jpg" alt=""></li>
+			<li data-toggle="modal" data-target="#arcTapModal" data-name="Matthew Henry" data-role="Developer" data-tags="#ruby, #rails, #php, #javascript, #python" data-bio="A recent graduate from the University of Iowa with a B.S. in Mathematics and arrival in New York looking to get to work."><img src="/img/members/matthew-henry.jpg" alt=""></li>
 			<li><p>Interested in hiring one of us?<br/>Feel free to shoot us an email<br/><a href="mailto:hello@arctap.com">Hello@ArcTap.com</a></p></li>
 		</ul>
 	</section>
