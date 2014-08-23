@@ -310,22 +310,29 @@ var arc_modal = $('#arcTapModal'),
 		'remote' : false
 	};
 
+
 arc_modal.modal(options);
 
-arc_modal.on('show.bs.modal', function() {
-	$('.page').removeClass('blurout');
-});
 
-arc_modal.on('hide.bs.modal', function() {
-	$('.page').addClass('blurout');
+// Modal Actions
+// ==================================================
 
-	// http://lea.verou.me/2011/05/get-your-hash-the-bulletproof-way/
-	// var hash = location.hash.replace(/(?:^|\s)(#\w+)(?:\s|$)/g, "");
-	// console.log(hash);
-	// window.location.hash = hash;
+function showModalActions() {
+	//$('.page').removeClass('blurout');
+	$('html').addClass('modal-open');
+}
 
-	// http://stackoverflow.com/questions/4715073/window-location-hash-prevent-scrolling-to-the-top
+function hideModalActions() {
 	var arcTop = document.body.scrollTop;
+
+	// $('.page').addClass('blurout');
+
+	$('html').removeClass('modal-open');
+
 	window.location.href = '#';
-	document.body.scrollTop = arcTop;
-})
+
+	document.body.scrollTop = arcTop
+}
+
+arc_modal.on('show.bs.modal', showModalActions);
+arc_modal.on('hide.bs.modal', hideModalActions);

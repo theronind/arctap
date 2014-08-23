@@ -13,6 +13,16 @@ $modal-bg-blur: 4px;
 $modal-slide-direction: top;
 $modal-max-width: 960px;
 
+html {
+	&.modal-open {
+		overflow: hidden;
+	}
+
+	@media screen and (min-width: 955px) {
+		overflow-y: scroll;
+	}
+}
+
 .fade {
 	opacity: 0;
 	transition: opacity 0.15s linear;
@@ -38,7 +48,9 @@ $modal-max-width: 960px;
 }
 
 .modal-open {
-	overflow: hidden;
+	@media screen and (max-width: 955.1px) {
+		overflow: hidden;
+	}
 
 	// .page {
 	// 	filter: blur($modal-bg-blur); // performance issues. filters are not the best atm :( you should see what grayscale filter does to svg on iOS retina ;) yuck!
@@ -75,31 +87,50 @@ $modal-max-width: 960px;
 	transition: transform 0.3s ease-out;
 
 	@if $modal-slide-direction == 'top' {
-		transform: translate(0, -100%);
+		@media screen and (min-width: 955.1px) {
+			transform: translate(0, -100%);
+		}
 	}
 
 	@else if $modal-slide-direction == 'left' {
-		transform: translate(-100%, -50%);
+		@media screen and (min-width: 955.1px) {
+			transform: translate(-100%, -50%);
+		}
 	}
 
 	@else if $modal-slide-direction == 'right' {
-		transform: translate(100%, -50%);
+		@media screen and (min-width: 955.1px) {
+			transform: translate(100%, -50%);
+		}
 	}
 
 	@else {
-		transform: translate(0, 100%);
+		@media screen and (min-width: 955.1px) {
+			transform: translate(0, 100%);
+		}
 	}
 }
 
 .modal-dialog {
 	position: relative;
 	width: 100%;
-	max-width: $modal-max-width;
+	max-width: $modal-max-width - 500;
+
+	@media screen and (min-width: 955.1px) {
+		max-width: $modal-max-width;
+	}
 	margin: 0 auto;
-	@extend %vertical-align;
+
+	@media screen and (min-width: 955.1px) {
+		position: relative;
+    	top: 50%;
+	    transform: translateY(-50%);
+	}
 
 	.modal.in & {
-		transform: translate(0, -50%);
+		@media screen and (min-width: 955.1px) {
+			transform: translate(0, -50%);
+		}
 	}
 }
 
