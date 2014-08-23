@@ -8,6 +8,7 @@
 
 $modalbg: white;
 $modal-backdrop-bg: black;
+$modal-bg-opacity: 0.8;
 $modal-bg-blur: 4px;
 $modal-slide-direction: top;
 $modal-max-width: 960px;
@@ -39,20 +40,20 @@ $modal-max-width: 960px;
 .modal-open {
 	overflow: hidden;
 
-	.page {
-		filter: blur($modal-bg-blur);
-	}
+	// .page {
+	// 	filter: blur($modal-bg-blur); // performance issues. filters are not the best atm :( you should see what grayscale filter does to svg on iOS retina ;) yuck!
+	// }
 }
 
-.page.blurout {
-	animation: blurOut 600ms 1 forwards normal cubic-bezier(.4,0,.2,1);
-}
+// .page.blurout {
+// 	animation: blurOut 600ms 1 forwards normal cubic-bezier(.4,0,.2,1);
+// }
 
 
-@keyframes blurOut {
-	from { filter: blur($modal-bg-blur); }
-	to { filter: blur(0); }
-}
+// @keyframes blurOut {
+// 	from { filter: blur($modal-bg-blur); }
+// 	to { filter: blur(0); }
+// }
 
 
 .modal {
@@ -66,7 +67,7 @@ $modal-max-width: 960px;
 	bottom: 0;
 	left: 0;
 	z-index: 1050;
-	-webkit-overflow-scrolling: touch;
+	overflow-scrolling: touch;
 	outline: 0;
 }
 
@@ -125,7 +126,7 @@ $modal-max-width: 960px;
 	}
 
 	&.in {
-		opacity: 0.6;
+		opacity: $modal-bg-opacity;
 	}
 }
 
