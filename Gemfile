@@ -5,4 +5,4 @@
 
 source "https://rubygems.org"
 
-gem "sass", "~> 3.3.2"
+gem "sass", "~> 3.4.1"
